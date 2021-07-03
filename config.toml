@@ -6,7 +6,7 @@ languageCode = "en-us"
 title = "Curious Musings"
 themesDir = "themes"
 theme = "hyde"
-disqusShortname = "curiousmusings"
+# disqusShortname = "curiousmusings"
 footnoteReturnLinkContents = "[^ back]"
 
 name = "Hyde"
@@ -14,7 +14,8 @@ license = "MIT"
 licenselink = "https://github.com/spf13/hyde/blob/master/LICENSE.md"
 description = "Just a theme"
 tags = ["blog", "company"]
-features = ["blog", "themes", "disqus"]
+features = ["blog", "themes"]
+#features = ["blog", "themes", "disqus"]
 min_version = 0.21
 
 [author]
