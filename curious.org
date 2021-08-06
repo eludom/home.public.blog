@@ -6,6 +6,7 @@
 #+hugo_auto_set_lastmod: %Y-%m-%d
 #+MACRO instagram @@html:@@html:@@https:@@https:@@//www.instagram.com/p/$1
 
+
 :PROPERTIES:
 :EXPORT_HUGO_SECTION:
 :END:
@@ -14,7 +15,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE:
+:EXPORT_HUGO_PUBLISHDATE: <2021-07-03 SAT 08:18:24>
 :END:
 
 *** Geek Stuff                                                         :geek:
@@ -23,6 +24,7 @@
 :EXPORT_FILE_NAME: 20200418
 :EXPORT_HUGO_PUBLISHDATE: 2020-04-18:
 :END:
+
 
 Bash uses linear search to insert values in to associative arrays.
 This is all well and good for small numbers of keys.   I was adding
@@ -3623,11 +3625,72 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED The World Needs Visionaries                   :history:amazon:
+:PROPERTIES:
+:EXPORT_FILE_NAME: visionaries
+:EXPORT_HUGO_PUBLISHDATE: 2021-07-03:
+:END:
+
+Jeff Bezos is stepping down as CEO of Amazon Monday.  I met him
+briefly at an internal company conference (the Amazon Machine Learning
+conference) when I worked there 2016.
+
+#+caption: Jeff Bezos
+#+attr_html: :width 200px
+[[file:images/Jeff_Bezos.jpg]]
+
+I admire him.   He's created things.   He built a company that's
+changing the world.   He had vision.  He (and his in-laws) took
+risks.  He provided leadership (see the [[https://www.aboutamazon.com/about-us/leadership-principles][The Amazon Leadership
+Principals]]) and he knew when to get out of the way.
+
+Any organization of humans that's big enough will have problems.  It's
+full of humans.  But I view it as a mark of success that the teamsters
+and the taxman are taking aim at Amazon now.  There is value there
+that can be envied, vilified, stolen, leached off of and sued[fn:16].
+The European Union and Congress are not trying (as hard) to take down
+smaller companies.  Amazon is on their radar because there is real
+value there.  Bezos created it and he deserves every penny of the
+value his %10 stake in the company gives him.  Who is +John Gault+
+Dagny Taggart?
+
+
+A couple years ago I finally met Jeff Wilkins, the early CEO of
+CompuServe.  I had heard him spoken of in reverential terms by [[https://eludom.github.io/blog/steve/][Steve
+Wilhite]] (creator of GIF) and others at CompuServe.  But Henry Block
+canned Wilkins the week I started at CompuServe.  After meeting
+Wilkins and having a little time to actually talk to him, I get the
+importance of vision at the top.  Wilhite, [[http://ana-3.lcs.mit.edu/~jnc/cctalk/1999-July/0799.html][Dr. John Goltz]] et al. did
+some amazing tech work (packet switching in 1972 anyone?) but it took
+vision to drive the company to pioneer much of what we now know as the
+online world in the 1975-1985 time-frame ... email (gmail), electronic
+news, online shopping (Amazon, eBay), chat (slack), file sharing
+(iTunes), discussion groups (blogs, twitter, et al.), "cloud
+computing" (wide area networking, virtual private networks and
+time-sharing).  CompuServe ran on steam (and the back of some great
+tech work by Wilhite and others) for another 10 years, but the vision
+was gone.  CompuServe was eclipsed (and purchased) by Steve Case and
+AOL, the Internet happened and about this time an online bookstore was
+starting up.
+
+
+Hats off to the visionary, the risk taker and the leader.  You made
+the world a better place. Thank you...and enjoy your trip to space
+following the vision of Robert Goddard, Gene Roddnenbery and others
+:-)
+
+***** Footnotes
+
+[fn:16] See The Beatles and Apple Corp. (not Apple Computer) for
+examples of creative visionaries who wound up in a morass of
+lawsuits.  [[https://youtu.be/Xzdw2WcSmb0][George Harrion, "Sue Me, Sue You Blues"]].
+
 **** PUBLISHED Some Happy Notes                     :music:family:life:piano:
 :PROPERTIES:
 :EXPORT_FILE_NAME: happy-notes
 :EXPORT_HUGO_PUBLISHDATE: 2020-04-21:
 :END:
+
 
 And on a happy note...my son Bryan has finished his Masters of
 Piano Performance at Duquesne University and will be headed to
