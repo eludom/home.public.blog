@@ -1,0 +1,17 @@
+ 6762  git commit -m"Adding Risk"
+ 6763  git push
+
+* preview
+ 6730  hugo server -D &
+ 
+  then
+  
+ http://localhost:1313
+ 
+* publishing after editing
+cd ~/blogs
+18456  hugo
+18457  cd docs/
+18458  git add -A 
+18459  git commit -m"Typos"
+18460  git push

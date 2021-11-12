@@ -1,4 +1,4 @@
 [submodule "docs"]
-	path = docs
+	path = home/private/blog/docs
 	url = https://github.com/eludom/eludom.github.io.git
 	branch = master

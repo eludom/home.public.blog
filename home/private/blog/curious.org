@@ -19,6 +19,46 @@
 :END:
 
 *** Geek Stuff                                                         :geek:
+**** WIP Selfhosting a Hugo blog with mysocket.io  :blogging:org:emacs:HOWTO:
+:PROPERTIES:
+:EXPORT_FILE_NAME: hugo-via-mysocket
+:EXPORT_HUGO_PUBLISHDATE: 2021-11-12
+:END:
+
+***** intro
+
+These are note on migrating my hugo blog off github pages to a
+      local, self-hosted blog served up off my raspberry pi.
+
+      Why?
+
+      - Because I can
+
+      - "Learn Git and Github without any code!" :: Really?  Github, a
+        site that is all about building code, is now apparently run
+        marketing people who are proud of their inability to code.
+        I'm outta' here.
+
+      For the original setup see ... [[*Publishing a blog on Github with Org and Hugo][Publishing a blog on Github with Org and Hugo]]
+
+
+***** Update config.toml
+       Change base url
+#+begin_example
+# baseurl = "https://eludom.github.io/"
+baseurl = "https://curious.port111.com/
+
+#homepage = "eludom.github.io"
+homepage = "curious.port111.com"
+#+end_example
+***** run hugo to regenerate docs
+
+***** Run local webserver
+***** Set up tunnel
+Mysocket.io
+***** Future
+****** archive.org?
+****** CDN ?
 **** PUBLISHED Fixing GNU bash associative array insert speed :programming:gnu:linux:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 20200418
@@ -398,7 +438,6 @@ programmers").  I think when I reinstall this time, I'll call it
 :EXPORT_FILE_NAME: hugo-org-github
 :EXPORT_HUGO_PUBLISHDATE: 2020-08-16
 :END:
-
 If you ever thought to yourself, "Gee, Emacs Org mode is a great
 outlining and authoring tool, and I wish there were a powerful
 and simple way use it to publish static websites on github or in
@@ -2811,6 +2850,20 @@ Posts 38 of #100DaysToOffload https://100daystooffload.com/.
 Berners-Lee got some inspiration on the name from Knuth? Or Sir Walter
 Scott: "‘Oh what a tangled web we weave/When first we practice to deceive"
 
+**** TODO Palo Alto Firewalls
+- Eating dogfood
+- Purchase
+- Console setup
+- Factory reset
+- Network mapping
+- Configs
+  + CLI
+  + XML
+  + GUI
+- License
+- Network set up easily, but ... objects, etc
+  + enter https://github.com/PaloAltoNetworks/iron-skillet
+
 *** Cybersecurity                                             :cybersecurity:
 **** WIP Thoughts on the OODA loop and falling out of a canoe :outdoors:SOC:OODA:
 :PROPERTIES:
@@ -3625,6 +3678,70 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** TODO No TV                                                        :life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: NoTV
+:EXPORT_HUGO_PUBLISHDATE: 2021-08-06:
+:END:
+
+When I got married I made the decision not to have a TV because I knew
+my personal tendency to let it suck up my attention and I did not want
+that as an additional distraction from the hard work of building and
+maintaining important relationships.  My (now 23 year old) son and I
+are currently working through the first 3 seasons of Star Trek Then
+Next Generation (TNG) on DVD.  This post is a reflection on my choice,
+it's (in?)effectiveness and what's changed in the last 35 years.
+
+
+#+hugo: more
+
+Growing up (this will date me) I watched some of the (then) current
+kids shows.  I remember how much my grandfather loved watching
+Lawrence Welk.  The annual airing of The Wizard of Oz an A Charlie
+Brown Christmas were anchors of the TV-watching year.  My best friend
+would not miss the Jerry Lewis telethon.  All In the Family, the
+Walton's and MASH where staples.  In the 70s there were cult-like
+re-runs of Star Trek TOS and this wacky British show called "Monty
+Python's Flying Circus" late at night on the PBS station.  And there
+were major events like the moon landing (I was 8, vague memories) and
+the celebration of the American bicentennial and less happy things
+like the nightly body count on the evening news during the Vietnam
+war.
+
+We often watched together as a family (or part of a family).  Most
+families at the time had "the TV", one TV (Mr. Green of the Monkeys
+"Pleasant Valley Sunday" not withstanding).  There were in our case
+only 4 stations to choose from, the CBS, ABC, NBC and PBS affiliates.
+We argued over who got the good chair, who had to get up and change
+the channel (yes, no remotes) and if you got your place when you came
+back.  With so few selections, it was highly likely that some of your
+friends had watched the same show the night before.  There were no
+VCRs, DVDs or YouTube.  You watched what the local stations put on,
+when they chose to air it (yes, air) or you didn't watch anything.
+This lack of choice contributed to a shared culture, shared
+experiences.  I wonder if the ancient Athenians has more than one play
+by Aeschylus or Euripides at the same time?
+
+"Back in the day" (40s to early 80s) there were local and regional TV
+shows.  Cincinnati had the Paul Dixon show and Midwestern Hayride, Dayton
+had Phil Donahue (who later went national).  Columbus had Lucy's Toy
+Shop (live kids show) and Flippo the Clown..afternoon B-Movies with
+commentary ... and a recording of Flippo (Bob Marvin) playing the
+Beatles Norwegian Wood on sax with his Jazz Combo for the theme song.
+Any "kid" of a certain age (OK, we're all now approaching 60) from
+central Ohio can still sing theme from Lucy's Toy Shop by heart.  TV
+of the day created a shared culture.
+
+
+I should finish and publish this...
+...
+
+
+# #+caption: Jeff Bezos
+# #+attr_html: :width 200px
+# [[file:images/Jeff_Bezos.jpg]]
+
+    
 **** PUBLISHED The World Needs Visionaries                   :history:amazon:
 :PROPERTIES:
 :EXPORT_FILE_NAME: visionaries
@@ -6032,7 +6149,7 @@ software developer, Internet Standards author (RFC3871), security
 researcher, conference chair (Flocon 2013, 2014), security
 analytics developer and data scientist.  He has been employed
 variously by CompuServe, UUNET, MITRE, Carnegie-Mellon/CERT, Amazon,
-Redjack and Expanse.  See  https://www.linkedin.com/in/georgemjones/
+Redjack and Expanse/Palo Alto Networks.  See  https://www.linkedin.com/in/georgemjones/
 
 He can be reached via email as gmj at pobox dot com
 
