@@ -1,6 +1,7 @@
 enableRobotsTXT = true
 canonifyURLs = true
-baseurl = "https://eludom.github.io/"
+# baseurl = "https://eludom.github.io/"
+baseurl = "https://curious.galthub.com/"
 publishDir = "docs"
 languageCode = "en-us"
 title = "Curious Musings"
@@ -20,7 +21,8 @@ min_version = 0.21
 
 [author]
     name = "George Jones"
-    homepage = "eludom.github.io"
+    #homepage = "eludom.github.io"
+    homepage = "curious.galthub.com"
 
 # If Porting existing theme
 [original]
