@@ -19,7 +19,7 @@
 :END:
 
 *** Geek Stuff                                                         :geek:
-**** WIP Selfhosting a Hugo blog with mysocket.io  :blogging:org:emacs:HOWTO:
+**** TODO Selfhosting a Hugo blog with mysocket.io :blogging:org:emacs:HOWTO:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hugo-via-mysocket
 :EXPORT_HUGO_PUBLISHDATE: 2021-11-12
@@ -117,12 +117,12 @@ $ python3 -m http.server 1313
       ...
 ***** DONE install apache on raspberry pi using asnible
 ***** TODO Make sure apache root is on USB thumb drive
-***** copy/rsync blog/docs to new apache root
+***** TODO copy/rsync blog/docs to new apache root
       - cron?
       - Or use sshfs mounting from ed to hangout?
-***** redirect apache root to blog
-***** set up a new mysocket tunnel for blog/apache
-***** set up CNAME blog.galthub.com pointing at tunnel
+***** TODO redirect apache root to blog
+***** TODO set up a new mysocket tunnel for blog/apache
+***** TODO set up CNAME curious.galthub.com pointing at tunnel
 
 ******* Test it out
         curl http://curious.port111.com
