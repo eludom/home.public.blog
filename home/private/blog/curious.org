@@ -3810,7 +3810,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 *** Life                                                               :life:
 **** PUBLISHED When we focus on fear and stop caring for people :COVID:life:health:family:
      :PROPERTIES:
-     :EXPORT_FILE_NAME: template
+     :EXPORT_FILE_NAME: up-with-people-2021-12-06
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-06
      :END:
 
@@ -3821,7 +3821,6 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      in.
 
     #+hugo: more
-
 
 From a Christian point of view, "the end is not the end".  We need to
 strive to "live at peace with all men (even those we disagree with on
