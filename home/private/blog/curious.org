@@ -17,9 +17,69 @@
 :EXPORT_FILE_NAME:
 :EXPORT_HUGO_PUBLISHDATE: <2021-07-03 SAT 08:18:24>
 :END:
-
 *** Geek Stuff                                                         :geek:
-**** TODO Selfhosting a Hugo blog with mysocket.io :blogging:org:emacs:HOWTO:
+**** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:
+:PROPERTIES:
+:EXPORT_FILE_NAME: no-marketing
+:EXPORT_HUGO_PUBLISHDATE: 2021-12-04
+:END:
+
+OK, so a year or so later I'm back online with both a self-hosted [[http://git.galthub.com/][git]] and [[https://curious.galthub.com/][blog]]
+presence. 
+
+I had been using both github for code and github.io for my blog, but
+for various reasons I decided to stop putting content there.
+
+- Walled gardens go away ::  Walled gardens go way whenever it stops
+  suiting the bottom line of the company.  All the form posts from
+  CompuServe (my first employer) are gone AOL Instant Messenger
+  messages (another employer) are gone.  Myspace content is gone.
+  Twitter, Facebook and Google have been caught regularly censoring
+  and deleting material.  Apple, Amazon (another employer) and Google (G+ anyone?) will
+  be gone someday, and the user content they host that no longer suits
+  their business needs will be gone before that.  I've written at
+  length aobut this here [[*40 years of walled gardens & open platforms: Part I][40 years of walled gardens & open platforms:
+  Part I]] and here [[*40 years of walled gardens & open platforms: Part II][40 years of walled gardens & open platforms: Part II]]
+  
+  #+begin_quote
+  Karl Voit nailed it :: https://karl-voit.at/2020/10/23/avoid-web-forums/
+  #+end_quote
+
+  
+- "Learn git and github without any code!" :: Really? A site who's
+  sole purpose is (was?) to allow programmers to share code puts a
+  slogan on top of all it's pages /Learn git and github without any
+  code/.  Umm.  No.  Just no.  It appears the marketing people at
+  Microsoft totally own the tech-focused site they bought.  The CEO
+  left.  They are apparently developing some non-standard tool (of
+  course they are, it's Microsoft, "embrace and extend"") "the Github
+  CLI" that they want you to use instead of, you know, standard git
+  tools that they don't control.  And somehow an inherently
+  distributed source code control system is now centralizing all the
+  worlds code.  No.  Just no.
+
+- My content, my way :: I just don't want wordpress or atlassian or
+  microsoft to reformat my content, add advertising links, require
+  people to login or to throw long legal click-throughs and cookie
+  disclaimers in front of my public cogitations.
+
+- Using tools I like :: Emacs org mode is going to take me to my
+  grave.  I *like* using it.  Using it is a hobby.  It is therapeutic.
+  There is a worldwide community built around emacs:
+  https://emacsconf.org/2021/. I LIKE using Hugo. See [[*Publishing a blog on Github with Org and Hugo][Publishing a blog on
+  Github with Org and Hugo]] (just ignore the
+  github bits now).  No need to use the mouse.
+
+- Learning/Geeking :: I /like/ learning how to do things, how
+  modern-ish Internet stuff works.  In the process of getting this
+  back up, I've registered a new domain name (learning new record
+  types, SEO, etc. in the process), discovered http://mysocket.io,
+  brushed up on my apache and ansible skills, reinstalled my dead
+  raspberry pie, and learned a good bit about configuring gitea
+
+More to come now that I can get it out in a way I feel good about.
+
+**** WIP Selfhosting a Hugo blog with mysocket.io  :blogging:org:emacs:HOWTO:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hugo-via-mysocket
 :EXPORT_HUGO_PUBLISHDATE: 2021-11-12
@@ -1047,9 +1107,9 @@ Post 26 #100DaysToOffload https://100daystooffload.com/
      in hand.  No more hoping ftp.uu.net has the latest version.
      Go forth and hack.
 
-**** PUBLISHED All we are saying, is give =init.el= a chance :100DaysToOffload:
+**** PUBLISHED All we are saying, is give init.el a chance :100DaysToOffload:emacs:
      :PROPERTIES:
-     :EXPORT_FILE_NAME: ArmisticeDay2020
+     :EXPORT_FILE_NAME: init-el-for-world-peace
      :EXPORT_HUGO_PUBLISHDATE: 2020-11-11
      :END:
 
@@ -3748,6 +3808,106 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED When we focus on fear and stop caring for people :COVID:life:health:family:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: template
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-06
+     :END:
+
+     The real tragedy of COVID is the collateral damage it's causing to the
+     way we interact with other people.  This is worse than even the deaths
+     it causes.  The damage includes a lack of civility, division in
+     families, and people dying alone in hospitals because nobody's allowed
+     in.
+
+    #+hugo: more
+
+
+From a Christian point of view, "the end is not the end".  We need to
+strive to "live at peace with all men (even those we disagree with on
+divisive social issues), so far as it depends on you".  Without that
+perspective, all that's left is fear of death and division (who's
+author is well known).
+
+The medical system itself is a casualty of COVID.  My wife got COVID
+and had gone two weeks without food or (my larger concern) much liquid
+and was lacking motivation to even do anything about it when I
+convinced her to go to her doctor.  All they would do is a COVID test
+in the car.  They would not even see her until she had a negative
+test.  Her test was positive.  So they would not see her.  A friend at
+church is a nurse at a medical practice that is specializing in COVID
+treatment.  They use alternate therapies, including Ivermectin and
+claim %100 success (e.g. no deaths).  I was (and am) skeptical of
+Ivermectin ... this "just happened" to land at the top of my news feed
+the morning I got up with the intent of researching it
+https://astralcodexten.substack.com/p/ivermectin-much-more-than-you-wanted
+
+But a) they agreed to see her when her doctor would not b) they got an
+IV (fluid) into her when she was severely dehydrated c) they caught
+the fact that she was developing pneumonia and prescribed antibiotics
+d) they had us get a blood-oxygen monitor for use at home, gave us a
+nebulizer and a prescription for albuterol with instructions to call
+them any time of day or night if her O2 levels got too low e) the
+result of all this was that she became interested in her own care and
+motivated to participate in it and f) I had the chance to server her
+in ways I usually don't which has been positive for our relationship.
+
+And she's better now.
+
+I'll take "fringe" medicine that cares for people over "mainstream"
+medicine that lets them die because they are too worried about lawsuits
+and government edicts to actually care fore people.
+
+The real tragedy of COVID is not the deaths, but what it is doing to
+the way we interact with our fellow human beings.
+
+     
+
+
+**** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: money-2021-12-05
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-05
+     :END:
+
+     #+begin_quote
+     Web3 sound like bs
+     ---Elon Musk
+     #+end_quote
+
+     https://maxread.substack.com/p/is-web3-bullshit
+
+     I'm just starting to come to terms with "Web3", "blockchain" etc.
+
+    #+hugo: more
+
+
+     Having thought that the end of brick-and-mortar stores and cash
+     were right around the corner in 1995, I'm a little skeptical of
+     new web trends.   I'm a life-long fad-avoider and I've smelled a
+     big fad around "blockchain" since it began.   Wired is all over
+     it.  What further proof is needed?
+     
+     That said money is about trust.  Do you believe someone else will
+     exchange goods and services for gold?   Do you believe this coin
+     really contains %100 gold?  Do you believe this paper money is
+     backed by gold?  Do you believe this paper money (fiat currency)
+     that is no longer backed by gold will continue to be accepted in
+     trade?  Do you believe it will hold value in the face of a
+     central bank that is printing infinite amounts of it in response
+     to political demands?  Do you believe that those account
+     balances that represent your life savings, which are nothing more
+     than numbers in some database are secure from loss/being
+     completely wiped out in two seconds by cyber fraud, ransomware,
+     accidental deletion, bureaucratic incompetence, corporate self
+     interest or the government?
+
+     Money is also about force.   Will those in charge of the current
+     fiat currencies, who wield force (police, courts, regulations,
+     laws, armies) use that force to shut down a new fiat currency
+     (blockchain) that they don't/can't control.   My guess is, yes.
+     See China.
+     
 **** TODO No TV                                                        :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: NoTV
@@ -3811,7 +3971,6 @@ I should finish and publish this...
 # #+attr_html: :width 200px
 # [[file:images/Jeff_Bezos.jpg]]
 
-    
 **** PUBLISHED The World Needs Visionaries                   :history:amazon:
      :PROPERTIES:
      :EXPORT_FILE_NAME: visionaries
