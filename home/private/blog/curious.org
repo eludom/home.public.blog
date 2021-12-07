@@ -3907,62 +3907,78 @@ the way we interact with our fellow human beings.
      (blockchain) that they don't/can't control.   My guess is, yes.
      See China.
      
-**** TODO No TV                                                        :life:
+**** PUBLISHED No TV                                                   :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: NoTV
-     :EXPORT_HUGO_PUBLISHDATE: 2021-08-06:
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-07
      :END:
+
+#+caption: [[https://live.staticflickr.com/4030/4280476270_22dafcfb6f_b.jpg][""Console Television Receiver""]] by ellenm1 is licensed under [[https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html][CC BY 2.0]]
+#+attr_html: :width 400px
+file:images/tv.jpg
 
 When I got married I made the decision not to have a TV because I knew
 my personal tendency to let it suck up my attention and I did not want
 that as an additional distraction from the hard work of building and
 maintaining important relationships.  My (now 23 year old) son and I
-are currently working through the first 3 seasons of Star Trek Then
-Next Generation (TNG) on DVD.  This post is a reflection on my choice,
-it's (in?)effectiveness and what's changed in the last 35 years.
-
+are currently working through the first 3 seasons of Star Trek The
+Next Generation (TNG) on DVD.
 
 #+hugo: more
 
 Growing up (this will date me) I watched some of the (then) current
 kids shows.  I remember how much my grandfather loved watching
-Lawrence Welk.  The annual airing of The Wizard of Oz an A Charlie
-Brown Christmas were anchors of the TV-watching year.  My best friend
-would not miss the Jerry Lewis telethon.  All In the Family, the
-Walton's and MASH where staples.  In the 70s there were cult-like
-re-runs of Star Trek TOS and this wacky British show called "Monty
-Python's Flying Circus" late at night on the PBS station.  And there
+/Lawrence Welk/.  The annual airing of /The Wizard of Oz/ ad /A Charlie
+Brown Christmas/ were anchors of the TV-watching year.  My best friend
+would not miss the Jerry Lewis telethon.  /All In the Family/,
+/The Waltons/ and /MASH/ where staples.  In the 70s there were cult-like
+re-runs of /Star Trek/ TOS and this wacky British show called
+/Monty Python's Flying Circus/ late at night on the PBS station.  And there
 were major events like the moon landing (I was 8, vague memories) and
 the celebration of the American bicentennial and less happy things
-like the nightly body count on the evening news during the Vietnam
-war.
+like the nightly body count on the evening news during the Vietnam war.
 
 We often watched together as a family (or part of a family).  Most
 families at the time had "the TV", one TV (Mr. Green of the Monkeys
 "Pleasant Valley Sunday" not withstanding).  There were in our case
 only 4 stations to choose from, the CBS, ABC, NBC and PBS affiliates.
-We argued over who got the good chair, who had to get up and change
+We argued over who got "the good chair", who had to get up and change
 the channel (yes, no remotes) and if you got your place when you came
 back.  With so few selections, it was highly likely that some of your
 friends had watched the same show the night before.  There were no
 VCRs, DVDs or YouTube.  You watched what the local stations put on,
 when they chose to air it (yes, air) or you didn't watch anything.
 This lack of choice contributed to a shared culture, shared
-experiences.  I wonder if the ancient Athenians has more than one play
+experiences.  I wonder if the ancient Athenians had more than one play
 by Aeschylus or Euripides at the same time?
 
 "Back in the day" (40s to early 80s) there were local and regional TV
-shows.  Cincinnati had the Paul Dixon show and Midwestern Hayride, Dayton
-had Phil Donahue (who later went national).  Columbus had Lucy's Toy
-Shop (live kids show) and Flippo the Clown..afternoon B-Movies with
+shows.  Cincinnati had the /Paul Dixon Show/ and /Midwestern Hayride/, Dayton
+had /Phil Donahue/ (who later went national).  Columbus had
+/Lucy's Toy Shop/ (live kids show) and /Flippo the Clown/..afternoon B-Movies with
 commentary ... and a recording of Flippo (Bob Marvin) playing the
 Beatles Norwegian Wood on sax with his Jazz Combo for the theme song.
 Any "kid" of a certain age (OK, we're all now approaching 60) from
 central Ohio can still sing theme from Lucy's Toy Shop by heart.  TV
-of the day created a shared culture.
+of the day created a shared culture.   Those a few years older than me
+seemed  to all have watched they American debut of a British group on
+the /Ed Sullivan/ show playing a style of music copied from American
+artists such as Elvis Presley who in turned copied it from the current
+black artists of the day. There's a lot to be said for shared culture.
+
+A lot has changed in the last 35 years.  The Internet.  YouTube (TV
+found me, like it or not), and now COVID. In a lot of ways, the shared
+culture is gone.  The infinite choices we now have tend to drive us
+apart and into millions of sub-cultures with little in common.
+
+I find I have to be more intentional than ever to maintain focus on
+relationships.  Few people share my intentionality.  Even when people
+are together they stare at their phones and don't talk to each other.
+I guess the "easy choice" of "No TV" did not change the underlying
+human tendencies or the need to be intentional.  People matter.
+Relationships matter.  They take work, and always will.
 
 
-I should finish and publish this...
 ...
 
 
