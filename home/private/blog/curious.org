@@ -3863,7 +3863,8 @@ American civil war:
 
      https://hymnary.org/hymn/CYBER/2815
 
-#+begin_quote
+
+#+begin_example
 1 I heard the bells on Christmas day
 Their old familiar carols play,
 And wild and sweet the words repeat
@@ -3889,7 +3890,8 @@ God is not dead, nor doth He sleep;
 The wrong shall fail, the right prevail
 With peace on earth, good will to men.
 
-These verses, usually omitted in modern hymnals, reflect the words' origin during the American civil war:
+These verses, usually omitted in modern hymnals, reflect the words'
+origin during the American civil war:
 
 Then from each black, accursed mouth
 The cannon thundered in the South,
@@ -3900,7 +3902,10 @@ It was as if an earthquake rent
 The hearth-stones of a continent,
 And made forlorn, the households born
 Of peace on earth, good will to men.
-#+end_quote
+#+end_example
+
+
+[[https://web.archive.org/web/*/curious.galthub.com/blog/the-news/][Archive Of This Page]]
 
 **** PUBLISHED When we focus on fear and stop caring for people :COVID:life:health:family:
      :PROPERTIES:
