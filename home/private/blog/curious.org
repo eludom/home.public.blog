@@ -3808,7 +3808,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
-**** WIP What is "the news"?                                           :foo:
+**** PUBLISHED What is "the news"?                                     :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: the-news
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-09
@@ -3819,8 +3819,8 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      flutes (plus the occasional Harp).  Who knew there was a
      contra-bass flute ?
 
-     The concert was a benefit for "Furthest Corners" misson that is
-     in a school and hospital in Myanmar (Burma).   I talked to one of
+     The concert was a benefit for "Furthest Corners" mission that has
+     a school and hospital in Myanmar (Burma).   I talked to one of
      the missionaries who had to leave the country recently due to the
      civil war.  [[https://en.wikipedia.org/wiki/Internal_conflict_in_Myanmar][The civil war in [Burma] has been going on on-and-off for 70 years.]]
      Who knew? 
