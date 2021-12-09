@@ -3808,6 +3808,100 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** WIP What is "the news"?                                           :foo:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: the-news
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-09
+     :END:
+
+     
+     Last Sunday I went to a [[https://happeningnext.com/event/holiday-concert-and-benefit-for-farthest-corners-eid3a08dtt418][Christmas concert a a local church]].   All
+     flutes (plus the occasional Harp).  Who knew there was a
+     contra-bass flute ?
+
+     The concert was a benefit for "Furthest Corners" misson that is
+     in a school and hospital in Myanmar (Burma).   I talked to one of
+     the missionaries who had to leave the country recently due to the
+     civil war.  [[https://en.wikipedia.org/wiki/Internal_conflict_in_Myanmar][The civil war in [Burma] has been going on on-and-off for 70 years.]]
+     Who knew? 
+
+     It seems the military decided to bomb the school.   It's half
+     gone.  They are holding school in the other half.
+
+     I asked about the war.  Apparently its "everybody against the
+     military and the police now."   Imagine having to go the grocery
+     store (or grow and store your own rice) in an environment where
+     you might get mugged by the police.   Where do you turn?  How do
+     you live?  How do you eat?
+
+     I also recently finished [[https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front][All Quiet on the Western Front]], a book
+     about the experience of one German soldier in the trenches of
+     WWI.  The German title of the book /Im Westen nichts Neues/,
+     literally translates "Nothing New in the West" referring to the
+     "news" from the front they day the main character was killed,
+     with the end of the war in sight and "not much going on".  "Not
+     much" in who's view?
+
+     "The news" tends to be voyeuristic, detached, high level and mass
+     market.  It tends to feed judgmental views and tribalism.
+
+     People are what matter.  Kids having a school to go to (or half a
+     school).  Having food to eat.  Living free from fear of those who
+     are supposed to protect you.  But that's not news.
+
+
+#+begin_center
+     =##################### I Heard The Bells On Christmas Day #############################=
+#+end_center
+
+    #+hugo: more
+
+    
+And in keeping with the Christmas concert and war theme, these words
+were written by Henry Wadsworth Longfellow during the depths of the
+American civil war:
+
+     https://hymnary.org/hymn/CYBER/2815
+
+#+begin_quote
+1 I heard the bells on Christmas day
+Their old familiar carols play,
+And wild and sweet the words repeat
+Of peace on earth, good will to men.
+
+2 And thought how, as the day had come,
+The belfries of all Christendom
+Had rolled along th’unbroken song
+Of peace on earth, good will to men.
+
+3 Till ringing, singing on its way
+The world revolved from night to day,
+A voice, a chime, a chant sublime
+Of peace on earth, good will to men.
+
+4 And in despair I bowed my head
+There is no peace on earth, I said,
+For hate is strong and mocks the song
+Of peace on earth, good will to men.
+
+5 Then pealed the bells more loud and deep:
+God is not dead, nor doth He sleep;
+The wrong shall fail, the right prevail
+With peace on earth, good will to men.
+
+These verses, usually omitted in modern hymnals, reflect the words' origin during the American civil war:
+
+Then from each black, accursed mouth
+The cannon thundered in the South,
+And with the sound the carols drowned
+Of peace on earth, good will to men.
+
+It was as if an earthquake rent
+The hearth-stones of a continent,
+And made forlorn, the households born
+Of peace on earth, good will to men.
+#+end_quote
+
 **** PUBLISHED When we focus on fear and stop caring for people :COVID:life:health:family:
      :PROPERTIES:
      :EXPORT_FILE_NAME: up-with-people-2021-12-06
@@ -3861,7 +3955,6 @@ The real tragedy of COVID is not the deaths, but what it is doing to
 the way we interact with our fellow human beings.
 
      
-
 
 **** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
      :PROPERTIES:
@@ -3966,17 +4059,6 @@ the /Ed Sullivan/ show playing a style of music copied from American
 artists such as Elvis Presley who in turned copied it from the current
 black artists of the day. There's a lot to be said for shared culture.
 
-A lot has changed in the last 35 years.  The Internet.  YouTube (TV
-found me, like it or not), and now COVID. In a lot of ways, the shared
-culture is gone.  The infinite choices we now have tend to drive us
-apart and into millions of sub-cultures with little in common.
-
-I find I have to be more intentional than ever to maintain focus on
-relationships.  Few people share my intentionality.  Even when people
-are together they stare at their phones and don't talk to each other.
-I guess the "easy choice" of "No TV" did not change the underlying
-human tendencies or the need to be intentional.  People matter.
-Relationships matter.  They take work, and always will.
 
 
 ...
