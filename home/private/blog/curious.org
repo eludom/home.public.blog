@@ -3808,6 +3808,27 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** WIP Inclusion and Diversity in Ancient Egypt                     :snark:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: lets_celebrate
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-10
+     :END:
+
+     Today is a newly decreed "inclusion and diversity" holiday at work.
+     
+     I've got the inclusion and diversity cards ready to go.  I've got
+     the inclusion and diversity lights out of the garage and strung
+     them all over the house (we're going to out-do the neighbors this
+     year !).  We've celebrated the annual ritual of baking ethnic
+     foods (cultural appropriation at it's best, yum !!!).  And when
+     the kid are home, we will all gather 'round the fireplace with
+     hot chocolate and ask
+     
+     #+begin_quote
+     Why is this night different from all other nights?
+     #+end_quote
+
+     and tell stories of oppression and patriarchy .... wait ....
 **** PUBLISHED What is "the news"?                                     :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: the-news
