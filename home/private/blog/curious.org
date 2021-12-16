@@ -10,15 +10,41 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION:
 :END:
-* Content
+* Content                                                             :emacs:
 ** Blog                                                               :@blog:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2021-07-03 SAT 08:18:24>
+:EXPORT_HUGO_PUBLISHDATE: <2021-12-16 THU 06:35:10>
 :END:
 *** Geek Stuff                                                         :geek:
-**** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:
+**** PUBLISHED Emacs enlightenment                    :emacs:life:philosophy:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: 2021-12-16-emacs-enlightenment
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-16
+     :END:
+
+     #+begin_quote
+     "...It's also clear you have a achieved emacs enlightenment.   The state
+     where you see the whole world through the mind-bogglingly useful
+     lens of emacs and org mode and fail to see (non judgmentally) why
+     anything should exist outside that world.   'Om, Om, Om, M-x find-universe' :-)"
+     #+end_quote
+
+     #+hugo: more
+     
+
+     From [[https://fosstodon.org/@eludom/107456060382723164][a reply to a friend about his latest emacs 'wow' moment.]]     
+
+     #+caption: The Enlightened GNU
+     #+caption: [[http://emacs.nu/wallpaper/gnu_wallpaper_4_1920.png]["Levitating GNU with Emacs source code" by Macduff is licensed under GPL 2.0]]
+     #+attr_html: :width 400px
+     [[file:images/gnus_up_small.png]]
+
+
+
+
+**** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:marketing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: no-marketing
 :EXPORT_HUGO_PUBLISHDATE: 2021-12-04
@@ -3540,6 +3566,18 @@ Is he right?  Do /you/ have the space you need to "protect the essence
 of individuality from headlong technological progress"?
 
 *** Work                                                               :work:
+**** PUBLISHED Finding needles in the marketingstack        :truth:marketing:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: 2021-12-15-truth-in-internet
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-15
+     :END:
+
+     At work I do a lot of research around finding and understanding
+     the capabilities of things connected to the Internet.
+     I find that often checking Wikipedia and/or searching for the
+     product excluding the vendor website gets to the real information
+     fastest,
+     e.g. https://duckduckgo.com/?q=vmware+tanzu+-vmware.com+-www.vmware.com
 **** PUBLISHED "​I'm passionate about..."​                :Latin:humanity:work:
      :PROPERTIES:
      :EXPORT_FILE_NAME: Im-passionate about
@@ -3808,7 +3846,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
-**** WIP Inclusion and Diversity in Ancient Egypt                     :snark:
+**** PUBLISHED Inclusion and Diversity in Ancient Egypt               :snark:
      :PROPERTIES:
      :EXPORT_FILE_NAME: lets_celebrate
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-10
@@ -3821,7 +3859,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      them all over the house (we're going to out-do the neighbors this
      year !).  We've celebrated the annual ritual of baking ethnic
      foods (cultural appropriation at it's best, yum !!!).  And when
-     the kid are home, we will all gather 'round the fireplace with
+     the kids are home, we will all gather 'round the fireplace with
      hot chocolate and ask
      
      #+begin_quote
