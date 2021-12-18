@@ -3020,7 +3020,52 @@ Scott: "‘Oh what a tangled web we weave/When first we practice to deceive"
 - Network set up easily, but ... objects, etc
   + enter https://github.com/PaloAltoNetworks/iron-skillet
 
-*** Cybersecurity                                             :cybersecurity:
+*** Cybersecurity                 :cybersecurity:secuity:privacy:perspective:
+**** PUBLISHED Privacy Technology              :privacy:security:perspective:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: 2021-12-18-privacy
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-18
+     :END:
+
+     These are a few perspectives on privacy prompted by initial
+     thoughts on the [[https://www.usenix.org/conference/pepr22/call-for-participation][Usenix PEPR '22 Call for Participation]]. I may or
+     may not flesh this out as a submission.  If I do, it might take a
+     totally different form, this being a first reaction.
+
+    #+caption: "Privacy Technology for the 21st Centry" by George Jones is licensed under CC BY 2.0
+    #+attr_html: :width 400px
+    [[file:images/pencil_and_paper.jpeg]]
+
+     #+hugo: more
+
+     First, here are some work experiences that inform my perspective.
+     Professional life began for me at CompuServe in 1985.  In many
+     ways CompuServe invented the online world.  Long stories there,
+     told elsewhere.  The long strange trip has taken me through work
+     with Usenet, UUNET, the IETF, SANS & The Center for Internet
+     Security, the IETF, MITRE, CMU=/=CERT, AOL, Amazon=/=AWS, and
+     currently Palo Alto Networks.  Security and privacy have been a
+     large part of my life for 25 years.
+
+     My personal response to questions of privacy has been to go
+     backwards.  I journal. On paper.  Google has no idea.  I quit
+     Facebook in 2016 when it got political.  I actually deleted the
+     account (along with Spotify) a couple years ago after I sent a
+     Facebook messenger note to my son saying that in childhood I
+     loved Julie Andrews music and Spotify, without my input, started
+     playing Julie Andrews.  I've stopped posting content on most
+     large commercial platforms over concerns about monetization,
+     aggregation and corporate self-interest driving what they do with
+     it.  I currently self-host my blog and git repo on a raspberry
+     pi.  I share publicly what I want to share.  The rest is not
+     online.  It's in my head or on paper.
+
+     To be sure I use some of the current tools available to /try/ to
+     preserve some online privacy: Signal, Proton Mail, Tor, VPNs,
+     etc. and while I laud academic, commercial and governmental
+     efforts to improve privacy, I think we need to begin by admitting
+     that the problems are not technical.  They are social.  They are
+     human.
 **** WIP Thoughts on the OODA loop and falling out of a canoe :outdoors:SOC:OODA:
      :PROPERTIES:
      :EXPORT_FILE_NAME: ooda-loop-and-getting-wet
