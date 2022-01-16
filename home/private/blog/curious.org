@@ -15,13 +15,13 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2021-12-23 THU 08:07:36>
+:EXPORT_HUGO_PUBLISHDATE: <2021-12-23 THU 09:46:01>
 :END:
 *** Geek Stuff                                                         :geek:
-**** WIP Tech companies I once admired                            :life:tech:
+**** PUBLISHED Tech companies I once admired                      :life:tech:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-23-companies-I-once-admired
-     :EXPORT_HUGO_PUBLISHDATE: 2021-12-23:
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-23
      :END:
 
      #+begin_example
@@ -32,6 +32,11 @@
 
      John Lennon, 1970
      #+end_example
+
+    #+caption: "Past their sell-by date." by George Jones is licensed under CC BY 2.0, includes work by [[https://www.vecteezy.com/free-vector/nature][Nature Vectors by Vecteezy]]
+    #+attr_html: :width 400px
+    [[file:images/logosAndPerson.png]]
+
 
      #+begin_example
      Don't believe in Digital Equipment Corporation,
@@ -59,10 +64,7 @@
 
     This is a list of tech companies I once admired.
      
-    # #+caption: [[https://live.staticflickr.com/8163/7670889680_2ef260ab0f_b.jpg]["Caméra de vidéo-surveillance" by zigazou76 is licensed under CC BY 2.0]]
-    # #+attr_html: :width 200px
-    # # [[file:images/Jeff_Bezos.jpg]]
-
+    
     #+hugo: more
 
 ***** A tale of two tech companies
@@ -178,17 +180,16 @@
         can't live there entirely.
 
 ****** If you've got the energy and the vision...
-      - The world is driven by individuals with vision.  All hail [[https://stallman.org/saint.html][Saint
-        IGNUcius]]. There would likely be no free software movement
-        without him.  Individuals change tech: Alan Turing, Ken
-        Thompson, Donald Knuth, Steve Jobs, Bill Gates, Linus Torvalds,
-        Jeff Bezos, etc.
 
-        If you've got the energy, the vision and the talent, go change
-        the world.  History tells us that visionaries are very often
-        misunderstood, abused and killed (c.g. Socrates, Jesus,
-        Gandhi).  But we need you.
+       The world is driven by individuals with vision.  All hail [[https://stallman.org/saint.html][Saint
+       IGNUcius]]. There would likely be no free software movement
+       without him.  Individuals change tech: Alan Turing, Ken
+       Thompson, Donald Knuth, Steve Jobs, Bill Gates, Linus Torvalds,
+       Jeff Bezos, etc.
 
+       If you've got the energy, the vision and the talent, go change
+       the world.  Or just go tinker around, scratch your own itch and
+       share the results.  That's often how the world is changed.
 
 **** PUBLISHED Emacs enlightenment                    :emacs:life:philosophy:
      :PROPERTIES:
