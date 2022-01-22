@@ -260,7 +260,7 @@ George Jones :emacs: :orgmode: @eludom
   - Not there any more ?
   - Check again when I go live
 ** TODO [1/2] Transition to new template
-*** DONE [5/5] Make a clean version of JRSS new template
+*** DONE [6/6] Make a clean version of JRSS new template
 - State "DONE"       from "TODO"       [2022-01-22 Sat 10:38]
 **** DONE Do a clean checkout of JRSS new template
 - State "DONE"       from "TODO"       [2022-01-22 Sat 06:32]
@@ -316,8 +316,12 @@ git checkout -b20220122-barebones
 {{- end }}
 #+end_example
 
-*** TODO [0/5] Pair down my old blog (keeping same .git)
-**** TODO branch for merging in new stuff
+**** DONE commit changes, possibly push branch
+- Note taken on [2022-01-22 Sat 11:10] \\
+  - pushed to ssh://gitea@git.galthub.com/gmj/taonaw.git
+- State "DONE"       from "TODO"       [2022-01-22 Sat 11:10]
+*** TODO [1/6] Pair down my old blog (keeping same .git)
+**** TODO create a branch of my for merging in new stuff
 **** TODO Delete most everything but content
 **** TODO copy over templates etc from clean JRSS version
 **** TODO re-export my posts from curious.org
