@@ -24,7 +24,7 @@ Round 1 is documented here https://curious.galthub.com/blog/hugo-org-github/
 * The work flow
   The general work flow is
     - .org file -> ox-hugo export -> .md in content/
-    -  .md in content/ and static/ -> hugo -> .html in docs/
+    -  .md in content/, images/ and static/ -> hugo -> .html in docs/
     - .html files in docs/ -> rsync -> web server public html directory
 * TODO [1/5] Action Items
 ** DONE [7/7]Testing and figuring out what to change
@@ -127,8 +127,6 @@ index 6700d4d7..06ab109f 100644
              </li>
              <li>
 -	      <a href="{{ .Site.BaseURL }}/taonaw">TAONAW</a>
-+              <!-- ELUDOM Change blog in name in sidebar  -->
-+              <a href="{{ .Site.BaseURL }}/curious">Curious Musings</a>
              </li>
 +            <!-- ELUDOM - large image at bottom of sidebar -->
 +            <img src="/thinker.png">
@@ -165,7 +163,7 @@ index 6700d4d7..06ab109f 100644
 
 *** DONE change name of my .org file (currently all.org -> curious2.org)
 - State "DONE"       from "TODO"       [2022-01-21 Fri 06:21]
-*** DONE [3/3] Remove/replace JRSS' custom artwork with Thinker
+*** DONE [5/6] Remove/replace JRSS' custom artwork with Thinker
 - State "DONE"       from "IN-PROGRESS" [2022-01-22 Sat 04:49]
 - State "IN-PROGRESS" from "IN-PROGRESS" [2022-01-21 Fri 07:18]
 
@@ -218,7 +216,6 @@ George Jones :emacs: :orgmode: @eludom
 
    and =static/thinker.png=
 
-
 **** WAITING Add twitter cards
 - State "WAITING"    from "IN-PROGRESS" [2022-01-22 Sat 04:42] \\
   - test when live
@@ -257,17 +254,68 @@ George Jones :emacs: :orgmode: @eludom
    <h4><a href="/blog/">All Posts ►</a></h4>
    #+end_example
 
-**** WAITING Remove comment mechanism or sign up for service
+**** DONE Remove comment mechanism or sign up for service
+- State "DONE"       from "WAITING"    [2022-01-22 Sat 10:38]
 - State "WAITING"    from "TODO"       [2022-01-22 Sat 04:49] \\
   - Not there any more ?
   - Check again when I go live
-** TODO [0/2] Transition to new template
-*** TODO [0/4] Make a clean version of JRSS new template
-**** TODO Do a clean checkout of JRSS new template
-**** TODO Pair down to almost no content
+** TODO [1/2] Transition to new template
+*** DONE [5/5] Make a clean version of JRSS new template
+- State "DONE"       from "TODO"       [2022-01-22 Sat 10:38]
+**** DONE Do a clean checkout of JRSS new template
+- State "DONE"       from "TODO"       [2022-01-22 Sat 06:32]
+#+begin_example sh
+git clone https://gitlab.com/taonaw/taonaw
+git checkout -b20220122-barebones
+#+end_example
+
+**** DONE Pair down to almost no content
+- State "DONE"       from "IN-PROGRESS" [2022-01-22 Sat 10:21]
+- State "IN-PROGRESS" from "DONE"       [2022-01-22 Sat 09:46]
+- State "DONE"       from "TODO"       [2022-01-22 Sat 09:44]
      + e.g. content/posts (mine go to content/Blog)
-**** TODO Add my own minimal content (sidebar, title, a few posts)
-**** TODO Make sure it works
+**** DONE Add my own minimal content (sidebar, title, a few posts)
+- State "DONE"       from "TODO"       [2022-01-22 Sat 10:21]
+**** DONE Make sure it works
+- State "DONE"       from "TODO"       [2022-01-22 Sat 10:38]
+**** DONE [2/2] Fix any problems
+- State "DONE"       from "IN-PROGRESS" [2022-01-22 Sat 10:38]
+- State "IN-PROGRESS" from "TODO"       [2022-01-22 Sat 07:23]
+***** DONE Replace "Thinker" image with something attributed/credited
+- State "DONE"       from "DONE"       [2022-01-22 Sat 09:44]
+- State "DONE"       from "TODO"       [2022-01-22 Sat 09:43]
+    Using the following, with attribution (alt tag), but local copy of image
+    #+begin_example
+    Short Link (Direct Image Link)
+    <a href="https://www.pikpng.com/pngvi/mxwhTw_thinker-rodin-thinker-clipart/" target="_blank">Thinker - Rodin Thinker Clipart @pikpng.com</a>
+    #+end_example
+***** DONE Comment mechanism not working, need account or delete it.
+
+- State "DONE"       from "TODO"       [2022-01-22 Sat 10:38]
+    #+begin_example
+    Your Commento.io account has been suspended. Go to the Commento dashboard to resolve this.
+    #+end_example
+
+
+    Comment out disqusShortname in config.toml
+
+    #+begin_example
+    # disqusShortname = "curious"
+    #+end_example
+
+    =layouts/_default/single.html=
+
+    defines
+
+#+begin_example
+{{ if .Site.DisqusShortname -}}
+<hr>
+<h2>Comments</h2>
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
+{{- end }}
+#+end_example
+
 *** TODO [0/5] Pair down my old blog (keeping same .git)
 **** TODO branch for merging in new stuff
 **** TODO Delete most everything but content
