@@ -1,4 +1,4 @@
-* That would be too easy
+* But that would be too easy
 #+begin_quote
 "But you could just /use/ wordpress"
 #+end_quote
@@ -18,13 +18,28 @@ These are notes-to-self on converting my blog to using [[https://gitlab.com/taon
 
 These are mostly of interest to (my futre) self and [[https://mastodon.technology/@jrss][JRSS]].
 
-* Action Items
-** DONE Clone the JRSS current template
+This is round 2 of how I use ox-hugo to pubish my blog.
+Round 1 is documented here https://curious.galthub.com/blog/hugo-org-github/
+
+* The work flow
+  The general work flow is
+    - .org file -> ox-hugo export -> .md in content/
+    -  .md in content/ and static/ -> hugo -> .html in docs/
+    - .html files in docs/ -> rsync -> web server public html directory
+* TODO [1/5] Action Items
+** DONE [7/7]Testing and figuring out what to change
+- State "DONE"       from "IN-PROGRESS" [2022-01-22 Sat 06:11]
+*** DONE Clone the JRSS current template
+- State "DONE"       from "IN-PROGRESS" [2022-01-22 Sat 06:11]
+- State "IN-PROGRESS" from "TODO"       [2022-01-22 Sat 06:10]
+- State "DONE"       from "TODO"       [2022-01-22 Sat 06:07]
+- State "DONE"       from "DONE"       [2022-01-22 Sat 05:56]
    #+begin_example
    git clone https://gitlab.com/taonaw/taonaw
    #+end_example
-** DONE Set up new capture template
+*** DONE Set up new capture template
 
+- State "DONE"       from "TODO"       [2022-01-22 Sat 06:11]
    #+begin_example
    (setq org-capture-templates
       (quote (
@@ -49,7 +64,7 @@ The long story...
              )
    #+end_example
 
-** DONE Update config.toml
+*** DONE Update config.toml
 #+begin_example
 diff --git a/config.toml b/config.toml
 index f9089c30..abc6cd5c 100644
@@ -89,7 +104,7 @@ index f9089c30..abc6cd5c 100644
  [paginator]
 #+end_example
 
-** DONE Update the sidebar
+*** DONE Update the sidebar
 
 
 #+begin_example
@@ -141,56 +156,20 @@ index 6700d4d7..06ab109f 100644
  </aside>
 #+end_example
 
-** DONE Delete most of JRSS' content
+*** DONE Delete most of JRSS' content
 - State "DONE"       from "TODO"       [2022-01-20 Thu 07:06]
 
   - Just delete the stuff you don't want in content/
 
   - Beware of browser caches with old tags (refresh)
 
-** DONE change name of my .org file (currently all.org -> curious2.org)
+*** DONE change name of my .org file (currently all.org -> curious2.org)
 - State "DONE"       from "TODO"       [2022-01-21 Fri 06:21]
-** IN-PROGRESS Add twitter cards
-- State "IN-PROGRESS" from "DONE"       [2022-01-22 Sat 03:15]
-- State "DONE"       from "WAITING"    [2022-01-22 Sat 03:15]
-- State "WAITING"    from "IN-PROGRESS" [2022-01-21 Fri 18:48] \\
-  Need to test once live
-- State "IN-PROGRESS" from "TODO"       [2022-01-21 Fri 17:53]
-- State "DONE"       from "TODO"       [2022-01-21 Fri 06:46]
-   - see https://curious.galthub.com/blog/hugo-org-github/
-
-     Short version: if you drop twitter_cards.html in
-     layouts/partials/ of your blog, you then just write your blog,
-     publish it, and past the URL into the
-     https://cards-dev.twitter.com/validator to make sure it’s going
-     to work when posted
-*** WAITING Test on mastadon once live
-- State "WAITING"    from "TODO"       [2022-01-22 Sat 03:19]
-    - The "normal" way to validate "twitter" cards is on the twitter
-      web site https://cards-dev.twitter.com/validator
-    - since I started using twitter cards on my blog posts, I've quit
-      twitter. No account
-    - The twitter validator requires a twitter login.
-    - But mastadon (and others I'm sure) read and use the twitter card
-      info in links/posts.
-    - SOOO ... validate live by posting links to blog posts that have
-      (should have) twitter cards to mastadon and see if they work.  I
-      tested with a private message to myself.
-
-** DONE Add my index of all posts back in
-   - State "DONE"       from "TODO"       [2022-01-21 Fri 06:46]
-
-   Just add this to =layouts/partials/sidebar.html=
-
-   #+begin_example
-   <h4><a href="/blog/">All Posts ►</a></h4>
-   #+end_example
-
-** TODO Remove comment mechanism or sign up for service
-** IN-PROGRESS [3/3] Remove/replace JRSS' custom artwork with Thinker
+*** DONE [3/3] Remove/replace JRSS' custom artwork with Thinker
+- State "DONE"       from "IN-PROGRESS" [2022-01-22 Sat 04:49]
 - State "IN-PROGRESS" from "IN-PROGRESS" [2022-01-21 Fri 07:18]
 
-*** DONE stop JTRs image from loadiing
+**** DONE stop JTRs image from loadiing
    Comment out in =/static/css/hyde.css=, both
 
    =/* background-image: url("/taonaw_logo.png"); */= twice
@@ -208,12 +187,25 @@ George Jones :emacs: :orgmode: @eludom
 
 @jrss OK.   Killed it (comment) in .css.   SOMEONE (browser, hugo server, ...) was caching the image and refused to let go even after I renamed the files.
    #+end_example
-*** DONE add "thinker" at bottom of "about"
+**** DONE add "thinker" at bottom of "about" in sidebar
 - State "DONE"       from              [2022-01-21 Fri 18:20]
+
+      - Add immage =static/thinker.png=
+
+      - Update the  sidebar
       #+begin_example
+<ul class="sidebar-nav">
+          <h3>About</h3>
+            <li>
+              <a href="{{ .Site.BaseURL }}/about">Author</a>
+            </li>
+            ...
+            <!-- ELUDOM - large image at bottom of sidebar -->
+            <img src="/thinker.png">
+
    <img src="https://eludom.github.io/title-logo.png">
    #+end_example
-*** DONE load thinker image from somewhere other than github. Local?
+**** DONE load thinker image from somewhere other than github. Local?
 
 - State "DONE"       from "TODO"       [2022-01-22 Sat 03:38]
     Make the following changes to =layouts/partials/sidebar.html=
@@ -226,10 +218,74 @@ George Jones :emacs: :orgmode: @eludom
 
    and =static/thinker.png=
 
-** TODO Add my posts back in, re-export
-** TODO Check everything in to git, maybe on a branch
-   - delete all JRSS stuff on master
-   - Do a git diff to see what I changed
-   - Do a
+
+**** WAITING Add twitter cards
+- State "WAITING"    from "IN-PROGRESS" [2022-01-22 Sat 04:42] \\
+  - test when live
+- State "IN-PROGRESS" from "DONE"       [2022-01-22 Sat 03:15]
+- State "DONE"       from "WAITING"    [2022-01-22 Sat 03:15]
+- State "WAITING"    from "IN-PROGRESS" [2022-01-21 Fri 18:48] \\
+  Need to test once live
+- State "IN-PROGRESS" from "TODO"       [2022-01-21 Fri 17:53]
+- State "DONE"       from "TODO"       [2022-01-21 Fri 06:46]
+   - see https://curious.galthub.com/blog/hugo-org-github/
+
+     Short version: if you drop twitter_cards.html in
+     layouts/partials/ of your blog, you then just write your blog,
+     publish it, and past the URL into the
+     https://cards-dev.twitter.com/validator to make sure it’s going
+     to work when posted
+***** WAITING Test on mastadon once live
+- State "WAITING"    from "TODO"       [2022-01-22 Sat 03:19]
+    - The "normal" way to validate "twitter" cards is on the twitter
+      web site https://cards-dev.twitter.com/validator
+    - since I started using twitter cards on my blog posts, I've quit
+      twitter. No account
+    - The twitter validator requires a twitter login.
+    - But mastadon (and others I'm sure) read and use the twitter card
+      info in links/posts.
+    - SOOO ... validate live by posting links to blog posts that have
+      (should have) twitter cards to mastadon and see if they work.  I
+      tested with a private message to myself.
+
+**** DONE Add my index of all posts back in
+   - State "DONE"       from "TODO"       [2022-01-21 Fri 06:46]
+
+   Just add this to =layouts/partials/sidebar.html=
+
+   #+begin_example
+   <h4><a href="/blog/">All Posts ►</a></h4>
+   #+end_example
+
+**** WAITING Remove comment mechanism or sign up for service
+- State "WAITING"    from "TODO"       [2022-01-22 Sat 04:49] \\
+  - Not there any more ?
+  - Check again when I go live
+** TODO [0/2] Transition to new template
+*** TODO [0/4] Make a clean version of JRSS new template
+**** TODO Do a clean checkout of JRSS new template
+**** TODO Pair down to almost no content
+     + e.g. content/posts (mine go to content/Blog)
+**** TODO Add my own minimal content (sidebar, title, a few posts)
+**** TODO Make sure it works
+*** TODO [0/5] Pair down my old blog (keeping same .git)
+**** TODO branch for merging in new stuff
+**** TODO Delete most everything but content
+**** TODO copy over templates etc from clean JRSS version
+**** TODO re-export my posts from curious.org
+   - [ ] export everything
+     + ox-hugo export all seems to be broken.  Complains that #+title not
+       found.  May have to export one by one.
+
+**** TODO test
+** TODO [0/4] Go live
+*** TODO Copy to live site
+*** TODO test, fix any problems
+*** TODO have JRSS look at it
+*** TODO fix any problems
+** TODO [0/2] Resume posting
+*** TODO Post this HOWTO as a blog post
+*** TODO Post one or two of backlog drafts
+
+* TODO [0/1] Future additions
 ** TODO add in Wayback machines links per Karl Voit
-** Have JRSS review before it goes live
