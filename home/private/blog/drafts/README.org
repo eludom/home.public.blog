@@ -1,0 +1,4 @@
+This directory contains potentail blog posts.
+
+- drafts.org contains ?shorter? ideas captured via org capture tempates
+- other .org files are larger, move involved WIPs, notes to self, HOWTOs etc that may or may not becomes blog posts
