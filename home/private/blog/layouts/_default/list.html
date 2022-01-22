@@ -1,0 +1,13 @@
+{{ define "main" -}}
+<div class="post">
+{{.Content}}
+<h1><i class="fa fa-tag" aria-hidden="true"></i> {{ .Title}}</h1>
+<ul class="posts">
+  {{ range .Data.Pages -}}
+  <li>
+    <span><a href="{{ .Permalink }}">{{ .Title }}</a> </span>
+  </li>
+{{- end }}
+</ul>
+</div>
+{{- end }}

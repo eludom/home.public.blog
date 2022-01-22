@@ -1,0 +1,30 @@
+enableRobotsTXT = true
+canonifyURLs = true
+baseurl = "http://curious.galthub.com/"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Curious Musings"
+# themesDir = "themes"
+# theme = "hyde"
+# disqusShortname = "curious"
+footnoteReturnLinkContents = "[^ back]"
+
+[author]
+    name = "George Jones"
+    homepage = "curious.galthub.com"
+
+# If Porting existing theme
+[original]
+    author =  "mdo"
+    homepage = "http://markdotto.com/"
+    repo = "https://www.github.com/mdo/hyde"
+
+[params]
+    description = "A Blog by George Jones: Musings on life, computers, security, etc.."
+#    themeColor = "theme-base-0a"
+
+[paginator]
+    paginate = 10
+
+[taxonomies]
+    tags="tags"
