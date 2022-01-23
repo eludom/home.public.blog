@@ -1,7 +1,7 @@
 #+title: Curious Musings
 #+options: num:nil toc:nil \n:nil
 #+OPTIONS: tex:t
-#+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
+#+todo: TODO(t) CANCELLED(c) |  PUBLISHED(p)
 #+hugo_base_dir: .
 #+hugo_auto_set_lastmod: %Y-%m-%d
 #+MACRO instagram @@html:@@html:@@https:@@https:@@//www.instagram.com/p/$1
@@ -10,7 +10,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION:
 :END:
-* Content                                                             :emacs:
+* Content
 ** Blog                                                               :@blog:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
@@ -23,6 +23,7 @@
      :EXPORT_FILE_NAME: 2021-12-23-companies-I-once-admired
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-23
      :END:
+
 
      #+begin_example
      The dream is over,
@@ -63,8 +64,8 @@
      #+end_example
 
     This is a list of tech companies I once admired.
-     
-    
+
+
     #+hugo: more
 
 ***** A tale of two tech companies
@@ -75,7 +76,7 @@
       The examples will provide "soft" examples of what attracts me to
       tech companies and what drives me away.  Following that, I'll
       break it down more systematically (when, why...)
-      
+
 ****** Wikipedia - naughty
 
       The catalyst for thinking about all this was the revelation that
@@ -112,7 +113,7 @@
       - The founders, [[https://curious.galthub.com/blog/visionaries/][who had the vision leave]].
       - Free services morph into something that's all about monitization.
       - Volunteers are exploited.
-        
+
       - The arrival of the unwashed masses ... [[https://encyclopediadramatica.online/Eternal_September][eternal September]].
       - Things are dumbed down.
       - You (the "customer") become the commodity, one of "the target
@@ -168,7 +169,7 @@
         There are no marketing people, project managers, MBAs,
         data aggregators, or advertisers involved in my journal, and the
         threat models and data loss and protection paradigms are well
-        understood. 
+        understood.
       - Reconsideration :: In light of recent discoveries, and my
         exploration of the principals of why I move to/away from online
         services in this post, I'm reconsidering Wordpress.  I may
@@ -197,6 +198,7 @@
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-16
      :END:
 
+
      #+begin_quote
      "...It's also clear you have a achieved emacs enlightenment.   The state
      where you see the whole world through the mind-bogglingly useful
@@ -205,9 +207,9 @@
      #+end_quote
 
      #+hugo: more
-     
 
-     From [[https://fosstodon.org/@eludom/107456060382723164][a reply to a friend about his latest emacs 'wow' moment.]]     
+
+     From [[https://fosstodon.org/@eludom/107456060382723164][a reply to a friend about his latest emacs 'wow' moment.]]
 
      #+caption: The Enlightened GNU
      #+caption: [[http://emacs.nu/wallpaper/gnu_wallpaper_4_1920.png]["Levitating GNU with Emacs source code" by Macduff is licensed under GPL 2.0]]
@@ -223,8 +225,9 @@
 :EXPORT_HUGO_PUBLISHDATE: 2021-12-04
 :END:
 
+
 OK, so a year or so later I'm back online with both a self-hosted [[http://git.galthub.com/][git]] and [[https://curious.galthub.com/][blog]]
-presence. 
+presence.
 
 I had been using both github for code and github.io for my blog, but
 for various reasons I decided to stop putting content there.
@@ -239,12 +242,12 @@ for various reasons I decided to stop putting content there.
   their business needs will be gone before that.  I've written at
   length aobut this here [[*40 years of walled gardens & open platforms: Part I][40 years of walled gardens & open platforms:
   Part I]] and here [[*40 years of walled gardens & open platforms: Part II][40 years of walled gardens & open platforms: Part II]]
-  
+
   #+begin_quote
   Karl Voit nailed it :: https://karl-voit.at/2020/10/23/avoid-web-forums/
   #+end_quote
 
-  
+
 - "Learn git and github without any code!" :: Really? A site who's
   sole purpose is (was?) to allow programmers to share code puts a
   slogan on top of all it's pages /Learn git and github without any
@@ -278,11 +281,12 @@ for various reasons I decided to stop putting content there.
 
 More to come now that I can get it out in a way I feel good about.
 
-**** WIP Selfhosting a Hugo blog with mysocket.io  :blogging:org:emacs:HOWTO:
+**** PUBLISHED Selfhosting a Hugo blog with mysocket.io  :blogging:org:emacs:HOWTO:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hugo-via-mysocket
 :EXPORT_HUGO_PUBLISHDATE: 2021-11-12
 :END:
+
 
 ...that time when you realize your blog is hosted on a web site who's
 sole purpose is to support coding, and they plaster the motto
@@ -312,7 +316,7 @@ browse to http//localhost:1313 to see updates in realtime.
 ***** Update config.toml
 
       In =${HUGO_BASE_DIR}/config.toml= update the following:
-      
+
 #+begin_example
 # baseurl = "https://eludom.github.io/"
 baseurl = "https://curious.galthub.com/
@@ -325,18 +329,18 @@ homepage = "curious.galthub.com"
       The =docs/= directory will be the root of your webserver
 #+begin_example
 gmj@ed blog [master] $ hugo
-Building sites … 
+Building sites …
 
-                   | EN   
+                   | EN
 -------------------+------
-  Pages            | 210  
-  Paginator pages  |   0  
-  Non-page files   |   0  
-  Static files     |  78  
-  Processed images |   0  
-  Aliases          |   0  
-  Sitemaps         |   1  
-  Cleaned          |   0  
+  Pages            | 210
+  Paginator pages  |   0
+  Non-page files   |   0
+  Static files     |  78
+  Processed images |   0
+  Aliases          |   0
+  Sitemaps         |   1
+  Cleaned          |   0
 
 Total in 2718 ms
 gmj@ed blog [master] $ find . -mtime -^C
@@ -393,7 +397,6 @@ $ python3 -m http.server 1313
      :EXPORT_FILE_NAME: 20200418
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-18:
      :END:
-
 
 Bash uses linear search to insert values in to associative arrays.
 This is all well and good for small numbers of keys.   I was adding
@@ -508,11 +511,12 @@ See https://lists.gnu.org/archive/html/bug-bash/2020-04/msg00114.html
 
 [fn:1] yes, there are many better tools for this job, but not in the constrained environment where this had to run.
 
-**** WIP HOWTO: Using Pi-hole DNS to block ads.  The struggle continues... :DNS:privacy:networking:HOWTO:
+**** PUBLISHED HOWTO: Using Pi-hole DNS to block ads.  The struggle continues... :DNS:privacy:networking:HOWTO:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-01
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-01
      :END:
+
 
 /This article is a work in progress.  Updated: 2020-05-02.  This is
 turning into a bit of a catch-up on the state of DNS for me./
@@ -727,6 +731,7 @@ the WAP to use the Pi-hole DNS directly.   Stay tuned.
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-12
      :END:
 
+
 The windows desktop has (had? I don't pay attention) icons labeled
 "My Computer".  I always thought that was odd, or at least very
 often out of context as many (most?) instances of Windows ran on
@@ -767,6 +772,7 @@ programmers").  I think when I reinstall this time, I'll call it
      :EXPORT_FILE_NAME: hugo-org-github
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-16
      :END:
+
 If you ever thought to yourself, "Gee, Emacs Org mode is a great
 outlining and authoring tool, and I wish there were a powerful
 and simple way use it to publish static websites on github or in
@@ -965,6 +971,7 @@ tracking, ads, monetization, bloat and more.
      :EXPORT_FILE_NAME: bin-ed
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-28
      :END:
+
 Below I *show* an editing session that uses basic =/bin/ed= commands.
 
 #+begin_quote
@@ -1065,6 +1072,7 @@ Post 25 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: some
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-01
      :END:
+
 Sometimes you want to see the head of a file.   Sometimes you want to
 see the tail. Sometimes you just want to see *some* lines from a file.
 
@@ -1156,6 +1164,7 @@ Post 26 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: sourcecode
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-10
      :END:
+
 
      Source code distribution has changed over the years.  Today we
      all love (hate?) git, github and friends, but, believe it or not
@@ -1312,6 +1321,7 @@ Post 26 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_HUGO_PUBLISHDATE: 2020-11-11
      :END:
 
+
 On this Armistice Day, 2020, commemorating the end of "The war to end
 all wars" 119 years ago, I reflect that if the whole world were busy
 fiddling with their emacs configs there would be no more war.  Well...
@@ -1336,6 +1346,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: typewriters
      :EXPORT_HUGO_PUBLISHDATE: 2020-12-06
      :END:
+
 
 ***** What is this and why was it written?
       This is my personal history of putting
@@ -1842,6 +1853,7 @@ for 3.
      :EXPORT_FILE_NAME: bashrc
      :EXPORT_HUGO_PUBLISHDATE: 2020-12-05
      :END:
+
 
 ***** Knuth gets annoyed at his publishers, $\TeX$ is born.
 Back in the late 70s Donald Knuth who was (and still is) publishing a
@@ -3200,6 +3212,7 @@ Scott: "‘Oh what a tangled web we weave/When first we practice to deceive"
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-18
      :END:
 
+
      These are a few perspectives on privacy prompted by initial
      thoughts on the [[https://www.usenix.org/conference/pepr22/call-for-participation][Usenix PEPR '22 Call for Participation]]. I may or
      may not flesh this out as a submission.  If I do, it might take a
@@ -3239,11 +3252,12 @@ Scott: "‘Oh what a tangled web we weave/When first we practice to deceive"
      efforts to improve privacy, I think we need to begin by admitting
      that the problems are not technical.  They are social.  They are
      human.
-**** WIP Thoughts on the OODA loop and falling out of a canoe :outdoors:SOC:OODA:
+**** PUBLISHED Thoughts on the OODA loop and falling out of a canoe :outdoors:SOC:OODA:
      :PROPERTIES:
      :EXPORT_FILE_NAME: ooda-loop-and-getting-wet
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-26
      :END:
+
 
 # Tim, Jono, Leigh
 
@@ -3335,6 +3349,7 @@ Days 17 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_HUGO_PUBLISHDATE: 2020-03-19:
      :END:
 
+
 I spend a good amount of time hiking in Shenandoah National Park and
 surrounding areas. I've seen quite a few #bears and I've followed one
 down the trail. I've been growled at by a mother bear when I
@@ -3410,7 +3425,6 @@ but, it turns out, there are still good reasons to play the game.
      :END:
 
 
-
 I'm looking for repositories of "reproducible security analytics".
 
 As an addict of [[https://www.gnu.org/software/emacs/][Emacs]] [[https://orgmode.org/][Org mode]], one of the papers that got me started
@@ -3428,6 +3442,7 @@ pointers to more.
      :EXPORT_FILE_NAME: things-on-the-internet
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-19
      :END:
+
 
 #+begin_ABSTRACT
 When talking about Internet assets we often confuse "What is it?", "Is
@@ -3606,6 +3621,7 @@ and ethics.
      :EXPORT_FILE_NAME: privacy-intro
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-24
      :END:
+
 In this world where Big Internet firms track you to sell you stuff
 (and to sell YOU), big Government tracks you because, well, they can,
 and where I found myself on a motion activated camera when backpacking
@@ -3642,6 +3658,7 @@ Post 28 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: privacy-cameras
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-26
      :END:
+
 I recently went backpacking on the Appalachian Trail in Massachusetts.
 One of the reasons I go out is to "get away", to go "off the grid", to
 enjoy nature and get away from adds, trackers, social media, etc.
@@ -3697,11 +3714,12 @@ Thoreau, Muir, Audubon: meet the panopticon.
 
 Post 29 of #100DaysToOffload https://100daystooffload.com/
 
-**** WIP Privacy: The view from 1987 and Antiquity - or why I'm deleting Google,Facebook and Twitter :100DaysToOffload:
+**** PUBLISHED Privacy: The view from 1987 and Antiquity - or why I'm deleting Google,Facebook and Twitter :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: privacy-1987
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-04
      :END:
+
 
 ***** "A History of Private Life"
 #+begin_quote
@@ -3789,7 +3807,6 @@ of individuality from headlong technological progress"?
      :EXPORT_FILE_NAME: 2021-12-15-truth-in-internet
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-15
      :END:
-
      At work I do a lot of research around finding and understanding
      the capabilities of things connected to the Internet.
      I find that often checking Wikipedia and/or searching for the
@@ -3801,7 +3818,6 @@ of individuality from headlong technological progress"?
      :EXPORT_FILE_NAME: Im-passionate about
      :EXPORT_HUGO_PUBLISHDATE: 2020-03-09:
      :END:
-
 "I'm passionate about..." I've always hated that phrase. Because I
 thought it was fake. I thought it was trendy. I've reflexively reacted
 against trendy things for decades. Pet Rocks, Disco, TED talks,
@@ -3832,9 +3848,8 @@ passionate. Carpe diem.
 **** PUBLISHED Choosy Programmers Choose GIF :Wilhite:CompuServe:GIF:History:Computers:Emacs:Programming:
      :PROPERTIES:
      :EXPORT_FILE_NAME: steve
-     :EXPORT_HUGO_PUBLISHDATE: <2020-04-30 Thu>
+     :EXPORT_HUGO_PUBLISHDATE: 2020-04-30
      :END:
-
 [[https://en.wikipedia.org/wiki/Steve_Wilhite][Steve Wilhite]] is the most prolific programmer I've ever known.  He's
 mostly remembered for creating [[https://en.wikipedia.org/wiki/gif][GIF]] but he spent 30 years writing piles
 of amazing software which helped set the stage for the Web.
@@ -3981,7 +3996,6 @@ the outcome would have been better if he had...
      :EXPORT_FILE_NAME: 2020-06-30
      :EXPORT_HUGO_PUBLISHDATE: 2020-06-30
      :END:
-
 So, when life turns uncertain you have two choices.   Cling to
 things that seem to add stability and certainty, i.e. try to "stay
 safe", or embrace the uncertainty, live now, carpe diem, and do
@@ -4069,9 +4083,8 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      :EXPORT_FILE_NAME: lets_celebrate
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-10
      :END:
-
      Today is a newly decreed "inclusion and diversity" holiday at work.
-     
+
      I've got the inclusion and diversity cards ready to go.  I've got
      the inclusion and diversity lights out of the garage and strung
      them all over the house (we're going to out-do the neighbors this
@@ -4079,7 +4092,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      foods (cultural appropriation at it's best, yum !!!).  And when
      the kids are home, we will all gather 'round the fireplace with
      hot chocolate and ask
-     
+
      #+begin_quote
      Why is this night different from all other nights?
      #+end_quote
@@ -4091,7 +4104,6 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-09
      :END:
 
-     
      Last Sunday I went to a [[https://happeningnext.com/event/holiday-concert-and-benefit-for-farthest-corners-eid3a08dtt418][Christmas concert a a local church]].   All
      flutes (plus the occasional Harp).  Who knew there was a
      contra-bass flute ?
@@ -4100,7 +4112,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
      a school and hospital in Myanmar (Burma).   I talked to one of
      the missionaries who had to leave the country recently due to the
      civil war.  [[https://en.wikipedia.org/wiki/Internal_conflict_in_Myanmar][The civil war in [Burma] has been going on on-and-off for 70 years.]]
-     Who knew? 
+     Who knew?
 
      It seems the military decided to bomb the school.   It's half
      gone.  They are holding school in the other half.
@@ -4133,7 +4145,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
     #+hugo: more
 
-    
+
 And in keeping with the Christmas concert and war theme, these words
 were written by Henry Wadsworth Longfellow during the depths of the
 American civil war:
@@ -4189,7 +4201,6 @@ Of peace on earth, good will to men.
      :EXPORT_FILE_NAME: up-with-people-2021-12-06
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-06
      :END:
-
      The real tragedy of COVID is the collateral damage it's causing to the
      way we interact with other people.  This is worse than even the deaths
      it causes.  The damage includes a lack of civility, division in
@@ -4236,13 +4247,14 @@ and government edicts to actually care fore people.
 The real tragedy of COVID is not the deaths, but what it is doing to
 the way we interact with our fellow human beings.
 
-     
+
 
 **** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
      :PROPERTIES:
      :EXPORT_FILE_NAME: money-2021-12-05
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-05
      :END:
+
 
      #+begin_quote
      Web3 sound like bs
@@ -4261,7 +4273,7 @@ the way we interact with our fellow human beings.
      new web trends.   I'm a life-long fad-avoider and I've smelled a
      big fad around "blockchain" since it began.   Wired is all over
      it.  What further proof is needed?
-     
+
      That said money is about trust.  Do you believe someone else will
      exchange goods and services for gold?   Do you believe this coin
      really contains %100 gold?  Do you believe this paper money is
@@ -4281,12 +4293,13 @@ the way we interact with our fellow human beings.
      laws, armies) use that force to shut down a new fiat currency
      (blockchain) that they don't/can't control.   My guess is, yes.
      See China.
-     
+
 **** PUBLISHED No TV                                                   :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: NoTV
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-07
      :END:
+
 
 #+caption: [[https://live.staticflickr.com/4030/4280476270_22dafcfb6f_b.jpg][""Console Television Receiver""]] by ellenm1 is licensed under [[https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html][CC BY 2.0]]
 #+attr_html: :width 400px
@@ -4356,6 +4369,7 @@ black artists of the day. There's a lot to be said for shared culture.
      :EXPORT_HUGO_PUBLISHDATE: 2021-07-03:
      :END:
 
+
 Jeff Bezos is stepping down as CEO of Amazon Monday.  I met him
 briefly at an internal company conference (the Amazon Machine Learning
 conference) when I worked there 2016.
@@ -4416,7 +4430,6 @@ lawsuits.  [[https://youtu.be/Xzdw2WcSmb0][George Harrion, "Sue Me, Sue You Blue
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-21:
      :END:
 
-
 And on a happy note...my son Bryan has finished his Masters of
 Piano Performance at Duquesne University and will be headed to
 Penn State to pursue a Doctor of Musical Arts.  You can watch
@@ -4467,6 +4480,7 @@ notes.  Share some of yours?
      :EXPORT_FILE_NAME: go-for-a-walk
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-25:
      :END:
+
 
 I find that when I stay glued to twitter (pick your
 social-media-of-doom-amplifier) I tend to get a rather gloomy view of
@@ -4561,6 +4575,7 @@ find myself?
      :EXPORT_FILE_NAME: 2020-05-05
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-05
      :END:
+
 Getting started in life is harder right now.  I have two college age
 sons who both just finished up their year with online classes, and
 both are home now. In "normal" times they would be working summer jobs or participating
@@ -4589,6 +4604,7 @@ Day 06 of #100DaysToOffload.
      :EXPORT_FILE_NAME: 2020-05-06
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-06
      :END:
+
 There are some amazing online singing events happening now around
 the world: Denmark, Australia, Nashville, etc.  I want to highlight
 a couple examples of that to add brightness to these dark times.
@@ -4700,6 +4716,7 @@ She has attended many of the performances.
      :EXPORT_FILE_NAME: 2020-05-07
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-07
      :END:
+
 And to get away from it all tonight we played (well, continued) a game
 of Civilization: Famine, Strife, Civil War, Flood,
 Earthquakes, Volcanoes, but strangely no epidemic (yet).
@@ -4720,6 +4737,7 @@ Day 08 of #100DaysToOffload.
      :EXPORT_FILE_NAME: the-stuff-of-time
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-11
      :END:
+
 #+begin_quote
 The world has changed.
 I see it in the water.
@@ -4927,6 +4945,7 @@ Day 14 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: opening-day-2020
      :EXPORT_HUGO_PUBLISHDATE: 2020-06-07
      :END:
+
 # To: Ken Gilbert
 
 # hook for twitter, etc.
@@ -5136,7 +5155,6 @@ file:images/reds_baseball.jpg
      :EXPORT_FILE_NAME: who-says-so
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-08
      :END:
-
 I recently picked up reader of samples of important ancient texts
 that I've had for a LONG time and read excerpts from Socrates
 Apology.  Short version:
@@ -5176,7 +5194,6 @@ For more on Popper and the "what is a science" question see:
      :EXPORT_FILE_NAME: platos-cave
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-08
      :END:
-
 
 You learn things when you read original sources for yourself.
 
@@ -5239,7 +5256,6 @@ Where there is no vision, the people perish
      :EXPORT_FILE_NAME: history-of-rome
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-22
      :END:
-
 I've been listening to "[[https://thehistoryofrome.typepad.com/the_history_of_rome/2007/07/index.html][The History of Rome]]" podcast recently.  There
 is nothing new under the sun: Plagues (er, "pandemics"), riots,
 xenophobia, wars, greed, ambition, and political factions.
@@ -5293,7 +5309,6 @@ Post 22 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: turba
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-24
      :END:
-
 Vulgate (Latin): Matthew Chapter 5
 
 #+begin_example
@@ -5335,6 +5350,7 @@ Go climb a mountain.   See what happens (in your mind) next.
      :EXPORT_FILE_NAME: people
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-25
      :END:
+
 When my father was writing letters to faceless, nameless people stuck
 jobs answering IRS letters, he started with tiles like:
 
@@ -5372,6 +5388,7 @@ Post 24 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: joy-in-sorrow
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-25
      :END:
+
 #+begin_quote
 "Why is it that man desires to be made sad, beholding miserable and
 tragic things which he himself would by no means wish to suffer?  Yet
@@ -5441,6 +5458,7 @@ Post 33 of #100DaysToOffload https://100daystooffload.com/ (yeah, I'm going slow
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-30
      :END:
 
+
 I've always liked history.  And because the un-examined predilection
 is not worth having (γνῶθι σεαυτόν), I turn to Livy to understand it:
 
@@ -5508,6 +5526,7 @@ Post 34 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: nixons-the-one
      :EXPORT_HUGO_PUBLISHDATE: 2020-11-03
      :END:
+
 For those who remember the "All in the family" sitcom:
 
 #+begin_quote
@@ -5549,7 +5568,7 @@ Post 35 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_HUGO_PUBLISHDATE: 2020-11-25
      :END:
 
-      #+begin_quote
+#+begin_quote
       "Ladies and Gentlemen, may I have your attention..."
       #+end_quote
 
@@ -5645,6 +5664,7 @@ Post 37 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: hiking-and-strange-times
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-03
      :END:
+
 I've section-hiked over 1000 miles on the Appalachian Trail.
 Through-hikes have been shut down this year, upsetting plans
 people have made for years. I'm headed out today to do maintenance
@@ -5712,6 +5732,7 @@ file:images/on-katahdin.jpg
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-14
      :END:
 
+
 I've got some extreme social distancing going on this weekend.  It
 requires gear.  Might involve a mountain or two.  Loaded up the
 pack and put it on.  Feels good!  There may be rain, but
@@ -5737,6 +5758,7 @@ Day 12 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: 2020-05-17
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-17
      :END:
+
 May 15-17, 2020 Son Bryan ("Music Man"), Jason Boyle ("Alaska")
 and I ("Curious George") hiked 30 miles on the Tuscarora trail.
 
@@ -5759,6 +5781,7 @@ Day 13 of #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: get-wet
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-25
      :END:
+
 
 # Primary Audience: Bryan, Sam, Preston
 # Secondary Audience: Family
@@ -5976,6 +5999,7 @@ Post 26 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: 2020-05-04
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-04
      :END:
+
 On the occasion of the ancient Roman Festival /Bella Stellaria/, I
 wish you
 
@@ -5995,6 +6019,7 @@ Day 05 of #100DaysToOffload.
      :EXPORT_FILE_NAME: flashcards
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-23
      :END:
+
 Latin flash cards are not what they were in 1983:
 https://latinlexicon.org.
 
@@ -6019,6 +6044,7 @@ Post 23 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_FILE_NAME: poetry-in-the-trash
      :EXPORT_HUGO_PUBLISHDATE: <2020-04-29 Wed>
      :END:
+
 A few years ago, my mother went through the effects of her cousin
 after she died.  It turns out Thelma Jane wrote poetry.  Nobody knew.
 It wound up in the trash.
@@ -6098,6 +6124,7 @@ above.  Maybe it's all of them.
      :EXPORT_FILE_NAME: 2020-05-08
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-08
      :END:
+
 ***** Experiences after 9 days of blogging
 
 About 3 weeks ago I decided to start blogging.  For various still
@@ -6154,11 +6181,12 @@ Day 09 of #100DaysToOffload.
 
 
 
-**** WIP #100DaysToOffload stalled, but that's OK :blogging:100DaysToOffload:
+**** PUBLISHED #100DaysToOffload stalled, but that's OK :blogging:100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-06-09
      :EXPORT_HUGO_PUBLISHDATE: 2020-06-09
      :END:
+
 So my attempt at "just blogging something" for 100 straight days as
 part of #100DaysToOffload https://100daystooffload.com/ has
 stalled, but that's OK.
@@ -6237,6 +6265,7 @@ This is going to be series of articles about my experiences with
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-18
      :END:
 
+
 This the first in a series of articles where I do a brain dump
  pf something like 40 years experience with "social media" of
 various forms: Dial-up BBSs, Fidonet, Usenet, IRC, CompuServe,
@@ -6302,6 +6331,7 @@ I've live through and been a small player in bits of it.
      :EXPORT_FILE_NAME: walled-gardens-part-2
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-21
      :END:
+
 
 Here are some developments in late 70s and early 80s where I started
 to become aware/involved in "Online" things that eventually evolved
@@ -6381,6 +6411,7 @@ Post 21 #100DaysToOffload https://100daystooffload.com/
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-12
      :END:
 
+
 ***** 1 of 2
 Goodbye twitter.  In 2016 Facebook got too political so I dropped it.
 Now, Twitter.  You can reach me as gmj AT pobox DOT com.  Please drop
@@ -6404,6 +6435,7 @@ community.  I'm on the https://fosstodon.org instance.
      :EXPORT_FILE_NAME: hello_twtxt
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-17
      :END:
+
 
 And in the to-simple-to-be-true category...
 
@@ -6493,6 +6525,7 @@ Day 32 of #100DaysToOffload.
      :EXPORT_FILE_NAME: dns-today
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-10
      :END:
+
 One dark and stormy night I broke my DNS.   I decided to move
 beyond =/etc/resolv.conf= and see what demons (daemons?) were
 lurking under the hood.  "Its complicated."  This is the story of
@@ -6765,6 +6798,7 @@ He can be reached via email as gmj at pobox dot com
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_LAYOUT: single
 :END:
+
 Curious Musings is a place I put up thoughts on life, family, work,
 security, the outdoors, etc.
 
