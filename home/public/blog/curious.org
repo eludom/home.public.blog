@@ -6039,14 +6039,14 @@ literature....I know what my Latin reading tool is from here on out.
 Post 23 #100DaysToOffload https://100daystooffload.com/
 
 *** Writing                                                         :writing:
-**** TODO But that would be too easy
+**** PUBLISHED But that would be too easy
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-23
 :EXPORT_HUGO_PUBLISHDATE: 2022-01-23:
 :END:
 This is a navel-gazing simple desultory philippic about adventures in
-yak-shaving. It is dedicated https://mastodon.technology/@jrss who's
-[[https://ox-hugo.scripter.co/][ox-hugo]] theme [[http://curious.galthub.com/blog/hugo-org-github/][I've borrowed for the second time]].  Thanks!
+yak-shaving. It is dedicated [[https://mastodon.technology/@jrss][JTR]]'s [[https://ox-hugo.scripter.co/][ox-hugo]] theme [[http://curious.galthub.com/blog/hugo-org-github/][I've borrowed for the
+second time]].  Thanks!
 
 #+begin_quote
 "But you could just /use/ wordpress"
@@ -6067,9 +6067,9 @@ he responds to himself.
 #+hugo: more
 
 
-These are notes-to-self on converting my blog to using [[https://gitlab.com/taonaw/taonaw][JRSS' new hugo template]].
+These are notes-to-self on converting my blog to using [[https://gitlab.com/taonaw/taonaw][JTR' new hugo template]].
 
-These are mostly of interest to (my future) self and [[https://mastodon.technology/@jrss][JRSS]].
+These are mostly of interest to (my future) self and [[https://mastodon.technology/@jrss][JTR]].
 
 This is round 2 of how I use ox-hugo to pubish my blog.
 Round 1 is documented here https://curious.galthub.com/blog/hugo-org-github/
@@ -6081,7 +6081,7 @@ Round 1 is documented here https://curious.galthub.com/blog/hugo-org-github/
     - .html files in =docs/= -> rsync -> web server public html directory
 ***** DONE [3/3] Action Items
 ****** DONE [7/7]Testing and figuring out what to chang
-******* DONE Clone the JRSS current template
+******* DONE Clone the JTR current template
    #+begin_example
    git clone https://gitlab.com/taonaw/taonaw
    #+end_example
@@ -6201,13 +6201,13 @@ index 6700d4d7..06ab109f 100644
  </aside>
 #+end_example
 
-******* DONE Delete most of JRSS' content
+******* DONE Delete most of JTR' content
 
   - Just delete the stuff you don't want in content/
 
   - Beware of browser caches with old tags (refresh)
 
-******* DONE [6/6] Remove/replace JRSS' custom artwork with Thinker
+******* DONE [6/6] Remove/replace JTR' custom artwork with Thinker
 
 ******** DONE stop JTRs image from loadiing
    Comment out in =/static/css/hyde.css=, both
@@ -6287,8 +6287,8 @@ George Jones :emacs: :orgmode: @eludom
   - Not there any more ?
   - Check again when I go live
 ****** DONE [2/2] Transition to new template
-******* DONE [6/6] Make a clean version of JRSS new template
-******** DONE Do a clean checkout of JRSS new template
+******* DONE [6/6] Make a clean version of JTR new template
+******** DONE Do a clean checkout of JTR new template
 #+begin_example sh
 git clone https://gitlab.com/taonaw/taonaw
 git checkout -b20220122-barebones
@@ -6340,7 +6340,7 @@ git checkout -b20220122-barebones
 ******* DONE [5/5] Pair down my old blog (keeping same .git)
 ******** DONE create a branch of my content for merging in new stuff
 ******** DONE Delete most everything but content
-******** DONE copy over templates etc from clean JRSS version
+******** DONE copy over templates etc from clean JTR version
 ******** DONE re-export my posts from curious.org
    - [ ] export everything
      + ox-hugo export all seems to be broken.  Complains that #+title not
@@ -6350,7 +6350,7 @@ git checkout -b20220122-barebones
 ****** DONE [4/4] Go live
 ******* DONE Copy to live site
 ******* DONE test, fix any problems
-******* DONE have JRSS look at it
+******* DONE have JTR look at it
 ******* DONE fix any problems
 ***** TODO [0/1] Future additions
 ****** TODO add in Wayback machines links per Karl Voit
