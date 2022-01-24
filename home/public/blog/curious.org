@@ -4078,6 +4078,52 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED social costs                                           :covid:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-24
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-24:
+:END:
+
+
+I sent this to my son who is on the path to being a high school socials
+study teacher.
+
+This article has me trying to project the impact today's "social
+distancing" would have had on a very messed up introverted teenager of
+45 years ago. It's not a pretty picture.
+
+https://bariweiss.substack.com/p/im-a-public-school-teacher-the-kids
+
+#+begin_quote
+I’m a Public School Teacher. The Kids Aren’t Alright.
+
+My students were taught to think of themselves as vectors of disease. This has fundamentally altered their understanding of themselves.
+#+end_quote
+
+#+hugo: more
+
+  #+begin_example
+  From: ME (Today 04:49) (inbox)
+  Subject: What you're heading into
+  To: SON
+  Date: Fri, 21 Jan 2022 04:49:50 -0500
+
+  https://bariweiss.substack.com/p/im-a-public-school-teacher-the-kids
+
+  As a homeschooler you may not resonate with this, but I can't
+  imagine how the introverted, messed up kid I was
+  would have turned out without the huge array of social experiences available to me.
+
+  And to think of teenagers, invincible, immortal, carefree teenagers
+  with the world at their feet being made to   feel that they ARE the
+  problem and that they need to shut down and isolate?  We're loosing
+  a generation.
+
+  The title  may be an oblique reference to "the kids are all right" by the who (very Beatles 1966 sounding, with
+  shades of the beach boys and prefiguring the Ramones some)...or
+  maybe I'm just getting old.
+  #+end_example
+
 **** PUBLISHED Inclusion and Diversity in Ancient Egypt               :snark:
      :PROPERTIES:
      :EXPORT_FILE_NAME: lets_celebrate
@@ -4196,7 +4242,7 @@ Of peace on earth, good will to men.
 
 [[https://web.archive.org/web/*/curious.galthub.com/blog/the-news/][Archive Of This Page]]
 
-**** PUBLISHED When we focus on fear and stop caring for people :COVID:life:health:family:
+**** PUBLISHED When we focus on fear and stop caring for people :covid:life:health:family:covid:
      :PROPERTIES:
      :EXPORT_FILE_NAME: up-with-people-2021-12-06
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-06
@@ -4208,6 +4254,7 @@ Of peace on earth, good will to men.
      in.
 
     #+hugo: more
+
 
 From a Christian point of view, "the end is not the end".  We need to
 strive to "live at peace with all men (even those we disagree with on
@@ -4246,7 +4293,6 @@ and government edicts to actually care fore people.
 
 The real tragedy of COVID is not the deaths, but what it is doing to
 the way we interact with our fellow human beings.
-
 
 
 **** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
@@ -4570,11 +4616,12 @@ you) that tweets in Latin.
 Where to go?  Maybe just pick up stakes, head west and see where I
 find myself?
 
-**** PUBLISHED Getting started in life is harder right now      :life:family:
+**** PUBLISHED Getting started in life is harder right now :life:family:covid:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-05
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-05
      :END:
+
 
 Getting started in life is harder right now.  I have two college age
 sons who both just finished up their year with online classes, and
@@ -4599,12 +4646,11 @@ effort and intentionality right now.
 
 Day 06 of #100DaysToOffload.
 
-**** PUBLISHED Awesome online singing from Denmark to Australia, and social distancing too! :choir:music:singing:easter:sacredharp:harmoniasacra:
+**** PUBLISHED Awesome online singing from Denmark to Australia, and social distancing too! :choir:music:singing:easter:sacredharp:harmoniasacra:covid:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-06
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-06
      :END:
-
 There are some amazing online singing events happening now around
 the world: Denmark, Australia, Nashville, etc.  I want to highlight
 a couple examples of that to add brightness to these dark times.
