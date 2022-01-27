@@ -5,7 +5,7 @@
 set -e
 set -u
 
-source ~/lib/bash/bashutils.sh  # for error functions
+bashutils.sh  # for error functions
 
 # be sure we're in the right place
 cd ~/blog

@@ -4078,6 +4078,51 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** TODO "This train's got the disappearing railway blues" :trains:history:travel:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-27
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-27:
+:END:
+
+
+I recently took an Amtrak trip form Pittsburgh to Tucson and back.
+My cousin asked me
+
+#+begin_quote
+How was the Amtrak ride? It went through Chillicothe for a few years
+maybe in the 1970's. Then B&O/CSX abandoned the tracks.
+#+end_quote
+
+and noted
+
+#+begin_quote
+in the 1920'... there were 5 passenger trains a day from Cincinnati to Columbus
+#+end_quote
+
+
+#+caption: "Trains" by George Jones is licensed under CC BY 2.0
+#+attr_html: :width 600px
+[[file:images/trains.jpg]]
+#+hugo: more
+
+Some pix from trip are here https://pixelfed.social/p/eludom/392240376640730492
+
+The trip was long. 6 days on the train for what would have been two 4
+hour flights. But no airport. No TSA !!! And it's relaxing. Would NOT
+want to do a trip of that length in coach. The sleepers are tiny, but
+still. And it comes with "dinner in the dinner, nothing could be
+finer" and COFFEE!!!
+
+I think the train service to Chillicothe stopped in the 60s. Mom and Dad
+took us (or maybe just my older brother) on one of the last trains.
+
+Government officials seem to be stuck on the need for modes of transportation
+that stopped working 70 years ago, in part because of government action
+in the form of federal highway subsidies, in part because, well, airplanes,
+which were the work of a couple Ohio boys form Dayton. Now they want force
+everyone to subsidize the one they killed and make the other so unpleasant
+that it's unusable.
+
 **** PUBLISHED social costs                                           :covid:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-24
