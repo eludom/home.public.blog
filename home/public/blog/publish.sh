@@ -1,11 +1,11 @@
-#! # /bin/bash
+#! /bin/bash
 # Push my blog to "production" server
 
 # This is bash. Be safe out there.
 set -e
 set -u
 
-bashutils.sh  # for error functions
+source ~/lib/bash/bashutils.sh  # for error functions
 
 # be sure we're in the right place
 cd ~/blog
