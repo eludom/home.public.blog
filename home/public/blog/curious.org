@@ -6084,6 +6084,49 @@ down.
 Post 26 #100DaysToOffload https://100daystooffload.com/
 
 *** Latin                                                             :latin:
+**** PUBLISHED Learning Latin the wrong way, an argument against ignorance. :latin:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-29
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-29:
+:END:
+
+I'm doing some of the Duolingo Latin course. Who knew you could shop, converse
+and joke in Latin? Certainly not the classics professors I learned from.
+Quid pudor est.
+
+
+#+begin_quote
+There is no reason why learners should be made
+to treat every Latin text as puzzle to be deciphered into translation,
+rather than a specimen of normal human communication to be understood as
+such.
+#+end_quote
+
+http://blogicarian.blogspot.com/2019/03/argumentum-ad-ignorantiam.html?m=1
+
+#+hugo: more
+
+A longer quote from the article:
+
+#+begin_quote
+The fact that there aren't any Romans to chat with anymore didn't stop
+people like Erasmus from using it as a conversational language with other
+educated people. Even though there is little practical need for spoken
+proficiency in Latin anymore, there is no reason why learners of Latin
+today should be railroaded into the kind of semi-literacy that academic
+classicists often acquire. There is no reason why learners should be made
+to treat every Latin text as puzzle to be deciphered into translation,
+rather than a specimen of normal human communication to be understood as
+such.
+#+end_quote
+
+There's a lot more.  Very cogent.   Makes me sad I (halfway) learned
+Latin the way I did.  Duolingo is good.
+
+Lingua latina vere vivit.
+
+---George Jones
+
 **** PUBLISHED Vis tibi sit                                      :latin:rome:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-04
