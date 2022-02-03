@@ -1,3 +1,4 @@
+* Headings
 #+title: Curious Musings
 #+options: num:3 toc:nil \n:nil
 #+OPTIONS: tex:t
@@ -3802,6 +3803,41 @@ Is he right?  Do /you/ have the space you need to "protect the essence
 of individuality from headlong technological progress"?
 
 *** Work                                                               :work:
+**** PUBLISHED Career counseling should not take itself too seriously. :100DaysToOffload:life:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-02-03-O2
+  :EXPORT_HUGO_PUBLISHDATE: 2022-02-03:
+  :END:
+
+These are some musings I sent to a friend who is a career counselor at
+a local community college.
+
+Short version:  I'm pretty sure I could not have planned my current
+career in "IT" and "Cybersecurity" when neither of those terms even
+existed until well into my career.
+
+#+hugo: more
+
+In my journal this morning I wound up writing about 8 pages on "how
+did I get here" towards the end of what has arguably been as mostly
+successful career in IT cybersecurity.   Except that neither the words
+"IT" nor "cybersecurity" existed until well into my career.    One of
+my conclusions is that it would have been impossible to plan my
+career.  It might be possible to plan careers in fields where
+technology does not change, where personal connectoms don't matter,
+and where being in the right place at that right time dont matter.
+In my case, those (and, well, providence and an aversion to lying,
+management and marketing) were the drivers.
+
+Pretty sure career counseling as a field needs to not take itself too seriously.
+
+We had a long exchange where she made some cogent points in defense of
+her profession.   Sometimes I stake out a possibly-extreme position as
+a way of starting conversations.   I may expand on that conversation
+in future posts.
+
+#2 of #100DaysToOffload take 2, https://100daystooffload.com/.
+
 **** PUBLISHED Finding needles in the marketingstack        :truth:marketing:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-15-truth-in-internet
@@ -6172,6 +6208,29 @@ literature....I know what my Latin reading tool is from here on out.
 Post 23 #100DaysToOffload https://100daystooffload.com/
 
 *** Writing                                                         :writing:
+**** PUBLISHED 100DaysToOffload, Take 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-03
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-03:
+:END:
+
+I'm going to make another run #100DaysToOffload https://100daystooffload.com/
+
+First attempt made it to about 40 posts.  Interrupted for a year or so
+in part by a refusal to post anything else on github, which was where
+I was hosting my blog and the saga of getting a raspberry pi-based
+blog to my liking up-and running chronicled in part here
+http://curious.galthub.com/blog/no-marketing/ and here
+http://curious.galthub.com/blog/hugo-via-mysocket/
+
+Pretty sure I won't make it daily, but I've got a huge backlog of
+ideas (from my daily paper journal, email to friends, etc) and now, a
+place I feel good about to put them out.
+
+Stay tuned.  Thanks Kev.
+
+#1 of #100DaysToOffload take 2, https://100daystooffload.com/.
+
 **** PUBLISHED But that would be too easy
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-23
@@ -6568,7 +6627,6 @@ I'll never know why Thelma Jane wrote her poetry.  I'm still trying to
 figure out why I write.  Maybe it's one of the reasons discussed
 above.  Maybe it's all of them.
 
-
 **** PUBLISHED 9 days of #100DaysToOffload :blogging:writing:emacs:100DaysToOffload:text:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-08
@@ -6626,7 +6684,6 @@ singing, or joining meet-ups of new online communities during social
 distancing.  Then this post might be for you.
 
 Day 09 of #100DaysToOffload.
-
 
 
 
