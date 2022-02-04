@@ -4114,6 +4114,104 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Adding years to your life, or life to your years? :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-04
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-04:
+:END:
+
+My great aunt took her first motorcycle ride at 100.
+
+
+#+caption: "Aunt Bess Takes Her First Motorcycle Ride at 100" by George Jones is licensed under cc by 2.0
+#+attr_html: :width 400px
+file:images/aunt-bess-on-motorcycle.jpg
+
+Some thoughts on living in a small town, neuroscience and life.
+
+What are you doing on your 100th birthday?
+
+#+hugo: more
+
+My great aunt Bess was one of 11 children, who lived her whole life in the small
+community around Frankfort, Ohio. She had scores of cousins and
+nephews and nieces.  In her younger years, she worked as a cook in the
+local high school cafeteria and so knew an entire generation of kids
+in the community (and their kids) as they grew up.  The last 50 years
+or so of her life, she lived in her own house on the edge of town.
+She lived on her own until the year she died (at 102).  When we went to visit
+the routine was "Well, I don't know what I'll feed you all", and an
+hour later a full thanksgiving dinner-style meal was on the table no
+matter what time of year from corn she had canned, etc.
+
+We had a big birthday party for her at a local church when she turned 100.
+There where 100 or more people there.   And that was the day she
+strapped on the leather and took her first motorcycle ride with a
+nephew.
+
+She added both years to her life AND life to her years.
+
+I recently listened to a book called "[[https://www.penguinrandomhouse.com/books/598506/succe ssful-aging-by-daniel-j-levitin/ ][Successful Aging]]" by
+professional musician-turned-neuroscientist Daniel Levitin.  One of
+the key ideas he points out is that people thrive on interaction with
+other people, from the earliest stages of childhood development to
+centegenarians like my aunt.  For the book he [[https://www.parkerlife.org/blog/january-2020/neuroscientist-daniel-levitin-shares-his-keys-to-aging-well][interviewed a number of
+successful older people]] from former Mexican president Vicente Fox, to
+the Dali Lama, to former US Secretary of State George Shultz and
+professional jazz musician Sonny Rollins, all of whom were active and
+engaged well into their 80s or 90s.
+
+And it's not just old people. Levitin goes into the literature of
+childhood development.  Kids need social interaction to develop
+properly.  Kids thrive, literally, on social interaction.  Social
+interaction is important to the early development of the brain,
+language learning and learning the self control needed to function in
+society.  Without social interaction, some of these developments are
+physically retarded or absent, often permanently and irreversibly.
+
+As Stacey Lance recently pointed out with some of what's been going on
+for the past few years, "I’m a Public School Teacher. The Kids Aren’t
+Alright."
+https://bariweiss.substack.com/p/im-a-public-school-teacher-the-kids.
+Kids need social interaction.  My own reflections on the article are
+here http://curious.galthub.com/blog/2022-01-24/
+
+I'm told similar things about the correlation between aging and thriving
+by a friend who is a financial councilor (he works with lots of
+older people) and our former pastor, in his 70s, who himself is
+working a third or fourth career at a construction company and
+maintaining the very active walking regime he and his wife have
+maintained for years.
+
+In the past two years:
+
+  - I've seen a big family wedding celebration scaled down and held
+    almost secretly for fear of police showing up.
+  - We canceled our annual new-years gathering of friends and family.
+  - I skipped visiting a relative who's husband had just died as I was
+    driving right past her house 100s of miles from home.
+  - Churches stopped meeting.
+  - The Catholic church stopped serving Communion in person, for the
+    first time in 2000 years.  Diocletian didn't even get that far
+    with his persecution (I'm not Catholic).
+  - Photography clubs stopped meeting.
+  - Kids stopped going to school (well, not home-schoolers...).
+  - People stopped going to restaurants and socializing.
+  - Appalachian Trail maintenance training and work trips have been canceled.
+  - Events people have planned their lives around like spending 6
+    months hiking, meeting 100s of people from, literally, all "walks"
+    of life have been canceled.
+  - I (and millions others) have canceled plans to travel, meet people
+    and enjoy interaction with our fellow human beings.
+
+Are we adding years to our life, or life to our years?
+
+#+caption: "Aunt Bess holding a young Bryan" by George Jones is licensed under cc by 2.0
+#+attr_html: :width 400px
+file:images/aunt-bess-and-bryan.jpg
+
+#3 of #100DaysToOffload take 2, https://100daystooffload.com/.
+
 **** PUBLISHED "This train's got the disappearing railway blues" :trains:history:travel:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-27
