@@ -6,8 +6,11 @@ languageCode = "en-us"
 title = "Curious Musings"
 # themesDir = "themes"
 # theme = "hyde"
-# disqusShortname = "curious"
+disqusShortname = "eludom"
 footnoteReturnLinkContents = "[^ back]"
+
+# <script defer src="https://cdn.commento.io/js/commento.js"></script>
+# <div id="commento"></div>
 
 [author]
     name = "George Jones"
