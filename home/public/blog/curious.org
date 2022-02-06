@@ -6263,6 +6263,49 @@ down.
 Post 26 #100DaysToOffload https://100daystooffload.com/
 
 *** Latin                                                             :latin:
+**** PUBLISHED Doing Latin without thinking about it :100DaysToOffload:duolingo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-06
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-06:
+:END:
+
+This may be obvious to people who are fluent in several languages, but
+communicating in different languages does not have to be like working a proof in
+geometry. The Latin I learned focused on being able to consciously understand
+all 144 different inflected forms (yes, 144) of any standard Latin
+verb.  Pretty sure most children in antiquity could not separate a
+genitive geurnd from a supine from a plural perfect passive
+participle.  But they could talk.
+
+#+caption: [[http://curious.galthub.com/ox-hugo/ForumRomanarumNocte.jpg][\"Forum Romanarum Nocte, Anno MMXIX\" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/ForumRomanarumNocte.jpg
+
+#+hugo: more
+
+I've been doing both the Spanish and Latin courses on duolingo for a
+few weeks (24 days, per the app).  Today, I had an experience I've not
+had in 35 years of toying with Latin:  I was translating without being
+aware of conjugations or declensions or even if I was translating to
+or from Latin.  They flip quickly between reading, listening and
+written translation exercises in the native language and the language
+being learned.  It was so effective that I forgot which language I was
+working in.  It was just ideas and words.
+
+To repeat a quote from [[http://curious.galthub.com/blog/2022-01-29/][an earlier blog post]]:
+
+#+begin_quote
+There is no reason why learners should be made to treat every Latin
+text as puzzle to be deciphered into translation, rather than a
+specimen of normal human communication to be understood as such.
+#+end_quote
+
+http://blogicarian.blogspot.com/2019/03/argumentum-ad-ignorantiam.html?m=1
+
+Euge, Duolingo!
+
+#4 of #100DaysToOffload take 2, https://100daystooffload.com/.
+
 **** PUBLISHED Learning Latin the wrong way, an argument against ignorance. :latin:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-29
