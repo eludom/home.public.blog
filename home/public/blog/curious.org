@@ -2,7 +2,7 @@
 #+title: Curious Musings
 #+options: num:3 toc:nil \n:nil
 #+OPTIONS: tex:t
-#+todo: TODO(t) CANCELLED(c) |  PUBLISHED(p)
+#+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
 #+hugo_base_dir: .
 #+hugo_auto_set_lastmod: %Y-%m-%d
 #+MACRO instagram @@html:@@html:@@https:@@https:@@//www.instagram.com/p/$1
@@ -5928,6 +5928,45 @@ Dream on.
 Post 37 of #100DaysToOffload https://100daystooffload.com/
 
 *** Outdoors                                                       :outdoors:
+**** PUBLISHED Why I hike                           :100DaysToOffload:hiking:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-07
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-07:
+:END:
+
+Why I hike.   A picture is worth 1000 words
+
+#+caption: [[http://curious.galthub.com/ox-hugo/sun-behind-ice-on-tree.jpg]["Sun behind ice on tree" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/sun-behind-ice-on-tree.jpg
+
+#+hugo: more
+
+I went hiking in Shenandoah national park Satuday.
+Pictures here https://pixelfed.social/p/eludom/396268280449793695
+
+I had not been out much lately (winter, cold), but this reminded why I
+hike. You get to the top (in this case, of "Mary's Rock") and have
+breathtaking views (often when you are already out of breath :-).
+There is the sense of accomplishment in having finished the climb (in
+this case a modest ~1000 plus feet up, 1.5 miles).  You meet people (I
+met an older gentleman with a camera, and we stopped and talked
+photography for 20 minutes, I ran into some old friends).  You have
+time to think (assuming you don't blast music or podcasts into your
+brain while you could be letting it enjoy the quite of nature).  And
+it's fun.
+
+In some cases you take calculated risks ... this time the trail was 3
+miles of ice, treacherous in spots.  I "only" fell twice.  Others had
+cramp-ons on their shoes to give traction, I just had my poles and did
+"rock hopping" most of the way up, avoiding the ice.   But there is
+nothing to match the feeling you get when you reach the top and stare
+out into infinity across the mountains and valleys.
+
+There are 200 some words here.   Which are worth about 1/5 of a picture.
+
+#5 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Hiking, the Appalachian Trail, Health and Choices :hiking:AppalachianTrail:ATC:PATC:Katahdin:outdoors:
      :PROPERTIES:
      :EXPORT_FILE_NAME: hiking-and-strange-times
