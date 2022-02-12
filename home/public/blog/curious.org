@@ -16,9 +16,42 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2021-12-23 THU 09:46:01>
+:EXPORT_HUGO_PUBLISHDATE: <2022-02-11 FRI 19:05:54>
 :END:
 *** Geek Stuff                                                         :geek:
+**** PUBLISHED IPv6 Day                           :100DaysToOffload:Internet:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-11
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-11:
+:END:
+
+Today was the day I made the choice to live for an entire work-day on
+an IPv6-only network.  And it worked.  I've been watching this slow
+train comin' for 30 years.  Now I'm holding my breath for [[https://en.wikipedia.org/wiki/Connectionless-mode_Network_Service][CNLP]] :-)
+
+#+hugo: more
+
+I actual consciously, actively spent an entire day (well, work day) on
+a hotspot that was serving up only v6.  This has been 30 years coming.
+I was on the big-ip mailing list as far back as 1992 that was
+discussing how to get past the impending crisis in 32 big IPv4
+addressing.  That was when the Web was just about to happen and I
+think getting an allocation may have involved sending email to Jon
+Postel.  [[https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing][CIDR]] was introduced in 1993.  NAT, BGP and DHCP came long,
+and countless other engineering and social hacks kept things
+functioning (and killed the [[https://en.wikipedia.org/wiki/End-to-end_principle][end-to-end principal]]).
+
+I'm sure I've been using v6 in lots of places (my phone) without doing
+any setup or making any choice to enable it, but today was the day I
+"turn on" v6 explicitly and lived there for a day.  And it worked.
+
+Ironically, one of the days tasks involved trying to identify and
+enumerate usage of v6 in some networks where it appears to have very
+little actual deployment.
+
+
+#6 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Tech companies I once admired                      :life:tech:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-23-companies-I-once-admired
