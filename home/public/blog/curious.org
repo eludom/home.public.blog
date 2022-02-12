@@ -31,8 +31,8 @@ train comin' for 30 years.  Now I'm holding my breath for [[https://en.wikipedia
 
 #+hugo: more
 
-I actual consciously, actively spent an entire day (well, work day) on
-a hotspot that was serving up only v6.  This has been 30 years coming.
+I consciously, actively spent an entire day (well, work day) on a
+hotspot that was serving up only v6.  This has been 30 years coming.
 I was on the big-ip mailing list as far back as 1992 that was
 discussing how to get past the impending crisis in 32 big IPv4
 addressing.  That was when the Web was just about to happen and I
