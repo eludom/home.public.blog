@@ -4147,6 +4147,82 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Ἰλιάς                         :100DaysToOffload:history:snark:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-13
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-13:
+:END:
+
+The Iliad and Dr Seuss have nothing to say to us today.  "One fish, two
+fish"?  Really.  Recent translations of liner-A tablets reveal that it
+was a faceBOOK post that launched 1000 ships.
+
+#+caption: [[http://curious.galthub.com/ox-hugo/delphi.jpg]["Oracle headquarters, Delphi, Greece AUC MMDCCXLII" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/delphi.jpg
+
+#+hugo: more
+
+I recently finished re-listening to the Iliad (20 hours) and was struck by how
+little has changed in 3000 years:
+
+- The Olympian gods still enter directly into human battles.
+- The Hittites still rule Anatolia (Turkey).
+- Slavery is still a thing in the Mediterranean.
+- Raiding and plundering coastal towns is a perfectly acceptable career path.
+- Augery (reading the livers of animals) and portents (birds flying to
+  the right or left) are still seen as valid ways making important
+  decisions.
+- Political leaders are valued for their bravery in battle, leading from
+  the front, risking their own lives and leading by example.
+
+And there is even new evidence, deciphered form Liner-A tablets, that
+they were deeply concerned about issues of climate change, social justice
+and COIVD-19 vaccines.  It seems that the oracle at Delphi read a
+Facebook post and clued them in that the people of the early 21st
+century (21st century from what?) would be rightly obsessed with these
+issues and that these people and their views would be the pinnacle
+of moral development for all of human history, and that the opinions and
+concerns of twitter mobs in that era were fixed, immutable and correct
+for all time.
+
+
+In fact, the Trojan war was launched because the Trojans were on the wrong
+side of history on all these issues. So Agamemnon and the boys showed up
+and did the right thing. They administered social justice and burned it
+all down. For millennia we've referred to "The face [Helen] that launched
+1000 ships", but that was due to an incorrect textual variant in the source
+documents. It was a "faceBOOK" post that launched 1000 ships. Unfortunately,
+this lead directly to Aeneas founding Rome. They were also on the wrong
+side of history. What can you do?
+
+There are some themes that Homer dealt with at length. Things change. These
+are no longer issues for humanity:
+
+- Wrath
+- Jealousy
+- Hatred
+- War
+- Death
+- Greed
+- Pride
+- Fate
+- Joy
+- Sorrow
+- Glory
+- Destiny
+- Companionship
+- Loyalty
+- Retribution
+- Pathos
+- Grief
+- Treachery
+- Mortality
+
+It's a good thing nobody has to read Homer any more.  Or Dr Seuss.
+That stuff is problematic, and longer that 140 characters!
+
+#7 of #100DaysToOffload take 2, https://100daystooffload.com/
 **** PUBLISHED Conspiracy theories can be fun!       :games:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-02-05
