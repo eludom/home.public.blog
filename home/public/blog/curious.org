@@ -4147,6 +4147,78 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED The mighty Casey has struck out :100DaysToOffload:sports:poetry:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-14
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-14:
+:END:
+
+I watched the Super Bowl last night, in which a second Ohio team just
+missed a national championship in a year.  There is no joy in
+[[https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/porkopolis][Porkopolis]].  I don't know any good football poems, but...
+
+
+#+caption: [[http://curious.galthub.com/ox-hugo/joy-in-mudville.jpg]["Joy in Mudville" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 400px
+file:images/joy-in-mudville.jpg
+
+#+hugo: more
+I stayed up late (for me) last night to watch the Super Bowl.
+The Bengals were the only professional team I ever half-way followed.
+This was in the 70s and into the 80s when they made their two other
+Super Bowl appearances.  They, unlike the later "Bungles" were worth
+watching.
+
+I started following them largely because they were in Cincinnati and
+at the time I had become a huge (not half-way) Reds fan.   It was a
+good time to be a Reds fan.  Those were the years of the Big Red
+Machine ... Rose, Bench, Morgan, Perez, etc.   Back-to-back World
+Series wins in 75 (the year I started following) and 76. I was hooked
+(see [[http://curious.galthub.com/blog/opening-day-2020/][some thoughts on where professional baseball has gone here]]).   The Bengals gave me something
+to follow in the off-season.  I even followed the Cincinnati Stingers
+hockey team in the short lived WHL for similar reasons.
+It probably didn't hurt that I grew up in Columbus during the [[https://en.wikipedia.org/wiki/Archie_Griffin][Archie
+Griffin]] years and that the Bengals drafted him in 76.  It just seemed
+natural that the teams I (somewhat) followed played in the Rose Bowl
+(then the national title game for college football), the world series
+and, probably, the Super Bowl every year.
+
+Other than the Reds, I was never really a huge sports fan.  Growing up
+in Columbus, Ohio you don't realize how pervasive Buckeye-fever is:
+it's in the water, its in the air, it's in the people's blood.  I
+realized that this was not universal only when I moved away.
+
+So, when the Buckeyes were in the title game this year I signed up a
+free trail FuboTV account, watched the game and immediately canceled.
+I did the same thing with the Bengals in the Super Bowl last night
+(honestly I could not have named a single player on the team.)
+
+Yesterday, for different reasons, I was reading some of the poetry my
+Grandmother loved.   Which is probably what brought this to mind, so,
+for my friends in Cincinnati and those who actually care about
+Football...
+
+
+#+begin_quote
+Casey at the Bat
+by Ernest L. Thayer
+
+Oh, somewhere in this favored land
+the sun is shining bright;
+The band is playing somewhere,
+and somewhere hearts are light,
+
+And somewhere men are laughing,
+and somewhere children shout;
+But there is no joy in Mudville--
+mighty Casey has struck out.
+#+end_quote
+
+
+https://www.ellenbailey.com/poems/ellen_097.htm
+
+#8 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Ἰλιάς                         :100DaysToOffload:history:snark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-13
