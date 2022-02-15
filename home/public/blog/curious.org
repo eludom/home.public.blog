@@ -4147,6 +4147,41 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Oh, you gotta get a glory in the work you do :100DaysToOffload:poetry:work:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-15
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-15:
+:END:
+
+I've been reading a lot of poetry lately.
+A snatch of a poem my grandmother used to quote about finding meaning
+in work came to mind:
+
+
+#+begin_example
+Oh, you gotta get a glory
+In the work you do;
+A hallelujah chorus
+In the heart of you.
+Paint, or tell a story,
+Sing, or shovel coal,
+But you gotta get a glory
+Or the job lacks soul.
+
+Berton Baley
+#+end_example
+
+
+Even Google and Duck-Duck Go don't know much about it, so here it is
+in my grandmothers handwriting.  From cleaning houses, to taking care
+of kids, to canning beans she NEVER did anything halfway.
+
+#+caption: [[http://curious.galthub.com/ox-hugo/glory.jpg]["Oh, you gotta get a glory" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/glory.jpg
+
+#9 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED The mighty Casey has struck out :100DaysToOffload:sports:poetry:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-14
