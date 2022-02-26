@@ -6195,14 +6195,15 @@ and pretty much all of Shenandoah National Park.   From Tibbets Knob
 there is a nice view of a valley and "Big Schloss" which is a rock
 formation and the destination of another popular local hike.
 
-https://pixelfed.social/p/eludom/402070358478944399
-
 #+caption: [[http://curious.galthub.com/ox-hugo/cowart.jpg]["But is it art?" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
 #+attr_html: :width 600px
 file:images/cowart.jpg
 
+#+hugo: more
 
-# #+hugo: more
+More pictures here
+https://pixelfed.social/p/eludom/402070358478944399
+
 
 #11 of #100DaysToOffload take 2, https://100daystooffload.com/
 
@@ -6218,7 +6219,7 @@ Why I hike.   A picture is worth 1000 words
 #+attr_html: :width 600px
 file:images/sun-behind-ice-on-tree.jpg
 
-#+hugo: more
+
 
 I went hiking in Shenandoah national park Satuday.
 Pictures here https://pixelfed.social/p/eludom/396268280449793695
