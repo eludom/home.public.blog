@@ -1,0 +1,104 @@
++++
+title = "Things that fall in the river get wet"
+author = ["George Jones"]
+publishDate = 2020-05-25
+lastmod = 2022-02-26T07:58:30-05:00
+tags = ["life", "outdoors"]
+categories = ["blog"]
+draft = false
++++
+
+1500 miles down, 700 to go to finish section hiking the Appalachian
+Trail with 215 miles completed this year in 3 trips.
+
+Of course, I have some of the hardest miles left: the Smokies,
+Mt. Washington, the Whites, the Presidentials, the Bigelows, but with
+persistence, luck, health, constant gear tweaks (and some HARD hiking)
+I should finish in a few years.
+
+{{< figure src="./2020-AT-Milage-Status.png" caption="<span class=\"figure-number\">Figure 1: </span>Miles to go before I sleep" >}}
+
+\#100daystooffload #hiking
+
+<!--more-->
+
+
+## <span class="section-num">1</span> 9/6 - 9/12/2020	Bennington VT to Great Barrington, Mass (Rt. 23) {#9-6-9-12-2020-bennington-vt-to-great-barrington-mass--rt-dot-23}
+
+82 miles, 6 nights.
+
+{{< figure src="/ox-hugo/TheCobbles.jpg" caption="<span class=\"figure-number\">Figure 2: </span>View From The Cobbles, Mt. Greylock, Cheshire Mass (in valley)" >}}
+
+From Sunday 2020-09-06 to Saturday 2020-09-12 I hiked 82 miles
+SOBO on the Appalachian Trail from Bennington, VT (VT 9) to
+Great Barrington, Mass (Mass 23).  Highlights (high point) of
+the trip included Mt. Greylock, the highest point in Mass, the
+lovely town campsite in Cheshire, Mass, Camping by a beaver dam
+Sunday night and seeing Moose in the morning, lots of beaver
+dams/bogs, staying 2 nights (Thursday, Saturday before driving
+home) at the Berkshire Lakeside Lodge, a lovely little motel .2
+off the trail, and, of course, lots of hiking and people.
+Resupply in Dalton, Mass at the Post Office.  Chocolate shake
+and meatball grinder in Cheshire.  Pizza and milk in Dalton.
+Magic coming down to 20 Thursday in the most-of-the day rain.
+The weather, except for Thursday rain, was excellent.  Upper 50s
+to lower 80s.
+
+Pre-trip I stopped at a Legend Of Sleepy Hollow/Rip Van Winkle
+site, and just down the road the Martin Van Buren home, a short
+hike in Philmont (!), NY to a high waterfall that people were
+swimming under, saw some wild turkeys.  Stayed at the Days Inn
+in Great Barrington and got a shuttle Sunday morning from Debbie
+Andrus
+
+Post trip, I went back to the Berkshire Lakeside Lodge.  I'd
+spent time in the area.  Normal Rockwell museum.  Lakes.
+Tanglewood music festival (Boston Symphony summer series).
+Shaker village (I camped at the ""Shaker Campsite"").  West
+Stockbridge is a lovely little town.  It has the ""TurnPark"",
+an outdoor interactive art park where I met one of the artists
+(cutting the weeds).  Good food.  Probably expensive and crowded
+in a non-COVID high season.  "
+
+
+## <span class="section-num">2</span> 7/3-7/4/2020	Davenport Gap to Hot Springs {#7-3-7-4-2020-davenport-gap-to-hot-springs}
+
+33.9 miles, 1 night
+
+{{< figure src="/ox-hugo/MaxPatch.jpg" caption="<span class=\"figure-number\">Figure 3: </span>View From Max Patch in the Morning" >}}
+
+Breakfast at diner. Shuttle to I-40.  Lost 1 - 1.5 hours because
+shuttle driver (NYC guy) was a slave to his GPS, would not just
+hop on 40.  On trail at 10.  Made it to Max Patch about 6.  UP
+HILL.  I was shot.  July 3 on the summit was a mob scene.  I
+camped 1/2 mile short.  Tried cold dinner (mashed potatoes +
+stuffing + chicken).  Meh. Went up for sunset, and again just
+after sunrise.  Bueatiful. Hiked 21 back into Hot Springs.
+Hiked a little way with 2 girls from Tucker/Stone Mountain, GA
+(where my wife went to school). Hit town.  Liquid.  Shower.
+DROVE to store.  White Castles.  Bed.  Drove home.  %65.1 of
+trail done.
+
+
+## <span class="section-num">3</span> 6/17-6/24/2020	Hughs Gap to Hot Springs {#6-17-6-24-2020-hughs-gap-to-hot-springs}
+
+99 Miles, 7 nights.
+
+{{< figure src="/ox-hugo/RobBird.jpg" caption="<span class=\"figure-number\">Figure 4: </span>Rob Bird provided \"Trail Magic\" 2 hikes in a row" >}}
+
+"Mountian Squid" joined me for the first 3 miles.  Ran into 2
+older Russian couples who were out for the first time.  Hiked
+with the owner of <https://www.flowmarshall.com/> gallary in
+Marshall, NC and her British husband for a bit.  Stayed at Uncle
+Johnnies 1st night, shuttled to Hughs Gap.  Stayed at Uncle
+Johhnies 3rd night, resupplied, hiked on to Hot Springs.  20
+into hot springs from Laurel Fork.  Zeroed at Laughing Heart
+hostle, shuttled back to Irwin to get car, drove, car broke down
+in Wythville (axel), rented a car, came home, started a new job,
+went back to Wythville Wednesday night.  Got car Thursday drove
+back to Hot Springs_Laughing Heart, run by "Chuck Norris" and
+"Tigger" ... former Jesuit retreat center_hostel.  Great place.
+Got food in Hot Springs hiking in.  Big hill/rock steps coming
+down.
+
+Post 26 #100DaysToOffload <https://100daystooffload.com/>
