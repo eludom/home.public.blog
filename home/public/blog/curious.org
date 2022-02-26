@@ -6185,6 +6185,27 @@ Dream on.
 Post 37 of #100DaysToOffload https://100daystooffload.com/
 
 *** Outdoors                                                       :outdoors:
+**** PUBLISHED Hiking and Art                       :hiking:100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-23
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-23:
+:END:
+From Eagles Rock you can look back east and see the Massanutten range
+and pretty much all of Shenandoah National Park.   From Tibbets Knob
+there is a nice view of a valley and "Big Schloss" which is a rock
+formation and the destination of another popular local hike.
+
+https://pixelfed.social/p/eludom/402070358478944399
+
+#+caption: [[http://curious.galthub.com/ox-hugo/cowart.jpg]["But is it art?" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/cowart.jpg
+
+
+# #+hugo: more
+
+#11 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Why I hike                           :100DaysToOffload:hiking:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-07
