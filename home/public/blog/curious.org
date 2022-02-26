@@ -4147,6 +4147,47 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Oh, Little Town of Harpers Ferry, How Still We See Thee Lie :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-18
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-18:
+:END:
+
+Harpers Ferry: a quaint little town, vegan restaurants, a national
+park, Appalachian Trail headquarters, great place to hop a train to DC
+or Pittsburgh, a Kansas album cover or a great place to start a civil
+war? It’s all in how you look at it, who’s looking, and when.
+
+
+This is a picture I took on a hike above the town on Loudoun Heights
+Saturday and the painting of John Brown in the John Brown museum.
+
+
+#+caption: [[http://curious.galthub.com/ox-hugo/hf.png]["Harpers Ferry" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/hf.png
+
+#+hugo: more
+
+Saturday I went hiking above Harpers Ferry, WV. Today it’s just a sleepy
+little town with a [[https://kelleyfarmkitchen.com/][good little vegan
+restaurant]], headquarters of the [[https://appalachiantrail.org/explore/communities/harpers-ferry-bolivar/][Appalachian
+Trail Conservancy]] and a lot of national park buildings (most of the old
+downtown). But back in the day (1859), it housed the federal armory, gun
+factory and John Brown thought it would be a great place start a slave
+rebellion. He was wrong. But he lit the fuse of the Civil War that ended
+slavery. His short lived rebellion was put down by federal troops lead
+by … Robert E. Lee, later commander of the Confederate army and JEB Stewart,
+a confederate general. And you may even recognize a Kansas (70s band) album
+cover in the painting of Brown-as-Moses with a bible in one hand and a
+gun in the other.
+
+Turns out there is no museum in Harper Ferry dedicated to the man who
+enforced the status quo. I guess we know who was “on the wrong side of
+history.
+
+#10 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Oh, you gotta get a glory in the work you do :100DaysToOffload:poetry:work:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-15
