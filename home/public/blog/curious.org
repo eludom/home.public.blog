@@ -4147,6 +4147,59 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED It seems like a good day for some Russian opera :100DaysToOffload:history:music:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-26
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-26:
+:END:
+
+Below is some text from Rimsky-Korsakov's last opera,
+where the people mockingly pledge loyalty to the Russian King (Tsar)
+
+#+begin_quote
+King Dodon, a lazy and gluttonous ruler, is greatly worried
+by his warlike neighbors.
+#+end_quote
+
+It seems the Kremlin's website is having some issues right now...
+
+#+caption: [[http://curious.galthub.com/ox-hugo/movealong.png]["Kremlin Website, Nothing To See Here, Move Along" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 300px :style border:2px solid black;
+file:images/movealong.png
+
+#+hugo: more
+
+
+#+begin_example
+People (shouting).
+Long life to thee! Hurrah!
+May thou have every good thing!
+(Begin to sing.)
+"We are thy faithful servants.
+Who kiss the Royal feet.
+We are glad to serve thee.
+To amuse thee with our foolishness,
+To box for thee upon a holiday,
+To bark, to crawl on all fours,
+So that thy hours may flow quickly
+And may bring sweet sleep.
+Without thee we should have no
+Reason for existing;
+For thee we were born
+And for thee we have had chidren."
+#+end_example
+
+From https://archive.org/stream/lecoqdorgoldenc02pushgoog/lecoqdorgoldenc02pushgoog_djvu.txt
+
+In the historical context (1908), Russia had just lost a war to Japan
+where it's army was defeated and /two/ fleets were sunk by Japan.  The
+Tsar was in disgrace.  The start of WWI was only 6 years away and the
+Russian revolution was only 9 years away.
+
+The (Tsarist) censors didn't like the text.  Wonder why.
+
+#12 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Oh, Little Town of Harpers Ferry, How Still We See Thee Lie :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-18
