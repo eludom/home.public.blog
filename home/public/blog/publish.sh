@@ -19,3 +19,8 @@ hugo
 
 # let 'r rip
 rsync -avz --delete docs/ hangout:/var/www/curious-html/
+
+git add curious.org
+git add images
+git add content
+git commit -m"Published `date`"
