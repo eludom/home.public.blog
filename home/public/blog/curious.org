@@ -3965,6 +3965,20 @@ what praiseworthy qualities Washington (or his myth) embodied and to
 at least /try/ to add those qualities to my own life.
 
 #13 of #100DaysToOffload take 2, https://100daystooffload.com/
+*** Current Events                                                     :news:
+**** PUBLISHED When goods don’t cross borders, soldiers will
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-28
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-28:
+:END:
+
+
+[[https://fee.org/resources/if-goods-dont-cross-borders/][When goods don’t cross borders, soldiers will]].
+
+That is all.
+
+#+hugo: more
+#14 of #100DaysToOffload take 2, https://100daystooffload.com/
 *** Work                                                               :work:
 **** PUBLISHED Career counseling should not take itself too seriously. :100DaysToOffload:life:
   :PROPERTIES:
