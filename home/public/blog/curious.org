@@ -4290,7 +4290,25 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
-*** Life                                                               :life:
+*** PUBLISHED Life                                                     :life:
+**** WIP Present Duties                                    :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-02
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-02:
+:END:
+
+This is framed quote that's been hanging on my family's walls since
+sometime in the late 19th or early 20th century.  It's way more
+positive than the other things I was thinking of posting in these dark times...
+
+#+caption: [[http://curious.galthub.com/ox-hugo/IShallPassThisWayButOnce3.jpeg]["Present Duties" by William Penn paraphrasing Jesus]] is in fact not copyrightable, Charles Scribners's Sons claims c.a. 1897 notwithstanding.
+#+attr_html: :width 600px
+file:images/IShallPassThisWayButOnce3.jpeg
+
+#+hugo: more
+
+#14 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED It seems like a good day for some Russian opera :100DaysToOffload:history:music:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-26
