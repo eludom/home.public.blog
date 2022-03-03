@@ -3836,6 +3836,20 @@ Is he right?  Do /you/ have the space you need to "protect the essence
 of individuality from headlong technological progress"?
 
 *** History                                                         :history:
+**** PUBLISHED The lesson of history                       :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-03
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-03:
+:END:
+
+
+I think the lesson of history is that we don't learn from the lessons
+of history.
+
+#+hugo: more
+
+#16 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED George Washington Slept Here                :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-27
@@ -4307,7 +4321,7 @@ file:images/IShallPassThisWayButOnce3.jpeg
 
 #+hugo: more
 
-#14 of #100DaysToOffload take 2, https://100daystooffload.com/
+#15 of #100DaysToOffload take 2, https://100daystooffload.com/
 
 **** PUBLISHED It seems like a good day for some Russian opera :100DaysToOffload:history:music:
 :PROPERTIES:
