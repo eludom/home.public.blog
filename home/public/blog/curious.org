@@ -3980,7 +3980,7 @@ at least /try/ to add those qualities to my own life.
 
 #13 of #100DaysToOffload take 2, https://100daystooffload.com/
 *** Current Events                                  :news:philosophy:history:
-**** WIP Peace be with you                                 :100DaysToOffload:
+**** PUBLISHED Peace be with you                           :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-05
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-05:
