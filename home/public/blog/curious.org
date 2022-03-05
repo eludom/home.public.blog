@@ -3979,7 +3979,56 @@ what praiseworthy qualities Washington (or his myth) embodied and to
 at least /try/ to add those qualities to my own life.
 
 #13 of #100DaysToOffload take 2, https://100daystooffload.com/
-*** Current Events                                                     :news:
+*** Current Events                                  :news:philosophy:history:
+**** WIP Peace be with you                                 :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-05
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-05:
+:END:
+
+I've been listening to the [[https://www.gutenberg.org/ebooks/author/998][Meditations of Marcus Aurelius]], the stoic
+Roman emperor.  The stoic philosopher Epictetus, who was an older
+contemporary of Marcus Aurelius said
+
+#+begin_src
+Never say about anything, I have lost it,
+but only I have given it back.
+#+end_src
+
+It might lower my blood pressure if I could get my mind around that.
+
+#+hugo: more
+
+It's all to easy to get upset when people wrong you, or when dictators
+invade a neighboring country, killing thousands of people and destroy
+the country for seemingly unknowable and unjustified reasons.
+
+In the meditations, the point is often made that the only thing you
+really have is this moment in time and your ability to control your
+reactions.  You do not "have" or control the past, the future, events,
+people, money, etc.   It's a sophisticated version of what parents
+often tell their children "Don't worry about what your brother is
+doing, pay attention to what you're doing".
+
+Martin Luther (not King Jr.) put a Christian spin on the idea:
+
+
+
+#+begin_example
+I have held many things in my hands,
+and I have lost them all;
+but whatever I have placed in God's hands,
+that I still possess.
+#+end_example
+
+The world is not fair. It is not just.  And I control almost none of
+it, aside from my own assessment of what is "fair", what is "just",
+and how I react to it.  I've caused myself a lot of trouble over the
+years by they way I asses things and how I've reacted.
+
+I wish you peace.
+
+#17 of #100DaysToOffload take 2, https://100daystooffload.com/
 **** PUBLISHED When goods don’t cross borders, soldiers will
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-28
