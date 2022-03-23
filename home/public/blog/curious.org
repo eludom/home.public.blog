@@ -16,9 +16,45 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2022-02-11 FRI 19:05:54>
+:EXPORT_HUGO_PUBLISHDATE: <2022-03-22 TUE 20:20:00>
 :END:
 *** Geek Stuff                                                         :geek:
+**** PUBLISHED To self host or not to self host, that is the question? :100DaysToOffload:blogging:life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-22
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-22:
+:END:
+
+Shelving the self hosting for a while.   Just gonna push the static
+blog up to my 20 year old Hurricane Electric shell account.
+[[https://www.namecheap.com/support/knowledgebase/article.aspx/384/2237/what-is-url-redirect-and-how-does-it-work/][URL redirection]] is a marvelous thing.  This is not your fathers CNAME record.
+
+#+hugo: more
+
+After my raspberry pi died (when I unplugged it from the new UPS that
+was supposed to keep it up),  and I manifestly failed for 2 weeks to
+allocate the time to rebuild it,
+I decided to let other people run the system and network. While it's
+fun/retro to go back to doing all my own systems admin, networking and
+security work on top of a day job that has me on a vertical learning
+curve with systems, networking, security, databases, programming etc
+at the end of the day, literally at the end of the day, I just don't
+have it in me to sit in front of a computer and do more computer
+stuff.
+
+So I will let the nice people at Hurricane Electric with whom I've had
+an a shell account for ~20 years run the system, the web server and
+the network (they are really good at that).   Every time I send mail
+to support@he.net I get what seems like a genuinely interested geek
+replying.
+
+Division of labor.  What a concept.
+
+I've got other things in life that need attention and time now (and
+some world events that are sucking up attention)
+
+#17 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED IPv6 Day                           :100DaysToOffload:Internet:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-11
@@ -249,7 +285,6 @@ little actual deployment.
      #+caption: [[http://emacs.nu/wallpaper/gnu_wallpaper_4_1920.png]["Levitating GNU with Emacs source code" by Macduff is licensed under GPL 2.0]]
      #+attr_html: :width 400px
      [[file:images/gnus_up_small.png]]
-
 
 
 
