@@ -4063,7 +4063,7 @@ years by they way I asses things and how I've reacted.
 
 I wish you peace.
 
-#17 of #100DaysToOffload take 2, https://100daystooffload.com/
+#18 of #100DaysToOffload take 2, https://100daystooffload.com/
 **** PUBLISHED When goods don’t cross borders, soldiers will
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-28
@@ -4388,8 +4388,96 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
-*** PUBLISHED Life                                                     :life:
-**** WIP Present Duties                                    :100DaysToOffload:
+*** Life                                                               :life:
+**** PUBLISHED It will be done when it's done  :100DaysToOffload:history:gif:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-24
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-24:
+:END:
+
+Steve Wilhite died last week.  Yes, he created GIF, but that was just
+a side project among mountains of mostly single-handed coding projects
+that were a large part of what kept CompuServe going for years in the
+face of AOL and the Web.
+
+[[https://www.megiefuneralhome.com/obituaries/Stephen-E.-Wilhite?obId=24311617#][One of my coworkers recalled]]:
+
+#+begin_quote
+...many times when asked about a delivery date Steve would answer "it
+will be done when it is done."
+#+end_quote
+
+I laughed when I read that.  It was so Steve.  It would have been said
+authoritatively, matter of factly, and any poor project manager
+involved would have to take that as the final word, because Steve was
+right ... and consistently delivered.
+
+#+caption: [[http://curious.galthub.com/ox-hugo/steve.gif]["CompuServe Languages and Tools Group c.a. 2019" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 200px
+file:images/steve.gif
+
+#+hugo: more
+
+You got the same type of response when asked how to pronounce GIF. To
+quote Steve "Choosy programmers choose GIF", echoing an old JIFF
+peanut-butter commercial, soft "g".  It didn't matter that the
+[[https://news.yahoo.com/-this-is-how-president-obama-pronounces--gif-153554734.html][president of the United States disagreed]].  The president was just
+wrong.  End of story.
+
+Steve was laconic, matter-of-fact and almost always right.  He had a
+knack for knocking out the right project at the right time, be it the
+3 DEC10 compilers in the 70s and early 80s, the "Host Micro Interface"
+(HMI) protocol that let the Information Service move away from
+text-only command line interfaces, to WinCIM (the CompuServe graphical
+Interface/UI/Information Manager on Windows).  I used capabilities
+provided in WinCIM to write FTP and Telenet gateways that allowed
+users to access the Internet.  Steve also wrote libraries included in
+WinCIM that provided enough functionality for me to write a web
+browser....that was never released :-(.  It allowed users without a
+direct Internet connection (most people) to browse the web which
+was full of GIFs then.
+
+A lot of the reporting about Steve and his "Webby" award for GIF
+refers to him working on it with "his team".  I guess I was part of
+that "team" ... he had hired me out of college and I was in "his"
+Languages and Tools group (Compilers and Runtime Systems) and was 2
+doors down when he was parading people in to see the fruits of a
+project (one of the MANY) he did on the side/at home called GIF that
+displayed, if I recall correctly, on DOS systems, Windows systems,
+Atari STs, Amigas, all which Steve had either in his office or at home
+or both.  We did a little collaborative coding to port MicroEmacs to
+the Amiga which became today's mg (nee Micro Gnu Emacs) editor, but
+GIF was just Steve.
+
+Sandy Trevor (CompuServe Executive Technical VP) and others were wise
+just to let Steve do his thing.
+
+Beyond the code, I think Steve stamped a lot of his outlook on a young
+me.  That's probably part of why I've dodged management at every
+opportunity.  There's too much "real work" to do :-). Years later, I
+worked at Amazon for a bit and grew very quickly to appreciate the
+leadership principals:
+https://www.aboutamazon.com/about-us/leadership-principles. Turns out,
+in retrospect, I think they were describing the Steve I knew to a "t":
+He was right, a lot, dove deep, delivered results, earned trust, was
+always learning and curious, thought big and was forever inventing and
+simplifying.  I think Bezos was somehow taking queues from Steve.
+
+Steve also had one quality that a lot of utterly brilliant people
+lack: He took you (me) where you were.  Not everyone went home and
+read Knuth and CACM cover-to-cover for bedtime stories.  He got that.
+He took you where you were as a programmer and a person. That gave me
+room to grow personally and professionally at a critical time in life.
+
+There was way more to Steve than GIF.  His output was prolific and
+in his laconic let-your-code-do-your-talking kind of way, he was
+inspiring.  I was privileged to have a front row seat to watch a
+master at work.
+
+#19 of #100DaysToOffload take 2, https://100daystooffload.com/
+
+
+**** PUBLISHED Present Duties                              :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-02
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-02:
