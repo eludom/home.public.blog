@@ -4388,7 +4388,36 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
-*** Life                                                               :life:
+*** PUBLISHED Life                                                     :life:
+**** PUBLISHED "I close my eyes, only for a moment, but the moment's gone" :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-30
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-30:
+:END:
+
+When you're on a world tour following COVID lock-downs, nominated for 3
+Grammys, scheduled to play at the Grammy's this year ... [[https://zeroenthusiasm.tumblr.com/post/47032679583/list-of-spinal-tap-drummers-all-deceased][and your drummer dies]]....
+
+https://youtu.be/fns6N_iAVBw
+
+#+hugo: more
+
+#+begin_example
+I close my eyes
+Only for a moment and the moment's gone
+All my dreams
+Pass before my eyes, a curiosity
+...
+Dust in the wind
+All we are is dust in the wind (All we are is dust in the wind)
+Dust in the wind (Everything is dust in the wind)
+Everything is dust in the wind
+#+end_example
+
+From memory and https://genius.com/Kansas-dust-in-the-wind-lyrics
+
+#20 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED It will be done when it's done  :100DaysToOffload:history:gif:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-24
@@ -4475,7 +4504,6 @@ inspiring.  I was privileged to have a front row seat to watch a
 master at work.
 
 #19 of #100DaysToOffload take 2, https://100daystooffload.com/
-
 
 **** PUBLISHED Present Duties                              :100DaysToOffload:
 :PROPERTIES:
