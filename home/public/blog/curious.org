@@ -4405,7 +4405,7 @@ Cars are full of electronics now, and that can be good, and it can be
 very bad...
 
 #+hugo: more
-The only electronics on cars back in the day were the batter, the
+The only electronics on cars back in the day were the battery, the
 spark plugs, fired by an alternator, the starter motor, the lights,
 the radio, the heater fan (OK, there are were a lot of electronics...)
 
