@@ -4388,7 +4388,77 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
-*** PUBLISHED Life                                                     :life:
+*** Life                                                               :life:
+**** PUBLISHED New Cars                                    :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-03-31
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-31:
+:END:
+
+Cars have changed.   Back in the day you could "pop the clutch" to
+start a car by letting it roll down hill, putting it in first gear
+with your foot on the (manual) clutch, let the clutch out ("popping
+the clutch") and often the car would start.  Handy if you had a car
+with a dead battery at the top of hill.
+
+Cars are full of electronics now, and that can be good, and it can be
+very bad...
+
+#+hugo: more
+The only electronics on cars back in the day were the batter, the
+spark plugs, fired by an alternator, the starter motor, the lights,
+the radio, the heater fan (OK, there are were a lot of electronics...)
+
+But now, cars are Internet connected computers integrated with
+everybody's favorite obsession, the smart phone.  The computers in the
+car can physically steer, apply breaks, accelerate, decelerate,
+monitor your alertness, turn the car off, call 911 if you crash, etc.
+These are all usually good, or at least well intentioned when they
+work as designed in the conditions they were designed for.
+
+But there are potential downsides.  Pretty sure it would be
+technically trivial for you to get a speeding ticket every time you
+went 26 in a 25 zone.  And Siri, Android Auto, Alexa and friends /can/
+listen to your conversations, do speech to text, feed them to machine
+learning trained programs to pick out anything, not just your
+selection of music or driving direction.  Have you ever ranted to a
+friend in a car about social, political or religious topics ... or
+maybe the suspected paternal lineage of the driver who just cut you
+off?  It might all be on record.
+
+And I've worked with computers for too long to believe in bug free
+code or code with no design defects.   Things break.  In this case, it
+could cost me my life.
+
+Then there are security issues.  If the car can do the right thing
+with properly functioning software and in road and weather conditions,
+it could do the wrong thing as well if someone messes with the
+software, sensors (radar, camera), or operating environment.  With a
+cell phone or other radio connection, cars are now, in once sense,
+computer systems with constant Internet connections.
+
+This has been a topic in hacker circles for several years now:
+https://www.blackhat.com/us-18/training/car-hacking-hands-on.html, and
+industry is acknowledging the problem
+https://www.einfochips.com/blog/automotive-iot-security-an-inevitable-factor-in-growing-market-of-connected-vehicle-ecosystem/
+We don't need to envision any cloak-and-dagger-middle-of-the-night car
+mods in a futuristic James Bond film to see what could go wrong.
+
+So I'm pretty sure we're not going back.   I considered buying a
+refurbished 1970s VW beetle to get away from all this, but for now I'm
+going to accept risks, cited above and completely ignored by car
+salesmen on the theory that it's more likely the car will keep me from
+making a fatal lane change than that Dr. No (or random functionaries
+at the TSA, local police or a kid in his basement) will hack my car.
+
+There was a time when driving was the symbol of autonomy,
+independence, personal responsibly, individualism and adventure.  You
+see bit's of that in Jack Kerouac's "On the Road" and Nat King Cole's
+"Route 66".  Those days are, I think, gone.  Now, how do I connect
+Android Auto and setup Waze? ...
+
+#21 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED "I close my eyes, only for a moment, but the moment's gone" :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-30
