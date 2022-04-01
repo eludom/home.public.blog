@@ -4399,7 +4399,7 @@ Cars have changed.   Back in the day you could "pop the clutch" to
 start a car by letting it roll down hill, putting it in first gear
 with your foot on the (manual) clutch, let the clutch out ("popping
 the clutch") and often the car would start.  Handy if you had a car
-with a dead battery at the top of hill.
+with a dead battery at the top of a hill.
 
 Cars are full of electronics now, and that can be good, and it can be
 very bad...
