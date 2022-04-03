@@ -6684,6 +6684,59 @@ Dream on.
 Post 37 of #100DaysToOffload https://100daystooffload.com/
 
 *** Outdoors                                                       :outdoors:
+**** PUBLISHED Hope springs eternal.                :hiking:100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-04-03
+  :EXPORT_HUGO_PUBLISHDATE: 2022-04-03:
+  :END:
+
+- The sun is always shining.
+- The flowers are always blooming.
+- There are no bugs.
+- The trail is always flat.
+- There are no rocks.
+- It never rains.
+- It's never too cold.
+- It's never too hot.
+- There's never overcrowding.
+- Your gear always works.
+- Your physical condition is always good.
+
+
+#+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-lake_small.jpg]]]["Sun on lake" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 400px
+file:images/2022-04-02-lake_small.jpg]]
+
+#+hugo: more
+
+This is bloodroot.  I also saw a few early violets.  The
+daffodils are up. The forsythia are starting.  Red-buds soon.  Then
+dogwoods.  Spring in northern Virginia !
+
+#+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-flower_small.jpg]]]["Spring flowers" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 400px
+file:images/2022-04-02-flower_small.jpg]]
+
+This is a nice flat stretch.  Somehow every time you start you think
+it will be like this. 
+
+#+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-perfect-trail.jpg]]]["Perfect trail" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 400px
+file:images/2022-04-02-perfect-trail.jpg]]
+
+This is a water-removal feature that was being installed by fellow
+trail maintainers as I hiked.  It is a textbook example that follows
+the "SET" principal where the features are Sustainable, Effective
+and Traversable.
+
+#+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-water_small.jpg]]]["Textbook Water Control Structure" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 400px
+file:images/2022-04-02-water_small.jpg]]
+
+Somehow, getting out in nature in early spring renews hope.
+
+#22 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Hiking and Art                       :hiking:100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-23
