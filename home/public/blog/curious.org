@@ -6733,7 +6733,7 @@ trail maintainers as I hiked.  It is a textbook example that follows
 the "SET" principal where the features are Sustainable, Effective
 and Traversable.
 
-#+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-water_small.jpg]["Perfect trail" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-water_small.jpg]["Water Removal - Textbook Example" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
 #+attr_html: :width 400px
 file:images/2022-04-02-water_small.jpg
 
