@@ -6778,6 +6778,24 @@ Dream on.
 Post 37 of #100DaysToOffload https://100daystooffload.com/
 
 *** Outdoors                                                       :outdoors:
+**** PUBLISHED Spring Creeping Up The Mountain             :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-04-17
+  :EXPORT_HUGO_PUBLISHDATE: 2022-04-17:
+  :END:
+This is the view from White Rocks 13 miles north of Harpers Ferry. In
+the fall you can see the colors (leaves changing) creeping down the
+mountain because it’s colder as you go up. Here you can see spring
+creeping up the mountain.
+
+#+caption: [[http://curious.galthub.com/ox-hugo/spring_creeping.jpg]["Spring Creeping Up The Mountain" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 600px
+file:images/spring_creeping.jpg
+
+#25 of #100DaysToOffload take 2, https://100daystooffload.com/
+#+hugo: more
+
+
 **** PUBLISHED Hope springs eternal.                :hiking:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-03
@@ -8460,8 +8478,18 @@ He can be reached via email as gmj at pobox dot com
 :EXPORT_HUGO_LAYOUT: single
 :END:
 
+
 Curious Musings is a place I put up thoughts on life, family, work,
 security, the outdoors, etc.
+
+In this stage of life, I am increasingly seeing myself being "Full of
+wise saws and modern instances" as Shakespeare described men playing
+parts in the later stage of life
+https://www.poetryfoundation.org/poems/56966/speech-all-the-worlds-a-stage
+You've learned things, you have perspective, and you feel the need to
+share (but, alas, one of the things I've learned is that people tend
+not to listen or learn from advice .... it seems people have a need to
+repeat the same mistakes)
 
 As someone who started work at CompuServe, the original walled garden,
 I am sensitive to my content remaining free and available.  The
