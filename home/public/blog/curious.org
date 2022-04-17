@@ -6792,9 +6792,9 @@ creeping up the mountain.
 #+attr_html: :width 600px
 file:images/spring_creeping.jpg
 
-#25 of #100DaysToOffload take 2, https://100daystooffload.com/
 #+hugo: more
 
+#25 of #100DaysToOffload take 2, https://100daystooffload.com/
 
 **** PUBLISHED Hope springs eternal.                :hiking:100DaysToOffload:
   :PROPERTIES:
