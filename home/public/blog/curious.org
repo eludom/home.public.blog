@@ -6788,6 +6788,7 @@ the fall you can see the colors (leaves changing) creeping down the
 mountain because it’s colder as you go up. Here you can see spring
 creeping up the mountain.
 
+
 #+caption: [[http://curious.galthub.com/ox-hugo/spring_creeping.jpg]["Spring Creeping Up The Mountain" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
 #+attr_html: :width 600px
 file:images/spring_creeping.jpg
