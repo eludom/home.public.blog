@@ -4404,6 +4404,7 @@ Neibuhr, some of classics of "Don't worry, be happy".  Now if I can
 just internalize some of this...
 
 
+
 #+caption: [[http://curious.galthub.com/ox-hugo/boom_small.jpg]["The cannon thundered in the South," by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
 #+attr_html: :width 600px
 file:images/boom_small.jpg
