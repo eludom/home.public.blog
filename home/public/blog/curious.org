@@ -4078,6 +4078,30 @@ That is all.
 #+hugo: more
 #14 of #100DaysToOffload take 2, https://100daystooffload.com/
 *** Work                                                               :work:
+**** PUBLISHED Can I get the job done by doing nothing? :100DaysToOffload:GTD:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-04-22
+  :EXPORT_HUGO_PUBLISHDATE: 2022-04-22:
+  :END:
+
+
+Over the years you pick up useful ideas from people. One of the most
+useful "project management" ideas I've ever encountered is
+
+#+begin_quote
+/Can I get the job done by doing nothing?/
+#+end_quote
+
+Use the code you already have.  Use existing slide decks.  Time is
+scarce.  Don't waste it creating something new when something you
+already have will do the job.  Don't spend hours getting a slide deck
+to %100 perfection when what you really need to do is talk over some
+ideas and the existing material is sufficient to spark conversation.
+
+Thanks to Russell Leighton  for the mind-boggling obvious idea.
+
+#26 of #100DaysToOffload take 2, https://100daystooffload.com/
+
 **** PUBLISHED Career counseling should not take itself too seriously. :100DaysToOffload:life:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-02-03-O2
@@ -7251,7 +7275,8 @@ persistence, luck, health, constant gear tweaks (and some HARD hiking)
 I should finish in a few years.
 
 #+caption: Miles to go before I sleep
-file:./2020-AT-Milage-Status.png
+file:./images/2020-AT-Milage-Status.png
+
 
 #100daystooffload #hiking
 
