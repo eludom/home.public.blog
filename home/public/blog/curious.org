@@ -3871,7 +3871,7 @@ Is he right?  Do /you/ have the space you need to "protect the essence
 of individuality from headlong technological progress"?
 
 *** History                                                         :history:
-**** TODO Black Lives Matter ... the 1852 version.         :100DaysToOffload:
+**** PUBLISHED Black Lives Matter ... the 1852 version.    :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-07
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-07:
