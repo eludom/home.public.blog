@@ -16,9 +16,47 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2022-03-22 TUE 20:20:00>
+:EXPORT_HUGO_PUBLISHDATE: <2022-10-19 WED 19:40:17>
 :END:
 *** Geek Stuff                                                         :geek:
+**** WIP It's Manjaro !!!                                             :linux:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-10-19
+  :EXPORT_HUGO_PUBLISHDATE: 2022-10-19:
+  :END:
+
+After something like 10 or 15 years on Ubuntu, I'm moving on to Arch/Manjaro.  
+
+#+hugo: more
+
+#+begin_example
+2022-10-17:14:06:52: Installing and migrating to Manjaro
+2022-10-17:14:29:04: pacman -Syu # update pacman
+2022-10-17:14:30:06: sudo pacman -Syu # update pacman
+2022-10-17:14:30:23: sudo pacman -S ed # install ed
+2022-10-17:14:32:41: scp -v -r -p 192.168.0.10:~/stow . # copy stow files
+2022-10-17:14:33:39: sudo pacman -S stow # instal stow
+2022-10-17:14:47:04: # INFO - Arch runs zsh by default. Cool prompt stuff. Not quite bash
+2022-10-17:14:59:24: sudo pacman -S emacs
+2022-10-17:15:06:51: stow home.public.emacs.d/
+2022-10-17:15:07:49: # and emacs just worked tail /home/gmj/var/log/install.org!
+2022-10-17:15:14:31: # INFO enable sshd on arch https://linuxhint.com/arch_linux_ssh_server/
+2022-10-17:15:26:12: TODO figure out the relationship between bash an zsh on arch. Looks like I'm really running zsh.
+2022-10-17:15:26:31: TODO create a backup account
+2022-10-17:17:29:28: DONE install all my stow files
+2022-10-17:17:37:07: DONE install bind
+2022-10-17:17:42:07: DONE installed mlocate
+2022-10-18:05:51:17: DONE sudo pacman -S xclip
+2022-10-19:06:21:54: TODO figure out how to start bash, not zsh
+2022-10-19:06:22:18: IN-PROGRESS backing up ed to archive drive
+2022-10-19:06:22:49: IN-PROGRESS copying /home/gmj/home/public /home/gmj/home/private /home/gmj/home/secret to mx
+2022-10-19:06:23:21: DONE installed jupyter-notebook and pandas and matplotlib
+2022-10-19:06:29:34: DONE sudo pacman -S hugo
+2022-10-19:06:33:46: DONE sudo pacman -S community/speedtest-cli
+#+end_example
+
+#29 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED IPv6 Day                           :100DaysToOffload:Internet:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-11
