@@ -25,7 +25,6 @@
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-19:
   :END:
 
-After something like 10 or 15 years on Ubuntu, I'm moving on to Arch/Manjaro.  
 
 #+hugo: more
 
@@ -3915,7 +3914,7 @@ of individuality from headlong technological progress"?
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-07:
   :END:
 
-  So, I'm listening to [[https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin][Uncle Tom's Cabin]] on Audible.  
+  So, I'm listening to [[https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin][Uncle Tom's Cabin]] on Audible.
 
   How long until it gets canceled for use of the "N" word?  Looks like
   Paypal might try to charge me $2500 for reading something they don't
@@ -4490,6 +4489,34 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Friends
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-10-23
+  :EXPORT_HUGO_PUBLISHDATE: 2022-10-23:
+  :END:
+Aristotle identified three types of friendship - friendships of association, utility
+and virtue.  Who were you "best friends" with in early school years?
+Do you keep up with your old co-workers?  Who has hurt you deeply, yet
+you still wish them the best?
+
+#+hugo: more
+
+This morning I listend to a podcast that gave a summary of Aristotle's
+classification of friendships. This is a summary of a summary of a summary
+of one of the greatest thinkers in human history. Aristotle classed friendships
+in three categories (and this is from memory, so I'm pretty sure I'm not
+naming them they way Wikipedia or Aristotle's Ethics would)
+
+- Friendships of Associaiton :: School friends, sports team members, people I meet hiking.
+- Friendships of Utility ::  Most of your Linked-in contacts.
+- Friendships of Virtue :: People you care about (and who care about
+  you) for their (your) own sake.  I'm thinking a Mother's love for a
+  child falls here (but that may be a category all by itself).  Who do
+  you love "just because"?  Who want's the best for you even if you
+  hurt them deeply?
+
+#30 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED "We" are "pleased" to..                     :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-26
@@ -4521,7 +4548,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
   :EXPORT_HUGO_PUBLISHDATE: 2022-04-19:
   :END:
 
-  
+
 I've been reading Marcus Aurelius' Meditations.  I'm trying to have a
 positive effect on the things and people I can actually change (myself
 and my own reactions in this moment). Below are some quotes along
@@ -7050,7 +7077,7 @@ dogwoods.  Spring in northern Virginia !
 file:images/2022-04-02-flower_small.jpg
 
 This is a nice flat stretch.  Somehow every time you start you think
-it will be like this. 
+it will be like this.
 
 
 #+caption: [[http://curious.galthub.com/ox-hugo/2022-04-02-perfect-trail_rotated.jpg]["Perfect trail" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
