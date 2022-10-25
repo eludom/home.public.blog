@@ -4495,7 +4495,9 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-24:
   :END:
 
-The way to get something done is to not do everything else.
+See the title.
+
+#+hugo: more
 
 #31 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
