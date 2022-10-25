@@ -1,0 +1,973 @@
+*** Ideas and drafts for future posts
+**** DONE g/re/p
+     - State "DONE"       from "TODO"       [2020-09-19 Sat 15:17] \\
+       /bin/ed post
+Did you know that grep(1) evolved out of =/bin/ed=?  What's =/bin/ed=
+you say?  =/bin/ed= is THE standard Unix text editor.  Ken Thompson
+wrote ed.  Ken Thompson wrote Unix (and a lot of it with ed).  Ed has
+been creating Unix source, C-compilers, troff documents, man pages
+etc. since 1969.
+
+***** ed as the source of grep
+
+Back to grep.
+
+#+begin_example
+
+# Create a file, foo.txt, with some strings
+
+gmj@ed tmp $ cat <<END > foo.txt
+> grep
+> finds
+> regular
+> expressions
+> END
+
+# use /bin/ed to do a global (g) search for the regular expresson
+"re" and print (p) the matching lines.  grep:
+
+gmj@ed tmp $ ed foo.txt
+31
+g/re/p
+grep
+regular
+expressions
+w
+q
+
+#+end_example
+
+There you have it.  The origins of ed.
+
+***** Some really basic ed editing
+
+   #+begin_example
+gmj@ed tmp $ ed foo.txt
+30
+1
+grep
+s/grep/search/
+p
+search
+1,$p
+search
+finds
+regular
+expresions
+$a
+and you can append text
+and more text
+.
+1,$p
+search
+finds
+regular
+expresions
+and you can append text
+and more text
+w
+70
+q
+   #+end_example
+
+
+***** For less information
+
+Really, there's not much to ed.   There's no configuration file.   You
+don't need to know more than a few commands to edit files and call it
+a day.
+
+If you really need more .... CITE
+
+An for fun @edconf on twitter
+
+
+
+- twitter @edconf
+**** TODO Keeping my blood pressure down, keeping politics personal
+***** Intro - me and politics
+
+I quit Facebook in the run up to the 2016 election to keep my blood
+pressure down.  I have very definite political opinions.   Most them
+revolve around letting people make their own decisions and looking
+for solutions to life's problems at a personal level.
+
+***** My experiences during corona virus
+
+That said, I'm going to share some of my personal experiences during
+the coronavirus outbreak.
+
+****** Dawn's wedding
+- drive-in shower.  Neighbors called police.
+****** Fly-over
+Military jets.  Crowds.
+****** Strong bias for personal choice
+
+Neighbors dogs bark.  I don't like it.   That's their choice.
+
+**** TODO Thinking on paper
+**** TODO Publish thoughts from my journal
+**** TODO Hiking stories
+**** TODO Write a blog/linked-in entry about cogita, fac, dic
+     - See  [[file:~/home/public/planning/cogita-fac-dic.org::*Cogita,%20fac,%20dic][Cogita, fac, dic]]
+     - Illustrate with learning, applying some new thing.  A language?
+       A new AWS product?
+
+**** TODO Keeping up with the Claudii: From wax tablets to paper to the Internet
+     Changes in resources for learning Latin from the days of Wheelock
+     to DuoLingo.  Journal 8/23/30.
+
+**** TODO Twitter Declaration Of Independence
+     [2020-08-25 Tue]
+
+     WHEN in the Course of human Events, it becomes necessary for one
+     Person (me) to dissolve the User Agreement which has connected
+     him with a Social Media Corporation (Twitter), and to assume
+     among the Powers of the Earth, the separate and equal Station to
+     which the Laws of Nature and of Nature’s God entitle him, a
+     decent Respect to the Opinions of Mankind requires that he should
+     declare the causes which impel him to the Separation.  He holds
+     these Truths to be self-evident,
+
+     ...
+**** TODO Mountaintop Experiences
+     [2020-08-25 Tue]
+     Some important things happened on Mountaintops:
+    - sermon on the mount
+    - transfiguration
+    - cleansing the temple
+    - curcifixion
+      [2020-08-25 Tue]
+**** TODO Casting the first stone?
+     [2020-08-25 Tue]
+A song by some Liberty University students:
+
+#+begin_quote
+What if I stumble
+What if I fall?
+What if I lose my step
+And I make fools of us all?
+
+Will the love continue
+When my walk becomes a crawl?
+What if I stumble
+And what if I fall?
+#+end_quote
+
+https://www.azlyrics.com/lyrics/dctalk/whatifistumble.html
+
+**** TODO My morning routine/journaling
+     [2020-08-25 Tue]
+***** Journaling
+     - yesterday
+     - today
+     - in
+     - out
+     - up
+
+**** TODO This is not your fathers /etc/resolv.conf -  understanding modern DNS resolution
+:PROPERTIES:
+:EXPORT_FILE_NAME: dns-today
+:EXPORT_HUGO_PUBLISHDATE: 2020-05-09
+:END:
+***** How things used to work
+In 1987 the staff at the Ohio State University Computer and
+Information Science were periodically logging in to SRI-NIC via
+FTP and downloading "the hosts file", that would be =/etc/hosts=
+on today's Unix systems.
+
+No DNS?  No problem.  Just look up the hosts IP address in the
+local database (flatfile) and off you go.  DNS was new then and
+still rolling out.  Updates?  No problem.  We'll pull the file
+once a week or so....
+
+Then along came DNS the resolver library.  Just configure
+=/etc/resolv.conf= on your VAX780 running BSD4.2 and let it go
+ask the new-fangled Root Name Servers who was authoritative for
+=.edu= and where to find the SOA for /red.rutgers.edu/.  Poof.
+Life is good for few years on the academic/military/industrial
+not-so-complex Internet.
+
+Then the Web happened.  Then Window boxes all started getting
+TCP/IP stacks.  And the marketers, hackers, AOL-me-too crowd and
+the unwashed masses all arrived.   And the stress on the nice
+friendly system coordinate by Jon Postel and friends started to
+show.
+
+Spoofed records?  No problem.  With a "quick" IETF DNS standard
+to permit (require?) people to digitally sign their zones and
+replies, everything will be fine, right?
+
+***** What's in a name?
+
+People seems to have caught on that to be able to name something
+is to have power over it, so now *evreybody* wants to mess with
+name resolution for all kinds of reasons, ranging from
+
+- Load balancing
+- Advertising
+- Tracking user behavior
+- Blocking unwanted content
+- Key distribution
+- Security reconnaissance/mapping
+
+***** Ubuntu - How does it today?
+This is an article/post all of its own.  I broke my DNS.  The
+attempts to fix it reveal an odyssey in the discovery of the
+complexity that has acreeted around DNS in the past 30 years.
+
+***** Android - How does it today?
+***** Windows - How does it today?
+***** Chromebook - How does it today?
+***** What about - VPNs
+- Protonvpn
+***** What about - DoH
+***** Around the edges - The dark web
+***** Around the edges - Alternate roots
+
+***** Back to sticks and stones
+DNS and the routing infrastructure represent two of the biggest
+potential points of failure for the modern Internet.
+
+Take DNS down and most everything does not work...Amazon,
+Apple, Netflix, online shopping, zoom.
+
+Of course, it would be possible to go back to the world before
+DNS.   As long as you have a fixed IP address and don't mind
+working with network addresses such as  /192.168.8.230/ or
+/fe90::5e3d:4bd8:7e40:3078/ instead of /amazon.com/
+
+Looks like you don't have to ftp to sri-nic anymore, you can get
+get it from github.com https://github.com/PDP-10/sri-nic
+
+Wait, no DNS?
+
+#+begin_example
+     host github.com | head -1
+     github.com has address 140.82.113.4
+#+end_example
+
+Make that
+
+#+begin_example
+     https://140.82.113.4/PDP-10/sri-nic
+#+end_example
+
+**** TODO DoH - understanding, experimenting, wireshark, personal options
+**** TODO Post a cybersecurity topic on linkedin
+   SCHEDULED: <2022-11-23 Wed .+1m/3m>
+   - State "DONE"       from "IN-PROGRESS" [2022-10-23 Sun 05:00]
+   - State "IN-PROGRESS" from "TODO"       [2022-09-15 Thu 07:48]
+   - State "DONE"       from "TODO"       [2022-06-07 Tue 05:54]
+   - State "DONE"       from "TODO"       [2022-03-30 Wed 06:38]
+   - State "DONE"       from "TODO"       [2022-03-30 Wed 06:38]
+   - State "DONE"       from "IN-PROGRESS" [2022-03-23 Wed 06:42]
+   - State "IN-PROGRESS" from "TODO"       [2022-03-10 Thu 06:50]
+   - Note taken on [2022-03-10 Thu 06:49] \\
+     In progress [[file:~/blog/drafts.org::*Security is not the only thing][Security is not the only thing]]
+
+**** DONE Write next "40 years of walled garden & open platforms" article
+     SCHEDULED: <2022-10-29 Sat>
+     - State "DONE"       from "TODO"       [2022-03-03 Thu 05:16]
+***** material for future articles                                 :noexport:
+****** The Past                                                    :noexport:
+
+ - I appear in the geologic records :: I make what may be my first
+      appearance in the public record on the on the security-digest
+      mailing list here
+      https://securitydigest.org/tcp-ip/archive/1988/08#000129 (not
+      sure why proxy arp source was a security issue ?), but the
+      content is typical of the day ... software floating across the
+      net (comp.sources.*, etc.) being grabbed (by me) and thrown up
+      on an FTP server 'case that was the cats-meow in those days for
+      software distribution.  Check out the variety of email
+      addressing mechanisms, one familiar, two unfamiliar today which
+      expose topology in the email address.
+      =he%idt.unit.no@relay.cs.net= =george@cis.ohio-state.edu=
+      =!osu-cis!george= Back then, you often had to know how systems
+      connected (pathalias anyone ?)  There was a brief period (Hi,
+      Karl !) where I was running the official GNU mailing <-> Usenet
+      News gateway.  B-News, C-News, NNTP, NNRP, and honey-danbur,
+      Oh-My.
+
+ - Preserving history :: At one point it was rumored that [[https://en.wikipedia.org/wiki/Henry_Spencer][Henry
+      Spencer]] (he of regular expression library fame a.k.a
+      =decvax!utzoo!henry@ucbvax.Berkeley.EDU= ) had a copy of "every
+      Usenet message ever" on tape and there was an effort to collect
+      and archive them...I think Google picked up on that effort
+      later.  Later the "way back" machine (archive.org) came online
+      to try to do similar things for the web.  The ephemeral nature
+      of our digital presence and the importance of preserving it was
+      apparent (to some) early on.  But I'm pretty sure most
+      CompuServe Forum messages are gone forever (anybody got [[https://en.wikipedia.org/wiki/CompuServe#TapCIS][TapCIS]]
+      arcives lying around ?)
+
+
+ - My VAX/VMS Fortran BBS system
+   - recursion using common blocks
+ - GNU mailing lists, news<->mail gateways
+ - CompusServe, the original walled garding
+   - forums, the Amaga Forum, The UNIX forum...
+     o sysop, free account -> karl hakcing things
+   - news, mail opening them up
+   - the web changed the economics
+     o server, client, network
+     o advertising
+     - Charlie McCall said they talked about it
+   - The rise of the web
+     - AOL continued to rise, walled gardin
+     - open, then
+     - cookies, lock-in, paywalls
+     - Now the goolges, facebooks and twitters of the world own you
+     - Just try to link out from a linked-in article
+   - the rise of social media
+     - the graveyard of social media
+       CompuServe, AOL/AIM, MySpace, GooglePlus
+     - the talking wounded of social media
+       SourceForge, SlashDot, BlogSpot, Wordpress, Yahoo, Jabber
+     - the current rage in social media (those about to die...)
+       Facebook, Linkedin, Twitter
+
+****** The 404 Hall Of Fame                                        :noexport:
+
+ And before we leave the past completely, let's take a moment to
+ remember the dearly departed.  Here are some URLs I've known and
+ loved.  See where they lead now (and we're not even going to talk
+ about AOL Keywords....)
+
+ Many of these URLs still resolve to SOMETHING, because, hey, who
+ doesn't check in at myspace.com once in a while, and eyeballs are
+ eyeballs...
+
+ - WOW from CompuServe :: This was going to be the AOL Killer:
+      https://archive.org/details/WOW_from_CompuServe_Online_Made_Easy_META-CS1750A_Version_1.1_1996
+
+ - Lycos.com :: the search engine that "spider"ed the web (get
+      it?) https://web.archive.org/web/19961022175214/http://www.lycos.com/
+
+ - http://www.compuserve.com :: Still there, but looking back
+      https://web.archive.org/web/19990424095338/http://www.compuserve.com/gateway/default.asp
+      Once upon a tiem I was hostmaster@compuserve.com (I ran the
+      Solaris server that hosted the ?Apache? server ... might have
+      been before Apache ... [[https://en.wikipedia.org/wiki/NCSA_HTTPd][NCSA httpd]] ? ... [[https://en.wikipedia.org/wiki/CERN_httpd][httpd]] ?
+
+ - www.uu.net :: https://www.uu.net I worked there.  Routed over
+      1/2 the Internet.  Now Verizon Business network. Not the same
+      company that use to run billing on Rick Adams' Awk scripts...
+
+ - WorldCom :: Bernie went to jail.  I left the company. The
+      number of productive companies that got sucked into that black
+      hole and destroyed was, well, part of a crime.  Value was was
+      destroyed. Dot Bomb. ... http://www.worldcom.com
+
+ - myspace.com :: Something still there, but not my few web pages
+      ... http://myspace.com
+
+ - plus.google.com :: Gone, Gone, Gone. It was kind of like
+      facebook-for-geeks. Mostly geeks used it. Not enough eyeballs.
+      Facebook won.  G+ got Killed By Google... :
+      https://plus.google.com
+
+ - Killed By Google :: And Google is in class by itself, with a
+      whole web site dedicated just to tracking the things it created
+      and killed (and is still killing): https://killedbygoogle.com/
+
+ - I guess the moral of the story is if you expect Twitter to be a
+   system of permanent record for things subject to the
+   [[https://en.wikipedia.org/wiki/Presidential_Records_Act][Presidentail Records Act]], think again.
+
+ - Microfilm the Internet !!! :: And in the honorable mention
+      department, my father, Robert B Jones, spent 25 years fighting
+      the loss of ephemeral information by running the Microfilm
+      department at the Ohio Historical Society.  Microfilm lasts
+      hundreds of years.  He preserved 19th century newspapers with
+      the only extant account of Aunt Myrtle's visitors from
+      Galopolis and the price of corn at the grain elevator in
+      Mechanicsburg.  He even has a publication reference on Amazon
+      https://www.amazon.com/Microfilm-Preparation-techniques-procedures-Historical/dp/B00071A5DE
+
+****** The Present                                                 :noexport:
+
+
+ - I quite facebook in 2016, too political
+   - lost friends
+   - thinking about quitting twitter now
+     - but my main news source, professional feeds
+     - short attention span, snipits, judmentalism, tribal
+     - push model, not pull
+   - addiction, "have to check it" constantly
+     - keep phone off as long as possible
+     - shortens attention span
+
+ Here an app, there an app, evereywhere an app, app.  Old McDonald had
+ an app. E-I-E-I-O.   Link to Narseo's work on privacy.
+
+ And when you go to yahoo.com using a text based browser today, the
+ first and only thing you see is....
+ #+begin_quote
+ Your data, your experience
+
+ Yahoo is part of Verizon Media. Click 'I agree' to *allow Verizon Media
+ and our partners* to use cookies and similar technologies *to access
+ your device and use your data (including location)* to understand your
+ interests, and provide and measure personalised ads. We will also
+ *provide you with personalised ads* on partner products. Learn more
+ about how we use your data
+ #+end_quote
+
+ No.  Just no.
+
+****** The Future                                                  :noexport:
+ - What's next?
+   - text based browsing?
+   - vpns?
+   - just going offline?
+   - returning to paper, journaling, letters
+   - set up a BBS?
+     o way more options than the early 80s (dialup)
+   - RSS feeds?
+   - run my own server?
+     o mastadon?
+     o discord?
+   - a mix?
+
+****** Conclusions                                                 :noexport:
+
+**** TODO Cybersecurity: Fire-drills or Calm Classification
+***** Hook
+      Stallman's password
+      sendmail back doors..
+      clear-text passwords
+      un-encrypted web traffic (HTTP)
+
+      If you found one of these today, would it be a fire-drill or a
+      calm, deliberate process of identifying the problem, assessing
+      the risk and fixing things?
+
+***** Security as a classification problem
+      - What is?
+      - How do I know?
+      - How certain am I?
+      - Is it "bad"?
+        + depends on who you are
+        + depends on time
+      - What can I do about it?
+
+      These issues need to be decoupled and thought of separately.
+
+***** A few examples
+
+****** Unencrypted HTTP
+
+Old trick ... telnet to the HTTP port....
+
+       #+begin_example
+$ telnet localhost 80
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+HEAD / HTTP/1.1
+
+HTTP/1.1 400 Bad Request
+Content-Type: text/html
+Content-Length: 349
+Connection: close
+Date: Tue, 18 Aug 2020 11:47:35 GMT
+Server: lighttpd/1.4.45
+
+Connection closed by foreign host.
+       #+end_example
+
+      - What is?
+      - How do I know?
+      - How certain am I?
+      - Is it "bad"?
+        + depends on who you are
+        + depends on time
+      - What can I do about it?
+
+
+
+
+******  Clear Text Password
+
+       SNMPv1
+
+       https://www.shodan.io/search?query=port%3A161
+
+       Shodan ... ?snmpv1?
+
+**** TODO TLS 1.3, China blocking                                   :infosec:
+:PROPERTIES:
+:EXPORT_FILE_NAME: blocking-tls-13
+:EXPORT_HUGO_PUBLISHDATE: 2020-08-18
+:END:
+- See Paul Vixie Tweet 2020-08-09 + my android brave reading
+  bookmarks (cloudflare blog, etc.)
+
+**** TODO Privacy: An attainable end state? A lost cause?
+***** What is privacy?
+***** Privacy in history
+    + long history in law
+      https://constitution.laws.com/right-to-privacy
+    + Panopticon
+    + Brave new world, 1984
+***** Central to being human?
+    + My thoughts are mine.
+    + Des Carte ... *I* think [my own thoughts], therefore *I AM*
+    + Lock ... identity sum total of experiences
+    + Creepy part at ML is that they know you better than you know
+      yourself ..
+    + Gov surveillance programs are a move towards omniscience.
+    + Would there be a problem if we *new* that the entity seeking
+      omniscience really, truly did have our best interest at heart?
+      Would we need privacy in a world where everything and everybody
+      where perfectly good and benevolent, where there were no
+      scarcities, no competition?   We strive for community,
+      connection, union, but do we place limits on it due to
+      corruption in people and the world?
+
+    + 1 Cor 15 "...now we know in part, then we shall know fully, just
+      as we shall be fully know" ... is complete
+
+   So, back to privacy proper.   Can we achieve privacy?  "Check.
+   Done.  I'm private now.   Next problem. ..."
+
+   - Like security, can we be "secure"?
+
+   - if not an attainable end state, why do we engage?  existential experience?
+
+**** TODO Privacy: A path to making a living via bureaucracy?
+
+   "Consulting, if you're not part of the solution, there's good money
+   to be made in prolonging the problem"
+
+   - privacy notifications (dad, dead over a year)
+
+   - lawyers
+     + long history in law https://constitution.laws.com/right-to-privacy
+   - policy makers
+   - keynote speakers
+   - CISSPs
+   - Chief Privacy Officers
+   - standards committees
+
+**** TODO Privacy: Something to rant about ... with words.
+   Careers have been made on it....EFF...SOUPS...Lori Cranor, etc.
+   journalists
+   slashdot
+   Wired
+
+**** TODO Privacy: Rage against the machine ... with code?
+
+
+
+      VPNs,GPG,TOR,Adblockers,...delta chat, keybase...
+
+**** TODO Privacy: Hiding out on the digital frontier?
+      So, I've recently started hanging out on [[https://en.wikipedia.org/wiki/mastodon_(software)][mastodon]], a free, open
+      source, federated, decentralized, twitter-like service as one
+      way to escape the surveillance capitalism of twitter, facebook,
+      google and friends.  no ads.  no algorithm messing with your
+      timeline.  it's refreshing.  give it a try.
+
+      in the past, i've registered my own domain names, run my own
+      servers (mail, irc).  i could return to my sysadmin roots and do
+      it all again: VPNs, hosing my own domain, running my own web
+      servers, running my own mail servers, etc.  There are many more
+      resources today (AWS, Digital Ocean, etc) then when I was
+      running a Bell 3B2 with System V in my basement on a dialup
+      line.  But this all takes time.   One has to balance privacy
+      with actually, you know, living (family....)
+
+      In addition to Mastadon for social media, here is a sampling of
+      some encouraging and useful technologies out there (shiny
+      objects never cease !): tor, VPNs (ProtonVPN), private email,
+      private messaging (signal), personal "cloud" services like
+      [[https://en.wikipedia.org/wiki/Nextcloud][NextCloud]], private-end-to-end chat over email:
+      https://delta.chat/en/ and individual-not-corporate focused tec
+      like https://sitejs.org/
+
+      It is *possible* to have a digital presence today that does not
+      revolve round centralized servers, mass surveillance,
+      corporations, governments and advertising.
+
+**** TODO Privacy: A process, an ideal, one part of life?
+
+   The journey is the destination.
+
+**** TODO Privacy: Conclusion
+**** TODO Constantine: Love your enemies...and kill them?
+     I've been listening to "The History of Rome" podcast, which is
+     filling in a lot gaps in my knowledge of, well, the history of
+     Rome.  I've just gotten through the episodes on Diocletian, the
+     tetrarchy, and Constantine.   What. A. Mess.   What a pile of
+     contractions.
+
+     There is an old (Viet Nam war era) slogan:
+
+     #+begin_quote
+     Join the Army, travel the world, meet interesting people...and kill them
+     #+end_quote
+
+     That's kind of what Constantine did.   He fought civil wars to
+     gain sole control of the Roman empire, in the process forcing his
+     father-in-law (former co-Augustus with Diocletian) to commit
+     suicide and fighting his final battle for control against his
+     brother-in-law's army.
+
+     #+begin_quote
+     All we are sayin', is give peace a chance"
+
+     John Lennon
+     #+end_quote
+
+     Maybe not.
+
+     He attained (through force) control of Rome, the very definition
+     of worldly power, yet supported a religion that commanded its
+     followers to "Love your enemies".  Tell that to his father-in-law
+     and brother-in-law. Actually, he fought two battles against
+     different brother-in-laws, including the battle of the Milvian
+     bridge.  "In hoc signo vinces".  Killing in the name of Jesus?
+     The cross (chi-rho) a talisman?
+
+     #+begin_quote
+     My kingdom is not of this world. If My kingdom were of this
+     world, then My servants would be fighting...
+
+     Jesus.  John 18:36
+     #+end_quote
+
+     Even his "Edict of Milan", legalizing Christianity in the Roman
+     empire was in a backhanded attempt to incite yet another war with
+     the eastern emperor Maximinus Daia who had renewed Galerius' (and
+     Diocletian's) persecution of Christians.  It worked.
+
+     #+begin_quote
+     War.  Good God.  What is it good for?  Absolutely Nothing.
+
+     Norman Whitfield/Barret Strong/The Temptations
+     #+end_quote
+
+     That he was not baptized until his death-bed may be one
+     indication that he saw the contraction and took seriously the
+     implications of actually joining the church and its call to holy
+     living (like, you know, not killing your wife, son,
+     brothers-in-law, fellow emperors, starting wars...).  The demands
+     of worldly power and the demands of the Church don't mix.
+
+**** TODO "Love[ing] your enemies" and killing them are not the same thing
+***** History of Rome
+      - Listing to podcats
+      - Always interested in Rome, Greece
+      - Initial interest driven as background for New Testament and
+        the church.   Still the case.   But also fascinating lessons
+        in human nature.
+***** One lesson of Roman History: Power Corrupts
+      - From Romulus and the 7 kings, through Marius, Caesar,
+        ... Constantine
+      - Endless wars, mostly for personal power.
+      - Rule of the empire was a prize.  Every few years it was up for
+        grabs.  Millions died, year after year, century after century
+        supporting the egotistic power grabs of a few men.
+***** Constantine: wars, murder
+***** Constantine: embrace of the church
+      - Edit of Milan, causus belli
+      - Council of Nicea -
+      - It seems to me that the embrace of Christianity had a lot to
+        do with the fact that Constantine thought that a single church
+        within the Roman empire was something he could shape and
+        control more than, say, 100s of different de-centralized cults
+        each with long history and seen, in many cases, as superior to
+        the state (c.f. the taking of auspices).  Also, the church was
+        growing it was weak, poor, had recently gone through
+        persecution
+
+      - I can not judge another mans heart.  We are all full of
+        contradictions
+
+      - death bed baptism
+***** And the band played on
+      - Constantine did well.  The system he set up in the east
+        continued for another thousand years.   To put it in
+        perspective, when Columbus discovered America in 1492 it was
+        accurate to say that it had only been 39 years since the final
+        fall of the Roman (Byzantine) empire.
+      - The fall of the west, chaos, feudalism, kingdoms
+***** Circles of Hell
+      - Church picked up some of the pieces
+      - Secular power
+      - Dante: popes so corrupt that he pictured them as being
+        punished for eternity in the lower circles of hell.  Dante not
+        popular with the popes and the Catholic hierarchy, but
+        believable enough that his work became popular and /the/
+        foundation of western Literature.
+      - The mixing of the power of Church and state also brought us
+        the crusades and the Inquisition, wherein people sworn to
+        "Love your Enemies" instead killed both their enemies and
+        their brothers.
+***** Nothing but the blood
+      - Power corrupts.  Absolute power corrupts absolutely.  We saw
+        that in Rome from Romulus to Constantine.  We saw it in the
+        secularized church from the fall of the west to the corrupt
+        church of the middle ages.
+      - To this day there are Christians who look hopefully to secular
+        power, who pine for the election of the "right" people or the
+        passage of the "right" laws.   The result in Europe has been
+        loss of moral authority, decline and marginalization.
+      - My personal conclusion is clear.   Oil and water don't mix.
+        The Church should follow Jesus, not pine for the corrupting
+        power of Caesar.
+***** A few words from our sponsor
+      I will close with a few words directly from Jesus (and his
+      brother James).  Long after anything I have to say is forgotten,
+      these words will be remembered. I don't think these are out of
+      context.
+
+       #+begin_quote
+       So Jesus, perceiving that they were intending to come and
+       take Him by force to make Him king, withdrew again to the
+       mountain by Himself alone. John 6:15, NASB
+       #+end_quote
+
+       This contrasts directly the ascension of *many* Roman
+       emperors.  The forces under their command got fed up with
+       something or someone (the old emperor) and proclaimed a new
+       ruler, often, literally at the point of spear.  "Lead us or
+       die".  Jesus took a 3rd way when faced with this situation.
+
+       #+begin_quote
+       And behold, one of those who were with Jesus [m]reached and
+       drew out his sword, and struck the slave of the high priest and
+       cut off his ear. Then Jesus *said to him, “Put your sword
+       back into its place; for all those who take up the sword shall
+       perish by the sword.  Matthew 26:51-52, NASB
+       #+end_quote
+
+
+       #+begin_quote
+       Jesus answered, “My kingdom is not of this world. If My
+       kingdom were of this world, then My servants would be fighting
+       so that I would not be handed over to the Jews; but as it is,
+       My kingdom is not of this realm.” John 18:36
+       #+end_quote
+
+       #+begin_quote
+       “You have heard that it was said, ‘You shall love your
+       neighbor and hate your enemy.’ But I say to you, love your
+       enemies and pray for those who persecute you” Matthew 5:43-44
+       #+end_quote
+
+       #+begin_quote
+       By this all men will know that you are My disciples, if
+       you have love for one another.” Jesus, John 13:35
+       #+end_quote
+
+       #+begin_quote
+       Pure and undefiled religion in the sight of our God and Father
+       is this: to visit orphans and widows in their distress, and to
+       keep oneself unstained by the world.  James 1:27
+       #+end_quote
+***** Disclaimers
+     I am a life-long amateur historian, philosophy-dabbler and
+     arm-chair theologian.  There piles of PhD dissertations,
+     mountains of books, sermons, entire fields of study and branches
+     of the Church dedicated to one of the other issues I touch on
+     above.  I'm sure I got some things wrong, glossed over important
+     distinctions, made un-warranted generalizations and most
+     certainly rankled the feather of those who have a different view.
+     My aim is to piece things together, to understand as best I can,
+     and figure out how to live the life I've been given.
+
+     I am rabidly a-political.  When I fail to be a-political, I tend
+     towards libertarianism.  Go read the Fountianhead and Atlas
+     Shrugged.  You will NEVER look at government as a force for good
+     again. I have considered myself a Mennonite for 30 years.  Go
+     read the [[https://en.wikipedia.org/wiki/Martyrs_Mirror][Martyrs Mirror]] for stories of toleration and brotherly
+     love [NOT] shown by the early Protestant "Magisterial" reformers
+     to their brothers who did not look to the state as the foundation
+     of the Church.
+
+**** TODO Maintaining Public Image - The King Has No Cloths
+***** NOTES TO SELF                                                :noexport:
+      - Describe the problems with marketing without using the word
+      - Use personal examples
+      - What's the conclusion????
+        + Stop producing?
+        + Work only for yourself?
+        + Move to Galt's Gulch? (does it exist in Cyberspace?
+          Bitcoin? Dark Web...)
+        + Call the blood-suckers out and make them face themselves?
+
+***** White Castle - "Ratburgers" - Dave Crone
+      - I have a friend who has White Castle as a client
+      - He shared some news story about White Castle on linked in
+      - A few friends chimed in, discussing in the comments
+      - The "product" has a LONG (100 year) history in Columbus, it's
+        HQ, where Dave lies/works, where I used to live and where most
+        of the commenters in the thread lived
+      - The product is lower-end, cheep fast food that is, arguably,
+        marginal as food, but has managed to last 100 years, so some
+        people like it (or at least buy enough to keep them in
+        business)
+      - That said, over 100 years, people have developed an attitude
+        toward the company.   Many people hate it and wont touch it.
+        Some (like me) keep coming back every so often
+        (months...years) to remind ourselves why we /don't/ eat the
+        stuff regularly.
+      - A terminology has grown up around it over the years.  The
+        polite name for White Castle Hamburgers is "sliders".  The
+        less polite term is "ratburgers" or just "rats" (as in "let's
+        go get some rats").
+      - This term has been widely used (at least in my circles around
+        Columbus) for over half the companies life.
+      - Nobody believes the burgers are made from rats
+      - But when I used the term in the discussion thread, Dave
+        deleted it (and politely messaged me to let me know)
+
+***** CompuServe Web server
+      I first met Dave when we first worked at CompuServe.   Early in
+      the history of the web, I was webmaster@compuserve.com.  I ran
+      the apache (or was it NCSA httpd ?) web server.  Will Cowman did
+      the content.   There was a site re-design and "relaunch" (the
+      logo looked like a black whirlpool sucking everything down --
+      which in the end was prophetic for CompuServe...but I digress)
+
+      There was a party to celebrate the "launch".  I was there.  I
+      ran the web server.  Will was there.  He did the content.  100
+      other people where there.   They had done nothing.  But they
+      were at the party.
+
+      This was one of the early events where I learned how the world
+      works.
+
+***** James Taggert
+
+      I apparently am far from the first person to notice this
+      tendency.
+
+      [Find quotes from Atlas Shrugged about parties and celebrating
+      things you did not do]
+
+      - People celebrating things they can't do themselves or understand
+      - No personal achievement, no reason for pride
+        + aside, I see a similar problem in taking pride in
+          achievement of professional athletes.   You can form a tribe
+          of people who paint their faces a certain way (literally,
+          look at footage of college football crowds), engage in
+          shared rituals (e.g. tailgate parties), but you can NOT take
+          pride in on-the-field achievements that are not yours.
+          Maybe you can take the same pride an investor takes in
+          having picked a portfolio of winning stocks (without the
+          direct benefit of you actually getting richer your team
+          wins)...
+
+***** Dilbert - "In 10 years, there will only be two kinds of jobs: technology jobs, and lying to the public"
+
+
+      Politicians, Advertisers, Public Relations, Marketing, Religious
+      Leaders (?), Customer Service, Project Managers, Lawyers...
+
+      - Lying - to yourself
+      - Lying - to those you work for
+      - Lying - to "the public""
+
+
+      - Treating people as members of a group, not individuals
+      - Manipulating people
+
+      Marketing as tribalism?  Group rituals, markers, colletivism?
+      - the MBA, the large rim glasses and pink shirts, the
+        language/vocabulary that marks you as "in" and only
+        communicates to your "peer", the golf outings, the disdain for
+        (and/or condescension) outsiders, group-think,
+
+        #+begin_quote
+        There's room at the top
+        they are telling you still,
+        but first you must learn,
+        how to smile as you kill,
+        if you want to be,
+        like the folks on the hill
+
+        ---John Lennon
+        #+end_quote
+
+
+Probitas lauditur, et aliget
+
+**** IN-PROGRESS 40 years of walled gardens & open platforms: Part III history:computing:social:USENET:Facebook:Twitter:100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: walled-gardens-part-3
+:EXPORT_HUGO_PUBLISHDATE: 2020-10-09
+:END:
+
+- State "IN-PROGRESS" from              [2020-10-10 Sat 06:17]
+***** On the life and death of online communities
+
+      #+begin_quote
+      I've seen 'em come, and I've seen 'em die
+      and long ago, I stopped askin' "why?"
+
+      Johnny Cash, "San Quentin"
+      #+end_quote
+
+      I've been hanging around (and in some cases helping to create)
+      online communities for years.  This post is a reflection on the
+      birth, life and death of some that I've been involved with.
+
+
+***** Let's start with Rome
+      Because, in the end, there is nothing new in the world and
+      learning about ancient Rome is one of my hobbies.  Of course,
+      there were no "Online" communities in Rome because phones,
+      computers, networks, the Internet, the Web and smart phones were
+      all 2000 to 2700 years in the future.  But Rome did have The
+      Forum (a word CompuServe would co-opt for it's online discussion
+      groups, it did have the Senate (SPQR anyone?), it did have
+      courts, it did have the Rostra and rhetoric was one of the foun
+
+      - rostra
+        + physical place
+        + had to be created
+        + people have to come there
+        + someone has to have something to say
+        + people have to want to listen
+        + speaker needs access to the rostra
+        + feedback?
+        + reposts: the greeks
+
+***** Let's talk about the problem of the commons
+      + Cows on Boston Common, overgrazing
+
+
+***** Generalized creation, life, death
+      You need:
+      - people
+      - desire to communicate/a reason to talk
+      - a place to meet: physical, onlne
+      - access/exclusion
+      - protocols (who gets to speak, how long)
+
+      And maybe:
+      - archives
+      - external exchange/commuicaton
+
+*****
+
+***** My experiences
+      - TOPS20 email and BB
+      - VAX VMS email
+      - My VAX BB
+      - Usenet
+      - CompuServe
+        + Forums
+        + Email
+        + Chat
+      - CompusServe Gateways
+        + email
+        + news
+      - AOL - "Eternal September"
+
+      As they relate to creation, life, death

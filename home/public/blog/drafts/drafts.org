@@ -1,0 +1,527 @@
+* TODO Your hard work may not be recognized or rewarded
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-10-25
+  :EXPORT_HUGO_PUBLISHDATE: 2022-10-25:
+  :END:
+
+The short story ..
+
+,#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+,#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+,#+hugo: more
+
+The long story...
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
+* TODO How I Plan My Day or "Habits of a Questionably Effective Person" :orgmode:emacs:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-10-21
+  :EXPORT_HUGO_PUBLISHDATE: 2022-10-21:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+** Morning Planning
+- whats in my head :: capture TODOs form the top of my journal (diaty.org)
+- Look at "inputs" :: look at calendar, email and slack in that order.
+- look at existing porjects/plans :: Look at weekly plans, tasks, etc
+- Juggle all these and figure out what I'm going to try to do that day
+
+** During the day
+   - Capture new stuff and move on :: Quickly capture new asks, TODOs
+     (org-capture) and move.
+   - Capture info :: capture info (links to HOWTOs, etc in the same file)
+   - Keep a calendar open :: Keep a calendar window open so I don't
+     miss thigns
+   - Turn off all notificatons :: Turn off all email, slack,
+     etc. notificatons and pop ups so I can contorol my focus.
+   - Check email, slack on my schedule :: Check in somewhat frequently
+     with slack, email so people can get ahold of me in a somewhat
+     timely fashon.   If it's urgent, call or text.  Voice calls seem
+     to be a dying breed ("BR 549", "Pensylvania 6-5000")
+   - Minimize yak shaving :: I tend to yak-shave a lot.  Like writing
+     this post.  Watch it.
+
+** Organizing Time
+- Do "thinking work early" :: plan do do "thiking work" early in the day
+- Do "collaboration work mid-day" :: do 1:1s, collaboration mid-day
+- Do "meetings late-day" :: Push meetings, interrupts, etc late day
+
+** Where to store "TODOs"
+   - one file :: I increasly just store TODOs, info , etc to one file
+     (diary.org) which is a diary-like file organized under
+     Year/Month/Day/ENTRY items.
+   - project files :: I do have planning files for most projects with
+     TODOs etc
+   - agenda :: I do use org-agenda to get a roll-up agenda view, but
+     more and more I'm just going with the inverse-stack, what's at
+     the bottom of my diary.org and using mental prirotization.
+#+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
+
+* TODO Photography
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-25
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-25:
+:END:
+
+Why take pictures?
+
+My father got a degree in photography form Ohio University in 1958 had
+a career in various forms of photography and microfilm and took a lot
+of personal pictures and slides of family, trips, etc.  I recently
+started looking through his slides (1953-1991), and asked myself "why
+take pictures?".  This post explores that question.
+
+If you just want to snap selfies and post them to Metabook without
+thinking about why, it's time to stop reading.  The unexamined photo
+is not worth taking.
+
+#+caption: "Bob Jones' cameras" by George Jones is licensed under CC BY 2.0
+#+attr_html: :width 400px
+[[file:images/cameras.jpg]]
+
+#+hugo: more
+
+Warning number two.   I over-analyze most things.   I'm probably
+over-analyzing the question "Why take pictures?", but here goes...
+
+Dad largely stopped taking pictures after Mom died. Why?  That
+gave rise to the reverse question that this post explores: why take
+pictures? There are pictures from his high school years, marriage,
+family (that's me), trips, grand-kids, and, of course one of his
+favorite subjects, dead trees.
+
+#+caption: "Dead Cactus" by Robert B. Jones is licensed under CC BY 2.0
+#+attr_html: :width 400px
+[[file:images/dead_cactus.jpg]]
+
+Why take pictures?
+
+** Taking pictures can be fun
+   It can be fun to take pictures.  You get to choose the subject,
+   take the picture, have them developed (or, even more fun, do it
+   yourself in the basement with smelly chemicals, an enlarger,
+   photographic paper and red lights), edit them (Dad was a vicious
+   self editor, even in the days where you got one or maybe two shots
+   on the film you had ... insisting that the bad ones be thrown out)
+   put them in albums or slide shows, creating your own title slides
+   with colored chalk drawings and then gathering everyone in
+   the basement for the slide show with the projector on the big white
+   screen in front of the TV.
+
+   We will, of course, omit the fun of arranging your family for
+   endless staged family photos which everyone in the family always
+   loved to participate in and fondly remembers to this day.
+
+** Taking picutres to preserve memories
+   Then of course, there is preserving memories.  I have pictures on
+   both sides at least as far back as my great-great grandparents.
+
+   Here's whats on my dresser now...
+   PICTURE OF DRESSER
+
+** Taking picutres to share and communicate about memories
+   I wound up being chief photographer, editor, picture developer,
+   layout guy, fund-raiser and school coke-machine-re-stocker for my
+   high school yearbook junior year. Of course, I shot most of the
+   pictures on 35mm with Dad's Retna IIa and a light meter and
+   developed the black and white photos in the basement on his
+   enlarger.
+
+   We've had a few high school reunions.   That yearbook (and others)
+   always come out.   Who could ever forget Duane, our 50+ year old math
+   teacher dressing up in a ballet outfit with tights, a wand and a
+   little crown to play his role as the "Credit Fairy" granting that
+   last 1/4 credit people needed for graduation, or the time 10 or 20
+   of us carried a VW Beetle into the gym?  Pictures don't lie...well...
+
+   PICTURE OF DUANE HERE
+
+   "Memories, like the corners of my mind..."
+
+** Taking picutres to express your creativity
+
+** Taking picutres as "something to do"
+
+#+begin_verse
+"To be is to do." Socrates.
+"To do is to be." Plato.
+"Do-be-do-be-do." Sinatra.
+#+end_verse
+
+But, to be fair to Frank, he did record (not write) some semi-profound
+lyrics on the need to just get out there and just do things:
+
+#+begin_verse
+"That's Life"
+
+I've been a puppet, a pauper, a pirate, a poet, a pawn and a king
+I've been up and down and over and out and I know one thing
+Each time I find myself flat on my face
+I pick myself up and get back in the race
+
+That's Life...
+#+end_verse
+
+
+** Taking picutres as a social a social activity
+** Taking picutres for practical reasons
+  - Fallen trees on AT
+
+** Taking picutres to earn a living
+  - Be careful about mixing your passion and your work.  Sometimes if
+    you work in a field that is also your passion/hobby, you can loose
+    the joy or burn out.   "The cobblers kids have no home
+    photographs" (not true in our case).
+
+    I love playing with computers, programming, networking,
+    data-wrangling and security stuff (what I do for a living), but
+    after 2-4 hours of personal hacking and then 8+ hours of doing it
+    at work, sometimes, I'm just done.  Doing what you love for a
+    living take the joy out of the hobby.
+
+** Taking picutres as a habit
+
+** Taking picutres with technology you love
+
+   Dad loved trains and cameras.  In 2014 or 2015 we went on a camping
+   trip and visited the [[https://roanokehistory.org/historical-society-of-western-virginia/owl-main-page/][Winston Link Museum]] in Roanoke, Virgina, which
+   combined these passions.  Link was a high end NYC photographer in
+   the 1950s who chose to make multiple trips to Virginia to document
+   the last years of the age of steam trains, which happened to be the
+   same era Dad was getting into photography. Link set up huge arrays
+   of flash-bulbs to take you-only-get-one-shot night photos of
+   trains, huge, engineered Rube Goldberg setups using the same
+   technology Dad was using at the time and learning in college.  They
+   have some of the photographic equipment Link used in the museum.
+   Dad was almost giddy looking at the equipment that most people
+   glance at and say "that's interesting".
+
+   WINSTON LINK PICTURE
+
+   Growing up we had lots of photographic "stuff" around the house:
+   cameras, an enlarger and dark room equipment, the slide projector
+   and screen, light tables for viewing slides, mailers for sending
+   film to the Kodak processing centers in Findlay, Ohio and
+   Rochester, NY, and of course the endless supply of 35mm film
+   canisters that saw double duty as pill bottles and many other
+   uses.  I still have a good supply of them.
+
+   Dad never really made the transition to digital photography.  We
+   bought him a Cannon EOS Rebel T3, and he used it some, but for
+   whatever reasons (explored in depth here) he never really took to
+   it.  Maybe the time had passed.  Maybe he had learned all he wanted
+   to learn.  Maybe the reasons for taking pictures were gone.
+
+** Conclusion
+
+It's not just about pictures, of course.  Much of this generalizes.
+H
+* TODO stow(1)acism
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-27
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-27:
+:END:
+
+I am currently listening to Marcus Aurelius' meditations, but this is
+not a post about stoicism, it's a post about stow(1)acism
+
+Describe my use of stow(1), git and {home,work}/{public,private,secret}/FOO
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+* TODO Wizards
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-28
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-28:
+:END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story..
+* TODO the wizards - Oh, the places you'll go.
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-01-29
+  :EXPORT_HUGO_PUBLISHDATE: 2022-01-29:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+
+* TODO image resizing
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-28
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-28:
+:END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+ *** 2022-01-28 Friday
+* resize images by output size imagemagic convert                  :HOWTO:
+  [2022-01-28 Fri 05:24]
+
+
+  - convert png to jpg, specifying output file size in bytes
+
+  #+begin_example
+  convert thinker.png -define jpeg:extent=100k thinker.jpg
+  #+end_example
+
+    + jpg does not support transparency (GIF does)
+
+  - convert png to smaller png, preserving transparent background
+    and resizing (by pixels, not bytes)
+
+    #+begin_example
+    convert thinker.png -background transparent -resize 10% thinker-10pct.png
+    #+end_example
+
+  - convert png to smaller gif (because Steve!), with transparency
+     convert thinker.png -background transparent -resize 10% thinker-20pct.gif
+* TODO Just because you're not paranoid, doesn't mean their not out to get :snark:
+you !!!
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-29
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-29:
+:END:
+
+Illuminati ... self-aware snark and parody is healthy.
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+* TODO parody
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-29
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-29:
+:END:
+
+The short story ..
+
+You know about
+
+The onion
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+But did you know about
+
+https://wittenburgdoor.com/about/
+
+Mennonite parody site in canada
+
+The Bee
+
+I'll probably be canceled for admitting I even know about these sites,
+and for laughing at their humor (where's that not-so-hidden-microphone, Google?)
+
+But it really helps to lighten up.   Try it.
+
+* TODO A Yak-Shaving My Way Towards Embedded Image Descriptions
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-26
+:EXPORT_HUGO_PUBLISHDATE: 2022-02-26:
+:END:
+
+I’m setting up to digitize a lot of pictures, mostly things I’ve taken
+over the years and pictures from my father.  I'm trying to figure out
+the best way to embed descriptions, copyright, etc. directly into
+images in a way that will work with image management programs (gthumb,
+etc.) and by blogging setup (hugo, ox-hugo)
+
+It's turning into a true Emacs Org Mode, Hugo, EXIF and IPTC
+yak-shaving adventure.   But of course, I will save time and get more
+done in the long rung....right....yak-shave away :-)
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+** How
+
+One of the things I want to do is embed descriptions and copyright and
+license info directly into the pictures. It looks like [[https://en.wikipedia.org/wiki/Exif][Exif]] has been around
+a while and will let you do this, though it was originally focused on metadata
+around the mechanics of the picutre: exposure time, f-stop, etc. It looks
+like IPTC is the new/newer standard for embedding this sort of information.
+
+** Requirements
+
+Things I’m concerned with are:
+
+- Embedding :: That I’m able to add descriptions, license and copyright info
+- Portable and long lasting :: That that info be impeded in the image
+  (not in some proprietary format, external to the image, or specific
+  to one application)
+- Versitile :: That it work with a variety of the formats I’m likely
+  to   use (JPG, PNG, TIFF, possibly GIF)
+
+
+Secondarily I’m would like it to work with:
+
+- my blogging software :: hugo_ox-hugo that I use to produce my static
+  blog. Some discussions around that here
+  https:/_fosstodon.org/@eludom/107753707224027594
+
+- image management programs :: gthumb, eog, etc on Linux
+
+** Work In Progress
+*** Make it work in raw hugo
+Exif shortcodes in hugo
+https://blog.zedas.fr/posts/hugo-shortcode-picture-exif/, https://discourse.gohugo.io/t/properly-formatting-exif-data-tag-exposure-time/32415/8
+*** Make it work with ox-hugo
+
+The path seems to lead through shortcodes in hugo, and thus shortcodes
+in ox-hugo: https://ox-hugo.scripter.co/doc/shortcodes/
+
+#11 of #100DaysToOffload take 2, https://100daystooffload.com/
+
+* TODO Scrolling your life away?
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-04-23
+  :EXPORT_HUGO_PUBLISHDATE: 2022-04-23:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+Have you ever created antying useful made a significant contribution to society while
+scrolling through things on your phone?
+
+It seems to me that time spent on phones is somewhat of a dead end.  I
+have useful thoughts when I get out and go for long walks in the woods
+or sit down with a pencil and paper journal.  I create things when I'm
+on a keyboard in front of a computer screen.
+
+Scrolling just seems like a narcissistic pastime.
+* TODO "We" are "pleased" to..
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-04-26
+  :EXPORT_HUGO_PUBLISHDATE: 2022-04-26:
+  :END:
+
+
+  Email from [company I have investment with]
+
+  #+begin_example
+  We are pleased to let you know that there is a new document for you to review
+  #+end_example
+
+  Translation, the corporate machine sent this to you to mitigate it's
+  risk of being sued by you and fined by government regulators for not
+  doing so.
+
+  There is no "we" in the personal sense.
+
+  And no human being is "pleased" by this.
+
+  #26 of #100DaysToOffload take 2, https://100daystooffload.com/
+* TODO Live, Laugh, Love ... Languish, Lament, Litigate ?
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-04-30
+  :EXPORT_HUGO_PUBLISHDATE: 2022-04-30:
+  :END:
+
+I'm not a fan of fake bright-faced slogans and trinkets.
+Take this little angel on the window-sill above our sink
+
+#[picture of the front side]
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+
+I prefer what I wrote on the back side  "Job's boils"
+
+#+hugo: more
+
+The front side reads "...accept Gods will..."
+
+OK, maybe whoever is standing there doing dishes would rather be doing
+something else, but doing dishes is hardly a "curse" or calamity.
+Just suck it up and get the job done.   No frilly angel art or trite
+phrases required.
+
+# [picure of back side]
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+"Job's boils" references a guy who's kids were all killed, all his
+livestock were stolen all for reasons he never understood (God was
+settling a bet with Satan behind the scenes and using Job effectively
+as a pawn.) Then his  wife gave him the helpful advice "[Admit
+that all you did something wrong and you're only getting what you
+deserve] Job, curse God and die."  Now there's encouragement.
+
+So rather than look at the front side of a frilly piece of angel art
+(or the happy, unrealistic bits of life and the "praise and worship"
+music that's vogue in many churches) I prefer the back-side with a
+direct, realistic reference to the pain, suffering, disease and death
+that are inevitable for all of us.
+
+Take the world as it is, make your next move, trust that there is some
+purpose or, you know, "curse God and die".  Your choice.
+
+Memento mori[1]. Ecce homo[2].
+
+[1] "Remember that you are mortal". A Stoic motto. Also supposedly,
+when a Roman general was riding into the city for his Triumph, there
+was a slave riding in the chariot with him to keep wispering this in
+his ear.
+
+[2] "Behold the Man". The words of Pontius Pilate in the Latin Vulgate
+translation of the Gospel of John, when he presents a scourged Jesus, bound
+and crowned mockingly with thorns, to a hostile crowd shortly before his Crucifixion
+.
