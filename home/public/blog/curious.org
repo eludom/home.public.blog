@@ -19,7 +19,7 @@
 :EXPORT_HUGO_PUBLISHDATE: <2022-10-19 WED 19:40:17>
 :END:
 *** Geek Stuff                                                         :geek:
-**** WIP It's Manjaro !!!                                             :linux:
+**** WIP It's Manjaro !!!                            :linux:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-19
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-19:
@@ -4501,7 +4501,7 @@ See the title.
 
 #31 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Friends
+**** PUBLISHED Friends                                     :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-23
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-23:
@@ -8701,6 +8701,49 @@ debugging this problem further.
 - resolvers, stub resolvers and nameservers :: https://unix.stackexchange.com/questions/500536/what-are-dns-server-resolver-and-stub-resolver
 
 Day 10 of #100DaysToOffload.  Delayed a day due to DNS problems :-)
+
+*** Short                                                             :short:
+**** PUBLISHED Get going, go get go git going        :humor:100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-10-30
+  :EXPORT_HUGO_PUBLISHDATE: 2022-10-30:
+  :END:
+
+I'm in the process of installing a new "git" server.
+It's written in the "go" language.
+I was about to get out of bed to work on it, so...
+
+#+hugo: more
+#+begin_quote
+Get going, go get go git going
+#+end_quote
+
+#32 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+**** PUBLISHED Check Czech Check, Czech? Check!      :humor:100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-10-30b
+  :EXPORT_HUGO_PUBLISHDATE: 2022-10-30:
+  :END:
+
+
+I was once eating in a restaurant with some co-workers in Prague, and it
+came time to leave. We wanted the check. In that setting, this would have
+been a meaningful sentence (in convoluted punning English) addressed to
+our waiter...
+
+#+hugo: more
+
+#+begin_quote
+Check [for the] Czech Check, Czech [waiter]?
+#+end_quote
+
+to which an appropriate reply from the waiter might have been:
+
+#+begin_quote
+Check!
+#+end_quote
+
+#33 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
 * About George Jones
 :PROPERTIES:

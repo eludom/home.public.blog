@@ -1,8 +1,8 @@
 +++
 title = "About George Jones"
-author = ["George Jones"]
+author = ["George M Jones"]
 layout = "single"
-lastmod = 2022-03-03T06:00:34-05:00
+lastmod = 2022-10-30T05:01:54-04:00
 draft = false
 +++
 
