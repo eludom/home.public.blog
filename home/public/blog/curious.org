@@ -4489,6 +4489,53 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED "Red" vs. "Blue" Name calling? We can do better than that. :100DaysToOffload:reading:politics:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-11-06
+  :EXPORT_HUGO_PUBLISHDATE: 2022-11-06:
+  :END:
+
+As we approach another election in the US where  hearing cries of "Red"
+vs. "Blue" become unavoidable, I'm increasingly convinced that such
+labels are unhelpful substitutes for thought and actually engaging
+with other people and ideas.
+
+#+hugo: more
+
+I've been listening to Jordan Peterson's "12 Rules For Living", as
+well as his podcast lately. Yes, per Wikipedia
+[[https://en.wikipedia.org/wiki/Jordan_Peterson][Jordan Peterson]] can be labeled a
+
+ #+begin_example
+ Canadian media personality, clinical psychologist, author, and
+ professor ... public intellectual .. conservative ... classic
+ British liberal ... traditionalist
+ #+end_example
+
+but in listening to him, I am coming more strongly to the option that labels
+such as "conservative" or "liberal" are just intellectual crutches people
+use to avoid thinking, to avoid engaging with ideas and people, to label
+people in "us" and "them" categories such as "Red" and "Blue", and to cluster
+together into tribal groups. The result is we reject our fellow human beings
+out of hand and we are all worse off for doing so.
+
+I'm only two chapters in, but his "[[https://en.wikipedia.org/wiki/12_Rules_for_Life][12 Rules For Living]]" is already
+both an interesting story and one of the most thought-provoking things
+I've read in a long time.  He draws on his experience as clinical
+psychologist dealing with broken people, his own experience growing up
+in a small oil town in northern Alberta, Canada (teenagers cruising a
+small town, drunken parties, long dark nights), and along the way
+walks through the story in Genesis 1-3 with the eyes of a psychologist
+answering the question why we take care of other people, even our
+pets, better than we do ourselves (Hint 1: we're all deeply messed up
+and we are all to aware of this.  Hint 2: The
+whole "Red" vs. "Blue" thing and the tribal identity around it is in
+fact a proxy for a deeper human need for meaning)
+
+Even two chapters in, I'd recommend it
+
+#34 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED The way to get something done is to not do everything else.
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-24
