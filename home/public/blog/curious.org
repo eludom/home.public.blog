@@ -8504,6 +8504,70 @@ https://twtxt.net/
 Day 32 of #100DaysToOffload.
 
 *** Tech HOWTOs                                                       :HOWTO:
+**** PUBLISHED To publish my configs, or not, that is the question. :100DaysToOffload:linux:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-11-08
+  :EXPORT_HUGO_PUBLISHDATE: 2022-11-08:
+  :END:
+
+This is a HOWTO on publishing certain Unix config files while keeping
+others private using  [[https://www.gnu.org/software/stow/][GNU stow]] and ?clever? groupings of files into
+directories such as =home.public.dotfies= and =home.private.mailconfig=
+
+#+hugo: more
+
+I like to publish my personal config files (.bashrc, emacs configs,
+etc) but there are some things you probably just don't want to share
+because they only apply to you (your list of rss feeds) or are just
+personal, and some things you should not share such as files with
+passwords.
+
+To solve this problem, I break stuff down into public,private and secret
+categories.   I used to have these live under
+
+#+begin_example
+~/{public,private,secret}/*
+#+end_example
+
+but any more, I just used [[https://www.gnu.org/software/stow/][GNU stow]] which
+builds symlink trees.  Now I have
+
+#+begin_example
+~/stow/home.public/dotfiles/.bashrc
+#+end_example
+
+which gets symliked into
+
+#+begin_example
+~/.bashrc
+#+end_example
+
+by doing
+
+#+begin_example
+cd ~/stow/home.public/dotfiles
+stow
+#+end_example
+
+The beauty of this is that I have repos made public such as
+
+http://git.galthub.com:3000/gmj/home.public.dotfiles
+
+and others private and secret not published.
+You can even mix "work" and "home" by using hierarchies such as
+
+#+begin_example
+work.private.dotfiles
+#+end_example
+
+to use different =~/.gitconfig= files.
+
+You get the idea.   I've probably gone to far with it http://git.galthub.com:3000/gmj/
+
+
+#35 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
+
 **** PUBLISHED HOWTO: Breaking and fixing DNS - Understanding modern DNS on Ubuntu. :DNS:Ubuntu:HOWTO:Linux:systemd:
      :PROPERTIES:
      :EXPORT_FILE_NAME: dns-today
