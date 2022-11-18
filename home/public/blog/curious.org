@@ -4489,6 +4489,39 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** WIP Just a flu shot                                   :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-11-18
+  :EXPORT_HUGO_PUBLISHDATE: 2022-11-18:
+  :END:
+
+I got a flu shot this week.
+
+I happened to be at the pharmacy waiting for a prescription and had
+been planning on getting one, so I did.
+
+No politics...
+
+#+hugo: more
+
+No threats of being fired by my employer.
+
+No media coverage.
+
+No G20 summit leaders agreeing I should not be able to travel without it.
+
+No politics dividing me from friends and family.
+
+No Robert F. Kennedy, Jr. books full of conspiracy theories.
+
+No doubts about the long term side-effects of under-tested medical interventions.
+
+Just a flu shot.
+
+Because I thought it might help me.
+
+#36 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED "Red" vs. "Blue" Name calling? We can do better than that. :100DaysToOffload:reading:politics:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-11-06
