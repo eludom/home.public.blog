@@ -3297,6 +3297,40 @@ some world events that are sucking up attention)
 
 #17 of #100DaysToOffload take 2, https://100daystooffload.com/
 
+**** PUBLISHED EmacsConf 2022 - Day 1                :100DaysToOffload:emacs:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-12-03
+  :EXPORT_HUGO_PUBLISHDATE: 2022-12-03:
+  :END:
+
+So, day 1 of [[https://emacsconf.org/2022/][EmacsConf 2022]] is in the books.  Another eclectic mash up
+of everything from the "[[https://github.com/ag91/emacs-buddy][Emacs Buddy Initiative]]" to a geeky dive on
+how to [[file:~/home/secret/money/planning/excel-mortgage-calculator.ods][Edit live Jupyter notebook cells with Emacs]] (no, really, I like
+editing everything in browser text boxes ... not!) to
+a serious proposal for a new economic model for software:
+[[https://emacsconf.org/2022/talks/maint/][Maintaining the Maintainers: Attribution as an Economic Model for Open Source]]
+
+#+hugo: more
+
+Thanks to the organizers (Sacha Chua and and friends) the conference
+came off almost without a glitch, run entirely on open source software
+(Big Blue Button, IRC, etc.).  Notepads, live Q&A, pre-recorded talks,
+most of them already up, captioned with transcripts, for free.
+
+Things I'm probably going to look into as a result of this are the
+[[https://emacsconf.org/2022/talks/treesitter/][Tree-sitter beyond syntax highlighting]] for syntax-aware editing of
+python, bash, etc., the logistics of [[https://emacsconf.org/2022/talks/meetups/][Attending and organizing Emacs
+meetups]] (who knew there were people using Org mode tables to analyze
+real-estate deals, tracking and visualizing health data, or
+envisioning GNUS as the core of a system to replace Microsoft, Apple
+and Google ?), and hooking Emacs to edit text boxes (think code in Jupyter
+Notebooks, huge SQL blocks in BigQuery web console, JIRA and
+Confluence forms, etc.)
+
+Looking forward to day 2.
+
+#37 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** TODO Palo Alto Firewalls
 - Eating dogfood
 - Purchase
@@ -3310,6 +3344,7 @@ some world events that are sucking up attention)
 - License
 - Network set up easily, but ... objects, etc
   + enter https://github.com/PaloAltoNetworks/iron-skillet
+
 
 *** Cybersecurity                 :cybersecurity:secuity:privacy:perspective:
 **** PUBLISHED Privacy Technology              :privacy:security:perspective:
