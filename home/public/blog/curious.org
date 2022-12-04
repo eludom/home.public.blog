@@ -3305,7 +3305,7 @@ some world events that are sucking up attention)
 
 So, day 1 of [[https://emacsconf.org/2022/][EmacsConf 2022]] is in the books.  Another eclectic mash up
 of everything from the "[[https://github.com/ag91/emacs-buddy][Emacs Buddy Initiative]]" to a geeky dive on
-how to [[file:~/home/secret/money/planning/excel-mortgage-calculator.ods][Edit live Jupyter notebook cells with Emacs]] (no, really, I like
+how to [[https://emacsconf.org/2022/talks/jupyter/][Edit live Jupyter notebook cells with Emacs]] (no, really, I like
 editing everything in browser text boxes ... not!) to
 a serious proposal for a new economic model for software:
 [[https://emacsconf.org/2022/talks/maint/][Maintaining the Maintainers: Attribution as an Economic Model for Open Source]]
