@@ -576,6 +576,12 @@ see if they would even entertain the idea of a patch
 See https://lists.gnu.org/archive/html/bug-bash/2020-04/msg00114.html
 
 ***** Footnotes
+[fn:17] The Amiga was my first computer. I was the first person to port
+an Emacs editor to the Amiga, porting a version of what became
+"MicroEmacs" and mg to it and receiving a phone call from one of the
+core Amaga engineers at Commodore asking if they could use it
+after I posted to comp.sources.amiga
+
 
 [fn:7] ADS stands for "Attention Distraction Syndrome"
 
@@ -3312,7 +3318,7 @@ a serious proposal for a new economic model for software:
 
 #+hugo: more
 
-Thanks to the organizers (Sacha Chua and and friends) the conference
+Thanks to the organizers (Sacha Chua and friends) the conference
 came off almost without a glitch, run entirely on open source software
 (Big Blue Button, IRC, etc.).  Notepads, live Q&A, pre-recorded talks,
 most of them already up, captioned with transcripts, for free.
@@ -3344,7 +3350,6 @@ Looking forward to day 2.
 - License
 - Network set up easily, but ... objects, etc
   + enter https://github.com/PaloAltoNetworks/iron-skillet
-
 
 *** Cybersecurity                 :cybersecurity:secuity:privacy:perspective:
 **** PUBLISHED Privacy Technology              :privacy:security:perspective:
@@ -4523,8 +4528,111 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
-*** Life                                                               :life:
-**** WIP Just a flu shot                                   :100DaysToOffload:
+*** PUBLISHED Life                                                :life:geek:
+**** WIP Why do we hack?                             :100DaysToOffload:emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-12-04
+:EXPORT_HUGO_PUBLISHDATE: 2022-12-04:
+:END:
+
+Why do we hack?  Because we enjoy it?  Because we want others to use
+our work? Because we get paid?
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Teco Emacs on TOPS20" by George M. Jones is licensed under CC BY 2.0]]
+#+attr_html: :width 600px
+[[file:images/emacs.png]]
+
+#+hugo: more
+
+Once again [[https://emacsconf.org/][EmacsConf]] went to fountainhead of free software and gave
+us a chance to hear from and interact with [[https://en.wikipedia.org/wiki/Richard_Stallman][rms]].
+
+People in the public eye often get on (or get put on) a soapbox repeating
+the same lines.   Stallman even chose to open by playing an 8 year old
+[[https://youtu.be/Ag1AKIl_2GM][TED talk he did extolling software freedom]].  Certainly not new, but
+once in a while it's refreshing to return to primary sources rather
+than news or other mediated views.  This talk and the Q&A was a view
+straight into the heart, soul and source of the Free Software
+movement.
+
+I asked two questions on the webpad which Stallman answered.  In both cases
+I was trying to get past the repeated soapbox points to what makes the
+person underneath tick.
+
+Despite the utter profusion of tools built around the ecosystem he
+created over the past 40 years (just look at the [[https://emacsconf.org/2022/talks/][program of EmacsConf]]
+and the [[https://elpa.gnu.org/packages/][contents of the *LPA]] archives), several of his comments lead
+me to believe he still views emacs as "just an editor", so to clarify
+I asked:
+
+#+begin_quote
+Q: What do you use emacs for beyond editing?
+
+A: I use it for reading and writing email; this is what I do most of the day.  (Sings)
+"I've been answering my email,
+all the g**-d***** day / .. / <transcriber lost the thread about here [lyrics available at https://stallman.org/doggerel.html#IveBeenAnsweringMyEmail]
+#+end_quote
+
+Which confirmed my suspicion about non-use of the ecosystem.... but a
+live performance of his own parody song about email? Score one for touching
+the human behind the troupe.
+
+As someone who's been around computers and Emacs long enough to
+have started using the TECO based emacs something like 3 years after
+RMS created  it (c.a. 1979 for me), I look back fondly on some of the tech I've
+used (all of which included versions of emacs): TOPS20, TOPS10 (!),
+Multics, VMS, BSD Unix, SunOS, Solaris, etc and thanks to places like
+[[https://sdf.org/?welcome][SDF]] and friends I can still log in and tinker in those environments
+once in a while.  At EmacsConf 2020 Stallman waxed nostalgic for a
+moment about (I think) [[https://en.wikipedia.org/wiki/Dynamic_debugging_technique][DDT]] (Dynamic Debugging Technique) or similar for a
+minute and the sense of control it gave, so this year I probed:
+
+#+begin_quote
+Q: Do you ever dabble in retro-computing, e.g. logging into TOPS10/20 systems SDF, etc?
+
+A: No, I decided it's a waste of time. It's tinkering that would not
+develop anything of any importance or use. And I know if I'm going to
+enjoy developing something... I could enjoy developing anything... I
+decided not to distract my attention from useful computing.
+#+end_quote
+
+So that's revealing.   It acknowledges the existential pleasure of
+creating, in any environment, but only values creations that are
+likely to be used by others.
+
+I have a son who's about to finish a doctorate in piano performance.
+Clearly it's legitimate for him to perform for the enjoyment of
+audiences, that is "useful".  But I think it was also legitimate
+for him, a child, to sit down at the harpsichord in the hallway of
+George Washington's Mount Vernon and to knock out baroque pieces for
+the sheer joy of it, I don't think that was a "distraction" or  "waste
+of time".
+
+A lot of what makes Emacs what it is, is the accretion of
+scratch-you-own-itch solutions ([[https://orgmode.org/worg/org-tutorials/index.html][Org-mode]], for instance) done for
+oneself and possibly the pleasure of just writing the code and making
+things work, and then shared as an afterthought.  In this context GNU
+Emacs itself is now 40 years old and was at the time a re-implementation of a
+then 7 or 8 year old system (TECO Emacs) targeted to run on a
+re-implementation of a system (Unix) created in 1969.  Today (much to
+my amazement) there are STILL people into the Amiga[fn:17], C-64s, and
+there are PDP-10's that run on raspberry-pi's.  I once had an office-mate who
+"wrote" his own version of the Z80 in Verilog, because he could.
+
+I appreciate the desire to have one's software used widely, but I
+think its equally valid for people to do their own thing, possibly in
+nitch areas or on obsolete platforms, just because they want to.  I'd
+even say these are prime examples of people exercising software
+freedom on their own hardware and, at least to them, this is "useful
+computing".
+
+Hat's off to RMS for Emacs, GCC, Core Utils, the GPL, FSF, Free Software...
+
+Happy Hacking !!!
+
+#38 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
+**** PUBLISHED Just a flu shot                             :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-11-18
   :EXPORT_HUGO_PUBLISHDATE: 2022-11-18:
