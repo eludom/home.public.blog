@@ -4131,7 +4131,7 @@ at least /try/ to add those qualities to my own life.
 
 #13 of #100DaysToOffload take 2, https://100daystooffload.com/
 *** Current Events                                  :news:philosophy:history:
-**** WIP Mark Twain quote on cryptocurrency (via ChatGPT)  :100DaysToOffload:geek:latin:
+**** PUBLISHED Mark Twain quote on cryptocurrency (via ChatGPT) :100DaysToOffload:geek:latin:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-12-10
    :EXPORT_HUGO_PUBLISHDATE: 2022-12-10:
