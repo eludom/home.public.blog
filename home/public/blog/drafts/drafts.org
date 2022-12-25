@@ -1,8 +1,10 @@
+#+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
+
 * TODO Your hard work may not be recognized or rewarded
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-10-25
-  :EXPORT_HUGO_PUBLISHDATE: 2022-10-25:
-  :END:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-10-25
+:EXPORT_HUGO_PUBLISHDATE: 2022-10-25:
+:END:
 
 The short story ..
 
@@ -16,56 +18,174 @@ The long story...
 
 #nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-* TODO How I Plan My Day or "Habits of a Questionably Effective Person" :orgmode:emacs:
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-10-21
-  :EXPORT_HUGO_PUBLISHDATE: 2022-10-21:
-  :END:
+* TODO Unnumbered habits of a questionably effective person"  :orgmode:emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-10-21
+:EXPORT_HUGO_PUBLISHDATE: 2022-10-21:
+:END:
 
-The short story ..
+This is two part rant on planning with (and without) Emacs Org Mode,
+shoved together into one post in much the same way as Lennon-McCartney
+songs were shoved together from musical scraps they had laying around.
+My Frankenstein post will probably have less impact and reach than "A
+Day In The Life", Yeah, Yeah, Yeah.
 
-#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
-#+attr_html: :width 200px
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG][FOO by George M Jones is licensed under CC BY 2.0]]
+#+attr_html: :width 600px
 [[file:images/BAZ.JPG]]
 
 #+hugo: more
-** Morning Planning
-- whats in my head :: capture TODOs form the top of my journal (diaty.org)
+
+** Rants on org mode, humanity and Bruce
+*** Org mode and planning
+These are reflections getting things done (not GTD).   Or not getting
+things done.   Or yak-shaving with Emacs and org-mode while pretending
+to get things done and really just enjoying the experience either way.
+Maybe that's what org mode is all about anyhow.
+
+Org mode is the best list making tool I've ever found.  Org capture
+let's you capture thoughts, links, TODO items on the fly in the
+middle of whatever else you're doing and get back to them.  You never
+miss anything.
+
+*** But we're human
+But there are a couple problems.   We're human, not AI-driven lisp
+code knocking off all the TODO items, and we're finite in terms of
+time, attention, focus, money, friends, skills, etc.
+
+The result is that org mode enables me to grow infinite lists of TODOs.
+The human brain is good at focusing on maybe 3 things at a time.
+The path to despair (long undone lists) is obvious.  Sometimes I just
+give up on org mode lists and do things.
+
+*** Bruce
+Long, Long, ago in a tech company far, far away (CompuServe, Columbus,
+Ohio) there were "how do we migrate off of DEC10 to compete with AOL wars".
+I knew Bruce McNaughton. Bruce moved on from there to be VP of MSN at Microsoft
+for a while. Arguably a "Highly Successful Person" (who I'm pretty sure
+does not use org mode, but does have ligit geek creds).  I asked him
+once how he plans and memories (vague) are that he did not make lists
+(at the time Franklin Planners and then Franklin Planner software were
+all the rage).   That image stuck with me.   Just talk to people and
+do stuff.
+
+*** Concluding Rant
+    - It's about enjoying what you do
+      + just the act of planning
+      + maybe actually getting things done, maybe not
+      + a sense of accomplishment (TODO -> DONE)
+    - Software can be a tool, a focus, a shiny object or a distraction
+    - Software can be tyrannical
+      + Computers are good an infinite lists, humans aren't
+    - I will die with a TODO list much larger than it is today.
+
+** My work planning regime with org mode
+   That said, here's more-or-less how I plan my days at work.
+   Home/personal stuff is similar, but a little less structured.
+
+*** Morning Planning
+- What's in my head :: capture TODOs form the top of my journal (diaty.org)
 - Look at "inputs" :: look at calendar, email and slack in that order.
-- look at existing porjects/plans :: Look at weekly plans, tasks, etc
+- Look at existing porjects/plans :: Look at weekly plans, tasks, etc
 - Juggle all these and figure out what I'm going to try to do that day
 
-** During the day
-   - Capture new stuff and move on :: Quickly capture new asks, TODOs
+*** During the day
+- Capture new stuff and move on :: Quickly capture new asks, TODOs
      (org-capture) and move.
-   - Capture info :: capture info (links to HOWTOs, etc in the same file)
-   - Keep a calendar open :: Keep a calendar window open so I don't
+- Capture info :: capture info (links to HOWTOs, etc in the same file)
+- Keep a calendar open :: Keep a calendar window open so I don't
      miss thigns
-   - Turn off all notificatons :: Turn off all email, slack,
-     etc. notificatons and pop ups so I can contorol my focus.
-   - Check email, slack on my schedule :: Check in somewhat frequently
+- Turn off all notificatons :: Turn off all email, slack,
+     etc. notificatons and pop-iups so I can control my focus.
+- Check email, slack on my schedule :: Check in somewhat frequently
      with slack, email so people can get ahold of me in a somewhat
      timely fashon.   If it's urgent, call or text.  Voice calls seem
      to be a dying breed ("BR 549", "Pensylvania 6-5000")
-   - Minimize yak shaving :: I tend to yak-shave a lot.  Like writing
+- Minimize yak shaving :: I tend to yak-shave a lot.  Like writing
      this post.  Watch it.
 
-** Organizing Time
+*** Organizing Time
 - Do "thinking work early" :: plan do do "thiking work" early in the day
 - Do "collaboration work mid-day" :: do 1:1s, collaboration mid-day
 - Do "meetings late-day" :: Push meetings, interrupts, etc late day
 
-** Where to store "TODOs"
-   - one file :: I increasly just store TODOs, info , etc to one file
+*** Where to store "TODOs"
+- one file :: I increasly just store TODOs, info , etc to one file
      (diary.org) which is a diary-like file organized under
      Year/Month/Day/ENTRY items.
-   - project files :: I do have planning files for most projects with
+- project files :: I do have planning files for most projects with
      TODOs etc
-   - agenda :: I do use org-agenda to get a roll-up agenda view, but
+- agenda :: I do use org-agenda to get a roll-up agenda view, but
      more and more I'm just going with the inverse-stack, what's at
      the bottom of my diary.org and using mental prirotization.
-#+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
 
+** Projects template
+
+   And because this post is getting too long already, I'll make it
+   longer.
+
+   Here is the org project template that I've developed over the last
+   decade or so.   I still use it, but I'm moving more and more to
+   capturing everything in diary.org/the journal and maybe linking out
+   to these project files.
+
+   A couple notes. "OODA" refers to the "[[https://www.oodaloop.com/the-ooda-loop-explained-the-real-story-about-the-ultimate-model-for-decision-making-in-competitive-environments/][OODA Loop]]".  At times, its a
+   useful paradigm for thinking about action, think Snoopy and the Red
+   Barron: Snoopy _Observes_ the Red Barron, he _Orients_ himself, he
+   _Decides_ to let the Red Barron live to fight another day, and the
+   _Acts_ by disengaging the dogfight.
+
+   "Cogita", "Fac", and "Dic" are Latin singular imperatives for
+   "Think", "Act", "Speak".  Another paradigm for thinking about
+   actions.  Figure out what you're doing, gather info, plan, then do
+   stuff, then talk about it (blogs, reports, papers, meetings, sales...)
+
+#+begin_example org
+# #+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
+# #+options: author:t broken-links:nil c:nil creator:nil
+# #+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:2
+# #+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+# #+options: timestamp:t title:t toc:t todo:t |:t
+# #+title: PROJECT
+# #+date: <2022-12-25 Sun 07:50:58>
+# #+author: George Jones
+# #+email: ME @ SOMEWHERE
+# #+language: en
+# #+select_tags: export
+# #+exclude_tags: noexport
+# #+creator: Emacs 28.0.50 (Org mode 9.3.7)
+
+# This is a project to...(overview/intro)...
+
+# * PROJECT
+# ** PROJECT - Info                                                         :cogita:Ooda:
+#    - Observe :: Gather Raw Information.
+#    - Think (Cogita) :: Thoughts, Brainstorming, etc.
+# *** Info about the project
+# *** Links
+#      - project directory :: file://~/home/private/FOO
+#        + change this
+#        + create directory
+#        + keep project files here.
+# *** HOWTOs
+#     - Links of HOWTO articles relevant to the project
+# ** PROJECT - Background
+#    - Add any background info here (old files, plans, projects..)
+# ** PROJECT - Planning                                                     :cogita:oODa:
+#    - Think :: Think about observations and info gathered
+#    - Orient :: "Figure out which way is up"
+#    - Decide :: Decide what your doing, which way to go.
+# *** Goals
+# *** Plans
+# ** PROJECT - Action Items                                                    :fac:oodA:
+#    - Act/DO (Fac) :: Actions to take on info and plans
+# ** PROJECT - Meetings and Reports                                                 :dic:
+#    - "After action reports"
+#    - Tell people what happened.
+#    - Have meetings, write reports, etc. (as needed)
+
+# ** PROJECT - Backlog
+#+end_example
 * TODO Photography
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-25
@@ -106,46 +226,46 @@ favorite subjects, dead trees.
 Why take pictures?
 
 ** Taking pictures can be fun
-   It can be fun to take pictures.  You get to choose the subject,
-   take the picture, have them developed (or, even more fun, do it
-   yourself in the basement with smelly chemicals, an enlarger,
-   photographic paper and red lights), edit them (Dad was a vicious
-   self editor, even in the days where you got one or maybe two shots
-   on the film you had ... insisting that the bad ones be thrown out)
-   put them in albums or slide shows, creating your own title slides
-   with colored chalk drawings and then gathering everyone in
-   the basement for the slide show with the projector on the big white
-   screen in front of the TV.
+It can be fun to take pictures.  You get to choose the subject,
+take the picture, have them developed (or, even more fun, do it
+yourself in the basement with smelly chemicals, an enlarger,
+photographic paper and red lights), edit them (Dad was a vicious
+self editor, even in the days where you got one or maybe two shots
+on the film you had ... insisting that the bad ones be thrown out)
+put them in albums or slide shows, creating your own title slides
+with colored chalk drawings and then gathering everyone in
+the basement for the slide show with the projector on the big white
+screen in front of the TV.
 
-   We will, of course, omit the fun of arranging your family for
-   endless staged family photos which everyone in the family always
-   loved to participate in and fondly remembers to this day.
+We will, of course, omit the fun of arranging your family for
+endless staged family photos which everyone in the family always
+loved to participate in and fondly remembers to this day.
 
 ** Taking picutres to preserve memories
-   Then of course, there is preserving memories.  I have pictures on
-   both sides at least as far back as my great-great grandparents.
+Then of course, there is preserving memories.  I have pictures on
+both sides at least as far back as my great-great grandparents.
 
-   Here's whats on my dresser now...
-   PICTURE OF DRESSER
+Here's whats on my dresser now...
+PICTURE OF DRESSER
 
 ** Taking picutres to share and communicate about memories
-   I wound up being chief photographer, editor, picture developer,
-   layout guy, fund-raiser and school coke-machine-re-stocker for my
-   high school yearbook junior year. Of course, I shot most of the
-   pictures on 35mm with Dad's Retna IIa and a light meter and
-   developed the black and white photos in the basement on his
-   enlarger.
+I wound up being chief photographer, editor, picture developer,
+layout guy, fund-raiser and school coke-machine-re-stocker for my
+high school yearbook junior year. Of course, I shot most of the
+pictures on 35mm with Dad's Retna IIa and a light meter and
+developed the black and white photos in the basement on his
+enlarger.
 
-   We've had a few high school reunions.   That yearbook (and others)
-   always come out.   Who could ever forget Duane, our 50+ year old math
-   teacher dressing up in a ballet outfit with tights, a wand and a
-   little crown to play his role as the "Credit Fairy" granting that
-   last 1/4 credit people needed for graduation, or the time 10 or 20
-   of us carried a VW Beetle into the gym?  Pictures don't lie...well...
+We've had a few high school reunions.   That yearbook (and others)
+always come out.   Who could ever forget Duane, our 50+ year old math
+teacher dressing up in a ballet outfit with tights, a wand and a
+little crown to play his role as the "Credit Fairy" granting that
+last 1/4 credit people needed for graduation, or the time 10 or 20
+of us carried a VW Beetle into the gym?  Pictures don't lie...well...
 
-   PICTURE OF DUANE HERE
+PICTURE OF DUANE HERE
 
-   "Memories, like the corners of my mind..."
+"Memories, like the corners of my mind..."
 
 ** Taking picutres to express your creativity
 
@@ -174,52 +294,52 @@ That's Life...
 
 ** Taking picutres as a social a social activity
 ** Taking picutres for practical reasons
-  - Fallen trees on AT
+- Fallen trees on AT
 
 ** Taking picutres to earn a living
-  - Be careful about mixing your passion and your work.  Sometimes if
-    you work in a field that is also your passion/hobby, you can loose
-    the joy or burn out.   "The cobblers kids have no home
-    photographs" (not true in our case).
+- Be careful about mixing your passion and your work.  Sometimes if
+  you work in a field that is also your passion/hobby, you can loose
+  the joy or burn out.   "The cobblers kids have no home
+  photographs" (not true in our case).
 
-    I love playing with computers, programming, networking,
-    data-wrangling and security stuff (what I do for a living), but
-    after 2-4 hours of personal hacking and then 8+ hours of doing it
-    at work, sometimes, I'm just done.  Doing what you love for a
-    living take the joy out of the hobby.
+  I love playing with computers, programming, networking,
+  data-wrangling and security stuff (what I do for a living), but
+  after 2-4 hours of personal hacking and then 8+ hours of doing it
+  at work, sometimes, I'm just done.  Doing what you love for a
+  living take the joy out of the hobby.
 
 ** Taking picutres as a habit
 
 ** Taking picutres with technology you love
 
-   Dad loved trains and cameras.  In 2014 or 2015 we went on a camping
-   trip and visited the [[https://roanokehistory.org/historical-society-of-western-virginia/owl-main-page/][Winston Link Museum]] in Roanoke, Virgina, which
-   combined these passions.  Link was a high end NYC photographer in
-   the 1950s who chose to make multiple trips to Virginia to document
-   the last years of the age of steam trains, which happened to be the
-   same era Dad was getting into photography. Link set up huge arrays
-   of flash-bulbs to take you-only-get-one-shot night photos of
-   trains, huge, engineered Rube Goldberg setups using the same
-   technology Dad was using at the time and learning in college.  They
-   have some of the photographic equipment Link used in the museum.
-   Dad was almost giddy looking at the equipment that most people
-   glance at and say "that's interesting".
+Dad loved trains and cameras.  In 2014 or 2015 we went on a camping
+trip and visited the [[https://roanokehistory.org/historical-society-of-western-virginia/owl-main-page/][Winston Link Museum]] in Roanoke, Virgina, which
+combined these passions.  Link was a high end NYC photographer in
+the 1950s who chose to make multiple trips to Virginia to document
+the last years of the age of steam trains, which happened to be the
+same era Dad was getting into photography. Link set up huge arrays
+of flash-bulbs to take you-only-get-one-shot night photos of
+trains, huge, engineered Rube Goldberg setups using the same
+technology Dad was using at the time and learning in college.  They
+have some of the photographic equipment Link used in the museum.
+Dad was almost giddy looking at the equipment that most people
+glance at and say "that's interesting".
 
-   WINSTON LINK PICTURE
+WINSTON LINK PICTURE
 
-   Growing up we had lots of photographic "stuff" around the house:
-   cameras, an enlarger and dark room equipment, the slide projector
-   and screen, light tables for viewing slides, mailers for sending
-   film to the Kodak processing centers in Findlay, Ohio and
-   Rochester, NY, and of course the endless supply of 35mm film
-   canisters that saw double duty as pill bottles and many other
-   uses.  I still have a good supply of them.
+Growing up we had lots of photographic "stuff" around the house:
+cameras, an enlarger and dark room equipment, the slide projector
+and screen, light tables for viewing slides, mailers for sending
+film to the Kodak processing centers in Findlay, Ohio and
+Rochester, NY, and of course the endless supply of 35mm film
+canisters that saw double duty as pill bottles and many other
+uses.  I still have a good supply of them.
 
-   Dad never really made the transition to digital photography.  We
-   bought him a Cannon EOS Rebel T3, and he used it some, but for
-   whatever reasons (explored in depth here) he never really took to
-   it.  Maybe the time had passed.  Maybe he had learned all he wanted
-   to learn.  Maybe the reasons for taking pictures were gone.
+Dad never really made the transition to digital photography.  We
+bought him a Cannon EOS Rebel T3, and he used it some, but for
+whatever reasons (explored in depth here) he never really took to
+it.  Maybe the time had passed.  Maybe he had learned all he wanted
+to learn.  Maybe the reasons for taking pictures were gone.
 
 ** Conclusion
 
@@ -261,10 +381,10 @@ The short story ..
 
 The long story..
 * TODO the wizards - Oh, the places you'll go.
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-01-29
-  :EXPORT_HUGO_PUBLISHDATE: 2022-01-29:
-  :END:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-01-29
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-29:
+:END:
 
 The short story ..
 
@@ -292,27 +412,26 @@ The short story ..
 
 The long story...
  *** 2022-01-28 Friday
-* resize images by output size imagemagic convert                  :HOWTO:
-  [2022-01-28 Fri 05:24]
+* resize images by output size imagemagic convert                     :HOWTO:
+[2022-01-28 Fri 05:24]
 
 
-  - convert png to jpg, specifying output file size in bytes
+- convert png to jpg, specifying output file size in bytes
+
+#+begin_example
+  convert thinker.png -define jpeg:extent=100k thinker.jpg
+#+end_example
+
+- jpg does not support transparency (GIF does)
+- convert png to smaller png, preserving transparent background
+  and resizing (by pixels, not bytes)
 
   #+begin_example
-  convert thinker.png -define jpeg:extent=100k thinker.jpg
+      convert thinker.png -background transparent -resize 10% thinker-10pct.png
   #+end_example
 
-    + jpg does not support transparency (GIF does)
-
-  - convert png to smaller png, preserving transparent background
-    and resizing (by pixels, not bytes)
-
-    #+begin_example
-    convert thinker.png -background transparent -resize 10% thinker-10pct.png
-    #+end_example
-
-  - convert png to smaller gif (because Steve!), with transparency
-     convert thinker.png -background transparent -resize 10% thinker-20pct.gif
+- convert png to smaller gif (because Steve!), with transparency
+  convert thinker.png -background transparent -resize 10% thinker-20pct.gif
 * TODO Just because you're not paranoid, doesn't mean their not out to get :snark:
 you !!!
 :PROPERTIES:
@@ -396,17 +515,17 @@ Things I’m concerned with are:
 
 - Embedding :: That I’m able to add descriptions, license and copyright info
 - Portable and long lasting :: That that info be impeded in the image
-  (not in some proprietary format, external to the image, or specific
-  to one application)
+     (not in some proprietary format, external to the image, or specific
+     to one application)
 - Versitile :: That it work with a variety of the formats I’m likely
-  to   use (JPG, PNG, TIFF, possibly GIF)
+     to   use (JPG, PNG, TIFF, possibly GIF)
 
 
 Secondarily I’m would like it to work with:
 
 - my blogging software :: hugo_ox-hugo that I use to produce my static
-  blog. Some discussions around that here
-  https:/_fosstodon.org/@eludom/107753707224027594
+     blog. Some discussions around that here
+     https:/_fosstodon.org/@eludom/107753707224027594
 
 - image management programs :: gthumb, eog, etc on Linux
 
@@ -422,10 +541,10 @@ in ox-hugo: https://ox-hugo.scripter.co/doc/shortcodes/
 #11 of #100DaysToOffload take 2, https://100daystooffload.com/
 
 * TODO Scrolling your life away?
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-04-23
-  :EXPORT_HUGO_PUBLISHDATE: 2022-04-23:
-  :END:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-04-23
+:EXPORT_HUGO_PUBLISHDATE: 2022-04-23:
+:END:
 
 The short story ..
 
@@ -444,33 +563,11 @@ or sit down with a pencil and paper journal.  I create things when I'm
 on a keyboard in front of a computer screen.
 
 Scrolling just seems like a narcissistic pastime.
-* TODO "We" are "pleased" to..
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-04-26
-  :EXPORT_HUGO_PUBLISHDATE: 2022-04-26:
-  :END:
-
-
-  Email from [company I have investment with]
-
-  #+begin_example
-  We are pleased to let you know that there is a new document for you to review
-  #+end_example
-
-  Translation, the corporate machine sent this to you to mitigate it's
-  risk of being sued by you and fined by government regulators for not
-  doing so.
-
-  There is no "we" in the personal sense.
-
-  And no human being is "pleased" by this.
-
-  #26 of #100DaysToOffload take 2, https://100daystooffload.com/
 * TODO Live, Laugh, Love ... Languish, Lament, Litigate ?
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-04-30
-  :EXPORT_HUGO_PUBLISHDATE: 2022-04-30:
-  :END:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-04-30
+:EXPORT_HUGO_PUBLISHDATE: 2022-04-30:
+:END:
 
 I'm not a fan of fake bright-faced slogans and trinkets.
 Take this little angel on the window-sill above our sink
@@ -524,48 +621,406 @@ his ear.
 [2] "Behold the Man". The words of Pontius Pilate in the Latin Vulgate
 translation of the Gospel of John, when he presents a scourged Jesus, bound
 and crowned mockingly with thorns, to a hostile crowd shortly before his Crucifixion.
-* WIP "Red" vs. "Blue" Name calling? We can do better than that. :100DaysToOffload:
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-11-06
-  :EXPORT_HUGO_PUBLISHDATE: 2022-11-06:
-  :END:
-As we approach another election in the US where  hearing cries of "Red"
-vs. "Blue" become unavoidable, I'm increasingly convinced that such
-labels are unhelpful substitutes for thought and actually engaging
-with other people and ideas.
+* PUBLISHED To publish my configs, or not, that is the question. :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-11-08
+:EXPORT_HUGO_PUBLISHDATE: 2022-11-08:
+:END:
+
+This is a HOWTO on publishing certain Unix config files while keeping
+others private using  [[https://www.gnu.org/software/stow/][GNU stow]] and ?clever? groupings of files into
+directories such as =home.public.dotfies= and =home.private.mailconfig=
 
 #+hugo: more
 
-I've been listening to Jordan Peterson's "12 Rules For Living", as
-well as his podcast lately. Yes, per Wikipedia
-[[https://en.wikipedia.org/wiki/Jordan_Peterson][Jordan Peterson]] can be labeled a
+I like to publish my personal config files (.bashrc, emacs configs,
+etc) but there are some things you probably just don't want to share
+because they only apply to you (your list of rss feeds) or are just
+personal, and some things you should not share such as files with
+passwords.
 
- #+begin_example
- Canadian media personality, clinical psychologist, author, and
- professor ... public intellectual .. conservative ... classic
- British liberal ... traditionalist
- #+end_example
+To solve this problem, I break stuff down into public,private and secret
+categories.   I used to have these live under
 
-But in listening to him, I am coming more strongly to the option that labels
-such as "conservative" or "liberal" are just intellectual crutches people
-use to avoid thinking, to avoid engaging with ideas and people, to label
-people in "us" and "them" categories such as "Red" and "Blue", and to cluster
-together into tribal groups. The result is we reject our fellow human beings
-out of hand and we are all worse off for doing so.
+#+begin_example
+~/{public,private,secret}/*
+#+end_example
 
-I'm only two chapters in, but his "[[https://en.wikipedia.org/wiki/12_Rules_for_Life][12 Rules For Living]]" is already
-both an interesting story and one of the most thought-provoking things
-I've read in a long time.  He draws on his experience as clinical
-psychologist dealing with broken people, his own experience growing up
-in a small oil town in northern Alberta, Canada (teenagers cruising a
-small town, drunken parties, long dark nights), and along the way
-walks through the story in Genesis 1-3 with the eyes of a psychologist
-answering the question why we take care of other people, even our
-pets, better than we do ourselves (Hint 1: we're all deeply messed up
-and we are all to aware of this.  Hint 2: The
-whole "Red" vs. "Blue" thing and the tribal identity around it is in
-fact a proxy for a deeper human need for meaning)
+but any more, I just used [[https://www.gnu.org/software/stow/][GNU stow]] which
+builds symlink trees.  Now I have
 
-Even two chapters in, I'd recommend it
+#+begin_example
+~/stow/home.public/dotfiles/.bashrc
+#+end_example
+
+which gets symliked into
+
+#+begin_example
+~/.bashrc
+#+end_example
+
+by doing
+
+#+begin_example
+cd ~/stow/home.public/dotfiles
+stow
+#+end_example
+
+The beauty of this is that I have repos made public such as
+
+http://git.galthub.com:3000/gmj/home.public.dotfiles
+
+and others private and secret not published.
+
+You can even mix "work" and "home" by using hierarchies such as
+
+#+begin_example
+work.private.dotfiles
+#+end_example
+
+to use different =~/.gitconfig= files.
+
+You get the idea.   I've probably gone to far with it http://git.galthub.com:3000/gmj/
+
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* WIP EmacsConf 2022 - Day 1                               :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-12-03
+:EXPORT_HUGO_PUBLISHDATE: 2022-12-03:
+:END:
+
+So, day 1 of [[https://emacsconf.org/2022/][EmacsConf 2022]] is in the books.  Another eclectic mash up
+of everything from the "[[https://github.com/ag91/emacs-buddy][Emacs Buddy Initiative]]" to a geekly give on
+how to [[file:~/home/secret/money/planning/excel-mortgage-calculator.ods][Edit live Jupyter notebook cells with Emacs]] (no, really, I like
+editing everything in browser text boxes ... not!) to
+serious proposal for a new economic model for software
+[[https://emacsconf.org/2022/talks/maint/][Maintaining the Maintainers: Attribution as an Economic Model for Open Source]]
+
+#+hugo: more
+
+Thanks to the organizers (Sacha Chua and and friends) the conference
+came off almost without a glitch, run entirely on open source software
+(Big Blue Button, IRC, etc.).  Notepads, live Q&A, pre-recorded talks,
+most of them already up, captioned with transcripts, for free.
+
+Things I'm probably going to look into as a result of this are the
+[[https://emacsconf.org/2022/talks/treesitter/][Tree-sitter beyond syntax highlighting]] for syntax-aware editing of
+python, bash, etc., the logistics of [[https://emacsconf.org/2022/talks/meetups/][Attending and organizing Emacs
+meetups]] (who knew there were people using Org mode tables to analyze
+real-estate deals, tracking and visualizing health data, or
+envisioning GNUS as the core of a system to replace Microsoft, Apple
+and Google ?), and hooking Emacs to edit text boxes (think code in Jupyter
+Notebooks, huge SQL blocks in BigQuery web console, JIRA and
+Confluence forms, etc.)
+
+Looking forward to day 2.
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO Why do we hack?                                     :100DaysToOffload:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-12-04
+:EXPORT_HUGO_PUBLISHDATE: 2022-12-04:
+:END:
+
+Why do we hack?  Because we enjoy it?  Because we want others to use
+our work? Because we get paid?
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Teco Emacs on TOPS20" by George M. Jones is licensed under CC BY 2.0]]
+#+attr_html: :width 600px
+[[file:images/emacs.png]]
+
+#+hugo: more
+
+
+Once again emacs-conf went to /the source/ and gave us a chance to
+hear from and interact with RMS.
+
+People in the public eye often get on (get put on) a soapbox repeating
+the same lines.   Stallman even chose to open by playing an 8 year old
+TED talk he did extolling software freedom.  Certainly not new, but
+once in a while it's refreshing to return to primary sources rather
+than news or other mediated views.  This talk and the Q&A was a
+straight view in the heart, soul and source of the Free Software
+movement.
+
+I asked two questions on the webpad which he answered.  In both cases
+I was trying to get past the repeated soapbox points to what makes the
+person underneath tick.
+
+Despite the utter profusion of tools built around the ecosystem he
+created over the past 40 years (just look at the program of emacsconf
+and the contents of the *LPA archives), several of his comments lead
+me to believe he still views emacs as "just an editor", so to clarify
+I asked:
+
+#+begin_quote
+Q: What do you use emacs for beyond editing?
+
+A: I use it for reading and writing email; this is what I do most of the day.  (Sings)
+"I've been answering my email,
+all the god-damned day / .. / <transcriber lost the thread about here [lyrics available at https://stallman.org/doggerel.html#IveBeenAnsweringMyEmail]
+#+end_quote
+
+Which confirmed my suspicion about non-use of the ecosystem.... but a
+live performance of his own parody song about email? Score one for touching
+the human behind the troupe.
+
+As someone who's been around computers and Emacs long enough to
+have started using the TECO based emacs something like 3 years after
+RMS created  it (c.a. 1979), I look back fondly on some of the tech I've
+used (all of which included versions of emacs): TOPS20, TOPS10 (!),
+Multics, VMS, BSD Unix, SunOS, Solaris, etc and thanks to places like
+SDF and friends I can still log in and tinker in those environments
+once in a while.  At emacsconf 2020 Stallman waxed nostalgic for a
+moment about (I think) DDT (Dynamic Debugging Tool) or similar for a
+minute and the sense of control it gave, so this year I probed:
+
+#+begin_quote
+Q: Do you ever dabble in retro-computing, e.g. logging into TOPS10/20 systems SDF, etc?
+
+A: No, I decided it's a waste of time. It's tinkering that would not
+develop anything of any importance or use. And I know if I'm going to
+enjoy developing something... I could enjoy developing anything... I
+decided not to distract my attention from useful computing.
+#+end_quote
+
+So that's revealing.   It acknowledges the existential pleasure of
+creating, in any environment, but only values creations that are
+likely to be used by others in "modern" systems.
+
+I have a son who's about to finish a doctorate in piano performance.
+Clearly it's legitimate for him to perform for the enjoyment of
+audiences, that is "useful".  But I think it was also legitimate
+for him, a child, to sit down at the harpsichord in the hallway of
+George Washington's Mount Vernon and to knock out baroque pieces for
+the sheer joy of it, I don't think that was a "distraction" or  "waste
+of time".
+
+A lot of what makes Emacs what it is, is the accretion of
+scratch-you-own-itch solutions (org-mode, for instance) done for
+oneself and possibly the pleasure of just writing the code and making
+things work, and then shared as an afterthought.  In this context GNU
+Emacs itself is now 40 years old and was at the time a re-implementation of a
+then 7 or 8 year old system (TECO Emacs) targeted to run on a
+re-implementation of a system (Unix) created in 1969.  Today (much to
+my amazement) there are STILL people into the Amiga[fn:1], C-64s, and
+PDP-10's that run on raspberry-pi's.  I once had an office-mate who
+"wrote" his own version of the Z80 in Verilog, because he could.
+
+I appreciate the desire to have one's software used widely, but I
+think its equally valid for people to do their own thing, possibly in
+nitch areas or on obsolete platforms, just because they want to.  I'd
+even say these are prime examples of people exercising software
+freedom on their own hardware and, at least to them, this is "useful
+computing".
+
+Hat's off to RMS for Emacs, GCC, Core Utils, the GPL, FSF, Free Software...
+
+Happy Hacking !!!
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
+* Footnotes
+
+[fn:1] The Amiga was my first computer. I was the first person to port
+an Emacs editor to the Amiga, porting a version of what became
+"MicroEmacs" and mg to it and receiving a phone call from one of the
+core Amaga engineers at Commodore asking if they could use it
+after I posted to comp.sources.amiga
+* TODO Why do I hack?                                      :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-12-06
+   :EXPORT_HUGO_PUBLISHDATE: 2022-12-06:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+
+- Reflections on my last interactions with Wilhite, him still hacking Ada
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO First adventures with GPT Chat                      :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-12-10
+   :EXPORT_HUGO_PUBLISHDATE: 2022-12-10:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+
+
+#+begin_example
+write a poem about pete rose
+#+end_example
+
+#+begin_verse
+Pete Rose was a baseball great,
+A player without compare,
+With a bat in his hand and a smile on his face,
+He could hit a ball anywhere.
+
+His hits record will never be beat,
+And his passion for the game was clear,
+But his fall from grace was a tragic defeat,
+And his legacy forever tarnished, I fear.
+
+But still, I can't help but admire
+The way he played the game,
+With speed and skill and all his heart,
+He left it all on the field and never gave up the fight.
+
+So here's to you, Pete Rose,
+A baseball legend in your own right,
+Though your mistakes may never be forgotten,
+Your place in history is secure, at least tonight.
+#+end_verse
+
+But wait, there's more.
+
+#+begin_example
+write a latin poem about pete rose
+#+end_example
+
+#+begin_verse
+Pete Rose, ludus magnus,
+Non comparari potest,
+Bat cum manu et risus facie,
+Posset pila ubique ferire.
+
+Record eius numquam vincetur,
+Et amor eius pro ludo patet,
+Sed casus eius tristis est,
+Et memoria eius semper maculata timeo.
+
+Sed tamen admirari non possum
+Modo ludebat,
+Velocitate et peritia et tota corde,
+Semper certabat et numquam desistebat.
+
+Ergo tibi, Pete Rose,
+Legenda ludi tua propria,
+Licet errores tui numquam obliviscantur,
+Locum tuum in historia tutum est, saltem hac nocte.
+#+end_verse
+
+#+begin_example
+write me a bash script that searches for files by partial name that contain a certain regex
+#+end_example
+
+Here is a Bash script that searches for files with a partial name that match a specified regular expression and prints their names to the terminal:
+
+Copy code
+#+begin_src bash
+#!/bin/bash
+
+# Prompt the user for the search term and regular expression
+read -p "Enter the partial file name to search for: " search_term
+read -p "Enter the regular expression to match: " regex
+
+# Search for files with the specified name and matching regular expression
+results=$(find . -name "*$search_term*" -exec grep -l "$regex" {} +)
+
+# Print the names of each file that was found
+while read -r file; do
+  echo "$file"
+done <<< "$results"
+#+end_src
+This script uses the find command to search for files with the specified partial name and grep to match the regular expression. The -l option for grep is used to print only the names of the files that match, rather than their contents. The read command is used to prompt the user for input and to iterate over the search results.
+
+To use this script, save it to a file (e.g. search.sh), make it executable with chmod +x search.sh, and run it with ./search.sh. You can specify the partial file name and regular expression to search for when prompted.
+
+
+#+begin_example
+how do I invest to beat the market and inflation
+#+end_example
+
+#+begin_quote
+To invest in order to beat the market and inflation, you can follow these steps:
+
+Identify your financial goals and the time frame in which you want to achieve them. This will help you determine the right investment strategy for your situation.
+
+Create a diversified portfolio that includes a mix of stocks, bonds, and other investments. This will help reduce the risk of your investments and increase the chances of achieving your financial goals.
+
+Research different investments and compare their potential returns, risks, and fees. Look for investments that have a track record of outperforming the market and have the potential to protect against inflation.
+
+Consider consulting with a financial advisor who can provide expert advice on investing and help you create a personalized investment plan.
+
+Regularly monitor your investments and make adjustments as needed. This may include rebalancing your portfolio to maintain the right mix of investments, selling underperforming investments, and buying new investments that align with your financial goals.
+
+By following these steps and being disciplined in your approach to investing, you can increase the chances of beating the market and protecting against inflation. However, it is important to keep in mind that there are no guarantees in investing, and the value of your investments can go up or down. It is always a good idea to carefully consider the risks and consult with a financial advisor before making any investment decisions.
+#+end_quote
+
+#+begin_example
+what backpacking gear should I get rid of when hiking for a week or more
+#+end_example
+
+#+begin_quote
+When backpacking for a week or more, it is important to carefully consider the gear you take with you. To save weight and space, you may want to consider getting rid of the following items:
+
+Extra clothing: Take only the essentials, such as a few layers for different weather conditions and a waterproof jacket. Avoid taking duplicate items or clothing that you are unlikely to wear.
+
+Heavy or bulky items: Look for lightweight and compact alternatives to your gear, such as a backpacking stove, sleeping pad, and tent.
+
+Non-essential items: Consider leaving behind items that are not necessary for your trip, such as a camp chair, extra gadgets, or luxury items.
+
+Expired or unnecessary items: Get rid of any food, medication, or first-aid supplies that are expired or that you are unlikely to use.
+
+Overall, the key is to pack only the essentials and to prioritize lightweight and compact gear. By doing so, you can save weight and space and make your backpacking trip more enjoyable.
+#+end_quote
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO do some stuff                                       :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-12-24
+   :EXPORT_HUGO_PUBLISHDATE: 2022-12-24:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+
+The long story...
+
+Sacha Chua favourited your post
+14h
+eludom
+sachac@emacs.ch
+George Jones :emacs: :orgmode:
+@eludom
+@jgoerzen @jtr @sachac For work daily planning I've taken to a hybrid  planning model.
+
+- Collect a list of top-of-the-head TODOS in one file (daily.org/journal) without reference to the infinite lists.
+
+- Then maybe mix in some stuff from the infinite lists.   Try to keep it doable in a day.
+
+- do some stuff during the day.
+
+- realize it won't all get done.  Make peace wit that fact and focus on what you do finish.
+
+- Also journal/note go to diary.org through the day.  One file to look at.
+
+From:
+
+  https://fosstodon.org/@eludom/109564736411627471
 
 #nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
