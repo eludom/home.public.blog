@@ -184,6 +184,8 @@
 # ** PROJECT - Backlog
    #+end_example
 
+#40 of #100DaysToOffload take 2.1, https://100daystooffload.com/ of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** WIP It's Manjaro !!!                            :linux:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-19
@@ -4520,6 +4522,38 @@ That is all.
 #+hugo: more
 #14 of #100DaysToOffload take 2, https://100daystooffload.com/
 *** Work                                                               :work:
+
+**** WIP Successful?                                       :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2022-12-26
+  :EXPORT_HUGO_PUBLISHDATE: 2022-12-26
+  :END:
+
+In http://curious.galthub.com/blog/2022-12-25/ I said
+
+#+begin_quote
+Bruce moved on from there to be VP of MSN at Microsoft for a while.
+Arguably a "Highly Successful Person"
+#+end_quote
+
+Which, of course, begs (assumes, cedes) the question:
+
+#+begin_quote
+What is success?
+#+end_quote
+
+Bruce embraced the management track.  I've fairly consistently and
+actively dodged it, ironically after Bruce promoted me to my first
+supervisory role ... managing the development of a web-page creation
+tool for CompuServe's "MySpace"-like web page publishing system
+... from there I took a hard career turn into the security world
+focusing on Internet security, routers, linux/unix, etc.  For me,
+that's been a resounding success.  Just no direct reports, budgets
+or Microsoft Windows, which were anti-goals for me.  I've focused on
+front-line, hands-on doing.
+
+#41 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED Can I get the job done by doing nothing? :100DaysToOffload:GTD:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-22
