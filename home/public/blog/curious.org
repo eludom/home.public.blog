@@ -4889,7 +4889,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** PUBLISHED Life                                                     :life:
-**** TODO Generation P                                     :100DaysToOffload:
+**** PUBLISHED Generation P                                :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-01-08
    :EXPORT_HUGO_PUBLISHDATE: 2023-01-08:
