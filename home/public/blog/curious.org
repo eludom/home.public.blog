@@ -4889,6 +4889,105 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** PUBLISHED Life                                                     :life:
+**** Death, Taxes, and Job                                 :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-01-11
+   :EXPORT_HUGO_PUBLISHDATE: 2023-01-11:
+  :END:
+
+Today I'm going to pay my taxes, work on updating my living will and
+health care power of attorney, telling others when I want
+doctors to pull the plug if I can't make that decision myself.
+
+Death and taxes.   You can't live with them, and they get you in the
+end.
+
+When discussing death, taxes, and "I know I'm right, why is all this bad
+stuff happening to me?", there's no better place to turn than Job...
+
+# #+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+# #+attr_html: :width 200px
+# # [[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+Job is the oldest book in the bible. It pre-dates Rome, it pre-dates Abraham
+Lincoln, Isaac Newton, Jacob Astor, Joseph Stalin, and Benjamin Netanyahu
+:-). It pre-dates the Christian faith and Jesus' birth by hundreds of
+years.
+
+For those who may not be familiar, Job is a story of suffering. Unjust
+suffering. Short version: Behind the scenes (Job never learns this) Satan
+makes a bet with God that Job (God's "righteous servant") will curse God
+if God lets Satan take away his money, family, and health. God takes the
+bet. Job's children die. His livestock is stolen. He skin breaks out
+in boils. His wife and his friends blame him and tell him it's all his
+own fault. Some friends. His loving wife summarizes "Job, do you still
+hold to your integrity? (claim it's not your fault) Curse God and Die !"
+
+Fortunately for us (and germain to the topic of my living
+willing/advanced medical diretive), Job did not live in 21st Century
+Canada, was not counseled to kill himself to keep the governments
+health care expenses down, but instead endured (seemingly) pointless
+suffering, wrestling with the question "Why?", and as a result we have
+one of the greatest works of literature in human history that has
+inspired theological and philosophical debate and great art for
+millennia.  "Curse God and Die ?"
+
+Let's hear from Job.
+
+#+begin_quote
+For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:
+And though after my skin worms destroy this body, yet in my flesh shall I see God:
+Whom I shall see for myself, and mine eyes shall behold, and not another;
+
+Job 19:25-27
+#+end_quote
+
+
+I can not read those words without hearing the setting in Handel's Messiah.
+
+The phrase
+
+#+begin_quote
+Yet in my flesh shall I see God
+#+end_quote
+
+is likely going on my tombstone.  It is an expression of the hope of
+resurrection and eternal life.
+
+Seeing those words on a tombstone would probably make Job happy (Job
+happy?), because, immediately before that he said:
+
+
+#+begin_quote
+Oh that my words were now written! oh that they were printed in a book!
+That they were graven with an iron pen and lead in the rock for ever!
+
+Job 19:23-24
+#+end_quote
+
+But in context, he's referring to his long-running instance that he is
+innocent, that his actions and thoughts are right, and that no-one
+(God included) can question that.  Sound like any people or current
+cultural movements you know?
+
+The book ends with God asking Job a series of unanswerable questions. Job
+finally admits he may not have the whole picture and that maybe it's time
+to be humble and admit his limitations, frailty, mortality and, yes, the
+possibility of his own moral failings when faced with an Eternal, Omnipotent,
+Infinite, Just and Merciful Creator.
+
+May I do the same.
+
+Oh, and to those who may decide to pull the plug on me or not, yeah, the
+answers are often not clear. Sometimes suffering has a purpose. Do what you
+think is best at the time and leave the rest to God.  It's all any of
+us can do.
+
+#43 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
+
 **** PUBLISHED Generation P                                :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-01-08
