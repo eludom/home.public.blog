@@ -621,102 +621,6 @@ his ear.
 [2] "Behold the Man". The words of Pontius Pilate in the Latin Vulgate
 translation of the Gospel of John, when he presents a scourged Jesus, bound
 and crowned mockingly with thorns, to a hostile crowd shortly before his Crucifixion.
-* PUBLISHED To publish my configs, or not, that is the question. :100DaysToOffload:
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2022-11-08
-:EXPORT_HUGO_PUBLISHDATE: 2022-11-08:
-:END:
-
-This is a HOWTO on publishing certain Unix config files while keeping
-others private using  [[https://www.gnu.org/software/stow/][GNU stow]] and ?clever? groupings of files into
-directories such as =home.public.dotfies= and =home.private.mailconfig=
-
-#+hugo: more
-
-I like to publish my personal config files (.bashrc, emacs configs,
-etc) but there are some things you probably just don't want to share
-because they only apply to you (your list of rss feeds) or are just
-personal, and some things you should not share such as files with
-passwords.
-
-To solve this problem, I break stuff down into public,private and secret
-categories.   I used to have these live under
-
-#+begin_example
-~/{public,private,secret}/*
-#+end_example
-
-but any more, I just used [[https://www.gnu.org/software/stow/][GNU stow]] which
-builds symlink trees.  Now I have
-
-#+begin_example
-~/stow/home.public/dotfiles/.bashrc
-#+end_example
-
-which gets symliked into
-
-#+begin_example
-~/.bashrc
-#+end_example
-
-by doing
-
-#+begin_example
-cd ~/stow/home.public/dotfiles
-stow
-#+end_example
-
-The beauty of this is that I have repos made public such as
-
-http://git.galthub.com:3000/gmj/home.public.dotfiles
-
-and others private and secret not published.
-
-You can even mix "work" and "home" by using hierarchies such as
-
-#+begin_example
-work.private.dotfiles
-#+end_example
-
-to use different =~/.gitconfig= files.
-
-You get the idea.   I've probably gone to far with it http://git.galthub.com:3000/gmj/
-
-
-#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
-* WIP EmacsConf 2022 - Day 1                               :100DaysToOffload:
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2022-12-03
-:EXPORT_HUGO_PUBLISHDATE: 2022-12-03:
-:END:
-
-So, day 1 of [[https://emacsconf.org/2022/][EmacsConf 2022]] is in the books.  Another eclectic mash up
-of everything from the "[[https://github.com/ag91/emacs-buddy][Emacs Buddy Initiative]]" to a geekly give on
-how to [[file:~/home/secret/money/planning/excel-mortgage-calculator.ods][Edit live Jupyter notebook cells with Emacs]] (no, really, I like
-editing everything in browser text boxes ... not!) to
-serious proposal for a new economic model for software
-[[https://emacsconf.org/2022/talks/maint/][Maintaining the Maintainers: Attribution as an Economic Model for Open Source]]
-
-#+hugo: more
-
-Thanks to the organizers (Sacha Chua and and friends) the conference
-came off almost without a glitch, run entirely on open source software
-(Big Blue Button, IRC, etc.).  Notepads, live Q&A, pre-recorded talks,
-most of them already up, captioned with transcripts, for free.
-
-Things I'm probably going to look into as a result of this are the
-[[https://emacsconf.org/2022/talks/treesitter/][Tree-sitter beyond syntax highlighting]] for syntax-aware editing of
-python, bash, etc., the logistics of [[https://emacsconf.org/2022/talks/meetups/][Attending and organizing Emacs
-meetups]] (who knew there were people using Org mode tables to analyze
-real-estate deals, tracking and visualizing health data, or
-envisioning GNUS as the core of a system to replace Microsoft, Apple
-and Google ?), and hooking Emacs to edit text boxes (think code in Jupyter
-Notebooks, huge SQL blocks in BigQuery web console, JIRA and
-Confluence forms, etc.)
-
-Looking forward to day 2.
-
-#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
 * TODO Why do we hack?                                     :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-12-04
@@ -847,143 +751,6 @@ The long story...
 - Reflections on my last interactions with Wilhite, him still hacking Ada
 
 #nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
-* TODO First adventures with GPT Chat                      :100DaysToOffload:
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2022-12-10
-   :EXPORT_HUGO_PUBLISHDATE: 2022-12-10:
-  :END:
-
-The short story ..
-
-#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
-#+attr_html: :width 200px
-[[file:images/BAZ.JPG]]
-
-#+hugo: more
-
-The long story...
-
-
-#+begin_example
-write a poem about pete rose
-#+end_example
-
-#+begin_verse
-Pete Rose was a baseball great,
-A player without compare,
-With a bat in his hand and a smile on his face,
-He could hit a ball anywhere.
-
-His hits record will never be beat,
-And his passion for the game was clear,
-But his fall from grace was a tragic defeat,
-And his legacy forever tarnished, I fear.
-
-But still, I can't help but admire
-The way he played the game,
-With speed and skill and all his heart,
-He left it all on the field and never gave up the fight.
-
-So here's to you, Pete Rose,
-A baseball legend in your own right,
-Though your mistakes may never be forgotten,
-Your place in history is secure, at least tonight.
-#+end_verse
-
-But wait, there's more.
-
-#+begin_example
-write a latin poem about pete rose
-#+end_example
-
-#+begin_verse
-Pete Rose, ludus magnus,
-Non comparari potest,
-Bat cum manu et risus facie,
-Posset pila ubique ferire.
-
-Record eius numquam vincetur,
-Et amor eius pro ludo patet,
-Sed casus eius tristis est,
-Et memoria eius semper maculata timeo.
-
-Sed tamen admirari non possum
-Modo ludebat,
-Velocitate et peritia et tota corde,
-Semper certabat et numquam desistebat.
-
-Ergo tibi, Pete Rose,
-Legenda ludi tua propria,
-Licet errores tui numquam obliviscantur,
-Locum tuum in historia tutum est, saltem hac nocte.
-#+end_verse
-
-#+begin_example
-write me a bash script that searches for files by partial name that contain a certain regex
-#+end_example
-
-Here is a Bash script that searches for files with a partial name that match a specified regular expression and prints their names to the terminal:
-
-Copy code
-#+begin_src bash
-#!/bin/bash
-
-# Prompt the user for the search term and regular expression
-read -p "Enter the partial file name to search for: " search_term
-read -p "Enter the regular expression to match: " regex
-
-# Search for files with the specified name and matching regular expression
-results=$(find . -name "*$search_term*" -exec grep -l "$regex" {} +)
-
-# Print the names of each file that was found
-while read -r file; do
-  echo "$file"
-done <<< "$results"
-#+end_src
-This script uses the find command to search for files with the specified partial name and grep to match the regular expression. The -l option for grep is used to print only the names of the files that match, rather than their contents. The read command is used to prompt the user for input and to iterate over the search results.
-
-To use this script, save it to a file (e.g. search.sh), make it executable with chmod +x search.sh, and run it with ./search.sh. You can specify the partial file name and regular expression to search for when prompted.
-
-
-#+begin_example
-how do I invest to beat the market and inflation
-#+end_example
-
-#+begin_quote
-To invest in order to beat the market and inflation, you can follow these steps:
-
-Identify your financial goals and the time frame in which you want to achieve them. This will help you determine the right investment strategy for your situation.
-
-Create a diversified portfolio that includes a mix of stocks, bonds, and other investments. This will help reduce the risk of your investments and increase the chances of achieving your financial goals.
-
-Research different investments and compare their potential returns, risks, and fees. Look for investments that have a track record of outperforming the market and have the potential to protect against inflation.
-
-Consider consulting with a financial advisor who can provide expert advice on investing and help you create a personalized investment plan.
-
-Regularly monitor your investments and make adjustments as needed. This may include rebalancing your portfolio to maintain the right mix of investments, selling underperforming investments, and buying new investments that align with your financial goals.
-
-By following these steps and being disciplined in your approach to investing, you can increase the chances of beating the market and protecting against inflation. However, it is important to keep in mind that there are no guarantees in investing, and the value of your investments can go up or down. It is always a good idea to carefully consider the risks and consult with a financial advisor before making any investment decisions.
-#+end_quote
-
-#+begin_example
-what backpacking gear should I get rid of when hiking for a week or more
-#+end_example
-
-#+begin_quote
-When backpacking for a week or more, it is important to carefully consider the gear you take with you. To save weight and space, you may want to consider getting rid of the following items:
-
-Extra clothing: Take only the essentials, such as a few layers for different weather conditions and a waterproof jacket. Avoid taking duplicate items or clothing that you are unlikely to wear.
-
-Heavy or bulky items: Look for lightweight and compact alternatives to your gear, such as a backpacking stove, sleeping pad, and tent.
-
-Non-essential items: Consider leaving behind items that are not necessary for your trip, such as a camp chair, extra gadgets, or luxury items.
-
-Expired or unnecessary items: Get rid of any food, medication, or first-aid supplies that are expired or that you are unlikely to use.
-
-Overall, the key is to pack only the essentials and to prioritize lightweight and compact gear. By doing so, you can save weight and space and make your backpacking trip more enjoyable.
-#+end_quote
-
-#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
 * TODO do some stuff                                       :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-12-24
@@ -1023,4 +790,104 @@ From:
 
   https://fosstodon.org/@eludom/109564736411627471
 
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO Money Talks                                         :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-01-08
+   :EXPORT_HUGO_PUBLISHDATE: 2023-01-08:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+Lately I've been reading the Humble Dollar
+
+Financial Education for me, long neglected
+
+Sure, it's aimed at just-pre and just post retirement people with
+"some money", but touches many other areas.
+
+Touches:
+  - Family
+  - Psychology
+  - Values
+  - Faith
+  - Yes, Politics
+
+"If it can't be measured, it dosn't exixt"
+   - Some truth (but not astethics, enjoyment, creativity, meaning...)
+   - money does that to some degree
+
+Even if you don't have a lot of money, I think the site is worth a
+read.  You'll learn a lot about money, but, more importantly, you'll
+learn about yourself.
+
+I wish I'd read this sort of stuff a lot earlier (e.g. I sat out most of
+the post 2008 crash over political fears ... looking at the long track
+record of the markets and trusting them might have been better. I have
+similar concerns today.). I probably would have made better decisions,
+had less anxiety, and maybe helped other people more effectively with the
+resources at my disposal.
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO do the right thing?                                 :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-01-25
+   :EXPORT_HUGO_PUBLISHDATE: 2023-01-25:
+  :END:
+
+"much government spending is immoral, hence reducing taxes is a moral imperative"
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+
+"much government spending is immoral, hence reducing taxes is a moral imperative"
+     - observation
+     - potentially inflammatory statement
+       + but it makes you think
+         o who do you trust with money
+         + your money?
+         + other people's money?
+         o what are your values?
+         + who's lined up with your values
+           - you?
+           - your family?
+             o e.g. if I'm making a do I *WANT* to leave large piles
+             of money to my kids?  Will the "do the right things"
+             with it?
+           - your church?
+           - other organizations?
+           - the government?
+     - more of a problem the more money you have
+       + John Wesley quote on money?
+     - greed and envy
+       + are tendencies when you don't have a lot of money
+         o or think you don't have a lot of money
+         o or listen incessantly to sources that tell you don't have a
+         lot of money
+         + compare wealth of "poor" person in US/western countries
+           today with, say, "poor" in 1900.
+       + greed and envy are not good for your psyche
+         o better idess
+         + "enough"
+         + gratitude
+         + thankfulness
+         + congratulate others for their good luck/fortune/hard work
+     - Allow others to have moral responsibility
+       + Andrew Carnegie may have exploited people, but their are also
+         libraries in his name across the US
+         o Am I willing to allow people to do the "wrong" thing with
+           their own money?
+         o People with large private wealth sometimes do good things
+         that no government bureaucracy would ever sign off on.
 #nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
