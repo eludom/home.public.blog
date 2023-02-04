@@ -4889,6 +4889,35 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Try writing more, you'll worry less         :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-02-04
+   :EXPORT_HUGO_PUBLISHDATE: 2023-02-04:
+  :END:
+
+The past couple weeks, I've intentionally cut the phone out my morning
+routine. I was already writing a daily journal (on paper), about a
+page or two a day. I've always found that to be cathartic, as well
+as a good way to organize my thoughts and do some day-to-day planning.
+Now I'm writing two daily journals.
+
+#+hugo: more
+
+The second journal is an attempt to capture family history and oral
+tradition. A lot of history, artifacts and stories have landed on me
+after 150 or 200 years. I'm "getting them out" in a semi-organized
+manner, using what I know of peoples financial circumstances as writing
+prompts. There will probably be online versions later, but I find the
+process of writing on paper leads to much more creativity at the start.
+
+Which leads me back to the start of this post. You can start you day
+doom-scrolling, filling your head with sound bites, stories of political
+(and other) apocalypses, or you can use the time to create, reflect
+and plan before spending the time you are given this day. Your choice.
+
+(turns out this is version 2 of my previous post...)
+
+#45 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
 **** PUBLISHED mornings without the phone (regaining my mind) :100DaysToOffload:
   :PROPERTIES:
@@ -4920,7 +4949,7 @@ Not some advertising-induced, attention grabbing graphic-heavy distractions
 that some web-designer or marketing person decided you needed to see
 to drive "engagement" with whatever their schtick is.
 
-It's OK not to know.   Get your own mind back.  Break your addition to
+It's OK not to know.   Get your own mind back.  Break your addiction to
 the smart phone, for at least part of the day.
 
 The first version of this was written in a paper journal with a
