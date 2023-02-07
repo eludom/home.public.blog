@@ -4889,6 +4889,62 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Making lists                  :emacs:100DaysToOffload:orgmode:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-02-07
+  :EXPORT_HUGO_PUBLISHDATE: 2023-02-07:
+  :END:
+
+Dad made lists. Lots of them. I have Emacs org mode.
+
+Making lists is part of the story I tell myself about how I'm working
+on the right things and getting them done.
+
+#+hugo: more
+
+Dad was an incurable list maker. He had to-do lists from Mom. He wrote
+detailed instructions (a list) of how to set up the camper. He posted
+lists of the date that each of my brothers and me would start paying for their
+own gas for the car and the milage rate. When he used computers he
+decided to save everything on USB drives. There was (is) a list indexing
+those USB drives. There were multiple phone lists updated regularly.
+There were (are) song lists in the harmonica case.
+
+I have [[https://orgmode.org/][Emacs Org Mode]] ("Your life in plain text"), the penultimate
+list making software.
+
+The lists I make on computers bear only tangential relationship to
+what I do.  They are never done.  In fact, computers make it all to
+easy to make lists of more things than I could every do.  So, why?
+
+The fantasy is that when I make lists, they are organized, complete,
+logical, right, drive all that I do (and don't do) and that I'm more
+effective, accomplish more and am happier as a result.  Or maybe I
+just need the illusion of order.
+
+The reality is, I do what I do.  I am time bounded.  Lists grow to
+infinity.  Lists are there more to make me feel good than to drive
+actual behavior, so that I can tell myself (and others) that I am
+ORGanized.  Lists are there for psychological reasons.  They are there
+because I like making lists.  It's enjoyment of the process and the
+illusions about what they help me accomplish, not, for the most part,
+because I get more done (but I /think/ I do...no, really....)
+
+True, it is better to have a plan than no plan.  "If you aim at
+nothing, you will hit it every time."  Got it.  But, in reality, lists
+are part of the story I tell myself about how I'm working on the right
+things and getting them done.
+
+Now,
+
+#+begin_quote
+=M-x org-agenda=
+#+end_quote
+
+what am I doing today? ...
+
+#46 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED Try writing more, you'll worry less         :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-02-04
