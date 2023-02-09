@@ -4889,6 +4889,28 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED Count Your Blessings                        :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-02-09
+  :EXPORT_HUGO_PUBLISHDATE: 2023-02-09:
+  :END:
+
+Do something radical.
+
+#+begin_quote
+Count your blessings, name them one by one
+#+end_quote
+
+Literally.  Do it.   Write them down.  Meditate on all the good stuff
+in your life.  Maybe even give thanks.
+
+https://hymnary.org/text/when_upon_lifes_billows_you_are_tempest
+
+(the fact that this follows yesterdays "[[http://curious.galthub.com/blog/2023-02-07/][Making Lists]]" musing is just
+coincidental ... he asserts ... our maybe it's the positive application)
+
+#47 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED Making lists                  :emacs:100DaysToOffload:orgmode:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-02-07
