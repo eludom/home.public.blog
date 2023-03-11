@@ -7917,6 +7917,53 @@ Dream on.
 Post 37 of #100DaysToOffload https://100daystooffload.com/
 
 *** Outdoors                                                       :outdoors:
+**** PUBLISHED Hikers, Volunteers, Hard Work and Relationships        :snark:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-03-11
+  :EXPORT_HUGO_PUBLISHDATE: 2023-03-11:
+  :END:
+
+# The short story ..
+
+# #+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+# #+attr_html: :width 200px
+# [[file:images/BAZ.JPG]]
+
+In your "Presidents Log Book Entry" [[https://www.patc.net/docs/PATC/Newsletters/2023/PA_2023_03.pdf][article in the monthly newsletter]], you
+talked about the need for the Potomac Appalachian Trail Club (PATC)
+to build its "brand identity" to reach our target "consumers". About
+that...
+
+#+hugo: more
+
+I'm involved in PATC as a trail maintainer and an avid hiker with 1700
+miles of an AT Section hike over 14 years. I'm in it to meet the likes
+of Tom Johnson, one of your predecessors as PATC president. I ran into
+him once in the middle of a long day-hike, corresponded a bit and devoured
+the copy of the [[https://www.patc.net/docs/About%20PATC/History-PATC-14Aug2020byTomJohnson.pdf][history of the PATC]] which he wrote and sent to me shortly
+before he passed on while leading a hike. I'm in it to work with
+Jon & Katherine Rindt, Mosby district supervisors. I admire their non-ceasing
+selfless work to clear 100s of blow downs, corral the cats (volunteers
+like me), fix signage, work with the county/state/parks to get parking
+lots fixed, etc. I'm in it to take trail maintenance classes from the
+likes of Robert Fina and to, again, admire the dedication, learning
+and investment of time and resources he puts into it. I do my little
+bit, but there are giants out there. I'm in it to take walks with my
+family, to meet casual hikers and to talk to the steady stream of thru-hikers
+who are on a mission. I'm in it drag my daughter-in-law, a professional
+ornithologist, out with me to do maintenance and to be amazed as she
+identifies 30+ in species of birds around us on one outing without
+even seeing most of them. She then put together a display about the
+birds that is in the display case at the Tucker Lane parking lot (thanks
+to Jon, too).
+
+So, yeah, brand identity. I'd welcome the chance to get to know you
+and to talk to you about it, one-on-one. I could use some help cleaning
+out water bars and weed-wacking my section once the vegetation gets
+going later this spring.  Let me know if you'd like to help.
+
+#48 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED Spring Creeping Up The Mountain             :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-17
