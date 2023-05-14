@@ -4458,7 +4458,6 @@ Here is a possible quote that Mark Twain might have said about cryptocurrency:
 
 #39 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-
 **** PUBLISHED Peace be with you                           :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-05
@@ -4521,6 +4520,47 @@ That is all.
 
 #+hugo: more
 #14 of #100DaysToOffload take 2, https://100daystooffload.com/
+**** PUBLISHED Who 'ya gonna trust?  CNN, Podcasts, ChatGPT... :100DaysToOffload:life:geek:AI:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-05-14
+  :EXPORT_HUGO_PUBLISHDATE: 2023-05-14:
+  :END:
+
+On my [[https://fosstodon.org/@saluki/110354524960932474"][Mastadon feed]] this week, the question was asked
+#+begin_quote
+"Why have #podcasts become so popular in the last few years? What's changed?"
+#+end_quote
+
+I think there are a lot of answers...
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG][ChatGPT rendering of "Make an image of Dorothy Gale of Kanasas riding a bucking bronco with the wicked witch flying on her broom in the background and a tornado behind that" by ChatGPT and George Jones is licensed under ????]]
+#+attr_html: :width 200px
+[[file:images/dorothy.png]]
+
+#+hugo: more
+
+My answers include
+
+ #+begin_quote
+ No need for the overhead or editorial control of older media forms.
+ Lower production and distribution costs.  A wide range of presenters
+ and topics.
+ #+end_quote
+
+I think there's going to be another HUGE
+reason to tune unto long-form talking-heads/analysis style podcasts:
+You can be pretty sure (at last for a while) that the people talking
+are people, not, e.g. ChatGPT spitting out articles.   If you want to
+hear what PEOPLE are saying and thinking, for the time being podcasts
+are it. When we get to the point that AI generation of TV anchors and White
+House press secretaries is common place, we will have arrived at an
+existential crisis of trust in all mass-market delivered content.
+
+At that point, your best bet will be to have live, in-person,
+one-on-one interactions with real people.   And, come to think of it,
+in any event, talking to people more might not be such a bad idea.
+
+#49 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 *** Work                                                               :work:
 
 **** WIP Successful?                                       :100DaysToOffload:
