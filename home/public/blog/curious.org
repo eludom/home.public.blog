@@ -11,12 +11,12 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION:
 :END:
-* Content
+y* Content
 ** Blog                                                               :@blog:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2022-12-25 SUN 07:57:15>
+:EXPORT_HUGO_PUBLISHDATE: <2023-10-09 MON 06:40:09>
 :END:
 *** Geek Stuff                                                         :geek:
 **** WIP The unnumbered habits of a questionably effective person :orgmode:emacs:100DaysToOffload:life:
@@ -4562,6 +4562,25 @@ in any event, talking to people more might not be such a bad idea.
 
 #49 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 *** Work                                                               :work:
+
+* PUBLISHED What matters in work?                          :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-11-05
+  :EXPORT_HUGO_PUBLISHDATE: 2023-11-05:
+  :END:
+
+The chart below is a mental framework I've used to evaluate my work
+situation over the span
+of may career.  The goal is to move as far up the pyramid as you can.
+Being at the top (interesting )is really a first or zeroth world
+problem.  Insert discussion of human flourishing/εὐδαιμονία here.
+If you're failing at a lower level, the upper layers really don't matter.
+
+#+caption: [[http://git.galthub.com:3000/gmj/home.public.art/src/master/home/public/art/maslow2023.png][Maslow's Heirarchy of Jobs ]]© 2023 George M. Jones, is is made available under the terms of the [[https://creativecommons.org/licenses/by/4.0/][CC BY 4.0]]
+#+attr_html: :width 600px
+file:/home/gmj/home/public/art/maslow2023.png
+
+#50 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
 **** WIP Successful?                                       :100DaysToOffload:
   :PROPERTIES:
