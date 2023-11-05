@@ -891,3 +891,213 @@ The long story...
          o People with large private wealth sometimes do good things
          that no government bureaucracy would ever sign off on.
 #nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO Try writing more, you'll worry less                 :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-02-04
+   :EXPORT_HUGO_PUBLISHDATE: 2023-02-04:
+  :END:
+
+The past couple weeks, I've intentionally cut the phone out my
+morning routine.  I was writing a daily journal (on paper), about a
+page or two.  I've always found that to be cathartic, as well as a
+good way to organize my thoughts and do some day-to-day planning.
+Now I'm writing two daily journals.
+
+#+hugo: more
+
+The second one is an attempt to
+capture family history and oral tradition.  A lot of history,
+artifacts and stories have landed on me after 150 or 200 years.
+I'm "getting them out" in a semi-organized manner.  There will
+probably be online versions later, but I find the process of writing
+on paper leads to much more creativity at the start.
+
+Which leads me back to the start of this post. You can start you day
+doom-scrolling, filling your head with sound bites, stories of political
+(and other) apocalypses, or you can use the time to create, reflect
+and plan before spending the time you this day.  Your choice.
+
+(turns out this is version 2 of my previous post...)
+
+#45 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO "Weem doin' it by the numbers again, Mom"           :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-02-07
+  :EXPORT_HUGO_PUBLISHDATE: 2023-02-07:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+When we were kids and Dad took us to shower at the
+campground, there were apparently mental list of how to do it, a
+phrase from my distant childhood memory (probably age 2 or 3) has me
+telling mom (still working out grammar) "Weem [we am] doing it by the
+numbers again, Mom"
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO Count Your Blessings                                :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-02-09
+  :EXPORT_HUGO_PUBLISHDATE: 2023-02-09:
+  :END:
+
+Do something radical.
+
+#+begin_quote
+Count your blessings, name them one by one
+#+end_quote
+
+Literally.  Do it.   Write them down.  Meditate on all the good stuff
+in your life.  Maybe even give thanks.
+
+https://hymnary.org/text/when_upon_lifes_billows_you_are_tempest
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO "Branding" volunteer hiking trail maintenance?
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-03-11
+  :EXPORT_HUGO_PUBLISHDATE: 2023-03-11:
+  :END:
+
+# The short story ..
+
+# #+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+# #+attr_html: :width 200px
+# [[file:images/BAZ.JPG]]
+
+In your "Presidents Log Book Entry" in the monthly newsletter, you
+talked about the need for the Potomac Appalachian Trail Club (PATC)
+to build its "brand identity" to reach our target "consumers". About
+that...
+
+#+hugo: more
+
+
+I'm involved in PATC as a trail maintainer and an avid hiker with 1700
+miles of an AT Section hike over 14 years. I'm in it to meet the likes
+of Tom Johnson, one of your predecessors as PATC president. I ran into
+him once in the middle of a long day-hike, corresponded a bit and devoured
+the copy of the history of the PATC which he wrote and sent to me shortly
+before he passed on while leading a hike. I'm in it to work with
+Jon & Katherine Rindt, Mosby district supervisors. I admire their non-ceasing
+selfless work to clear 100s of blow downs, corral the cats (volunteers
+like me), fix signage, work with the county/state/parks to get parking
+lots fixed, etc. I'm in it to take trail maintenance classes from the
+likes of Robert Fina and to, again, admire the dedication, learning
+and investment of time and resources he puts into it. I do my little
+bit, but there are giants out there. I'm in it to take walks with my
+family, to meet casual hikers and to talk to the steady stream of thru-hikers
+who are on a mission. I'm in it drag my daughter-in-law, a professional
+ornithologist, out with me to do maintenance and to be amazed as she
+identifies 30+ in species of birds around us on one outing without
+even seeing most of them. She then put together a display about the
+birds that is in the display case at the Tucker Lane parking lot (thanks
+to Jon, too).
+
+So, yeah, brand identity. I'd welcome to chance to get to know you
+and to talk to you about it, one-on-one. I could use some help cleaning
+out water bars and weed-wacking my section once the vegetation gets
+going later this spring.  Let me know if you'd like to help.
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO The Bad Old Days.  What the office means to me.                :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-03-16
+  :EXPORT_HUGO_PUBLISHDATE: 2023-03-16:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+The long story...
+
+- Broken WIFI
+     - Broken Video Conferencing
+     - City noise
+     - People having to find/fight for conference rooms
+     - extroverts assume their preferences, style and choice of career
+       should be normative for introverts.   Late risers...
+     - HR promotional blurbs on big screens in common areas promoting
+       whatever it is HR promotes, convincing themselves, I'm sure that
+       they are relevant and needed, but, in fact just sucking down
+       revenue, mostly failing in attracting good candidates (see
+       buying talent via acquisitions vs. normal hiring process)
+       drawing focus off productive work.
+     - hits of the return of office politics
+     - badges
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO Who 'ya gonna trust?  CNN, Podcasts, ChatGPT...     :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-05-14
+  :EXPORT_HUGO_PUBLISHDATE: 2023-05-14:
+  :END:
+
+The short story ..
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Name of work" by WHO is licensed under cc by 2.0]]
+#+attr_html: :width 200px
+[[file:images/BAZ.JPG]]
+
+#+hugo: more
+
+On my [[https://fosstodon.org/@saluki/110354524960932474"][Mastadon feed]] this week, the question was asked
+
+#+begin_quote
+"Why have #podcasts become so popular in the last few years? What's changed?"
+#+end_quote
+
+I think there are a lot of answers.  Mine include
+
+ #+begin_quote
+ No need for the overhead or editorial control of older media forms.
+ Lower production and distribution costs.  A wide range of presenters
+ and topics.
+ #+end_quote
+
+Thinking a little further, I think there's going to be another HUGE
+reason to tune unto long-form talking-heads/analysis style podcasts:
+You can be pretty sure (at last for a while) that the people talking
+are people, not, e.g. ChatGPT spitting out articles.   If you want to
+hear what PEOPLE are saying and thinking, for the time being podcasts
+are it.
+
+When we get to the point that AI generation of TV anchors and White
+House press secretaries is common place, we will have arrived at an
+existential crisis of trust in all mass-market delivered content.
+
+At that point, your best bet will be to have live, in-person,
+one-on-one interactions with real people.   And, come to think of it,
+in any event, talking to people more might not be such a bad idea.
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+* TODO What matters in work?                               :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-11-05
+  :EXPORT_HUGO_PUBLISHDATE: 2023-11-05:
+  :END:
+
+The chart below is a mental framework I've used to evaluate my work
+situation over the span
+of may career.  The goal is to move as far up the pyramid as you can.
+Being at the top (interesting )is really a first or zeroth world
+problem.  Insert discussion of human flourishing/εὐδαιμονία here.
+If you're failing at a lower level, the upper layers really don't matter.
+
+#+caption: [[http://git.galthub.com:3000/gmj/home.public.art/src/master/home/public/art/maslow2023.png][Maslow's Heirarchy of Jobs ]]© 2023 George M. Jones, is is made available under the terms of the [[https://creativecommons.org/licenses/by/4.0/][CC BY 4.0]]
+#+attr_html: :width 600px
+file:/home/gmj/home/public/art/maslow2023.png
+
+
+#nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
