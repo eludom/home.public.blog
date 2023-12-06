@@ -4563,10 +4563,10 @@ in any event, talking to people more might not be such a bad idea.
 #49 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 *** Work                                                               :work:
 
-*** PUBLISHED What matters in work?                        :100DaysToOffload:
+**** PUBLISHED What matters in work?                       :100DaysToOffload:
   :PROPERTIES:
-  :EXPORT_FILE_NAME: 2023-11-05
-  :EXPORT_HUGO_PUBLISHDATE: 2023-11-05:
+  :EXPORT_FILE_NAME: 2023-12-06
+  :EXPORT_HUGO_PUBLISHDATE: 2023-12-02:
   :END:
 
 The chart below is a mental framework I've used to evaluate my work
@@ -4633,7 +4633,7 @@ already have will do the job.  Don't spend hours getting a slide deck
 to %100 perfection when what you really need to do is talk over some
 ideas and the existing material is sufficient to spark conversation.
 
-Thanks to Russell Leighton  for the mind-boggling obvious idea.
+Thanks to Russell Leighton (then) at AWS  for the mind-boggling obvious idea.
 
 #26 of #100DaysToOffload take 2, https://100daystooffload.com/
 

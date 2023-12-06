@@ -1,8 +1,10 @@
 +++
-title = "What is \"the news\"?"
-author = ["George Jones"]
+title = """
+  What is "the news"?
+  """
+author = ["George M Jones"]
 publishDate = 2021-12-09
-lastmod = 2022-02-26T08:36:22-05:00
+lastmod = 2023-12-06T05:46:08-05:00
 tags = ["life"]
 categories = ["blog"]
 draft = false

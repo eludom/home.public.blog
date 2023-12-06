@@ -1,8 +1,10 @@
 +++
-title = "My Computer ?"
-author = ["George Jones"]
+title = """
+  "My Computer ?"
+  """
+author = ["George M Jones"]
 publishDate = 2020-05-12
-lastmod = 2022-02-26T08:58:53-05:00
+lastmod = 2023-12-06T05:45:17-05:00
 tags = ["geek", "computers", "windows", "apple", "cloud", "ubuntu", "linux"]
 categories = ["blog"]
 draft = false

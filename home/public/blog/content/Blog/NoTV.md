@@ -1,8 +1,8 @@
 +++
 title = "No TV"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2021-12-07
-lastmod = 2022-02-26T08:35:00-05:00
+lastmod = 2023-12-06T05:46:09-05:00
 tags = ["life"]
 categories = ["blog"]
 draft = false

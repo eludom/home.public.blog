@@ -1,8 +1,8 @@
 +++
 title = "Learn git and galthub without any marketing"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2021-12-04
-lastmod = 2022-02-26T09:00:02-05:00
+lastmod = 2023-12-06T05:45:05-05:00
 tags = ["blogging", "geek", "emacs", "git", "social", "marketing"]
 categories = ["blog"]
 draft = false

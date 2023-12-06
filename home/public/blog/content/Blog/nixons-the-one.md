@@ -1,8 +1,8 @@
 +++
 title = "Nixon's The One !!!"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-11-03
-lastmod = 2022-02-26T08:23:45-05:00
+lastmod = 2023-12-06T05:46:17-05:00
 tags = ["life", "history", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

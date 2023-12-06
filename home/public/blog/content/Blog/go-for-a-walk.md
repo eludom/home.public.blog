@@ -1,8 +1,8 @@
 +++
 title = "All is not doom and gloom: go for a walk !!!"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-04-25T00:00:00-04:00
-lastmod = 2022-02-26T08:33:49-05:00
+lastmod = 2023-12-06T05:46:10-05:00
 tags = ["life", "hope"]
 categories = ["blog"]
 draft = false

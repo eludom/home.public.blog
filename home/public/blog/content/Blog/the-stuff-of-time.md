@@ -1,8 +1,8 @@
 +++
 title = "More Thoughts on More Stuff"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-05-21
-lastmod = 2022-02-26T09:07:06-05:00
+lastmod = 2023-12-06T05:46:14-05:00
 tags = ["family", "history", "life"]
 categories = ["blog"]
 draft = false
@@ -46,7 +46,7 @@ Elisha Morrison picked up after the other one he had was struck
 by a bullet saving his life, or none of us would be here today.
 
 On the Jones side I have all Dad the photography major's
-negatives, the Jones_Reeder_Williams family records, my
+negatives, the Jones/Reeder/Williams family records, my
 grandmother's family photo album showing Dad's high school dance
 band practicing (led by one of Nancy's former neighbors
 ... small world) and pictures of the TV showing live atomic bomb
@@ -95,7 +95,7 @@ will finally wind up in the dump (Bryan, Daniel, Doug, Meg
 At one level **we** are stuff.   I think you and I may both have a
 date to join all the loved ones we know in the Frankfort cemetery
 in the next few years (every time I go there I look around and
-say "Thelma_Bess_Mom_Dad_Grandma...what are YOU doing here?".  As
+say "Thelma/Bess/Mom/Dad/Grandma...what are YOU doing here?".  As
 time goes on I "know" more and more people there.
 
 Until then, back to "Cousin Henry"

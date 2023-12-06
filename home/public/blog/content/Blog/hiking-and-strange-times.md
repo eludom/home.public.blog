@@ -1,8 +1,8 @@
 +++
 title = "Hiking, the Appalachian Trail, Health and Choices"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-05-03
-lastmod = 2022-02-26T08:17:08-05:00
+lastmod = 2023-12-06T05:46:20-05:00
 tags = ["hiking", "AppalachianTrail", "ATC", "PATC", "Katahdin", "outdoors"]
 categories = ["blog"]
 draft = false

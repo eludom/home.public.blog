@@ -1,104 +1,93 @@
 +++
 title = "Things that fall in the river get wet"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-05-25
-lastmod = 2022-02-26T07:58:30-05:00
+lastmod = 2023-12-06T05:46:21-05:00
 tags = ["life", "outdoors"]
 categories = ["blog"]
 draft = false
 +++
 
-1500 miles down, 700 to go to finish section hiking the Appalachian
-Trail with 215 miles completed this year in 3 trips.
+{{< figure src="/ox-hugo/paddling.jpg" caption="<span class=\"figure-number\">Figure 1: </span>Bryan paddling on the Shenandoah" width="400px" >}}
 
-Of course, I have some of the hardest miles left: the Smokies,
-Mt. Washington, the Whites, the Presidentials, the Bigelows, but with
-persistence, luck, health, constant gear tweaks (and some HARD hiking)
-I should finish in a few years.
 
-{{< figure src="./2020-AT-Milage-Status.png" caption="<span class=\"figure-number\">Figure 1: </span>Miles to go before I sleep" >}}
+## <span class="section-num">1</span> Intro {#intro}
 
-\#100daystooffload #hiking
+This weekend my son Bryan, friends (former scouts from Philmont days)
+Sam and Preston and friend Jack went on an canoe trip down the
+Shenandoah river.  We were only dumped in the river by two of the two
+rapids we encountered.  More on that below.
+
+{{< figure src="/ox-hugo/swimming.jpg" caption="<span class=\"figure-number\">Figure 2: </span>Things that fall in the river get wet" width="400px" >}}
 
 <!--more-->
 
 
-## <span class="section-num">1</span> 9/6 - 9/12/2020	Bennington VT to Great Barrington, Mass (Rt. 23) {#9-6-9-12-2020-bennington-vt-to-great-barrington-mass--rt-dot-23}
+## <span class="section-num">2</span> Other people having fun {#other-people-having-fun}
 
-82 miles, 6 nights.
+Along the way we saw many people out enjoying the Memorial Day weekend
+along the river.  The photo below shows a water slide set up to let
+kids slide into the river, with a twist: the last 10 (3m) feet or so of the
+slide were down a mud bank.  For safety there was a kayak in the water
+to help the fun-havers out if needed
 
-{{< figure src="/ox-hugo/TheCobbles.jpg" caption="<span class=\"figure-number\">Figure 2: </span>View From The Cobbles, Mt. Greylock, Cheshire Mass (in valley)" >}}
-
-From Sunday 2020-09-06 to Saturday 2020-09-12 I hiked 82 miles
-SOBO on the Appalachian Trail from Bennington, VT (VT 9) to
-Great Barrington, Mass (Mass 23).  Highlights (high point) of
-the trip included Mt. Greylock, the highest point in Mass, the
-lovely town campsite in Cheshire, Mass, Camping by a beaver dam
-Sunday night and seeing Moose in the morning, lots of beaver
-dams/bogs, staying 2 nights (Thursday, Saturday before driving
-home) at the Berkshire Lakeside Lodge, a lovely little motel .2
-off the trail, and, of course, lots of hiking and people.
-Resupply in Dalton, Mass at the Post Office.  Chocolate shake
-and meatball grinder in Cheshire.  Pizza and milk in Dalton.
-Magic coming down to 20 Thursday in the most-of-the day rain.
-The weather, except for Thursday rain, was excellent.  Upper 50s
-to lower 80s.
-
-Pre-trip I stopped at a Legend Of Sleepy Hollow/Rip Van Winkle
-site, and just down the road the Martin Van Buren home, a short
-hike in Philmont (!), NY to a high waterfall that people were
-swimming under, saw some wild turkeys.  Stayed at the Days Inn
-in Great Barrington and got a shuttle Sunday morning from Debbie
-Andrus
-
-Post trip, I went back to the Berkshire Lakeside Lodge.  I'd
-spent time in the area.  Normal Rockwell museum.  Lakes.
-Tanglewood music festival (Boston Symphony summer series).
-Shaker village (I camped at the ""Shaker Campsite"").  West
-Stockbridge is a lovely little town.  It has the ""TurnPark"",
-an outdoor interactive art park where I met one of the artists
-(cutting the weeds).  Good food.  Probably expensive and crowded
-in a non-COVID high season.  "
+{{< figure src="/ox-hugo/mud-slide.jpg" caption="<span class=\"figure-number\">Figure 3: </span>Water and Mud Slide Into The River" width="400px" >}}
 
 
-## <span class="section-num">2</span> 7/3-7/4/2020	Davenport Gap to Hot Springs {#7-3-7-4-2020-davenport-gap-to-hot-springs}
+## <span class="section-num">3</span> Getting Dumped the first time {#getting-dumped-the-first-time}
 
-33.9 miles, 1 night
+The river was up.   Running about 6 feet (1.8m) at Luray.   The outfitters
+along the river recommend only going at 5 feet (1.5m) or less.   Our second
+day out we were making 5 miles per hour (8 km/h).
 
-{{< figure src="/ox-hugo/MaxPatch.jpg" caption="<span class=\"figure-number\">Figure 3: </span>View From Max Patch in the Morning" >}}
-
-Breakfast at diner. Shuttle to I-40.  Lost 1 - 1.5 hours because
-shuttle driver (NYC guy) was a slave to his GPS, would not just
-hop on 40.  On trail at 10.  Made it to Max Patch about 6.  UP
-HILL.  I was shot.  July 3 on the summit was a mob scene.  I
-camped 1/2 mile short.  Tried cold dinner (mashed potatoes +
-stuffing + chicken).  Meh. Went up for sunset, and again just
-after sunrise.  Bueatiful. Hiked 21 back into Hot Springs.
-Hiked a little way with 2 girls from Tucker/Stone Mountain, GA
-(where my wife went to school). Hit town.  Liquid.  Shower.
-DROVE to store.  White Castles.  Bed.  Drove home.  %65.1 of
-trail done.
-
-
-## <span class="section-num">3</span> 6/17-6/24/2020	Hughs Gap to Hot Springs {#6-17-6-24-2020-hughs-gap-to-hot-springs}
-
-99 Miles, 7 nights.
-
-{{< figure src="/ox-hugo/RobBird.jpg" caption="<span class=\"figure-number\">Figure 4: </span>Rob Bird provided \"Trail Magic\" 2 hikes in a row" >}}
-
-"Mountian Squid" joined me for the first 3 miles.  Ran into 2
-older Russian couples who were out for the first time.  Hiked
-with the owner of <https://www.flowmarshall.com/> gallary in
-Marshall, NC and her British husband for a bit.  Stayed at Uncle
-Johnnies 1st night, shuttled to Hughs Gap.  Stayed at Uncle
-Johhnies 3rd night, resupplied, hiked on to Hot Springs.  20
-into hot springs from Laurel Fork.  Zeroed at Laughing Heart
-hostle, shuttled back to Irwin to get car, drove, car broke down
-in Wythville (axel), rented a car, came home, started a new job,
-went back to Wythville Wednesday night.  Got car Thursday drove
-back to Hot Springs_Laughing Heart, run by "Chuck Norris" and
-"Tigger" ... former Jesuit retreat center_hostel.  Great place.
-Got food in Hot Springs hiking in.  Big hill/rock steps coming
+We hit the [Compton Rapids](https://youtu.be/Zswr_IB9C_A).  The swells were 3 feet (0.9m) or so.  We made it
+about half way through, taking on water, and then got dumped.  Life
+jackets are a good thing.  It was a little dicey floating though the
+end of the rapids.  We kept our paddles and stayed with the
+upside-down canoe.  The only losses were a couple water bottles, cup
+holders and a fishing rod (other canoe).  Most everything was tied
 down.
 
-Post 26 #100DaysToOffload <https://100daystooffload.com/>
+We floated 10 or 20 minutes in still-ish water and wound up swimming
+our swamped canoe to the banks where there was a large group camp-out.
+Some of the people (speaking pretty-much only Spanish) helped get our
+sorry selves and swamped canoe out of the water and drained out.  They
+gave us 6 water bottles which replaced the water we had lost.  Gracias
+!
+
+
+## <span class="section-num">4</span> Getting Dumped the second time {#getting-dumped-the-second-time}
+
+{{< figure src="/ox-hugo/swamp-number-2.jpg" caption="<span class=\"figure-number\">Figure 4: </span>Pulling out after the second spill" width="400px" >}}
+
+The second time we got dumped was a about a mile from the end of the
+trip.  Our planning had failed to disclose the presence of these
+rapids, just had it had failed to disclose the possibility of portage
+around the first set (Preston :-))
+
+The other canoe went first.   We hung back in the smooth (but fast)
+water so as not to run into them if they had trouble.   They did.
+They dumped about half way through.   These canoes were a little heavy
+with gear and people and not horribly stable.  Extra water in the boat
+does not help.
+
+I decided to go to the shore and work thorough options.   We reached
+shore 10 or 20 yards (9 or 18) upstream from the rapids.   I grabbed a tree
+root to hold us in place, but the current flipped us.   At that point
+I made the call to "abandon ship".   We let the canoe go and swam to
+the bank rather than float the rapids in life jackets.
+
+We climbed up the bank, staggered downstream and found that our
+friends were a) OK and b) had snagged our canoe.
+
+
+## <span class="section-num">5</span> The end {#the-end}
+
+In the end, we had minimal losses, no significant injuries, no harm,
+no foul?  Live and learn?  Life jackets, tying down your gear and
+quick thinking are your friend.  And fun was had in the face of
+self-selected risks.
+
+{{< figure src="/ox-hugo/starting-out.jpg" caption="<span class=\"figure-number\">Figure 5: </span>At the takeout point (BEFORE we were drowned rats)" width="400px" >}}
+
+Days 15 and 16 of #100DaysToOffload <https://100daystooffload.com/>

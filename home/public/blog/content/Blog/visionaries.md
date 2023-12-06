@@ -1,8 +1,8 @@
 +++
 title = "The World Needs Visionaries"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2021-07-03T00:00:00-04:00
-lastmod = 2022-02-26T08:34:40-05:00
+lastmod = 2023-12-06T05:46:09-05:00
 tags = ["life", "history", "amazon"]
 categories = ["blog"]
 draft = false

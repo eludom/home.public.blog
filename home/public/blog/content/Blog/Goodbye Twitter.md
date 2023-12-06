@@ -1,8 +1,8 @@
 +++
 title = "Goodbye Twitter"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-10-12
-lastmod = 2022-02-26T07:52:22-05:00
+lastmod = 2023-12-06T05:46:40-05:00
 tags = ["social"]
 categories = ["blog"]
 draft = false

@@ -1,8 +1,8 @@
 +++
 title = "The science is settled? Who says so?"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-08
-lastmod = 2022-02-26T08:29:41-05:00
+lastmod = 2023-12-06T05:46:16-05:00
 tags = ["life", "science", "philosophy"]
 categories = ["blog"]
 draft = false

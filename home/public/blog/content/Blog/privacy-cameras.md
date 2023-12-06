@@ -1,8 +1,8 @@
 +++
 title = "Privacy: Motion activated cameras in the woods?"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-09-26
-lastmod = 2022-02-26T08:42:36-05:00
+lastmod = 2023-12-06T05:45:55-05:00
 tags = ["privacy", "100DaysToOffload", "hiking"]
 categories = ["blog"]
 draft = false
@@ -52,9 +52,8 @@ Can't you read the signs?"
 Signs, The Five Man Electrical Band
 https://www.songfacts.com/lyrics/five-man-electrical-band/signs
 ```
-
 <div class="src-block-caption">
-  <span class="src-block-number">Code Snippet 1</span>:
+  <span class="src-block-number">Code Snippet 1:</span>
   foo <a href="https://www.songfacts.com/lyrics/five-man-electrical-band/signs">Signs</a>
 </div>
 

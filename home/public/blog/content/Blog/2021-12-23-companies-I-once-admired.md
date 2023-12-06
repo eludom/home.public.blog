@@ -1,8 +1,8 @@
 +++
 title = "Tech companies I once admired"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2021-12-23
-lastmod = 2022-02-26T09:00:44-05:00
+lastmod = 2023-12-06T05:45:04-05:00
 tags = ["geek", "life", "tech"]
 categories = ["blog"]
 draft = false

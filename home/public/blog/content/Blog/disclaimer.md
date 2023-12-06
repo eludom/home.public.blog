@@ -1,8 +1,8 @@
 +++
 title = "Disclaimer"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-19
-lastmod = 2022-02-26T08:39:48-05:00
+lastmod = 2023-12-06T05:46:01-05:00
 tags = ["work", "philosophy", "humor", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

@@ -1,8 +1,8 @@
 +++
 title = "Privacy: what is it and why do we care? …"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-09-24
-lastmod = 2022-02-26T08:42:52-05:00
+lastmod = 2023-12-06T05:45:55-05:00
 tags = ["privacy", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

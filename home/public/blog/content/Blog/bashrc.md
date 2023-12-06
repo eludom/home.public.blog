@@ -1,8 +1,8 @@
 +++
 title = ".bashrc as literate programming"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-12-05
-lastmod = 2022-02-26T08:55:33-05:00
+lastmod = 2023-12-06T05:45:50-05:00
 tags = ["geek", "howto", "emacs", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -242,7 +242,7 @@ Here is the human-readable .bashrc file with comments, etc.
 
 -  cd commands that use/print the directory stack
 
-    These aliases support pushd_popd_dirs like functionality while
+    These aliases support pushd/popd/dirs like functionality while
     listing one directory per line
 
     I like to keep a "stack" of directories so I can work on one thing

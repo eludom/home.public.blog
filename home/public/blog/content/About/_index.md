@@ -2,7 +2,7 @@
 title = "About George Jones"
 author = ["George M Jones"]
 layout = "single"
-lastmod = 2022-10-30T05:01:54-04:00
+lastmod = 2023-12-06T05:46:46-05:00
 draft = false
 +++
 
@@ -21,7 +21,7 @@ systems administrator, network security engineer, open source
 software developer, Internet Standards author (RFC3871), security
 researcher, conference chair (Flocon 2013, 2014), security
 analytics developer and data scientist.  He has been employed
-variously by CompuServe, UUNET, MITRE, Carnegie-Mellon_CERT, Amazon,
-Redjack and Expanse_Palo Alto Networks.  See  <https://www.linkedin.com/in/georgemjones/>
+variously by CompuServe, UUNET, MITRE, Carnegie-Mellon/CERT, Amazon,
+Redjack and Expanse/Palo Alto Networks.  See  <https://www.linkedin.com/in/georgemjones/>
 
 He can be reached via email as gmj at pobox dot com

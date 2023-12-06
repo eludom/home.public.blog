@@ -1,8 +1,10 @@
 +++
-title = "\"​I'm passionate about…\"​"
-author = ["George Jones"]
+title = """
+  "​I'm passionate about…"​
+  """
+author = ["George M Jones"]
 publishDate = 2020-03-09T00:00:00-04:00
-lastmod = 2022-02-26T08:41:07-05:00
+lastmod = 2023-12-06T05:45:59-05:00
 tags = ["Latin", "humanity", "work"]
 categories = ["blog"]
 draft = false

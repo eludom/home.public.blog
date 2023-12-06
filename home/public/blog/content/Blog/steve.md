@@ -1,8 +1,8 @@
 +++
 title = "Choosy Programmers Choose GIF"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-04-30
-lastmod = 2022-02-26T08:40:35-05:00
+lastmod = 2023-12-06T05:46:01-05:00
 tags = ["work", "Wilhite", "CompuServe", "GIF", "History", "Computers", "Emacs", "Programming"]
 categories = ["blog"]
 draft = false
@@ -29,7 +29,7 @@ sure there was much more that I missed.
 ## <span class="section-num">1</span> Things Steve Wrote {#things-steve-wrote}
 
 Steve ran the languages and tools group when I arrived.  _He had just_
-/given up on writing at DEC10 ADA compiler/[^fn:1] (Steve is still writing
+_given up on writing at DEC10 ADA compiler_[^fn:1] (Steve is still writing
 ADA software), was just beginning to embrace PCs as "real computers"
 worthy of his attention, had written a FORTRAN compiler, a BASIC
 compiler and associated run-time systems, and a run-time library for
@@ -65,7 +65,7 @@ Later on (after my time) Steve as pulled into major projects to support
 the back end processing for H&amp;R Blocks's TaxCut program when online
 tax-filing was a new thing.  _He was also pulled into the WOW project_
 _which was supposed to be the AOL killer when it became apparent that_
-/CompuServe needed an AOL killer./[^fn:2]  One of those projects succeeded.
+_CompuServe needed an AOL killer._[^fn:2]  One of those projects succeeded.
 Single-handed technical virtuosity could not fix the one that
 didn't.
 
@@ -104,7 +104,7 @@ had and was hacking on both).  But there was no Emacs.  Somehow
 (Steve?) I became aware that the source to MicroEmacs was included
 on with the disks to Mark Williams C compiler for the PC.  So I bought
 the C compiler, ported the source to the Amiga (all it needed was
-character I_O drivers to work in the native ANSI_VT-100 terminal)
+character I/O drivers to work in the native ANSI/VT-100 terminal)
 and gave the source to Steve, who, I think, hacked/improved the
 screen update logic.  I then posted the source to the USENET group
 comp.sources.amiga. It took off from there (thanks to Daniel

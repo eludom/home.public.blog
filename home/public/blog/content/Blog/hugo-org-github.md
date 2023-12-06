@@ -1,8 +1,8 @@
 +++
 title = "Publishing a blog on Github with Org and Hugo"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-16
-lastmod = 2022-02-26T08:58:36-05:00
+lastmod = 2023-12-06T05:45:25-05:00
 tags = ["geek", "blogging", "org", "emacs", "HOWTO"]
 categories = ["blog"]
 draft = false
@@ -127,15 +127,15 @@ publish this blog.
 
 ### <span class="section-num">5.1</span> Important Files and Directories {#important-files-and-directories}
 
-_home_gmj_public_github_ox-hugo-blogs_blog/curious.org
+/home/gmj/public/github/ox-hugo-blogs/blog/curious.org
 : The one file to rule them all
     o This is the blog.  All articles live in this one file as
     separate org trees.   This is the "source".
 
-HUGO_BASE_DIR=/home_gmj_public_github_ox-hugo-blogs/blog
+HUGO_BASE_DIR=/home/gmj/public/github/ox-hugo-blogs/blog
 : The root of my blog
-    o This is the root_source for the blog.  It gets pushed to
-    git@github.com:eludom_blog.git (fetch)
+    o This is the root/source for the blog.  It gets pushed to
+    git@github.com:eludom/blog.git (fetch)
 
 `${HUGO_BASE_DIR}/content/`
 : Where local content (markdown) goes,

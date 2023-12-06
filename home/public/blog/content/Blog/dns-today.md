@@ -1,8 +1,8 @@
 +++
 title = "HOWTO: Breaking and fixing DNS - Understanding modern DNS on Ubuntu."
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-05-10
-lastmod = 2022-02-26T07:51:40-05:00
+lastmod = 2023-12-06T05:46:45-05:00
 tags = ["DNS", "Ubuntu", "HOWTO", "Linux", "systemd"]
 categories = ["blog"]
 draft = false
@@ -16,7 +16,7 @@ understanding, debugging and fixing it.
 <!--more-->
 
 
-## <span class="section-num">1</span> _etc_resolv.conf {#etc-resolv-dot-conf}
+## <span class="section-num">1</span> /etc/resolv.conf {#etc-resolv-dot-conf}
 
 If you  look at `/etc/resolv.conf` on a Linux system today (Ubuntu
 19.10) you will find something like:
@@ -90,7 +90,7 @@ dig - known-good nameserver
 dig - 127.0.0.53
 : I ran `$ dig www.uu.net @127.0.0.53` to see
     if the local systemd-resolved nameserver specified in
-    _etc_resolv.conf was working.  Nope.
+    /etc/resolv.conf was working.  Nope.
 
 
 systemd-resolved - how is it configured?
@@ -119,23 +119,19 @@ systemd-resolve - let systemd resolve a name
 : dig(1) and host(1) are
     not the only game in town for doing command line DNS look-ups.
     Systemd (of course) will do it for you:
-
     ```text
                           $ systemd-resolve www.uu.net
                           www.uu.net: 152.195.32.39
     ```
-
     In this case, it worked, which tells me that systemd-resolved
     is happy and working.
 
 
 try dig again
 : Try another "normal" lookup:
-
     ```text
                           $ dig www.uu.net
     ```
-
     This failed.  The conclusion seems to be that the whatever the
     resolver library is looking at (127.0.0.53) is not working.
 
@@ -239,7 +235,7 @@ debugging this problem further.
 run servers on dedicated systems
 : I had been messing with
     <https://pi-hole.net/> on this system (a laptop that mostly does
-    not move_go off the net).  There was some confusion_doubt
+    not move/go off the net).  There was some confusion/doubt
     about whether this interacted badly with things/caused the
     problems.   It may have.  I un-installed it.   But running a
     dedicated server would be better.
@@ -249,7 +245,7 @@ Failed Ubuntu "upgrade"
 : The actual trigger that made things not
     work was an attempt to let the Ubuntu installer upgrade the
     system.  This failed in strange ways.  After running, my
-    system which was Ubuntu 19.10 reported (_etc_issue) to being
+    system which was Ubuntu 19.10 reported (/etc/issue) to being
     18.04 and the pi-hole logs reported that they could not find
     the wireless interface it had been configured to use (but the
     device was still there, same name, still working...)

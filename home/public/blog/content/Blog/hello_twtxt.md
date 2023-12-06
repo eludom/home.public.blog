@@ -1,8 +1,8 @@
 +++
 title = "Hello twtxt"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-10-17
-lastmod = 2022-02-26T07:52:11-05:00
+lastmod = 2023-12-06T05:46:40-05:00
 tags = ["social", "HOWTO", "100DaysToOffload", "geek"]
 categories = ["blog"]
 draft = false

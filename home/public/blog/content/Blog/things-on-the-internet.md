@@ -1,8 +1,8 @@
 +++
 title = "What is that thing on the Internet, and is it bad?"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-09-19
-lastmod = 2022-02-26T08:43:11-05:00
+lastmod = 2023-12-06T05:45:55-05:00
 tags = ["cybersecurity", "secuity", "privacy", "perspective", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -117,7 +117,7 @@ Is it "bad"? It depends.
     -   **'Is it bad?' "Is it bad" "depends on time**
         When did vulnerabilities in the product become widely known (e.g. a CVE
         published)?  When was "proof of concept" exploit code available?
-        When are_were patches_upgrades available? ...
+        When are/were patches/upgrades available? ...
 
     -   **'Is it bad?' depends on where you are**
         Are you at work on a laptop supplied by your employer who has a policy against

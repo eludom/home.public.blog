@@ -1,8 +1,8 @@
 +++
 title = "Latin Flash Cards in the 21st century (2773 AUC)"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-23
-lastmod = 2022-02-26T07:56:02-05:00
+lastmod = 2023-12-06T05:46:23-05:00
 tags = ["latin", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

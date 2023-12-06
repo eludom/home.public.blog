@@ -1,8 +1,8 @@
 +++
 title = "Of Typewriters, Scribe, LaTeX, Org mode, Hugo and Paper"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-12-06
-lastmod = 2022-02-26T08:55:55-05:00
+lastmod = 2023-12-06T05:45:34-05:00
 tags = ["geek", "history", "blogging", "emacs", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -328,9 +328,8 @@ Oh, and ASCII art is a thing...
             /          \            \_______/     \_______/
            -------------
 ```
-
 <div class="src-block-caption">
-  <span class="src-block-number">Code Snippet 1</span>:
+  <span class="src-block-number">Code Snippet 1:</span>
   Text Colored Glasses
 </div>
 
@@ -446,7 +445,7 @@ You've read this far on a long blog post :-)
 I may have written some things, well, a lot of things.  You can
 decide if they are worth reading.
 
-[https://tools.ietf.org_html_rfc3871](https://tools.ietf.org/html/rfc3871)
+[https://tools.ietf.org/html/rfc3871](https://tools.ietf.org/html/rfc3871)
 : RFC3871 was a
     starry-eyed attempt at getting large network equipment vendors
     to, you know, stop using telnet (with plain-text passwords in

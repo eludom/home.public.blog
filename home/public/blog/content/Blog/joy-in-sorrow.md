@@ -1,36 +1,65 @@
 +++
 title = "Joy in the sorrows of others?"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-10-25
-lastmod = 2022-02-26T08:24:22-05:00
+lastmod = 2023-12-06T05:46:17-05:00
 tags = ["life"]
 categories = ["blog"]
 draft = false
 +++
 
-For those who remember the "All in the family" sitcom:
+> "Why is it that man desires to be made sad, beholding miserable and
+> tragic things which he himself would by no means wish to suffer?  Yet
+> he desires as a spectator to feel sorrow, and this sorrow is his pleasure..."
 
-> Mister, we could use a man like Richard Nixon again
-
-{{< figure src="/ox-hugo/nixon.jpg" caption="<span class=\"figure-number\">Figure 1: </span>[\"Richard Nixon\"](https://www.flickr.com/photos/51878367@N02/4775027305) by [History In An Hour](https://www.flickr.com/photos/51878367@N02) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html)" width="200px" >}}
-
-Richard Nixon lost the 1960 election to John F. Kennedy in the closest
-(popular) election of the 20th century.  There was a credible case to
-be made that voting irregularities in Chicago (read, the Richard Daley
-political machine) and Texas put Kennedy over the top (in the electoral
-college).  And yet...
+Was this guy watching too much news, political mudslinging or maybe
+just hanging out on Facebook?
 
 <!--more-->
 
-> On Wednesday afternoon, November 9, 1960, Nixon officially conceded
-> the election to Kennedy. He told his friend, journalist Earl Mazo,
-> that “our country cannot afford the agony of a constitutional crisis.”
+No, this was Augustine in "The Confessions" circa AD 397 talking about
+his youthful fascination with stage plays.  People have not changed.
+I have the same desire to feed on doom and gloom.  It's not healthy.
+
+So, what do you do? My answers have included unplugging from thew news
+(never owning a TV by choice), becoming very intentionally and
+deliberately apolitical, turning off Facebook (2016) and Twitter
+(2020) as they became political cesspools and conduits for voyeuristic
+negativity (e.g. "news") to creep back in to my life.
+
+But humans don't change.   I have not changed.  I just choose to
+remove the fire-hoses delivering gloom and tragedy to me 24x7.  It
+will find me again, and I will have to make more choices to cut it
+out.
+
+> ""Always look on the bright side of life"
 >
-> <https://www.constitutioncenter.org/blog/the-drama-behind-president-kennedys-1960-election-win/>
+> Monty Python, Life of Brian
 
-On this election day 2020, I reflect, in all seriousness that "We
-could use a man like Richard 'I am not a crook' Milhouse Nixon again",
-a man with the character, morals and civic pride to put the interests
-of the country above his own.
+Well, yes.
 
-Post 35 of #100DaysToOffload <https://100daystooffload.com/>
+The Monty Python song embraces an outlook that sees a world full of bad
+things, and that it views, in the end, as meaningless and absurd (see
+their next movie, "The Meaning of Life" or John Cleese' most recent
+(2020) one man show "Why There Is No Hope" in which they drive the
+point home)
+
+Augustine himself passed through a period where he embraced
+skepticism...literally the Greek philosophy of Skepticism that doubted
+everything, including the existence and know-ability of meaning
+itself.  But he went further.
+
+It's not enough to create a vacuum, to get rid of the bad, the
+negative.  A vacuum will always be filled.  My answer is to _try_ to
+go where Augustine wound up as articulated by the Apostle Paul:
+
+> Finally, brethren, whatever is true, whatever is honorable, whatever
+> is right, whatever is pure, whatever is lovely, whatever is of good
+> repute, if there is any excellence and if anything worthy of praise,
+> dwell on these things.
+>
+> Philippians 4:8, NASB
+
+What are you allowing to fill your vacuum ?
+
+Post 33 of #100DaysToOffload <https://100daystooffload.com/> (yeah, I'm going slowly)

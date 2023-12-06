@@ -1,36 +1,66 @@
 +++
 title = "History: escape to the past or lessons for the present?"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-10-30
-lastmod = 2022-02-26T08:24:03-05:00
+lastmod = 2023-12-06T05:46:17-05:00
 tags = ["life", "history", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
 +++
 
-For those who remember the "All in the family" sitcom:
+I've always liked history.  And because the un-examined predilection
+is not worth having (γνῶθι σεαυτόν), I turn to Livy to understand it:
 
-> Mister, we could use a man like Richard Nixon again
+> This I hold to be the chief value and reward of history, to have
+> examples of all kinds set forth as an illustrious record, from which
+> you may choose what is worthy of imitation in public and private life,
+> and what is to be shunned as wrong in inception and ruinous in outcome
+>
+> Livy, Preface to History of Rome.
+>
+> Quoted from "Classics In Translation: Volume II, Latin Literature",
+> MacKendrick and Howe, 1982
 
-{{< figure src="/ox-hugo/nixon.jpg" caption="<span class=\"figure-number\">Figure 1: </span>[\"Richard Nixon\"](https://www.flickr.com/photos/51878367@N02/4775027305) by [History In An Hour](https://www.flickr.com/photos/51878367@N02) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html)" width="200px" >}}
-
-Richard Nixon lost the 1960 election to John F. Kennedy in the closest
-(popular) election of the 20th century.  There was a credible case to
-be made that voting irregularities in Chicago (read, the Richard Daley
-political machine) and Texas put Kennedy over the top (in the electoral
-college).  And yet...
+So, history provides examples for present living.  It provides a moral
+and practical purpose, helping to guide our interactions with others
+in the present, but also...
 
 <!--more-->
 
-> On Wednesday afternoon, November 9, 1960, Nixon officially conceded
-> the election to Kennedy. He told his friend, journalist Earl Mazo,
-> that “our country cannot afford the agony of a constitutional crisis.”
+> To me on the contrary it is one of the rewards of my labors to turn
+> away for a little while from the multitude of evils which our own age
+> has witnessed, and to give my whole mind to those earlier times,
+> released from every care or consideration by which the historian's mind
+> might be troubled and distracted, if not deflected from the pursuit of
+> truth.
 >
-> <https://www.constitutioncenter.org/blog/the-drama-behind-president-kennedys-1960-election-win/>
+> Livy, Preface to History of Rome.
+>
+> Quoted from "Classics In Translation: Volume II, Latin Literature",
+> MacKendrick and Howe, 1982
 
-On this election day 2020, I reflect, in all seriousness that "We
-could use a man like Richard 'I am not a crook' Milhouse Nixon again",
-a man with the character, morals and civic pride to put the interests
-of the country above his own.
+The study of history can also provide a private, personal escape from
+the calamities and confusion of the present.
 
-Post 35 of #100DaysToOffload <https://100daystooffload.com/>
+And of course, there can be value in loving or doing a thing for it's
+own sake.  Without such passions, life becomes meaningless drudgery.
+That said, here, from this morning's introspection, are a few more
+possible reasons I might be fascinated with history.  History can be:
+
+-   an escape
+-   a "safe place"
+-   a source of examples for living in the world today
+-   a place to find idealized people and institutions (that may never
+    have actually existed in the form we visualize)
+-   something fixed in a changing world
+-   a place where we know the outcomes
+-   a place where we can approach the world in the third person
+-   something to give context and explanations to our current beliefs
+-   a place where we do not have to enter into personal conflict
+-   a collection of interesting stories
+
+And, yes, I do have one son studying to be a History/Social Studies
+teacher and another who has devoured the western cannon.  The apples
+do not fall far from the tree.
+
+Post 34 of #100DaysToOffload <https://100daystooffload.com/>

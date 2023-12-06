@@ -1,8 +1,8 @@
 +++
 title = "40 years of walled gardens & open platforms: Part II"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-21
-lastmod = 2022-02-26T07:53:03-05:00
+lastmod = 2023-12-06T05:46:39-05:00
 tags = ["history", "computing", "social", "USENET", "Facebook", "Twitter", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -61,7 +61,7 @@ Usenet News
     `rec.humor.funny` `alt.ensign.wesley.die.die.die`
 
 
-CompuServe: Dialup~~Network~~Dec10s == Information Service
+CompuServe: Dialup+Network+Dec10s == Information Service
 : CompuServe
     ("Online Services") was born in this world.  People started having
     "Personal Computers" in the late 70s and early 80s.  Modems started
@@ -78,7 +78,7 @@ CompuServe: Dialup~~Network~~Dec10s == Information Service
     Business use slacked off at night, so what was a good time-sharing
     company to do?  Why start an Information Service that grew into the
     familiar lineup of "Forums" (BBS), "InfoPlex" (email), "CB"
-    (chat_Aim_IRC), and the recurring services that every online service,
+    (chat/Aim/IRC), and the recurring services that every online service,
     search engine and social network eventually devolves to: News,
     Weather, and Sports.  I think the online service started around 1980.   I began working
     there in 1985.   More from the CompuPerspective as these posts

@@ -1,8 +1,8 @@
 +++
 title = "Source Code Distribution From Printouts to Github"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-10-10
-lastmod = 2022-02-26T08:56:20-05:00
+lastmod = 2023-12-06T05:45:26-05:00
 tags = ["geek", "unix", "history", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -88,11 +88,9 @@ UUCP
 : UUCP being "unix to unix copy", you could literally
     issue a copy command of source known to live on a remote system
     something like
-
     ```text
-                               uucp cbosgd!/archive/hdb-uucp.tar.gz hdb-uucp.tar.gz
+                uucp cbosgd!/archive/hdb-uucp.tar.gz hdb-uucp.tar.gz
     ```
-
     with multi-hop paths being possible...if you knew the topology
     (pathalias !) and the filenames.
 

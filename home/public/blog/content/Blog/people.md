@@ -1,8 +1,8 @@
 +++
 title = "Dad treated people like people.  I admire that."
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-25
-lastmod = 2022-02-26T08:24:47-05:00
+lastmod = 2023-12-06T05:46:17-05:00
 tags = ["life", "family", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

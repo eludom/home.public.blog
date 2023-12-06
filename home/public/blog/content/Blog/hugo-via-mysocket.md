@@ -1,8 +1,8 @@
 +++
 title = "Selfhosting a Hugo blog with mysocket.io"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2021-11-12
-lastmod = 2022-02-26T08:59:49-05:00
+lastmod = 2023-12-06T05:45:09-05:00
 tags = ["geek", "blogging", "org", "emacs", "HOWTO"]
 categories = ["blog"]
 draft = false
@@ -126,7 +126,7 @@ Set up a tunnel
 ## <span class="org-todo todo TODO">TODO</span> <span class="section-num">10</span> Make sure apache root is on USB thumb drive {#make-sure-apache-root-is-on-usb-thumb-drive}
 
 
-## <span class="org-todo todo TODO">TODO</span> <span class="section-num">11</span> copy_rsync blog_docs to new apache root {#copy-rsync-blog-docs-to-new-apache-root}
+## <span class="org-todo todo TODO">TODO</span> <span class="section-num">11</span> copy/rsync blog/docs to new apache root {#copy-rsync-blog-docs-to-new-apache-root}
 
 -   cron?
 -   Or use sshfs mounting from ed to hangout?

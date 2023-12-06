@@ -1,8 +1,10 @@
 +++
-title = "​Reproducible security analytics?"
-author = ["George Jones"]
+title = """
+  "​Reproducible security analytics?"
+  """
+author = ["George M Jones"]
 publishDate = 2020-02-25T00:00:00-05:00
-lastmod = 2022-02-26T08:44:06-05:00
+lastmod = 2023-12-06T05:45:53-05:00
 tags = ["cybersecurity", "secuity", "privacy", "perspective", "org", "emacs"]
 categories = ["blog"]
 draft = false

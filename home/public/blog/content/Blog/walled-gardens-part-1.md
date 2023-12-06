@@ -1,8 +1,8 @@
 +++
 title = "40 years of walled gardens & open platforms: Part I"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-18
-lastmod = 2022-02-26T07:52:37-05:00
+lastmod = 2023-12-06T05:46:39-05:00
 tags = ["history", "computing", "social", "USENET", "Facebook", "Twitter"]
 categories = ["blog"]
 draft = false
@@ -58,7 +58,7 @@ Telegraphs, Phones, Blind Kids and Steve Jobs
     principals were still around.  I talked to "Captin Crunch",
     one of the main subjects of the book at ToorCon one year.
     What a character.  The entire
-    hacker_blackhat_freedom-to-tinker movements (and Apple
+    hacker/blackhat/freedom-to-tinker movements (and Apple
     Computer) owe him homage.  Just don't give him a piggy-back
     ride.   Phil was also the author of [Network News Transport
     Protocl (NNTP)](https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol) for for [Usenet](https://en.wikipedia.org/wiki/Usenet) and we may get to why Usenet,

@@ -1,8 +1,8 @@
 +++
 title = "HOWTO: /bin/ed by example"
-author = ["George Jones"]
+author = ["George M Jones"]
 publishDate = 2020-08-28
-lastmod = 2022-02-26T08:58:12-05:00
+lastmod = 2023-12-06T05:45:25-05:00
 tags = ["geek", "unix", "100DaysToOffload", "HOWTO"]
 categories = ["blog"]
 draft = false
@@ -13,8 +13,8 @@ Below I **show** an editing session that uses basic `/bin/ed` commands.
 > `/bin/ed` is the standard Unix Editor
 
 `ed` was written round 1969.  It's still here.  `grep` comes from
-`/bin/ed`: `g/re/p` works as an ed command to search **g**lobally for a
-**re**gular expression and **p**rint the matching lines.  ed commands
+`/bin/ed`: `g/re/p` works as an ed command to search \*g\*lobally for a
+\*re\*gular expression and \*p\*rint the matching lines.  ed commands
 will be familiar to users of `sed`, as sed is the "stream editor"
 with a very similar set of commands.  ed commands will be familiar to
 `vi` users.  If you type ":" in vi, you get, basically, an ed prompt.
