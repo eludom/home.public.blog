@@ -3504,7 +3504,7 @@ Looking forward to day 2.
 
 #37 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** WIP Thanks Sacha !                                    :100DaysToOffload:
+**** WIP Thanks Sacha !                              :100DaysToOffload:emacs:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-09
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-09:
