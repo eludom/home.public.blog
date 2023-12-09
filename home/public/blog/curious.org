@@ -11,7 +11,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION:
 :END:
-y* Content
+* Content
 ** Blog                                                               :@blog:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
@@ -3503,6 +3503,58 @@ Confluence forms, etc.)
 Looking forward to day 2.
 
 #37 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
+**** WIP Thanks Sacha !                                    :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-12-09
+  :EXPORT_HUGO_PUBLISHDATE: 2023-12-09:
+  :END:
+#+BEGIN_EXPORT html
+<center>
+<pre>
+Ode to emacsconf 2023
+
+
+All the world’s a text,
+And all the men and women merely editors;
+They have their reads and their writes,
+And Emacs in its time plays many parts...
+</pre>
+With apologies to William Shakespeare and actual odes.
+</center>
+#+END_EXPORT
+
+#+caption: "2015-02-02 Making a virtual Emacs conference happen -- index card #emacs #organizing-people #conference #planning #questions" by sachac is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
+#+attr_html: :width 600px
+[[file:images/emacsconf2015.png]]
+
+#+hugo: more
+
+Emacs is a tangent to life.
+
+We use Emacs around the edges of life.
+It's adjacent to everything we do: our work, our finances, our art,
+and, oh yea, our code too.
+
+Our life is text.  Emacs is a text editor.  Emacs itself is text.  We
+edit Emacs with Emacs.  "All the world's a text...."
+
+Emacs gives us a (false?) sense of control. It's shiny object. Using
+it turns parts of our lives into encounters mediated by a shiny object.
+Or maybe it just leads us down rabbit-holes when we should be paying
+the bills.
+
+Emacs is a community. A worldwide diapora of isolated geeks. It is
+a form of existential self expression.  It can be cathartic.
+
+We share all this once a year at https://emacsconf.org/ emacsconf,
+thanks to [[https://sachachua.com/blog/][Sacha Chua]] and friends.
+
+Thanks, Sacha.
+
+"Now wait, how was I planing to tweak that capture template? ...."
+
+#51 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
 **** TODO Palo Alto Firewalls
 - Eating dogfood
