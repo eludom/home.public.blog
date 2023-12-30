@@ -5198,6 +5198,50 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** WIP Congress, Big Pharma and Kickbacks, Oh My !!!
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2023-12-30
+  :EXPORT_HUGO_PUBLISHDATE: 2023-12-30:
+  :END:
+
+GoodRX may save my son $3,500 or more on his prescription meds.  This
+is a large fraction of the income he's earning on his first job.
+
+Congress exempted "Big Phrama" from kickback rules in the 90s, the
+result seems to be that prices signals are allowed to work in the market
+to the benefit of people who would otherwise  be made poor buying
+medicine they need at artificially high prices.
+
+
+#+hugo: more
+
+I was wondering how GoodRx gets such deep discounts.  From:
+https://www.dallasnews.com/news/watchdog/2022/02/24/dear-watchdog-how-does-goodrx-knock-down-the-price-so-steeply-for-many-drugs-at-the-pharmacy/
+
+#+begin_quote
+GoodRx says it earns money when a customer uses her or his GoodRx code
+to make a purchase. Even more money is made when the consumer becomes
+a repeat customer.
+
+To be clear on this, when you use a GoodRx code, a PBM receives a portion
+of that. GoodRx then receives a percentage or a fixed payment from
+the PBM for directing the customer to that PBM's pricing and the pharmacy,
+the company explains.
+
+In other industries, these payments could be called illegal kickbacks.
+But in the early 1990s, Congress exempted drug companies' rebates from
+federal anti-kickback laws. The thinking was that the payments could
+serve as a negotiating tool, according to /Consumer Reports/.
+#+end_quote
+
+Reason has a series of podcats that shows how related federal
+government myopia (tariffs) cause baby-food shortages, etc.
+https://reason.com/podcasts/nice-things/
+
+
+
+#53 of #100DaysToOffload take 3.1, https://100daystooffload.com/
+
 **** PUBLISHED Count Your Blessings                        :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-02-09
