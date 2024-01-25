@@ -3571,6 +3571,32 @@ Thanks, Sacha.
   + enter https://github.com/PaloAltoNetworks/iron-skillet
 
 *** Cybersecurity                 :cybersecurity:secuity:privacy:perspective:
+**** PUBLISHED We've got to do better than this            :100DaysToOffload:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2024-01-25
+  :EXPORT_HUGO_PUBLISHDATE: 2024-01-25:
+  :END:
+
+We've got to do better than this ... https://haveibeenpwned.com/
+
+Not sure what the answer(s) is(are).  Decentralization?  Required 2FA?
+Returning to the offline world?
+
+#+hugo: more
+
+
+Several of my accounts were in the list multiple times.  And then, our
+friends at the credit bureau lost it all 6 years ago,
+https://en.wikipedia.org/wiki/2017_Equifax_data_breach, and a large US
+federal agency that does backgournd clearance investigations a few
+years before that and Snowden a few years before that (and at the
+moment Congress does seems uninterested in FISA reform).
+
+Life goes on? We all seem to be conditioned to thinking that this is
+normal and OK.
+
+#56 of #100DaysToOffload take 3.1, https://100daystooffload.com/
+
 **** PUBLISHED Privacy Technology              :privacy:security:perspective:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-18-privacy
