@@ -4376,6 +4376,52 @@ at least /try/ to add those qualities to my own life.
 
 #13 of #100DaysToOffload take 2, https://100daystooffload.com/
 *** Current Events                                  :news:philosophy:history:
+**** PUBLISHED Be kind to your call center friends    :100DaysToOffload:life:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2024-03-02
+  :EXPORT_HUGO_PUBLISHDATE: 2024-03-02:
+  :END:
+
+I'm going to subvert the system and try to connect with humans I talk
+to in call centers as humans ... at least until they are all replaced
+by AI.
+
+#+caption: [[https://www.mentalfloss.com/article/72844/13-fascinating-facts-about-brazil]["No good deed unpunished, from Brazil"]] courtesy of MENTAL FLOSS may be copyrighted.
+#+attr_html: :width 200px
+[[file:images/brazil.gif]]
+
+#+hugo: more
+
+My life has taken a turn where it looks like I will be talk to lots of
+customer service people on the phone: medical stuff, tax stuff,
+insurance stuff.  Oh joy.
+
+It's no fun for me, but even less fun for them. They are likely working
+an 8-5 job (at best), dealing with angry frustrated people for low
+pay, having their calls recorded by "the man", fed to AI for analysis,
+graded on how quickly they get people off the phone, with often no
+knowledge of the big picture, and no empowerment (or encouragement)
+to actually understand and solve problems that are not on their call
+script....generally a bad place to be.
+
+I'm going to try to subvert the system with each call.   My goal
+(beyond getting insurance bills corrected, etc) will be to connect
+with the human on the line.  To get their name, to read their mood,
+to connect on some human topic, likely small.
+
+Some will likely be annoyed or threatened by anything that takes them
+off script or out of their role or adds 3 seconds to their measured
+time on phone per call, but I think it's important to acknowledge the
+humans in the system when we do manage to get past the AI chatbots.
+
+I/they may be rewarded with Winston Smith (1984)/Sam Lowry (Brazil)
+torture in the end (or just having the system refuse to fucntion in
+mindless fashion), but I think the small act of humane rebellion will
+be it's own reward.
+
+
+#57 of #100DaysToOffload take 2.1, https://100daystooffload.com/
+
 **** PUBLISHED Mark Twain quote on cryptocurrency (via ChatGPT) :100DaysToOffload:geek:latin:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-12-10
