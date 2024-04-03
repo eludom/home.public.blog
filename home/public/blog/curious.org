@@ -16,10 +16,10 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2024-04-02 TUE 17:27:49>
+:EXPORT_HUGO_PUBLISHDATE: <2024-04-03 WED 10:19:59>
 :END:
 *** Geek Stuff                                                         :geek:
-**** WIP The TNI is dead, long live the TNI                :100DaysToOffload:
+**** WIP The TNI is dead, long live the TNI        :100DaysToOffload:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-04-02
   :EXPORT_HUGO_PUBLISHDATE: 2024-04-02:
