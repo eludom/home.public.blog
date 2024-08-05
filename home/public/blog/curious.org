@@ -16,76 +16,15 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHDATE: <2024-08-02 FRI 11:13:32>
+:EXPORT_HUGO_PUBLISHDATE: <2024-08-05 MON 07:49:03>
 :END:
 *** Geek Stuff                                                         :geek:
-**** WIP The TNI is dead, long live the TNI 2      :100DaysToOffload:history:
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: 2024-07-31
-  :EXPORT_HUGO_PUBLISHDATE: 2024-07-31:
-  :END:
-
-Today was the day I removed the TNI (Telephone Network Interface) from
-my house.   The last vestiges of our land line. The last outpost of a
-once vast network.
-
-    #+caption: "This Phone Is Property of Ohio Bell" by George Jones is licensed under CC BY 2.0
-    #+attr_html: :width 200px
-    file:images/tni2.jpg
-
-#+hugo: more
-
-There used to be vast infrastructure (the Telephone Network) that got
-phone calls from place to place. I remember sometime around 1969 (cub
-scouts?  Elementary school?) touring the local AT&T building that
-housed rows and rows of mechanical switches that routed phone calls in
-our neighborhood.  For those with an eye for it, those buildings are
-still everywhere to be seen.   Square.  Few windows.  Brick.   In
-virtually every neighborhood.
-
-
-There was the Microwave relay tower near my grandfathers farm. Part
-of a nationwide network that supported the "Long lines", where AT&T
-made it's money until Judge Green broke it up, costing the world Bell
-Labs (creator of the Transistor and Unix) in the process.
-
-I recently stayed at a friends house, vintage 1920s. It has a little
-alcove in the wall just off the kitchen that was undoubtedly for "the
-phone". Growing up we had "the kitchen phone", and one on my dad's
-desk. When it rang sometimes you had to dash to the other room to answer.
-
-Phones like the one pictured above could be thrown down the basement
-stairs onto a concrete floor and survive. Not that I would know. Bell
-ENGINEERED their hardware.
-
-I'm glad we have moved beyond that technology, but it made the world
-move for over a hundred years.
-
-    #+caption: "The TNI about to be removed" by George Jones is licensed under CC BY 2.0
-    #+attr_html: :width 200px
-    file:images/tni.jpg
-
-
-Read "[[https://www.amazon.com/Exploding-Phone-Phil-Lapsley/dp/0802122280][Exploding the Phone]]" for an insightful and amusing history of
-the phone system, phone phreaks, the rise of hacker culture, and how
-Steve Jobs and Woz got their start selling blue boxes in the Berkeley
-dorms so students could "steal" long distance calls (my father's
-roommate got around the high cost of long distance in the 50's by using
-ham radio to "phone home").   The world has changed.
-
-    #+caption: "[[https://www.amazon.com/Exploding-Phone-Phil-Lapsley/dp/0802122280][Exploding the Phone]]"" by Phil Lapsley
-    #+attr_html: :width 200px
-    file:images/explode.jpg
-
-#59 of #100DaysToOffload take 3.1, https://100daystooffload.com/
-
-
-
-**** WIP The TNI is dead, long live the TNI        :100DaysToOffload:history:
+**** PUBLISHED The TNI is dead, long live the TNI  :100DaysToOffload:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-04-02
   :EXPORT_HUGO_PUBLISHDATE: 2024-04-02:
   :END:
+
 
 Today was the day I removed the TNI (Telephone Network Interface) from
 my house.   The last vestiges of our land line. The last outpost of a
