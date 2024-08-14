@@ -4920,6 +4920,7 @@ in any event, talking to people more might not be such a bad idea.
 
 #49 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 *** Work                                                    :work:retirement:
+
 **** PUBLISHED Changing the world, one side project at a time :100DaysToOffload:compuserve:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-22
