@@ -2,7 +2,7 @@
 title = "40 years of walled gardens & open platforms: Part I"
 author = ["George M Jones"]
 publishDate = 2020-08-18
-lastmod = 2023-12-06T05:46:39-05:00
+lastmod = 2024-08-14T08:02:58-04:00
 tags = ["history", "computing", "social", "USENET", "Facebook", "Twitter"]
 categories = ["blog"]
 draft = false

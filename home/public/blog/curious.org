@@ -26,6 +26,7 @@
   :END:
 
 
+
 Today was the day I removed the TNI (Telephone Network Interface) from
 my house.   The last vestiges of our land line. The last outpost of a
 once vast network.
@@ -4270,11 +4271,88 @@ of individuality from headlong technological progress"?
 
 
 *** History                                                         :history:
+
+*** PUBLISHED Closing the gates of Janus           :history:
+    :PROPERTIES:
+    :EXPORT_FILE_NAME: 2024-08-14
+    :EXPORT_HUGO_PUBLISHDATE: 2024-08-14:
+    :END:
+
+  In ancient Rome, there was a temple to the god Janus (he of the month "JANUary" fame).
+  There was a tradition that the gates of the temple of Janus were to be
+  closed in times of peace, and open in times of war.   They were
+  usually open.
+
+  I asked the Brave web browswer's AI-assisted "Leo" search engine and
+  ChatGPT to put that in in cotext, both in the history of Rome and in
+  the past 150 years of world history.
+
+  #+begin_quote
+  If ancient roman rules applied world-wide, when would the gates of janus be closed?
+  #+end_quote
+
+  ...
+  #+hugo: more
+
+
+**** Brave on the gates of Janus
+  If ancient roman rules applied world-wide, when would the gates of
+  janus be closed?
+
+  #+begin_quote
+  Based on the ancient Roman tradition, the Gates of Janus would be closed during times of peace and prosperity. From the search results, we can identify the following instances when the Gates were closed:
+
+  During Numa’s reign: As mentioned in multiple sources, the Gates of Janus were closed during Numa’s peaceful reign, indicating a period of stability and harmony.
+  After the First Punic War: The Gates were closed after the war, symbolizing the peace and prosperity achieved by Rome.
+  Under Augustus: Augustus, the first Roman Emperor, ordered the doors to be closed, marking a period of peace and stability under his rule.
+  Under Nero: Nero also closed the Gates of Janus, likely to commemorate a period of peace and prosperity during his reign.
+  Under Vespasian: Vespasian, another Roman Emperor, closed the Gates, indicating a time of peace and stability.
+  Notable Absences
+
+  There is no record of the Gates being closed during the reigns of Tullus Hostilius, Manlius Torquatus, or during the Christian era, as mentioned in Orosius’ account of the gates being closed for 12 years during Christ’s childhood.
+
+  Conclusion
+
+  If ancient Roman rules applied worldwide, the Gates of Janus would be closed during periods of peace and prosperity, as indicated by the historical records. The specific instances of closure mentioned above would serve as benchmarks for this tradition.
+  #+end_quote
+
+
+**** ChatGPT on the gates of Janus
+  if ancient roman rules applied world-wide, when would the gates of janus be closed
+
+  ChatGPT said:
+
+  #+begin_quote
+  In ancient Rome, the Gates of Janus were closed during times of peace and opened during times of war. The gates were part of the Temple of Janus, and closing them symbolized that Rome was not engaged in any military conflict. Given that the Roman Empire was often involved in various military campaigns, the gates were rarely closed.
+
+  If the same rules applied worldwide today, the Gates of Janus would be closed only during periods when no country in the world was engaged in any form of military conflict, whether a war, civil war, or significant military operation. Considering the current global landscape, with multiple ongoing conflicts, it would be rare for the Gates of Janus to be closed, as complete global peace is elusive.
+  #+end_quote
+
+  You said:
+  When might this have happened in the last 150 years?
+
+  ChatGPT said:
+  ChatGPT
+  #+begin_quote
+  In the last 150 years, global peace—where no country was involved in any military conflict—has been extremely rare. However, there are a few moments in history when the world was relatively peaceful, and the Gates of Janus might have been closed if ancient Roman rules applied:
+
+  Late 19th Century (1871-1914): After the Franco-Prussian War ended in 1871, Europe entered a period of relative peace known as the "Belle Époque." While there were colonial conflicts and smaller wars outside of Europe, the major powers were largely at peace until the outbreak of World War I in 1914. This period could be one of the closest to global peace, especially in Europe.
+
+  Post-World War I (1918-1939): After World War I ended in 1918, there was a brief period of peace, particularly in Europe, though it was marred by the Russian Civil War (1917-1923) and other regional conflicts. The period between the wars (the Interwar period) saw no large-scale global conflicts until the lead-up to World War II.
+
+  Brief moments post-World War II: After World War II ended in 1945, there were moments of relative peace before the Cold War escalated into proxy wars. For instance, the immediate post-war years saw a temporary lull in global conflict, though tensions quickly rose with the onset of the Cold War.
+
+  Early 1990s: After the end of the Cold War and the dissolution of the Soviet Union in 1991, there was a brief period of relative global peace. The early 1990s saw fewer large-scale conflicts, although this period was soon followed by regional wars and interventions.
+
+  While these periods might have seen the Gates of Janus symbolically closed, it's important to note that complete global peace, without any conflict at all, is extremely rare and may not have been fully achieved even during these times.
+  #+end_quote
+
 **** PUBLISHED Black Lives Matter ... the 1852 version.    :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-07
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-07:
   :END:
+
 
   So, I'm listening to [[https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin][Uncle Tom's Cabin]] on Audible.
 
@@ -9837,6 +9915,7 @@ This is going to be series of articles about my experiences with
      :EXPORT_FILE_NAME: walled-gardens-part-1
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-18
      :END:
+
 
 
 This the first in a series of articles where I do a brain dump
