@@ -2,7 +2,7 @@
 title = "Curious Musings"
 author = ["George M Jones"]
 layout = "single"
-lastmod = 2023-12-06T05:46:46-05:00
+lastmod = 2024-08-15T13:32:17-04:00
 draft = false
 +++
 

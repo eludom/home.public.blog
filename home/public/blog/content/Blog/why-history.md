@@ -2,7 +2,7 @@
 title = "History: escape to the past or lessons for the present?"
 author = ["George M Jones"]
 publishDate = 2020-10-30
-lastmod = 2023-12-06T05:46:17-05:00
+lastmod = 2024-08-15T14:07:20-04:00
 tags = ["life", "history", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

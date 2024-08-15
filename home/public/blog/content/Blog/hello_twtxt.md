@@ -2,7 +2,7 @@
 title = "Hello twtxt"
 author = ["George M Jones"]
 publishDate = 2020-10-17
-lastmod = 2023-12-06T05:46:40-05:00
+lastmod = 2024-08-15T14:09:57-04:00
 tags = ["social", "HOWTO", "100DaysToOffload", "geek"]
 categories = ["blog"]
 draft = false
@@ -54,7 +54,7 @@ Post some tweets
 
 ```text
 $ twtxt tweet  This is incredible.  Simple.  Text.  Decentralized :-\)
-$ twtxt tweet  There is life after twitter.  https://eludom.github.io/blog/goodbye-twitter/
+$ twtxt tweet  There is life after twitter.  http://curious.galthub.com/blog/goodbye-twitter/
 $ twtxt tweet Thanks @prologic
 ```
 

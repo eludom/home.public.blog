@@ -2,7 +2,7 @@
 title = "Poetry in the trash"
 author = ["George M Jones"]
 publishDate = 2020-04-29T00:00:00-04:00
-lastmod = 2023-12-06T05:46:38-05:00
+lastmod = 2024-08-15T14:08:56-04:00
 tags = ["writing", "life", "blogging", "poetry"]
 categories = ["blog"]
 draft = false
@@ -70,7 +70,7 @@ Hubris?
 
 Professional Reasons?
 : I sometimes write on professional topics, see
-    [Bears Attacks and Cybersecurity](https://eludom.github.io/blog/cybersecurity-and-bears/)  and [Reproducable Security Analytics](https://eludom.github.io/blog/reproducable-security-analytics/).
+    [Bears Attacks and Cybersecurity](http://curious.galthub.com/blog/cybersecurity-and-bears/)  and [Reproducable Security Analytics](https://eludom.github.io/blog/reproducable-security-analytics/).
     A mix of the same motivations is often in play.
 
 

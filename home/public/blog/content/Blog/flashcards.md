@@ -2,7 +2,7 @@
 title = "Latin Flash Cards in the 21st century (2773 AUC)"
 author = ["George M Jones"]
 publishDate = 2020-08-23
-lastmod = 2023-12-06T05:46:23-05:00
+lastmod = 2024-08-15T14:08:42-04:00
 tags = ["latin", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -17,8 +17,6 @@ can click on the words (yellow above), it shows you all the possible
 words that particular inflected word might be and then offers to build
 flash cards for you...complete with citations/examples from the
 literature....I know what my Latin reading tool is from here on out.
-
-\# #+attr_html: :width 200px
 
 {{< figure src="/ox-hugo/flashcards.png" >}}
 

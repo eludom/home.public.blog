@@ -4,7 +4,7 @@ title = """
   """
 author = ["George M Jones"]
 publishDate = 2021-12-09
-lastmod = 2023-12-06T05:46:08-05:00
+lastmod = 2024-08-15T14:06:00-04:00
 tags = ["life"]
 categories = ["blog"]
 draft = false

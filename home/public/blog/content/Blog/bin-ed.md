@@ -2,7 +2,7 @@
 title = "HOWTO: /bin/ed by example"
 author = ["George M Jones"]
 publishDate = 2020-08-28
-lastmod = 2023-12-06T05:45:25-05:00
+lastmod = 2024-08-15T13:36:10-04:00
 tags = ["geek", "unix", "100DaysToOffload", "HOWTO"]
 categories = ["blog"]
 draft = false

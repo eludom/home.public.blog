@@ -2,7 +2,7 @@
 title = "Goodbye Twitter"
 author = ["George M Jones"]
 publishDate = 2020-10-12
-lastmod = 2023-12-06T05:46:40-05:00
+lastmod = 2024-08-15T14:09:46-04:00
 tags = ["social"]
 categories = ["blog"]
 draft = false
@@ -13,7 +13,7 @@ draft = false
 Goodbye twitter.  In 2016 Facebook got too political so I dropped it.
 Now, Twitter.  You can reach me as gmj AT pobox DOT com.  Please drop
 an email if you to stay in touch. I blog semi-regularly at
-<https://eludom.github.io/>.
+<http://curious.galthub.com/>.
 
 
 ## <span class="section-num">2</span> 2 of 2 {#2-of-2}

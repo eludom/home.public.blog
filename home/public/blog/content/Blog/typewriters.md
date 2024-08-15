@@ -2,7 +2,7 @@
 title = "Of Typewriters, Scribe, LaTeX, Org mode, Hugo and Paper"
 author = ["George M Jones"]
 publishDate = 2020-12-06
-lastmod = 2023-12-06T05:45:34-05:00
+lastmod = 2024-08-15T13:36:21-04:00
 tags = ["geek", "history", "blogging", "emacs", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -434,8 +434,7 @@ git
     It's git.   Multiple authors?  It's git.
 
 I described this process in way too much detail already
-elsewhere in my blog post on [publishing a blog on Github with
-Org and Hugo](https://eludom.github.io/blog/hugo-org-github/).
+elsewhere in my blog post on [[<http://curious.galthub.com/blog/hugo-org-github/>][publishing a blog on Github with Org and Hugo]
 
 
 ## <span class="section-num">15</span> George Jones - OK, but did George actually write anything worth reading? {#george-jones-ok-but-did-george-actually-write-anything-worth-reading}

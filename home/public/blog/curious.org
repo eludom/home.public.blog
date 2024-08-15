@@ -2,8 +2,9 @@
 #+title: Curious Musings
 #+options: num:3 toc:nil \n:nil
 #+OPTIONS: tex:t
+# #+OPTIONS: broken-links:mark
 #+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
-#+hugo_base_dir: .
+#+hugo_base_dir: ~/blog
 #+hugo_auto_set_lastmod: %Y-%m-%d
 #+MACRO instagram @@html:@@html:@@https:@@https:@@//www.instagram.com/p/$1
 
@@ -80,8 +81,7 @@ ham radio to "phone home").   The world has changed.
 
 #59 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-
-**** WIP The unnumbered habits of a questionably effective person :orgmode:emacs:100DaysToOffload:life:
+**** PUBLISHED The unnumbered habits of a questionably effective person :orgmode:emacs:100DaysToOffload:life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2022-12-25
      :EXPORT_HUGO_PUBLISHDATE: 2022-12-25
@@ -248,7 +248,7 @@ ham radio to "phone home").   The world has changed.
 
 #40 of #100DaysToOffload take 2.1, https://100daystooffload.com/ of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** WIP It's Manjaro !!!                            :linux:100DaysToOffload:
+**** PUBLISHED It's Manjaro !!!                      :linux:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-19
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-19:
@@ -317,19 +317,6 @@ little actual deployment.
 
 
 #6 of #100DaysToOffload take 2, https://100daystooffload.com/
-
-**** PUBLISHED Tech companies I once admired                      :life:tech:
-     :PROPERTIES:
-     :EXPORT_FILE_NAME: 2021-12-23-companies-I-once-admired
-     :EXPORT_HUGO_PUBLISHDATE: 2021-12-23
-     :END:
-
-
-     #+begin_example
-     The dream is over,
-     what can I say?
-     The dream is over,
-     yesterday.
 
      John Lennon, 1970
      #+end_example
@@ -517,7 +504,6 @@ little actual deployment.
      [[file:images/gnus_up_small.png]]
 
 
-
 **** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:marketing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: no-marketing
@@ -538,9 +524,12 @@ for various reasons I decided to stop putting content there.
   Twitter, Facebook and Google have been caught regularly censoring
   and deleting material.  Apple, Amazon (another employer) and Google (G+ anyone?) will
   be gone someday, and the user content they host that no longer suits
-  their business needs will be gone before that.  I've written at
-  length aobut this here [[*40 years of walled gardens & open platforms: Part I][40 years of walled gardens & open platforms:
-  Part I]] and here [[*40 years of walled gardens & open platforms: Part II][40 years of walled gardens & open platforms: Part II]]
+  their business needs will be gone before that.
+  I've written at
+  length aobut this in
+  [[*40 years of walled gardens & open platforms: Part I][40 years of walled gardens & open platforms: Part I]]
+  "40 years of walled gardens & open platforms: Part I" and
+  "40 years of walled gardens & open platforms: Part I"
 
   #+begin_quote
   Karl Voit nailed it :: https://karl-voit.at/2020/10/23/avoid-web-forums/
@@ -579,8 +568,7 @@ for various reasons I decided to stop putting content there.
   raspberry pie, and learned a good bit about configuring gitea
 
 More to come now that I can get it out in a way I feel good about.
-
-**** PUBLISHED Selfhosting a Hugo blog with mysocket.io  :blogging:org:emacs:HOWTO:
+**** TODO Selfhosting a Hugo blog with mysocket.io :blogging:org:emacs:HOWTO:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hugo-via-mysocket
 :EXPORT_HUGO_PUBLISHDATE: 2021-11-12
@@ -4606,7 +4594,6 @@ People are going to die.
 
 #58 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-
 **** PUBLISHED Be kind to your call center friends    :100DaysToOffload:life:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-03-02
@@ -4916,9 +4903,9 @@ one-on-one interactions with real people.   And, come to think of it,
 in any event, talking to people more might not be such a bad idea.
 
 #49 of #100DaysToOffload take 2.1, https://100daystooffload.com/
-*** Work                                                    :work:retirement:
+*** Work                                                               :work:
 
-**** PUBLISHED Changing the world, one side project at a time :100DaysToOffload:compuserve:history:
+**** PUBLISHED Changing the world, one side project at a time :100DaysToOffload:compuserve:history:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-22
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-22:
@@ -5503,7 +5490,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
-**** WIP Digging through layers of obfuscation  :100DaysToOffload:retirement:
+**** PUBLISHED Digging through layers of obfuscation :100DaysToOffload:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-01-20
   :EXPORT_HUGO_PUBLISHDATE: 2024-01-20:
@@ -5572,7 +5559,7 @@ informatoion, unfiltered.
 
 #55 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** WIP "I ain't no Senators son, no !"        :100DaysToOffload:retirement:
+**** PUBLISHED "I ain't no Senators son, no !"  :100DaysToOffload:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-01-08
   :EXPORT_HUGO_PUBLISHDATE: 2024-01-08:
@@ -5626,8 +5613,7 @@ George Harrison, the nascient neo-con
 
 
 #53 of #100DaysToOffload take 3.1, https://100daystooffload.com/
-
-**** WIP Congress, Big Pharma and Kickbacks, Oh My !!!
+**** PUBLISHED Congress, Big Pharma and Kickbacks, Oh My !!!
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-30
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-30:
@@ -5970,8 +5956,7 @@ Have fun in never-never land.  I don't think I'm coming.
 # class or envy.
 
 #42 of #100DaysToOffload take 2.1, https://100daystooffload.com/
-
-**** WIP Why do we hack?                             :100DaysToOffload:emacs:
+**** PUBLISHED Why do we hack?                       :100DaysToOffload:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-12-04
 :EXPORT_HUGO_PUBLISHDATE: 2022-12-04:
@@ -7287,7 +7272,6 @@ and government edicts to actually care fore people.
 
 The real tragedy of COVID is not the deaths, but what it is doing to
 the way we interact with our fellow human beings.
-
 
 **** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
      :PROPERTIES:
@@ -9829,7 +9813,6 @@ Day 09 of #100DaysToOffload.
 
 
 
-
 **** PUBLISHED #100DaysToOffload stalled, but that's OK :blogging:100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-06-09
@@ -10053,7 +10036,6 @@ Post 21 #100DaysToOffload https://100daystooffload.com/
 
 [fn:5] Modem picture courtesy of: "Dial-a-Grue" by Digital Game Museum is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/
 
-
 **** PUBLISHED  Goodbye Twitter
      :PROPERTIES:
      :EXPORT_FILE_NAME: Goodbye Twitter
@@ -10073,7 +10055,6 @@ https://en.wikipedia.org/wiki/Mastodon_(software) is a free, open
 source, ad-free, distributed twitter-like thing. No corporation
 algorithmically manipulates your timeline and AUPs are set by the
 community.  I'm on the https://fosstodon.org instance.
-
 
 
 
@@ -10231,7 +10212,6 @@ You get the idea.   I've probably gone to far with it http://git.galthub.com:300
 
 
 #35 of #100DaysToOffload take 2.1, https://100daystooffload.com/
-
 
 **** PUBLISHED HOWTO: Breaking and fixing DNS - Understanding modern DNS on Ubuntu. :DNS:Ubuntu:HOWTO:Linux:systemd:
      :PROPERTIES:

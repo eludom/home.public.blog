@@ -2,7 +2,7 @@
 title = "All we are saying, is give init.el a chance"
 author = ["George M Jones"]
 publishDate = 2020-11-11
-lastmod = 2023-12-06T05:45:26-05:00
+lastmod = 2024-08-15T13:36:18-04:00
 tags = ["geek", "100DaysToOffload", "emacs"]
 categories = ["blog"]
 draft = false

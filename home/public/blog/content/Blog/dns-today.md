@@ -2,7 +2,7 @@
 title = "HOWTO: Breaking and fixing DNS - Understanding modern DNS on Ubuntu."
 author = ["George M Jones"]
 publishDate = 2020-05-10
-lastmod = 2023-12-06T05:46:45-05:00
+lastmod = 2024-08-15T14:10:11-04:00
 tags = ["DNS", "Ubuntu", "HOWTO", "Linux", "systemd"]
 categories = ["blog"]
 draft = false

@@ -2,7 +2,7 @@
 title = "Publishing a blog on Github with Org and Hugo"
 author = ["George M Jones"]
 publishDate = 2020-08-16
-lastmod = 2023-12-06T05:45:25-05:00
+lastmod = 2024-08-15T13:36:08-04:00
 tags = ["geek", "blogging", "org", "emacs", "HOWTO"]
 categories = ["blog"]
 draft = false
@@ -12,7 +12,7 @@ If you ever thought to yourself, "Gee, Emacs Org mode is a great
 outlining and authoring tool, and I wish there were a powerful
 and simple way use it to publish static websites on github or in
 S3 buckets, I wish my blog could look as slick ast
-<https://eludom.github.io/>" your're in luck, All but the
+<http://curious.galthub.com/>" your're in luck, All but the
 _simple_ part.  Here are some of the references I used.
 
 Post 19 of #100DaysToOffload <https://100daystooffload.com/>
@@ -72,7 +72,7 @@ About blogging with Hugo
 
 ## <span class="section-num">3</span> The results {#the-results}
 
-You're looking at the results: <https://eludom.github.io/>, this
+You're looking at the results: <http://curious.galthub.com/>, this
 and other posts.  It took a couple deep dives to understand it,
 but I think I more-or-less have it, and it is a very seamless
 integration wtih Org-Mode, which for some of us closes the deal
@@ -269,7 +269,7 @@ covers things in
 
 #### <span class="section-num">5.3.3</span> make sure post is live, looks right {#make-sure-post-is-live-looks-right}
 
--   Go to site: <https://eludom.github.io/>
+-   Go to site: <http://curious.galthub.com/>
 -   It often takes a minute or so after push for things to show up
     on the web site.  You might have to refresh
 

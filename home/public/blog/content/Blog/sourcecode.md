@@ -2,7 +2,7 @@
 title = "Source Code Distribution From Printouts to Github"
 author = ["George M Jones"]
 publishDate = 2020-10-10
-lastmod = 2023-12-06T05:45:26-05:00
+lastmod = 2024-08-15T13:36:16-04:00
 tags = ["geek", "unix", "history", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

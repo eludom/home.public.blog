@@ -2,7 +2,7 @@
 title = "Things that fall in the river get wet"
 author = ["George M Jones"]
 publishDate = 2020-05-25
-lastmod = 2023-12-06T05:46:21-05:00
+lastmod = 2024-08-15T14:08:01-04:00
 tags = ["life", "outdoors"]
 categories = ["blog"]
 draft = false

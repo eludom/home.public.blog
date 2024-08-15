@@ -2,7 +2,7 @@
 title = "The World Needs Visionaries"
 author = ["George M Jones"]
 publishDate = 2021-07-03T00:00:00-04:00
-lastmod = 2023-12-06T05:46:09-05:00
+lastmod = 2024-08-15T14:06:26-04:00
 tags = ["life", "history", "amazon"]
 categories = ["blog"]
 draft = false
@@ -31,7 +31,7 @@ Dagny Taggart?
 
 A couple years ago I finally met Jeff Wilkins, the early CEO of
 CompuServe.  I had heard him spoken of in reverential terms by [Steve
-Wilhite](https://eludom.github.io/blog/steve/) (creator of GIF) and others at CompuServe.  But Henry Block
+Wilhite](http://curious.galthub.com/blog/steve/) (creator of GIF) and others at CompuServe.  But Henry Block
 canned Wilkins the week I started at CompuServe.  After meeting
 Wilkins and having a little time to actually talk to him, I get the
 importance of vision at the top.  Wilhite, [Dr. John Goltz](http://ana-3.lcs.mit.edu/~jnc/cctalk/1999-July/0799.html) et al. did

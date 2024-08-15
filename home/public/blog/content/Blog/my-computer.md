@@ -4,7 +4,7 @@ title = """
   """
 author = ["George M Jones"]
 publishDate = 2020-05-12
-lastmod = 2023-12-06T05:45:17-05:00
+lastmod = 2024-08-15T13:36:05-04:00
 tags = ["geek", "computers", "windows", "apple", "cloud", "ubuntu", "linux"]
 categories = ["blog"]
 draft = false

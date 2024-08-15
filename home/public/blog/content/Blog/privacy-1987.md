@@ -2,7 +2,7 @@
 title = "Privacy: The view from 1987 and Antiquity - or why I'm deleting Google,Facebook and Twitter"
 author = ["George M Jones"]
 publishDate = 2020-10-04
-lastmod = 2023-12-06T05:45:56-05:00
+lastmod = 2024-08-15T13:47:14-04:00
 tags = ["privacy", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

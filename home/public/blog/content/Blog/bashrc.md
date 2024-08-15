@@ -2,7 +2,7 @@
 title = ".bashrc as literate programming"
 author = ["George M Jones"]
 publishDate = 2020-12-05
-lastmod = 2023-12-06T05:45:50-05:00
+lastmod = 2024-08-15T13:36:24-04:00
 tags = ["geek", "howto", "emacs", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

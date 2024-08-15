@@ -2,7 +2,7 @@
 title = "More Thoughts on More Stuff"
 author = ["George M Jones"]
 publishDate = 2020-05-21
-lastmod = 2023-12-06T05:46:14-05:00
+lastmod = 2024-08-15T14:06:57-04:00
 tags = ["family", "history", "life"]
 categories = ["blog"]
 draft = false

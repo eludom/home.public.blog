@@ -2,7 +2,7 @@
 title = "Learn git and galthub without any marketing"
 author = ["George M Jones"]
 publishDate = 2021-12-04
-lastmod = 2023-12-06T05:45:05-05:00
+lastmod = 2024-08-15T14:28:53-04:00
 tags = ["blogging", "geek", "emacs", "git", "social", "marketing"]
 categories = ["blog"]
 draft = false
@@ -22,9 +22,11 @@ Walled gardens go away
     Twitter, Facebook and Google have been caught regularly censoring
     and deleting material.  Apple, Amazon (another employer) and Google (G+ anyone?) will
     be gone someday, and the user content they host that no longer suits
-    their business needs will be gone before that.  I've written at
-    length aobut this here [40 years of walled gardens &amp; open platforms:
-    Part I]({{< relref "walled-gardens-part-1" >}}) and here [40 years of walled gardens &amp; open platforms: Part II]({{< relref "walled-gardens-part-2" >}})
+    their business needs will be gone before that.
+    I've written at
+    length aobut this in
+    "40 years of walled gardens &amp; open platforms: Part I" and
+    "40 years of walled gardens &amp; open platforms: Part I"
 
     > Karl Voit nailed it :: <https://karl-voit.at/2020/10/23/avoid-web-forums/>
 
@@ -55,8 +57,7 @@ Using tools I like
 : Emacs org mode is going to take me to my
     grave.  I **like** using it.  Using it is a hobby.  It is therapeutic.
     There is a worldwide community built around emacs:
-    <https://emacsconf.org/2021/>. I LIKE using Hugo. See [Publishing a blog on
-    Github with Org and Hugo]({{< relref "hugo-org-github" >}}) (just ignore the
+    <https://emacsconf.org/2021/>. I LIKE using Hugo. See [BROKEN LINK: Blog/hugo-org-github.pre-processed.org] (just ignore the
     github bits now).  No need to use the mouse.
 
 

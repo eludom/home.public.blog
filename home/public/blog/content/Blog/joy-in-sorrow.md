@@ -2,7 +2,7 @@
 title = "Joy in the sorrows of others?"
 author = ["George M Jones"]
 publishDate = 2020-10-25
-lastmod = 2023-12-06T05:46:17-05:00
+lastmod = 2024-08-15T14:07:17-04:00
 tags = ["life"]
 categories = ["blog"]
 draft = false

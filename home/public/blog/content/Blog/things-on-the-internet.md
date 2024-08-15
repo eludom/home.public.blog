@@ -2,7 +2,7 @@
 title = "What is that thing on the Internet, and is it bad?"
 author = ["George M Jones"]
 publishDate = 2020-09-19
-lastmod = 2023-12-06T05:45:55-05:00
+lastmod = 2024-08-15T13:39:40-04:00
 tags = ["cybersecurity", "secuity", "privacy", "perspective", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

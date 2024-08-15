@@ -2,7 +2,7 @@
 title = "The History Of Rome - nihil novi"
 author = ["George M Jones"]
 publishDate = 2020-08-22
-lastmod = 2023-12-06T05:46:16-05:00
+lastmod = 2024-08-15T14:07:08-04:00
 tags = ["life", "history", "100DaysToOffload", "rome"]
 categories = ["blog"]
 draft = false
