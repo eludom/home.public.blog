@@ -1,9 +1,23 @@
+* Headings
+#+title: Curious Musings
+#+options: num:3 toc:nil \n:nil
+#+OPTIONS: tex:t
+#+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
+#+hugo_base_dir: .
+#+hugo_auto_set_lastmod: %Y-%m-%d
+#+MACRO instagram @@html:@@html:@@https:@@https:@@//www.instagram.com/p/$1
+
+
+:PROPERTIES:
+:EXPORT_HUGO_SECTION:
+:END:
+
 * Content
 ** Blog                                                               :@blog:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
-:EXPORT_HUGO_PUBLISHdate: <2024-08-14 Wed 08:58:55>
+:EXPORT_HUGO_PUBLISHdate: <2024-08-15 Thu 07:57:53>
 :END:
 *** Geek Stuff                                                         :geek:
 **** PUBLISHED The TNI is dead, long live the TNI  :100DaysToOffload:history:
@@ -11,8 +25,6 @@
   :EXPORT_FILE_NAME: 2024-04-02
   :EXPORT_HUGO_PUBLISHDATE: 2024-04-02:
   :END:
-
-
 
 Today was the day I removed the TNI (Telephone Network Interface) from
 my house.   The last vestiges of our land line. The last outpost of a
@@ -606,7 +618,7 @@ browse to http//localhost:1313 to see updates in realtime.
 
 #+begin_example
 # baseurl = "https://eludom.github.io/"
-baseurl = "https://curious.galthub.com/
+baseurl = "http://curious.galthub.com/
 
 #homepage = "eludom.github.io"
 homepage = "curious.galthub.com"
@@ -1070,7 +1082,7 @@ If you ever thought to yourself, "Gee, Emacs Org mode is a great
 outlining and authoring tool, and I wish there were a powerful
 and simple way use it to publish static websites on github or in
 S3 buckets, I wish my blog could look as slick ast
-https://eludom.github.io/" your're in luck, All but the
+http://curious.galthub.com/" your're in luck, All but the
 /simple/ part.  Here are some of the references I used.
 
 Post 19 of #100DaysToOffload https://100daystooffload.com/
@@ -1106,7 +1118,7 @@ comes in) on the following sites
 
 ***** The results
 
-You're looking at the results: https://eludom.github.io/, this
+You're looking at the results: http://curious.galthub.com/, this
 and other posts.  It took a couple deep dives to understand it,
 but I think I more-or-less have it, and it is a very seamless
 integration wtih Org-Mode, which for some of us closes the deal
@@ -1233,7 +1245,7 @@ In the HUGO_BASE_DIR run =hugo=.  The results will be written to
       git push
 #+end_example
 ******* make sure post is live, looks right
-- Go to site: https://eludom.github.io/
+- Go to site: http://curious.galthub.com/
 - It often takes a minute or so after push for things to show up
   on the web site.  You might have to refresh
 ******* Add and push the source
@@ -2047,8 +2059,8 @@ p(x) = x^8+x^7+x^6+x^5
         It's git.   Multiple authors?  It's git.
 
       I described this process in way too much detail already
-      elsewhere in my blog post on [[https://eludom.github.io/blog/hugo-org-github/][publishing a blog on Github with
-      Org and Hugo]].
+      elsewhere in my blog post on [[http://curious.galthub.com/blog/hugo-org-github/][publishing a blog on Github with Org and Hugo]
+
 
 ***** George Jones - OK, but did George actually write anything worth reading?
 
@@ -4263,8 +4275,7 @@ of individuality from headlong technological progress"?
      :EXPORT_HUGO_PUBLISHDATE: 2022-10-07:
      :END:
 
-
-  So, I'm listening to [[https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin][Uncle Tom's Cabin]] on Audible.
+    So, I've been listening to the book [[https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin][Uncle Tom's Cabin]] on Audible.
 
   How long until it gets canceled for use of the "N" word?  Looks like
   Paypal might try to charge me $2500 for reading something they don't
@@ -4304,12 +4315,12 @@ of individuality from headlong technological progress"?
      :END:
 
 
- I think the lesson of history is that we don't learn from the lessons
- of history.
+I think the lesson of history is that we don't learn from the lessons
+of history.
 
- #+hugo: more
+#+hugo: more
 
- #16 of #100DaysToOffload take 2, https://100daystooffload.com/
+#16 of #100DaysToOffload take 2, https://100daystooffload.com/
 
 **** PUBLISHED George Washington Slept Here                :100DaysToOffload:
      :PROPERTIES:
@@ -4317,129 +4328,129 @@ of individuality from headlong technological progress"?
      :EXPORT_HUGO_PUBLISHDATE: 2022-02-27:
      :END:
 
- Hiking yesterday in the Shenandoah Valley I discovered that I was on
- part of "Morgans Road", which is a road George Washington had built into the
- hills to allow his army to retreat from the British in case things got
- really bad.  "George Washington /Planned/ To Sleep Here If Things Got
- Really Bad".  That was enough at the time of the bicentennial (1976)
- to put up /another/ George Washington marker.
+Hiking yesterday in the Shenandoah Valley I discovered that I was on
+part of "Morgans Road", which is a road George Washington had built into the
+hills to allow his army to retreat from the British in case things got
+really bad.  "George Washington /Planned/ To Sleep Here If Things Got
+Really Bad".  That was enough at the time of the bicentennial (1976)
+to put up /another/ George Washington marker.
 
- This includes a longish list of Washington sites I've run across,
- including a couple with family connections.
+This includes a longish list of Washington sites I've run across,
+including a couple with family connections.
 
- #+caption: [[http://curious.galthub.com/ox-hugo/ForumRomanarumNocte.jpg]["George Washington Planned To Sleep Here" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
- #+attr_html: :width 400px
- file:images/Morgans2.jpg
+#+caption: [[http://curious.galthub.com/ox-hugo/ForumRomanarumNocte.jpg]["George Washington Planned To Sleep Here" by George Jones]] is licenced under [[http://creativecommons.org/licenses/by-sa/4.0/][CC SA 4.0]]
+#+attr_html: :width 400px
+file:images/Morgans2.jpg
 
- #+hugo: more
+#+hugo: more
 
- I've lived in northern Virgina for almost 20 years.  250 years later,
- there is still a mythos, and in some cases still oral tradition about
- George Washington everywhere you go from his home at Mount Vernon to
- Bunker Hill in Boston.   Some of the most visible reminders (aside from
- Washington, DC and the Washington Monument) are all the "George
+I've lived in northern Virgina for almost 20 years.  250 years later,
+there is still a mythos, and in some cases still oral tradition about
+George Washington everywhere you go from his home at Mount Vernon to
+Bunker Hill in Boston.   Some of the most visible reminders (aside from
+Washington, DC and the Washington Monument) are all the "George
  Washington [did X] Here" signs.
 
 
- The myth may be larger than life.  The story about young George
- Washington saying "I can not tell a lie" when he cut down is father's
- cherry tree is probably a fabrication.  But there was a core of truth,
- a real man behind the legends that inspired those who knew him and the
- generations that followed.
+The myth may be larger than life.  The story about young George
+Washington saying "I can not tell a lie" when he cut down is father's
+cherry tree is probably a fabrication.  But there was a core of truth,
+a real man behind the legends that inspired those who knew him and the
+generations that followed.
 
- Living in northern Virginia, you can hardly step outside without
- running into some "George Washington [did X] Here" memorial.  Here is
- a top-of-the-head list of things I've run into in the past few years:
+Living in northern Virginia, you can hardly step outside without
+running into some "George Washington [did X] Here" memorial.  Here is
+a top-of-the-head list of things I've run into in the past few years:
 
- - Neavil's Ordinary :: [[https://auburnva.fandom.com/wiki/Neavil%E2%80%99s_Ordinary][Neavil's Ordinary]] (inn) is a few miles from my
-   house.   George Washington (and George Fairfax of Fairfax County
-   fame) spent a night there on they way to survey land in the
-   Shenandoah Valley.
+- Neavil's Ordinary :: [[https://auburnva.fandom.com/wiki/Neavil%E2%80%99s_Ordinary][Neavil's Ordinary]] (inn) is a few miles from my
+  house.   George Washington (and George Fairfax of Fairfax County
+  fame) spent a night there on they way to survey land in the
+  Shenandoah Valley.
 
- - Washington, VA :: Washington himself surveyed and laid out the town
-   of [[https://washingtonva.gov/history2/][Washington "The First of them All" Virginia]], the county seat of
-   Rappahannock County.
+- Washington, VA :: Washington himself surveyed and laid out the town
+  of [[https://washingtonva.gov/history2/][Washington "The First of them All" Virginia]], the county seat of
+  Rappahannock County.
 
- - A farm in New Jersey :: Backpacking on the Appalachian Trail in New
-   Jersey I spent a night camped behind the barn of a family that has
-   owned the land since the revolution.    They have an oral tradition
-   that Washington came through and spent a night in the old farm house.
+- A farm in New Jersey :: Backpacking on the Appalachian Trail in New
+  Jersey I spent a night camped behind the barn of a family that has
+  owned the land since the revolution.    They have an oral tradition
+  that Washington came through and spent a night in the old farm house.
 
- - Winchester, VA :: There is a [[https://winchesterhistory.org/george-washingtons-office/]["Washington's Headquarters" site in
-   Winchester, VA.]]
+- Winchester, VA :: There is a [[https://winchesterhistory.org/george-washingtons-office/]["Washington's Headquarters" site in
+  Winchester, VA.]]
 
- - Longfellow House, Cambridge, MA :: Then there is the house in
-   Cambridge, MA (across the green from Harvard) that served as
-   [[https://www.nps.gov/long/index.htm][Washington's headquarters]] during the siege of Boston and later as
-   the [[https://www.nps.gov/long/index.htm][home of the poet Henry Wadsworth Longfellow]].  This one starts to
-   get personal, as I am a cousin of some sort to Longfellow. We both
-   go back to John Alden on the Mayflower. See Longfellow's "The
-   Courtship of Miles Standish".
+- Longfellow House, Cambridge, MA :: Then there is the house in
+  Cambridge, MA (across the green from Harvard) that served as
+  [[https://www.nps.gov/long/index.htm][Washington's headquarters]] during the siege of Boston and later as
+  the [[https://www.nps.gov/long/index.htm][home of the poet Henry Wadsworth Longfellow]].  This one starts to
+  get personal, as I am a cousin of some sort to Longfellow. We both
+  go back to John Alden on the Mayflower. See Longfellow's "The
+  Courtship of Miles Standish".
 
- - [[https://en.wikipedia.org/wiki/Fort_Capon][Fort Enochs/Fort Capon]] :: This one is very personal.  Turns out
-   Washington commissioned my Great,Great,Great,Great,Great grandfather
-   [[https://talesofafamily.blog/henry-enoch-1710-1784/][Lt. Colonel Henry Enochs]] to build a fort on his land during the
-   French and Indian war.  Of course, Washington did the land survey.
+- [[https://en.wikipedia.org/wiki/Fort_Capon][Fort Enochs/Fort Capon]] :: This one is very personal.  Turns out
+  Washington commissioned my Great,Great,Great,Great,Great grandfather
+  [[https://talesofafamily.blog/henry-enoch-1710-1784/][Lt. Colonel Henry Enochs]] to build a fort on his land during the
+  French and Indian war.  Of course, Washington did the land survey.
 
-   In the 20 years we's spent living in Virginia driving back to Ohio
-   regularly, we developed a route that goes through Bloomery, West
-   Virginia which winds up cutting right past the sight of the fort
-   (now unmarked on a bluff in a field).  It is next to an old
-   one-lane bridge.  We did this before we knew of the fort or the
-   family connection.  I guess my ancestral lands were calling me home.
-   In reality, much of my family kept moving west to Ohio, where
-   Washington owned land.  They were among [[https://www.simonandschuster.com/books/The-Pioneers/David-McCullough/9781501168703][the first settlers of
-   Marietta, Ohio]], the first town in the Northwest Territory and the
-   seat of ... Washingotn county.
+  In the 20 years we's spent living in Virginia driving back to Ohio
+  regularly, we developed a route that goes through Bloomery, West
+  Virginia which winds up cutting right past the sight of the fort
+  (now unmarked on a bluff in a field).  It is next to an old
+  one-lane bridge.  We did this before we knew of the fort or the
+  family connection.  I guess my ancestral lands were calling me home.
+  In reality, much of my family kept moving west to Ohio, where
+  Washington owned land.  They were among [[https://www.simonandschuster.com/books/The-Pioneers/David-McCullough/9781501168703][the first settlers of
+  Marietta, Ohio]], the first town in the Northwest Territory and the
+  seat of ... Washingotn county.
 
- - Bacon Fort :: Two weeks ago, on the way home from another hike I
-   came across a marker for "[[https://readtheplaque.com/plaque/bacon-fort][Bacon Fort]]", another "Ordinary" and former
-   frontier fort at which Washington stopped.
+- Bacon Fort :: Two weeks ago, on the way home from another hike I
+  came across a marker for "[[https://readtheplaque.com/plaque/bacon-fort][Bacon Fort]]", another "Ordinary" and former
+  frontier fort at which Washington stopped.
 
- - Mount Vernon :: And then there is Washington's home of Mt. Vernon
-   where he and wife Martha are buried.  It is a private foundation and
-   admission is free to people named "George" on his birthday.
-   There is a harpsichord in the house that at least one 12 year old
-   keyboard prodigy was allowed to play a few years back.  This Mount
-   Vernon is not to be confused with the town of Mount Vernon, Ohio
-   which my high school played in football.
+- Mount Vernon :: And then there is Washington's home of Mt. Vernon
+  where he and wife Martha are buried.  It is a private foundation and
+  admission is free to people named "George" on his birthday.
+  There is a harpsichord in the house that at least one 12 year old
+  keyboard prodigy was allowed to play a few years back.  This Mount
+  Vernon is not to be confused with the town of Mount Vernon, Ohio
+  which my high school played in football.
 
- - Culpepper, VA :: A young Washington live in Culpeppr, VA a little
-   south of where I live and joined the Masonic lodge there.   Nice men
-   from the Masons can be found at his grave from time to time honoring
-   their brother and (a few years back) handing out coins to children
-   with Washington's image.
+- Culpepper, VA :: A young Washington live in Culpeppr, VA a little
+  south of where I live and joined the Masonic lodge there.   Nice men
+  from the Masons can be found at his grave from time to time honoring
+  their brother and (a few years back) handing out coins to children
+  with Washington's image.
 
- - The National Road/Braddock's Road :: Then there was the time
-   Washington and Braddock went to what is now Pittsburgh to try to
-   dislodge the french at [[https://en.wikipedia.org/wiki/Fort_Duquesne][Fort Duquesne]].  Braddock wound up dead,
-   [[https://www.nps.gov/places/braddock-s-grave.htm][buried under the road]] and Washington wound up hastily building [[https://www.nps.gov/fone/index.htm][Fort
-   Necessity]] and signing surrender documents in French that he did not
-   understand.  And the French and Indian wars were off and running...
+- The National Road/Braddock's Road :: Then there was the time
+  Washington and Braddock went to what is now Pittsburgh to try to
+  dislodge the french at [[https://en.wikipedia.org/wiki/Fort_Duquesne][Fort Duquesne]].  Braddock wound up dead,
+  [[https://www.nps.gov/places/braddock-s-grave.htm][buried under the road]] and Washington wound up hastily building [[https://www.nps.gov/fone/index.htm][Fort
+  Necessity]] and signing surrender documents in French that he did not
+  understand.  And the French and Indian wars were off and running...
 
- - Other Washington sites :: Over the years I've been to other sites associated
-   with Washington: Valley Forge, [[https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/crossing-of-the-delaware/][The crossing of the Delaware]],
-   Independence Hall (Philadelphia ) New York, Yorktown.
+- Other Washington sites :: Over the years I've been to other sites associated
+  with Washington: Valley Forge, [[https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/crossing-of-the-delaware/][The crossing of the Delaware]],
+  Independence Hall (Philadelphia ) New York, Yorktown.
 
- The man got around Colonial America (see [[http://daybyday.gwpapers.org/][The George Washington Day By
- Day project]])
+The man got around Colonial America (see [[http://daybyday.gwpapers.org/][The George Washington Day By
+Day project]])
 
- To be fair there is, of course, another side to the "Settlement" story
- some of which is told by John Ruth in his book [[https://www.amazon.com/This-Very-Ground-Crooked-Affair/dp/1680270192][This Very Ground, This
- Crooked Affair]]. After seven generations, Ruth's family can no longer
- afford to live on land they got directly from William Penn near
- Philadelphia.  Penn, was "granted" all of Pennsylvania by the King of
- England despite the fact that there were already many people living
- there who had been there thousands of years...
+To be fair there is, of course, another side to the "Settlement" story
+some of which is told by John Ruth in his book [[https://www.amazon.com/This-Very-Ground-Crooked-Affair/dp/1680270192][This Very Ground, This
+Crooked Affair]]. After seven generations, Ruth's family can no longer
+afford to live on land they got directly from William Penn near
+Philadelphia.  Penn, was "granted" all of Pennsylvania by the King of
+England despite the fact that there were already many people living
+there who had been there thousands of years...
 
- But that said, man or myth, Washington was an inspiring character.
- He had flaws (don't we all?).
+But that said, man or myth, Washington was an inspiring character.
+He had flaws (don't we all?).
 
- I can not tell a lie.  I think the take-home for me is to figure out
- what praiseworthy qualities Washington (or his myth) embodied and to
- at least /try/ to add those qualities to my own life.
+I can not tell a lie.  I think the take-home for me is to figure out
+what praiseworthy qualities Washington (or his myth) embodied and to
+at least /try/ to add those qualities to my own life.
 
- #13 of #100DaysToOffload take 2, https://100daystooffload.com/
+#13 of #100DaysToOffload take 2, https://100daystooffload.com/
 
 **** PUBLISHED Closing the gates of Janus                           :history:
      :PROPERTIES:
@@ -4463,7 +4474,6 @@ of individuality from headlong technological progress"?
    ...
    #+hugo: more
 
-
 ***** Brave on the gates of Janus
    If ancient roman rules applied world-wide, when would the gates of
    janus be closed?
@@ -4484,7 +4494,6 @@ of individuality from headlong technological progress"?
 
    If ancient Roman rules applied worldwide, the Gates of Janus would be closed during periods of peace and prosperity, as indicated by the historical records. The specific instances of closure mentioned above would serve as benchmarks for this tradition.
    #+end_quote
-
 
 ***** ChatGPT on the gates of Janus
    if ancient roman rules applied world-wide, when would the gates of janus be closed
@@ -5499,6 +5508,7 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
   :EXPORT_FILE_NAME: 2024-01-20
   :EXPORT_HUGO_PUBLISHDATE: 2024-01-20:
   :END:
+
 
 This is a story about the similarity between finding good information
 to identify vulnerable devices on the Internet and finding the info
@@ -7425,7 +7435,7 @@ Dagny Taggart?
 
 
 A couple years ago I finally met Jeff Wilkins, the early CEO of
-CompuServe.  I had heard him spoken of in reverential terms by [[https://eludom.github.io/blog/steve/][Steve
+CompuServe.  I had heard him spoken of in reverential terms by [[http://curious.galthub.com/blog/steve/][Steve
 Wilhite]] (creator of GIF) and others at CompuServe.  But Henry Block
 canned Wilkins the week I started at CompuServe.  After meeting
 Wilkins and having a little time to actually talk to him, I get the
@@ -9566,7 +9576,7 @@ George Jones :emacs: :orgmode: @eludom
             <!-- ELUDOM - large image at bottom of sidebar -->
             <img src="/thinker.png">
 
-   <img src="https://eludom.github.io/title-logo.png">
+   <img src="http://curious.galthub.com/title-logo.png">
    #+end_example
 ******** DONE load thinker image from somewhere other than github. Local?
 
@@ -9574,7 +9584,7 @@ George Jones :emacs: :orgmode: @eludom
 
 #+begin_example
 
-            <!-- <img src="https://eludom.github.io/title-logo.png"> -->
+            <!-- <img src="http://curious.galthub.com/title-logo.png"> -->
             <img src="/thinker.png">
 #+end_example
 
@@ -9737,7 +9747,7 @@ This brings me to the question this article explores: /why write/?
      These are all possibilities.
 
 - Professional Reasons? :: I sometimes write on professional topics, see
-     [[https://eludom.github.io/blog/cybersecurity-and-bears/][Bears Attacks and Cybersecurity]]  and [[https://eludom.github.io/blog/reproducable-security-analytics/][Reproducable Security Analytics]].
+     [[http://curious.galthub.com/blog/cybersecurity-and-bears/][Bears Attacks and Cybersecurity]]  and [[https://eludom.github.io/blog/reproducable-security-analytics/][Reproducable Security Analytics]].
      A mix of the same motivations is often in play.
 
 - To kill time? :: In this busy world we don't often feel that we
@@ -9768,7 +9778,7 @@ above.  Maybe it's all of them.
 ***** Experiences after 9 days of blogging
 
 About 3 weeks ago I decided to start blogging.  For various still
-ill-defined reasons, some of which I explored in a [[https://eludom.github.io/blog/poetry-in-the-trash/][blog post
+ill-defined reasons, some of which I explored in a [[http://curious.galthub.com/blog/poetry-in-the-trash/][blog post
 contemplating the fate of writing and writers great and small]].
 But it's still somewhat mushy.
 
@@ -9832,7 +9842,7 @@ stalled, but that's OK.
 
 I have a home painting project going that keeps expanding in scope
 every time I look at it.  I've gone on a couple weekend
-[[https://outdoorfoo.wordpress.com/2020/05/17/tuscarora-trek/][backpacking]]/[[https://eludom.github.io/blog/get-wet/][canoeing]] trips, and (biggest time sync of all), I'm in
+[[https://outdoorfoo.wordpress.com/2020/05/17/tuscarora-trek/][backpacking]]/[[http://curious.galthub.com/blog/get-wet/][canoeing]] trips, and (biggest time sync of all), I'm in
 the middle of a job change.  That sucks down time and energy.  Oh
 yeah, and the country/world is in a little turmoil right now
 (COVID-19 and protests) which is, to say the least, distracting,
@@ -9874,10 +9884,10 @@ friends and the correspondence John Adams and Thomas Jefferson
 carried on late in life.  As personal letters, the writing can be
 focused and specific while still dealing with topics of possible
 general interest.  For instance this,
-https://eludom.github.io/blog/the-stuff-of-time/ was written for
+http://curious.galthub.com/blog/the-stuff-of-time/ was written for
 my cousin the family genealogist reflecting on us both having a
 lot of family "stuff".  And this
-https://eludom.github.io/blog/opening-day-2020/ was written for my
+http://curious.galthub.com/blog/opening-day-2020/ was written for my
 friend Ken who has been going to Reds games with me for 30 years,
 reflecting on changes in the game and why we go in the first place
 (friendships, diversion, traditions, hope...)
@@ -9893,7 +9903,7 @@ me, and I think potentially others, so I'll keep it up.
 
 Day (well, post) 17 of #100DaysToOffload https://100daystooffload.com/
 
-*** Social Media Series                                              :social:
+*** Social Media Series                                     :social:
 
 This is going to be series of articles about my experiences with
 "social media" and "walled gardens"
@@ -9903,7 +9913,6 @@ This is going to be series of articles about my experiences with
      :EXPORT_FILE_NAME: walled-gardens-part-1
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-18
      :END:
-
 
 
 This the first in a series of articles where I do a brain dump
@@ -10056,7 +10065,7 @@ Post 21 #100DaysToOffload https://100daystooffload.com/
 Goodbye twitter.  In 2016 Facebook got too political so I dropped it.
 Now, Twitter.  You can reach me as gmj AT pobox DOT com.  Please drop
 an email if you to stay in touch. I blog semi-regularly at
-https://eludom.github.io/.
+http://curious.galthub.com/.
 
 
 ***** 2 of 2
@@ -10124,7 +10133,7 @@ Post some tweets
 
 #+begin_example
 $ twtxt tweet  This is incredible.  Simple.  Text.  Decentralized :-\)
-$ twtxt tweet  There is life after twitter.  https://eludom.github.io/blog/goodbye-twitter/
+$ twtxt tweet  There is life after twitter.  http://curious.galthub.com/blog/goodbye-twitter/
 $ twtxt tweet Thanks @prologic
 #+end_example
 
