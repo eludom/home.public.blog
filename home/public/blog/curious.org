@@ -1,4 +1,4 @@
-* Headings
+k* Headings
 #+title: Curious Musings
 #+options: num:3 toc:nil \n:nil
 #+OPTIONS: tex:t
@@ -434,7 +434,7 @@ little actual deployment.
       - Existential nihilism or hedonism ("Whatever gets you through the night, it's all right, it's all right.")
       - Live your life, enjoy your family ("I'm just sitting here watching the wheels go round and round")
 ****** My current responses
-      - Self hosting ::  I'm self hosting on a raspberry pi.  [[https://curious.galthub.com/][Blog]].
+      - Self hosting ::  I'm self hosting on a raspberry pi.  [[http://curious.galthub.com/][Blog]].
         [[http://git.galthub.com/][Git]].  New domain name (galthub.com). Re-considering increased
         use of my 2001-era hand-edited HTML website:
         http://www.port111.com/george/.  I took a year off blogging and stopped
@@ -5490,6 +5490,56 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
 *** Life                                                               :life:
+**** PUBLISHED When time is short
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2024-08-19
+  :EXPORT_HUGO_PUBLISHDATE: 2024-08-19:
+  :END:
+
+Some perspective from a person who spent decades providing financial
+advice, planning for retirement and was then diagnosed with brain cancer
+at 61....
+
+#+caption: "Grim Reaper With Question Mark" by George Jones/DALLI is licensed under CC BY 2.0
+#+attr_html: :width 200px
+file:images/grim_small.jpg
+
+#+hugo: more
+
+For the past couple years, I've been reading/learning a ton from the
+retirement-related web site [[https://humbledollar.com/][HumbleDollar]], which is run by Johnathan
+Clements, who, for almost 20 years wrote the Wall Street Journal
+persnal finance column.   He was recently diagnosed, at 61, with a
+form of brain cancer that gives him at most a couple years to live.
+His determination, transparency, and positive attitude in dealing with
+it, very publicly, has been inspiring.  Something like this brings
+clarity to what's important, and what's not.   I'm grateful that he's
+sharing his journey and his thoughts.   I'm hoping to learn from his
+experience and improve my approach to life (and death, and money and time)
+
+Here are a couple quotes from his most recent article:
+
+            https://humbledollar.com/2024/08/on-the-clock/
+
+
+#+begin_quote
+
+
+...I’m determined to make the most of every day, doing what I
+love and trying mightily to fend off life’s nonsense. It’s an attitude
+I recommend to readers—one I’d encourage you to embrace now, rather
+than waiting for a dire medical prognosis. We should never forget that
+our most precious resource isn’t money, but time.
+
+Moments of irritation also occasionally creep in. Soon after I got my
+diagnosis, it seemed the insurance company was dragging its feet,
+taking far too long to approve my treatment plan. I was bothered by
+the delay. But mostly, I was bothered that this bothered me—that I was
+wasting time being angry at some lumbering, unresponsive insurance
+company. That meant a day that wasn’t as good as it could be.
+
+#+end_quote
+
 **** PUBLISHED Digging through layers of obfuscation :100DaysToOffload:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-01-20
