@@ -5502,7 +5502,7 @@ at 61....
 
 #+caption: "Grim Reaper With Question Mark" by George Jones/DALLI is licensed under CC BY 2.0
 #+attr_html: :width 200px
-file:images/grim_small.jpg
+file:images/grim2_small.jpg
 
 #+hugo: more
 
