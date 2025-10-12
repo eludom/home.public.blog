@@ -2,7 +2,7 @@
 title = "There's a lot to be said for climbing mountains"
 author = ["George M Jones"]
 publishDate = 2020-08-24
-lastmod = 2024-08-15T14:07:11-04:00
+lastmod = 2025-10-12T09:55:57-04:00
 tags = ["latin", "life", "hiking"]
 categories = ["blog"]
 draft = false

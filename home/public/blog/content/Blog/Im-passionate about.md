@@ -4,8 +4,8 @@ title = """
   """
 author = ["George M Jones"]
 publishDate = 2020-03-09T00:00:00-04:00
-lastmod = 2024-08-15T13:59:16-04:00
-tags = ["retirement", "Latin", "humanity", "work"]
+lastmod = 2025-10-12T09:55:47-04:00
+tags = ["Latin", "humanity", "work"]
 categories = ["blog"]
 draft = false
 +++

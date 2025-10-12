@@ -1,8 +1,8 @@
-k* Headings
+* Headings
 #+title: Curious Musings
 #+options: num:3 toc:nil \n:nil
 #+OPTIONS: tex:t
-# #+OPTIONS: broken-links:mark
+#+OPTIONS: broken-links:mark
 #+todo: TODO(t) CANCELLED(c) |  WIP(w) PUBLISHED(p)
 #+hugo_base_dir: ~/blog
 #+hugo_auto_set_lastmod: %Y-%m-%d
@@ -20,13 +20,70 @@ k* Headings
 :EXPORT_FILE_NAME:
 :EXPORT_HUGO_PUBLISHdate: <2024-08-15 Thu 07:57:53>
 :END:
+
+
 *** Geek Stuff                                                         :geek:
+**** PUBLISHED The path to a world without hold music.
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2025-10-09
+  :EXPORT_HUGO_PUBLISHDATE: 2025-10-09:
+  :END:
+  
+
+I recently faced frustration while trying to get clarity on my insurance coverage. I discovered a solution that spares me from time on hold. It also holds promise for freeing people stuck answering calls to pursue more fulfilling work. I used AI in ways the company never envisioned.
+
+#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Pete Rose and Harp" by George Jones and ChatGPT is licensed under CC-BY 4.0]]
+  #+attr_html: :width 200px
+  [[file:images/pete_rose_and_harp.png]]
+
+#+hugo: more
+
+I've had an interesting experience the past few days trying to get information about my insurance policies. It started when I wanted confirmation that my auto policy would cover me when renting a car, as I believed it had for the past 30 years. So I called my agent three times and never got a straight answer. Frustrated, I called a friend who is an agent at another insurance company. She answered my question in one minute.
+
+I also had a question about my homeowners policy. At this point I was loath to call my agent again since I wasn't sure I'd believe any answer I received. The former owner of the agency had recently retired; she used to stay on the phone until 9 PM to ensure questions were answered. Another call resulted in someone saying, "I can't answer that; I'll have to transfer you to an agent." After holding for 10 minutes, I was told, "Nobody is available; can they call you back?" Begrudgingly, I agreed, but nobody called back. I called again hours later, only to find out they had spoken to my wife about a different matter but had not returned my call.
+
+From here, I planned to transfer my policy to a different agency with the same insurer. The idea was to call them in a sales situation to see if a) they’d answer the phone, and b) they could answer my coverage question. But after three calls and only reaching a voicemail to "leave a number".  So much for that plan.
+
+Plan C: I decided to use ChatGPT. After downloading my policy, I discovered the PDF was encoded to prevent easy text extraction. After researching PDF to text OCR solutions and getting one to work on my laptop, I finally uploaded my policy text to ChatGPT. In about 30 seconds, I got an answer straight from my policy.
+
+I then compared the full text of my old policy with a potential new one using ChatGPT, resulting in a clear side-by-side comparison. Very Nice.
+
+*What does this mean?*
+
+I’m not going to seek answers from people at my old agency who appear to lack the knowledge and dedication of the previous owner. Nor will I transfer to an agency that won't answer a sales call. I’ll switch to the company where my friend works, as they answer calls, seem knowledgeable, and offered me a lower rate.
+
+*Implications for AI:*
+
+It means I can get answers without talking to people who may not know what they are
+talking about (or who just won't give me the time of day). It means I can get my
+own answers quickly from the authoritative source using AI directly.
+
+*Caveat quaesitor*
+
+- "Trust but verify" :: Answers from AI need to be validated.  They very often get you "in the ball-park", but you need to look at the results and apply common-sense tests, and to the extent that you have expertise (as I do with programming), see if the answers are silly or wrong.
+
+- I'm not your average AI user :: I have a degree in Computer Science, have been toying around the edges of AI and cognitive science since the 80s and worked some with "modern" AI and data science the last few years of my career.  But I think the beauty of LLMs is that you don't need my level of understanding to use them.
+  
+*Impact on Jobs:*
+
+We don't have to take Teslas to the blacksmith to get new horseshoes. 
+
+People can do more productive things with their time. I suppose we could have government
+regulations and subsidies for blacksmiths and unions protecting their jobs. People
+shouldn't have to work in dead-end jobs.
+
+When the camera was invented, I'm sure there was push-back form portrait painters, but painters moved on to things the camera could not do: impressionist and abstract art, etc. I'm glad we got Monet, Picasso, etc. When the printing press was invented we got mass literacy because we were no longer dependent on sciptoria full of monks hand-copying every manuscript. There will be disruption, but the world and people's lives will be better in the end.
+
+Let’s move on to bigger and better things.  Together.
+
 **** PUBLISHED The TNI is dead, long live the TNI  :100DaysToOffload:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-04-02
   :EXPORT_HUGO_PUBLISHDATE: 2024-04-02:
   :END:
+  
 
+  
 Today was the day I removed the TNI (Telephone Network Interface) from
 my house.   The last vestiges of our land line. The last outpost of a
 once vast network.
@@ -34,7 +91,6 @@ once vast network.
     #+caption: "This Phone Is Property of Ohio Bell" by George Jones is licensed under CC BY 2.0
     #+attr_html: :width 200px
     file:images/tni2.jpg
-
 #+hugo: more
 
 There used to be vast infrastructure (the Telephone Network) that got
@@ -86,6 +142,8 @@ ham radio to "phone home").   The world has changed.
      :EXPORT_FILE_NAME: 2022-12-25
      :EXPORT_HUGO_PUBLISHDATE: 2022-12-25
      :END:
+     
+     
 
    This is two part rant on planning with (and without) Emacs Org Mode,
    shoved together into one post in much the same way as Lennon-McCartney
@@ -253,6 +311,8 @@ ham radio to "phone home").   The world has changed.
   :EXPORT_FILE_NAME: 2022-10-19
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-19:
   :END:
+  
+  
 
 
 #+hugo: more
@@ -290,6 +350,8 @@ ham radio to "phone home").   The world has changed.
 :EXPORT_FILE_NAME: 2022-02-11
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-11:
 :END:
+
+
 
 Today was the day I made the choice to live for an entire work-day on
 an IPv6-only network.  And it worked.  I've been watching this slow
@@ -484,6 +546,8 @@ little actual deployment.
      :EXPORT_FILE_NAME: 2021-12-16-emacs-enlightenment
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-16
      :END:
+     
+     
 
 
      #+begin_quote
@@ -509,6 +573,9 @@ little actual deployment.
 :EXPORT_FILE_NAME: no-marketing
 :EXPORT_HUGO_PUBLISHDATE: 2021-12-04
 :END:
+
+
+
 
 
 OK, so a year or so later I'm back online with both a self-hosted [[http://git.galthub.com/][git]] and [[https://curious.galthub.com/][blog]]
@@ -573,6 +640,7 @@ More to come now that I can get it out in a way I feel good about.
 :EXPORT_FILE_NAME: hugo-via-mysocket
 :EXPORT_HUGO_PUBLISHDATE: 2021-11-12
 :END:
+
 
 
 ...that time when you realize your blog is hosted on a web site who's
@@ -684,6 +752,7 @@ $ python3 -m http.server 1313
      :EXPORT_FILE_NAME: 20200418
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-18:
      :END:
+     
 
 Bash uses linear search to insert values in to associative arrays.
 This is all well and good for small numbers of keys.   I was adding
@@ -809,6 +878,7 @@ after I posted to comp.sources.amiga
      :EXPORT_FILE_NAME: 2020-05-01
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-01
      :END:
+     
 
 
 /This article is a work in progress.  Updated: 2020-05-02.  This is
@@ -1023,6 +1093,7 @@ the WAP to use the Pi-hole DNS directly.   Stay tuned.
      :EXPORT_FILE_NAME: my-computer
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-12
      :END:
+     
 
 
 The windows desktop has (had? I don't pay attention) icons labeled
@@ -1065,6 +1136,7 @@ programmers").  I think when I reinstall this time, I'll call it
      :EXPORT_FILE_NAME: hugo-org-github
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-16
      :END:
+     
 
 If you ever thought to yourself, "Gee, Emacs Org mode is a great
 outlining and authoring tool, and I wish there were a powerful
@@ -1169,6 +1241,7 @@ This is inherited lower level headers in org so
    :EXPORT_FILE_NAME:
    :EXPORT_HUGO_PUBLISHDATE:
    :END:
+   
 #+end_example
 
 covers things in
@@ -1195,6 +1268,7 @@ Add an entry like this
     :EXPORT_FILE_NAME: walled-gardens
     :EXPORT_HUGO_PUBLISHDATE: 2020-08-11
     :END:
+    
 
     This is a brain dump on something like 40 years experience with
     "social media" of various forms.

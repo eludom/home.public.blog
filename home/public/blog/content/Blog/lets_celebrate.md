@@ -2,7 +2,7 @@
 title = "Inclusion and Diversity in Ancient Egypt"
 author = ["George M Jones"]
 publishDate = 2021-12-10
-lastmod = 2024-08-15T14:05:57-04:00
+lastmod = 2025-10-12T09:55:52-04:00
 tags = ["life", "snark"]
 categories = ["blog"]
 draft = false

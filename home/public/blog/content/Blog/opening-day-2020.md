@@ -2,7 +2,7 @@
 title = "Cincinnati Reds Opening Day 2020"
 author = ["George M Jones"]
 publishDate = 2020-06-07
-lastmod = 2024-08-15T14:07:00-04:00
+lastmod = 2025-10-12T09:55:56-04:00
 tags = ["life", "Baseball", "MLB", "Reds", "Hope", "Cincinnati", "Traditions", "Life"]
 categories = ["blog"]
 draft = false

@@ -2,7 +2,7 @@
 title = "Emacs enlightenment"
 author = ["George M Jones"]
 publishDate = 2021-12-16
-lastmod = 2024-08-15T13:35:27-04:00
+lastmod = 2025-10-12T09:55:21-04:00
 tags = ["geek", "emacs", "life", "philosophy"]
 categories = ["blog"]
 draft = false

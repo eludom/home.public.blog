@@ -2,7 +2,7 @@
 title = "Thoughts on the OODA loop and falling out of a canoe"
 author = ["George M Jones"]
 publishDate = 2020-05-26
-lastmod = 2024-08-15T13:39:32-04:00
+lastmod = 2025-10-12T09:55:41-04:00
 tags = ["cybersecurity", "secuity", "privacy", "perspective", "outdoors", "SOC", "OODA"]
 categories = ["blog"]
 draft = false

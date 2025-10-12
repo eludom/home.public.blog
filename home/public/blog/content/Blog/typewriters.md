@@ -2,7 +2,7 @@
 title = "Of Typewriters, Scribe, LaTeX, Org mode, Hugo and Paper"
 author = ["George M Jones"]
 publishDate = 2020-12-06
-lastmod = 2024-08-15T13:36:21-04:00
+lastmod = 2025-10-12T09:55:33-04:00
 tags = ["geek", "history", "blogging", "emacs", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -40,9 +40,9 @@ So here is some venting. I can always vent. And, in case you were wondering, the
 solution is to put
 
 ```html
-      <script type="text/javascript"
-      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-      </script>
+<script type="text/javascript"
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 ```
 
 at the bottom of `layout/partials/head.html` before `</head>` in
@@ -319,14 +319,14 @@ lists, contact management, schedules, etc.
 Oh, and ASCII art is a thing...
 
 ```text
-                                         /  \ "I'll see you on __
-                 /\                     /   /  the text side  /  \
-                /  \                   /       of the moon"  /   /
- -------R------/    \                _/_____       _______  /
- -------G-----/    --\-----W------- /       \ / \ /       \/
- -------B----/        \            |   Org   |   |  Mode   |
-            /          \            \_______/     \_______/
-           -------------
+                                        /  \ "I'll see you on __
+                /\                     /   /  the text side  /  \
+               /  \                   /       of the moon"  /   /
+-------R------/    \                _/_____       _______  /
+-------G-----/    --\-----W------- /       \ / \ /       \/
+-------B----/        \            |   Org   |   |  Mode   |
+           /          \            \_______/     \_______/
+          -------------
 ```
 <div class="src-block-caption">
   <span class="src-block-number">Code Snippet 1:</span>

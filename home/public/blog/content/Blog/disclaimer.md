@@ -2,8 +2,8 @@
 title = "Disclaimer"
 author = ["George M Jones"]
 publishDate = 2020-08-19
-lastmod = 2024-08-15T13:59:24-04:00
-tags = ["work", "retirement", "philosophy", "humor", "100DaysToOffload"]
+lastmod = 2025-10-12T09:55:48-04:00
+tags = ["work", "philosophy", "humor", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
 +++

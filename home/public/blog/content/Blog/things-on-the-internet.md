@@ -2,7 +2,7 @@
 title = "What is that thing on the Internet, and is it bad?"
 author = ["George M Jones"]
 publishDate = 2020-09-19
-lastmod = 2024-08-15T13:39:40-04:00
+lastmod = 2025-10-12T09:55:43-04:00
 tags = ["cybersecurity", "secuity", "privacy", "perspective", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -65,7 +65,7 @@ How do I know?
 <!--listend-->
 
 ```text
-    var swfpath="/e/data/images/pixviewer.swf
+var swfpath="/e/data/images/pixviewer.swf
 ```
 
 How certain am I?
@@ -153,17 +153,17 @@ For instance, revisiting **what is it?** for the web server with
 flash, we might come up with this taxonomy:
 
 ```text
-  + open port                      WELL DEFINED, CERTAIN IDENTIFICATION
-    + tcp
-      + tls                                        ^
-        + web server                               |
-           + microsoft                             |
-             + iis                                 |
-               + 7.3                               |
-                 + services                        |
-                   + flash                         v
-                 + frameworks
-                    + dotnet       LESS DEFINED, LESS CERTAIN IDENTIFICATION
++ open port                      WELL DEFINED, CERTAIN IDENTIFICATION
+  + tcp
+    + tls                                        ^
+      + web server                               |
+         + microsoft                             |
+           + iis                                 |
+             + 7.3                               |
+               + services                        |
+                 + flash                         v
+               + frameworks
+                  + dotnet       LESS DEFINED, LESS CERTAIN IDENTIFICATION
 ```
 
 Taxonomies help in classifying, understanding and communicating

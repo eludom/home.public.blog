@@ -2,7 +2,7 @@
 title = "Hello twtxt"
 author = ["George M Jones"]
 publishDate = 2020-10-17
-lastmod = 2024-08-15T14:09:57-04:00
+lastmod = 2025-10-12T09:56:08-04:00
 tags = ["social", "HOWTO", "100DaysToOffload", "geek"]
 categories = ["blog"]
 draft = false
@@ -15,7 +15,7 @@ And in the to-simple-to-be-true category...
 <https://twtxt.readthedocs.io/en/latest/user/intro.html>
 
 ```text
- $ twtxt tweet "Is there anybody out there, just nod if you can hear me"
+$ twtxt tweet "Is there anybody out there, just nod if you can hear me"
 ```
 
 <!--more-->

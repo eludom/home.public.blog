@@ -2,7 +2,7 @@
 title = "Some Happy Notes"
 author = ["George M Jones"]
 publishDate = 2020-04-21T00:00:00-04:00
-lastmod = 2024-08-15T14:06:28-04:00
+lastmod = 2025-10-12T09:55:53-04:00
 tags = ["music", "family", "life", "piano"]
 categories = ["blog"]
 draft = false

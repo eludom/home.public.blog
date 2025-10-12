@@ -2,7 +2,7 @@
 title = "What a day for a daydream"
 author = ["George M Jones"]
 publishDate = 2020-11-25
-lastmod = 2024-08-15T14:07:25-04:00
+lastmod = 2025-10-12T09:55:58-04:00
 tags = ["life", "100DaysToOffload"]
 categories = ["blog"]
 draft = false

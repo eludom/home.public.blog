@@ -2,7 +2,7 @@
 title = "When we focus on fear and stop caring for people"
 author = ["George M Jones"]
 publishDate = 2021-12-06
-lastmod = 2024-08-15T14:06:07-04:00
+lastmod = 2025-10-12T09:55:52-04:00
 tags = ["life", "health", "family", "covid"]
 categories = ["blog"]
 draft = false

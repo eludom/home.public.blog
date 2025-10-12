@@ -2,7 +2,7 @@
 title = "Plato's Cave: a plea for good leadership"
 author = ["George M Jones"]
 publishDate = 2020-08-08
-lastmod = 2024-08-15T14:07:06-04:00
+lastmod = 2025-10-12T09:55:57-04:00
 tags = ["life", "philosophy", "leadership"]
 categories = ["blog"]
 draft = false

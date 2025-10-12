@@ -2,7 +2,7 @@
 title = "Bear attacks, no-win situations and cybersecurity"
 author = ["George M Jones"]
 publishDate = 2020-03-19T00:00:00-04:00
-lastmod = 2024-08-15T13:39:35-04:00
+lastmod = 2025-10-12T09:55:41-04:00
 tags = ["cybersecurity", "secuity", "privacy", "perspective", "bears"]
 categories = ["blog"]
 draft = false

@@ -2,7 +2,7 @@
 title = "Finding needles in the marketingstack"
 author = ["George M Jones"]
 publishDate = 2021-12-15
-lastmod = 2024-08-15T14:02:01-04:00
+lastmod = 2025-10-12T09:55:47-04:00
 tags = ["work", "truth", "marketing"]
 categories = ["blog"]
 draft = false

@@ -2,7 +2,7 @@
 title = "Digital chimney smoke?"
 author = ["George M Jones"]
 publishDate = 2020-04-27
-lastmod = 2024-08-15T14:06:34-04:00
+lastmod = 2025-10-12T09:55:54-04:00
 tags = ["life", "twitter", "DigitalFrontiers"]
 categories = ["blog"]
 draft = false

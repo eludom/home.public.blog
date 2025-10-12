@@ -2,7 +2,7 @@
 title = "Privacy: Motion activated cameras in the woods?"
 author = ["George M Jones"]
 publishDate = 2020-09-26
-lastmod = 2024-08-15T13:46:44-04:00
+lastmod = 2025-10-12T09:55:43-04:00
 tags = ["privacy", "100DaysToOffload", "hiking"]
 categories = ["blog"]
 draft = false

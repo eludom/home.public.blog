@@ -2,7 +2,7 @@
 title = "HOWTO: See SOME lines from a file"
 author = ["George M Jones"]
 publishDate = 2020-09-01
-lastmod = 2024-08-15T13:36:13-04:00
+lastmod = 2025-10-12T09:55:29-04:00
 tags = ["geek", "unix", "100DaysToOffload", "HOWTO"]
 categories = ["blog"]
 draft = false

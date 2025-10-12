@@ -2,7 +2,7 @@
 title = "Publishing a blog on Github with Org and Hugo"
 author = ["George M Jones"]
 publishDate = 2020-08-16
-lastmod = 2024-08-15T13:36:08-04:00
+lastmod = 2025-10-12T09:55:29-04:00
 tags = ["geek", "blogging", "org", "emacs", "HOWTO"]
 categories = ["blog"]
 draft = false
@@ -200,6 +200,8 @@ covers things in
         :EXPORT_HUGO_PUBLISHDATE: 2020-08-11
         :END:
 
+
+
         This is a brain dump on something like 40 years experience with
         "social media" of various forms.
     ```
@@ -260,10 +262,10 @@ covers things in
     <!--listend-->
 
     ```text
-          cd doc
-          git add -A
-          git commit -m"name of new post"
-          git push
+    cd doc
+    git add -A
+    git commit -m"name of new post"
+    git push
     ```
 
 
@@ -277,10 +279,10 @@ covers things in
 #### <span class="section-num">5.3.4</span> Add and push the source {#add-and-push-the-source}
 
 ```text
-        cd ..
-        git status .
-        git add [new files]
-        git commit -m"name of new post"
+cd ..
+git status .
+git add [new files]
+git commit -m"name of new post"
 ```
 
 -   be sure not to add docs/, as that is pushed a a subtree.

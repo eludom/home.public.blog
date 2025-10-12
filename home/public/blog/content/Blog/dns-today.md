@@ -2,7 +2,7 @@
 title = "HOWTO: Breaking and fixing DNS - Understanding modern DNS on Ubuntu."
 author = ["George M Jones"]
 publishDate = 2020-05-10
-lastmod = 2024-08-15T14:10:11-04:00
+lastmod = 2025-10-12T09:56:10-04:00
 tags = ["DNS", "Ubuntu", "HOWTO", "Linux", "systemd"]
 categories = ["blog"]
 draft = false
@@ -120,8 +120,8 @@ systemd-resolve - let systemd resolve a name
     not the only game in town for doing command line DNS look-ups.
     Systemd (of course) will do it for you:
     ```text
-                          $ systemd-resolve www.uu.net
-                          www.uu.net: 152.195.32.39
+    $ systemd-resolve www.uu.net
+    www.uu.net: 152.195.32.39
     ```
     In this case, it worked, which tells me that systemd-resolved
     is happy and working.
@@ -130,7 +130,7 @@ systemd-resolve - let systemd resolve a name
 try dig again
 : Try another "normal" lookup:
     ```text
-                          $ dig www.uu.net
+    $ dig www.uu.net
     ```
     This failed.  The conclusion seems to be that the whatever the
     resolver library is looking at (127.0.0.53) is not working.

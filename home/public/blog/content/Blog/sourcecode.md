@@ -2,7 +2,7 @@
 title = "Source Code Distribution From Printouts to Github"
 author = ["George M Jones"]
 publishDate = 2020-10-10
-lastmod = 2024-08-15T13:36:16-04:00
+lastmod = 2025-10-12T09:55:29-04:00
 tags = ["geek", "unix", "history", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -89,7 +89,7 @@ UUCP
     issue a copy command of source known to live on a remote system
     something like
     ```text
-                uucp cbosgd!/archive/hdb-uucp.tar.gz hdb-uucp.tar.gz
+    uucp cbosgd!/archive/hdb-uucp.tar.gz hdb-uucp.tar.gz
     ```
     with multi-hop paths being possible...if you knew the topology
     (pathalias !) and the filenames.

@@ -2,8 +2,8 @@
 title = "Choosy Programmers Choose GIF"
 author = ["George M Jones"]
 publishDate = 2020-04-30
-lastmod = 2024-08-15T13:59:19-04:00
-tags = ["work", "retirement", "Wilhite", "CompuServe", "GIF", "History", "Computers", "Emacs", "Programming"]
+lastmod = 2025-10-12T09:55:48-04:00
+tags = ["work", "Wilhite", "CompuServe", "GIF", "History", "Computers", "Emacs", "Programming"]
 categories = ["blog"]
 draft = false
 +++

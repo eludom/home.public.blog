@@ -2,7 +2,7 @@
 title = "Privacy: what is it and why do we care? …"
 author = ["George M Jones"]
 publishDate = 2020-09-24
-lastmod = 2024-08-15T13:46:41-04:00
+lastmod = 2025-10-12T09:55:43-04:00
 tags = ["privacy", "100DaysToOffload"]
 categories = ["blog"]
 draft = false
@@ -26,13 +26,13 @@ This is the first in what will probably be a series of blog posts
 exploring the following (current outline):
 
 ```text
- **** TODO Privacy: Motion activated cameras strapped to trees in the woods?
- **** TODO Privacy: An attainable end state? A lost cause?
- **** TODO Privacy: A path to making a living via bureaucracy?
- **** TODO Privacy: Something to rant about ... with words.
- **** TODO Privacy: Rage against the machine ... with code?
- **** TODO Privacy: Hiding out on the digital frontier?
- **** TODO Privacy: A process, an ideal, one part of life?
+**** TODO Privacy: Motion activated cameras strapped to trees in the woods?
+**** TODO Privacy: An attainable end state? A lost cause?
+**** TODO Privacy: A path to making a living via bureaucracy?
+**** TODO Privacy: Something to rant about ... with words.
+**** TODO Privacy: Rage against the machine ... with code?
+**** TODO Privacy: Hiding out on the digital frontier?
+**** TODO Privacy: A process, an ideal, one part of life?
 ```
 
 Stay tuned.

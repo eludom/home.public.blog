@@ -2,7 +2,7 @@
 title = "Learn git and galthub without any marketing"
 author = ["George M Jones"]
 publishDate = 2021-12-04
-lastmod = 2024-08-15T14:28:53-04:00
+lastmod = 2025-10-12T09:55:21-04:00
 tags = ["blogging", "geek", "emacs", "git", "social", "marketing"]
 categories = ["blog"]
 draft = false
@@ -25,6 +25,7 @@ Walled gardens go away
     their business needs will be gone before that.
     I've written at
     length aobut this in
+    [BROKEN LINK: Blog/walled-gardens-part-1.pre-processed.org]
     "40 years of walled gardens &amp; open platforms: Part I" and
     "40 years of walled gardens &amp; open platforms: Part I"
 
