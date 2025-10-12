@@ -32,7 +32,7 @@
 
 I recently faced frustration while trying to get clarity on my insurance coverage. I discovered a solution that spares me from time on hold. It also holds promise for freeing people stuck answering calls to pursue more fulfilling work. I used AI in ways the company never envisioned.
 
-#+caption: [[https://FOO.COM/BAR/BAZ.JPG]["Pete Rose and Harp" by George Jones and ChatGPT is licensed under CC-BY 4.0]]
+#+caption: [[http://curious.galthub.com/ox-hugo/pete_rose_and_harp.png]["Pete Rose and Harp" by George Jones and ChatGPT is licensed under CC-BY 4.0]]
   #+attr_html: :width 200px
   [[file:images/pete_rose_and_harp.png]]
 
@@ -1268,6 +1268,7 @@ Add an entry like this
     :EXPORT_FILE_NAME: walled-gardens
     :EXPORT_HUGO_PUBLISHDATE: 2020-08-11
     :END:
+
     
 
     This is a brain dump on something like 40 years experience with
