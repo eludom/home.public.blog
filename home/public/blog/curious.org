@@ -20,9 +20,37 @@
 :EXPORT_FILE_NAME:
 :EXPORT_HUGO_PUBLISHdate: <2024-08-15 Thu 07:57:53>
 :END:
-
-
 *** Geek Stuff                                                         :geek:
+**** PUBLISHED "The People of Emacs" - Emacs Carnival Prompt          :emacs:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2025-10-31
+  :EXPORT_HUGO_PUBLISHDATE: 2025-10-31:
+  :END:
+
+***** Emacs Carnival, December 2025 - "The People of Emacs"
+
+    This is a writing prompt for [[https://www.emacswiki.org/emacs/Carnival][Emacs Carnival]] for December 2025.
+
+    The basic ask is to write about "Emacs people you've known." Preference is given to people who influenced you, who inspired you, who taught you, or who bent your mind. Bonus points if they are people you've known in "real life" (offline). Of course, stories, character sketches, [[http://curious.galthub.com/blog/steve/][tributes]] and [[http://curious.galthub.com/blog/2023-12-09/][poetry]] are encouraged.
+    
+    Emacs is the most people-centric technology I've ever used.  I'm willing to bet that's true for others as well.
+
+    Who are your "People of Emacs"?
+
+***** What's a Blog Carnival, again?
+Copied from donaldh copied from Christian Tietze:
+
+#+begin_quote
+A blog carnival is a fun way to tie together a community with shared writing prompts, and marvel at all the creative interpretations of the topic of the month.
+#+end_quote
+
+***** Submissions
+****** How to Submit
+Please [[https://fosstodon.org/@eludom][DM]] or [[mailto:thick.tail2775@port111.com][email]] me with your blog submission. I will link to all submissions I receive before the end of December.
+
+****** Your Submissions Here
+
+ #emacs #emacscarnival
 **** PUBLISHED The path to a world without hold music.
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2025-10-09
@@ -10011,7 +10039,7 @@ me, and I think potentially others, so I'll keep it up.
 
 Day (well, post) 17 of #100DaysToOffload https://100daystooffload.com/
 
-*** Social Media Series                                     :social:
+*** Social Media Series                                              :social:
 
 This is going to be series of articles about my experiences with
 "social media" and "walled gardens"
