@@ -21,6 +21,159 @@
 :EXPORT_HUGO_PUBLISHdate: <2024-08-15 Thu 07:57:53>
 :END:
 *** Geek Stuff                                                         :geek:
+**** WIP Back to the egg - Emacs in the 70s                :emacs:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2025-12-10
+  :EXPORT_HUGO_PUBLISHDATE: 2025-12-10:
+  :END:
+
+***** Ab Initio
+
+#+begin_quote
+In the beginning, there was TECO[fn:3].\\
+And darkness was on the face of the programmers,\\
+And the MIT hackers said "Let there be Emacs",\\
+And there was a collection of TECO maros".\\
+#+end_quote
+
+
+This is the first in what is planned to be a series of posts on "The people of Emacs"
+who have influenced me. I've found that the use of Emacs is often a marker for "interesting
+people doing interesting things". I have absolutely zero interest in tracking weight
+lifting stats, but using Emacs on Android as a base for "[[https://emacsconf.org/2025/talks/weights/][replacing
+proprietary software with free alternatives]]"? Now I'm listening.
+
+Since I've been noodling around with Emacs since something like
+1979 I'm going to do this in installments. This is part of the [[https://curious.port111.com/2025/11/01/emacs-carnival-december-the-people.html][Emacs
+Carnival for December 2025]]. I suspect I will write several installments after
+the December carnival has ended.
+
+***** Try this at home kids !
+Because Emacs people are fundamentally a hands-on crowd, I'll try to start each installment
+with some DIY project. Thanks to fine folks at SDF Public Access UNIX System you
+can log into a TOPS10 or TOPS20 system today and run the original TECO Emacs. You
+can run your own [[https://www.tindie.com/products/obso/pdp-10-replica-kit-the-pidp-10/][PDP-10
+on a raspberry pi]] if you want even more fun.
+
+Go to [[https://sdf.org/][https://sdf.org/]] or [[https://twenex.org/]] to get started.
+
+#+begin_quote
+"If you're computer doesn't have 36 bits,\\
+you're not playing with a full DEC[fn:111]"
+#+end_quote
+
+Your assignment is to create yourself an account, log in, run Emacs, create a file,
+and save it. Bonus points for running dired. Double bonus points if it's a finger
+plan file (the TOPS20 version of "About Me"). Can you edit a file in Emacs c.a. 1980?
+How much of what you do today in Emacs was there at the beginning? The past is a
+foreign land.
+
+Emacs was created on multi-user systems.  That had implications for
+the ethos and the culture around it.  This may be new to you if you
+started computing after, say, 1985.
+When you log in, run "finger" to see
+who's logged in and what they're doing.   You will be presented with
+BB[fn:2] (bulletin-board) messages (system local messages that other people
+post).  There was/is "talk" for connecting with other users on the
+system.
+
+One of the many things that was cool about the TOPS20 exec (shell) was the command
+line help system. Type "?" at any point (no return) and you will see the list of
+valid command options at that point. This was mimicked in Cisco IOS and Columbia
+C-Kermit. Bits of it were re-implemented in [[https://en.wikipedia.org/wiki/Tcsh][tcsh
+(TENEX C shell)]] and later in bash. Type "?". See what happens.
+
+Triple bonus points - log in using telnet.  Who needs ssh?  Who needs
+encrypted passwords on the wire?
+
+***** The people
+****** RMS - sine non qua
+I don't think I need to or can say anything new about Stallman, his
+vision, his skill as a programmer,
+his dedication, etc. For my entire career he was a force, a presence, a coding-monster,
+a moral inspiration, etc. The Emacs story began 6 or 7 years before FSF, but I think
+the sharing culture that created it was and is the heart of free software and where
+it most clearly lives to this day. 
+
+****** Guy Steele and the CMU connection 
+Guy Steele contributed to the initial development of Emacs. He was a student at MIT
+at the time. He later moved to Carnegie-Mellon University (CMU) as an
+assistant professor.  He later co-authored one of the standard
+references on C and helped standardize Java.
+I'm assuming he brought Emacs with him from MIT. Secondary effects indicate that this is probably
+true. I know of at least two other implementations of Emacs that happened at CMU
+around that time: "[[https://en.wikipedia.org/wiki/Gosling_Emacs][Gosmacs]]" by James
+Gosling (later of Java fame), and [[https://github.com/PDP-10/fine][FINE (FINE Is
+Not Emacs)]] for TOPS10 (more on that later). My future wife was an undergraduate
+at CMU at the time and knew Steele and his family.
+
+****** More CMU connections
+
+The plot thickens. My older brother went to CMU as an undergrad in the fall of 1978.
+He was running in the computing circles where Emacs versions were proliferating.
+My first memory of Emacs is a stack of green-bar print-outs of the source code (TECO)
+for Emacs that sat for a year or so in my younger brother's room. He and several of
+his friends from CMU worked as interns during the summers for [[http://curious.galthub.com/blog/2022-03-24/][Steve
+Wilhite]] (he of GIF file format fame) at CompuServe. Steve was developing compilers,
+run-times and programming support tools (like editors). They brought FINE with them
+from CMU. CompuServe ran (to its dying day) on DEC10s. I later worked for Steve in
+my first job out of college. FINE was there and waiting for me.
+
+****** The Columbian Exchange.
+
+To keep this post mostly in the 70s I have to mention a group in passing that deserves
+its own history.  It turns out I was in the right place at the right
+time with (in retrospect) an incredible group of friends.
+
+In high school, before the Apple-II, before Star Wars we had a
+clique that called itself the "Computer Wizards". In many cases we were sons of professors
+and the odd Bell Labs/Western electric/Battelle engineer. We made our own light sabers before
+there was Star Wars merch on the shelves. Members of the group went on to places
+like CMU, Stanford, MIT, Berkeley, Microsoft, Amazon, and
+Google. Various of us were responsible
+for things such as the Document Object Model (DOM), the Java VM at Sun, C++ standards,
+bits of the Mach kernel (running to this day as the core OS of macs), high speed
+networking research, tcsh, IETF standards work and managing a James Bond movie shooting
+site in Puerto Rico that sometimes doubled as a world famous radio telescope. Several
+migrated to CMU. Several more of us spent time working at Ohio State University Computer
+and Information Science (osu-cis) in the early days of GNU/Gnu Emacs. For about 10
+years there was a constant flow of people between OSU, CMU and, later, silicon valley.
+Emacs was part of the ethos and the environment.
+
+***** Feedback and submissions
+I'd welcome feedback and corrections.  This was mostly written from
+memories, some of which are over 45 years old.
+
+I'd also welcome other people's stories.  If you're reading this in
+December 2025 write something up on your blog and drop me a link.
+I'll add it to the carnival.  Late submissions might even be accepted.
+
+See [[https://curious.port111.com/2025/11/01/emacs-carnival-december-the-people.html][Emacs Carnival for December 2025]] for instructions.
+
+***** Footnotes
+
+[fn:111] Digital Equipment Corporation (DEC) made the PDP-10 line of
+computers that had a 36 bit architecture.  They were word
+(not byte) addressable with the addresses being stored in 18 bits of
+a word.  For a while, fans of DEC's "Big" PDP-10s had an attitude
+about their 16 bit (PDP11) and 32bit (VAX) cousins.
+
+[fn:2] I wrote a "BB" knock-off on Vax/VMS in Fortran-77 using the EDT
+editor long ago.  People tried to port many good ideas form the
+TOPS10/20/TENEX/ITS systems to Unix and other environments.
+
+[fn:3] [[https://en.wikipedia.org/wiki/TECO_(text_editor)][TECO]] is an editor originally
+for use with paper tapes that provided the substrate for the initial version of Emacs.
+It provided the flexibility and power needed to create Emacs. This was apparently
+appreciated by others as well, as I was peripherally aware of a separate set of TECO
+macros curated inside CompuServe. I confess to never having used it directly for
+anything serious, but since every key did something when you typed it the joke was
+"Type your name and see what happens". 
+
+
+#+begin_example
+#emacs #emacscarnival
+#+end_example
 **** PUBLISHED "The People of Emacs" - Emacs Carnival Prompt          :emacs:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2025-10-31
@@ -594,7 +747,6 @@ little actual deployment.
      #+caption: [[http://emacs.nu/wallpaper/gnu_wallpaper_4_1920.png]["Levitating GNU with Emacs source code" by Macduff is licensed under GPL 2.0]]
      #+attr_html: :width 400px
      [[file:images/gnus_up_small.png]]
-
 
 **** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:marketing:
 :PROPERTIES:
