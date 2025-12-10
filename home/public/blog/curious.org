@@ -21,7 +21,7 @@
 :EXPORT_HUGO_PUBLISHdate: <2024-08-15 Thu 07:57:53>
 :END:
 *** Geek Stuff                                                         :geek:
-**** WIP Back to the egg - Emacs in the 70s                :emacs:
+**** WIP Back to the egg - Emacs in the 70s                   :emacs:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2025-12-10
   :EXPORT_HUGO_PUBLISHDATE: 2025-12-10:
