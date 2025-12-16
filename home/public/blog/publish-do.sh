@@ -25,7 +25,7 @@ test -v DRY_RUN || hugo
 info Pushing to web
 
 
-test -v DRY_RUN || rsync -avz --delete docs/ curious:/var/www/curious.galthub.com/
+test -v DRY_RUN || rsync -avz --delete docs/ curious:/var/www/curious.galthub.com/html/
 
 info Adding things to git
 
@@ -38,7 +38,7 @@ fi
 
 test -v DRY_RUN && PRINT=info || PRINT=
 
-$PRINT rsync -avz --delete docs/ curious:/var/www/curious.galthub.com/
+$PRINT rsync -avz --delete docs/ curious:/var/www/curious.galthub.com/html/
 $PRINT git add curious.org
 $PRINT git add images
 $PRINT git add content

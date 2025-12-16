@@ -1,3 +1,10 @@
+home/public/blog/.*
 *~
 *#
 ./docs
+home/public/blog/.*
+blogfile.FOO
+*.xml
+*.css
+*.html
+home/public/blog/themes/hyde/theme.toml

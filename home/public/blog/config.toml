@@ -6,7 +6,7 @@ languageCode = "en-us"
 title = "Curious Musings"
 # themesDir = "themes"
 # theme = "hyde"
-disqusShortname = "eludom"
+#disqusShortname = "eludom"
 footnoteReturnLinkContents = "[^ back]"
 
 # <script defer src="https://cdn.commento.io/js/commento.js"></script>
@@ -34,3 +34,6 @@ footnoteReturnLinkContents = "[^ back]"
 
 [markup.goldmark.renderer]
   unsafe = true
+[services]
+  [services.disqus]
+    shortname = "eludom"
