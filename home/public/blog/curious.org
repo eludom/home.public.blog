@@ -1,4 +1,4 @@
-#+last_saved: 2026-01-19 12:19
+#+last_saved: 2026-02-04 11:08
 
 * Headings
 #+title: Curious Musings
@@ -767,6 +767,18 @@ little actual deployment.
 
 
 #6 of #100DaysToOffload take 2, https://100daystooffload.com/
+**** PUBLISHED Tech companies I once admired                      :life:tech:
+     :PROPERTIES:
+     :EXPORT_FILE_NAME: 2021-12-23-companies-I-once-admired
+     :EXPORT_HUGO_PUBLISHDATE: 2021-12-23
+     :END:
+
+
+     #+begin_example
+     The dream is over,
+     what can I say?
+     The dream is over,
+     yesterday.
 
      John Lennon, 1970
      #+end_example
