@@ -1,0 +1,36 @@
+#+last_saved: 2026-03-14 13:35
+
+Safely define the blog capture template only if "h" isn't already defined:
+  - =boundp= checks if the variable exists
+  - =assoc "h"= checks if a template with key "h" is already in the list
+  - =warn= displays a warning in =*Messages*= without stopping execution
+
+
+#+begin_src elisp
+  ;; Define org-capture-templates if not already defined
+  (unless (boundp 'org-capture-templates)
+    (setq org-capture-templates '()))
+
+  ;; Only add "h" template if not already defined
+  (if (assoc "h" org-capture-templates)
+      (warn "org-capture-template \"h\" already defined, skipping")
+    (add-to-list 'org-capture-templates
+                 '("h" "new Hugo Blog Post" entry
+                   (file "~/blog/drafts/drafts.org")
+                   "*** TODO %^{title}\t\t:100DaysToOffload:
+
+  The short story...
+
+  ,#+caption: [[https://FOO.COM/BAR/BAZ.JPG][\"Name of work\" by WHO is licensed under cc by 2.0]]
+  ,#+attr_html: :width 200px
+  [[file:images/BAZ.JPG]]
+
+  ,#+hugo: more
+
+  The long story...
+
+  #nn of #100DaysToOffload take 2.1, https://100daystooffload.com/
+  ")))
+#+end_src
+
+
