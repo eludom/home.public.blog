@@ -1,6 +1,3 @@
-#+last_saved: 2026-02-04 11:08
-
-* Headings
 #+title: Curious Musings
 #+options: num:3 toc:nil \n:nil
 #+OPTIONS: tex:t
@@ -9,21 +6,163 @@
 #+hugo_base_dir: ~/blog
 #+hugo_auto_set_lastmod: %Y-%m-%d
 #+MACRO instagram @@html:@@html:@@https:@@https:@@//www.instagram.com/p/$1
+#+last_saved: 2026-09-30 15:41
 
-
-:PROPERTIES:
-:EXPORT_HUGO_SECTION:
-:END:
-
-* Content
-** Blog                                                               :@blog:
+* Blog                                                               :@blog:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: Blog
 :EXPORT_FILE_NAME:
 :EXPORT_HUGO_PUBLISHdate: <2024-08-15 Thu 07:57:53>
 :END:
-*** Geek Stuff                                                         :geek:
-**** WIP This Year I'll...                                            :emacs:
+** Geek Stuff                                                         :geek:
+*** WIP Zippy in the mists of time                                   :emacs:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: 2026-090
+  :EXPORT_HUGO_PUBLISHDATE: 2026-01-19:
+  :END:
+  
+This is my [[https://www.emacswiki.org/emacs/Carnival][September 2026 #Emacs Carnival]] entry.
+Back in the mists of time, there was [[https://zippythepinhead.com/][Zippy the Pinhead]].  For a while, zippy quotes were included as part of emacs, but they were not free, so they were removed.
+
+Here, to help you "understand" Zippy are a couple of the comic strips [[https://zippythepinhead.com/Merchant2/merchant.mv?Screen=PROD&Store_Code=ZTP&Product_Code=30-Mar-02&Category_Code=][Zippy One]] [[https://zippythepinhead.com/Merchant2/merchant.mv?Screen=PROD&Store_Code=ZTP&Product_Code=16-Feb-02&Category_Code=][Zippy Two]], but "understand" is the exactly the wrong word when it comes to Zippy.
+
+Now, add to that even less context.  Just the text of random zippy quotes and you've got ... well, you tell me what you've got?
+
+The last thing that happens in my emacs startup config displays a random Zippy quote on the status line.  Here's the code.
+#+hugo: more
+
+
+***** Zippy haunting my emacs config
+#+begin_example
+,* All's Well That Ends Well, YOW !!!
+   Because, well, you've got to be able to M-x psychoanalyze-pinhead
+   to fill a buffer and pass the time....
+
+   Discussion of the demise of zippy in Emacs here:
+    - http://forums.fedoraforum.org/showthread.php?t=302313
+
+   You'll need a copy of the zippy quotes.  I pulled from here LONG ago..
+   https://github.com/shentonfreude/dot-emacs/blob/master/yow.lines
+
+,#+BEGIN_SRC emacs-lisp :exports code
+  (message "init.el finished. Yow !")
+  (setq yow-file "~/.emacs.d/etc/yow.lines")
+  (global-set-key "\ey" 'yow)		; my ANCIENT keybinding
+
+  ;; This function gives me a zippy quote on the status line after 
+  ;; everything else in the config has settled down.
+  ;; I'm sure there are better/cleaner ways...
+  (defun display-yow-in-status-line ()
+    "Display the result of yow in the status line once after 1 second of idle time."
+    (interactive)
+    (run-with-idle-timer 1 nil
+                         (lambda ()
+                           (let ((yow-output (yow)))
+                             (message "%s" yow-output)))))
+  (display-yow-in-status-line)
+
+  ,#+END_SRC
+#+end_example
+***** psychoanalyze-pinhead
+
+There also used to be "M-x psychoanalyze-pinhead" where you could endlessly fill a buffer with Rogerian analysis of zippy quotes: https://www.elsewhere.org/journal/archives/2001/10/07/psychoanalyze-pinhead/ I mean, who needs LLMs when you can watch a live analysis session of Zippy. There are some issues that keep the original code  from  working in modern Emacsen, and I meant to fixed them in time for this Emacs Carnival post, but didn't quite get there.
+
+There was also "M-x psychoanalyze-flammer" which analyzed a stream of inflammatory insults.
+
+***** The new traditionalists
+My startup fragment above shows how to pull the original, non-free zippy quotes. If you are a purist and don't mind using some AI-generated quotes, here are some you might try.
+
+YOW!
+
+
+#+begin_quote
+Give me 60 new quotes in the style of Zippy the Pinhead with more current cultural and historical references.
+20 should be in classic zippy style 
+20 should should have a Mark-twain flavor
+20 should have a kafka-esque twist.
+Separate them into sections, and maybe prefix things like
+"zippy sez:",
+"Mark Twain Zippyism:"
+or similar.
+#+end_quote
+
+
+****** Classic Zippy
+
+- *zippy sez:* "Am I logged into the Metaverse yet, or is this just a low-resolution IHOP in Sandusky?"
+- *zippy sez:* "YOW! My cryptocurrency is backed entirely by vintage Cheez-Whiz and discarded TikTok drafts!"
+- *zippy sez:* "Are we fine-tuning the AI language model yet, or did I accidentally swallow a microchip?"
+- *zippy sez:* "I'm having an existential crisis inside an abandoned Sears, but at least the Wi-Fi password is 'Doughnut123'!"
+- *zippy sez:* "FOOLED YOU! I put my life savings into Nvidia microchips and a half-eaten sleeve of Oreos!"
+- *zippy sez:* "Is it safe to manifest a boba tea in a post-apocalyptic pop-up shop?"
+- *zippy sez:* "YOW! My smart-toaster just joined a union and demanded equity in my morning Pop-Tart!"
+- *zippy sez:* "I’m doomscrolling on a Roomba while singing the theme song to /The Golden Girls/!"
+- *zippy sez:* "Does the algorithm know I prefer my existential dread with extra ranch dressing?"
+- *zippy sez:* "BARBRA STREISAND! The podcaster told me my microbiome needs more air-fried Cheetos!"
+- *zippy sez:* "Are we experiencing a disruption in the supply chain, or is my Muppet persona taking over?"
+- *zippy sez:* "I demand a cloud-based refund for this unboxing video of a 1994 Buick LeSabre!"
+- *zippy sez:* "YOW! I’m getting 5G signals directly through my polyester leisure suit!"
+- *zippy sez:* "Can an autonomous vehicle find true love at an abandoned Blockbuster Video?"
+- *zippy sez:* "MY HEAD IS FULL OF SOURDOUGH STARTERS AND UNREAD EMAIL NOTIFICATIONS!"
+- *zippy sez:* "Is this an ASMR video of bubble wrap, or are my neurons just microdosing?"
+- *zippy sez:* "FOOLED YOU! The smartwatch says my resting heart rate is set to '80s Synthpop!"
+- *zippy sez:* "I’m pivot-to-video-ing my way through a drive-thru Dutch Bros!"
+- *zippy sez:* "Are we having fun yet, or is this just a sponsored Instagram story about tooth enamel?"
+- *zippy sez:* "YOW! My smart fridge just unfollowed me on LinkedIn!"
+
+- * /
+
+****** Mark Twain Flavor
+
+- *Mark Twain Zippyism:* "A lie can travel halfway around the world while the truth is still trying to log into its two-factor authentication. YOW!"
+- *Mark Twain Zippyism:* "Whenever you find yourself on the side of the majority, it is time to eat a bowl of Cap'n Crunch and check your spam folder."
+- *Mark Twain Zippyism:* "If you tell the truth, you don't have to remember anything, except where you left the remote control for the air fryer."
+- *Mark Twain Zippyism:* "Giving up social media is easy. I’ve done it a thousand times, usually right after downloading a new meditation app."
+- *Mark Twain Zippyism:* "It is better to keep your mouth closed and let people think you are a fool than to open it and leak your personal data."
+- *Mark Twain Zippyism:* "The man who does not read good books has no advantage over the man who only watches 15-second cat videos on YouTube."
+- *Mark Twain Zippyism:* "Always do right. This will gratify some people and astonish the rest, especially the algorithms on X."
+- *Mark Twain Zippyism:* "Thunder is good, thunder is impressive; but it is lightning that does the work—and my electric scooter that needs charging!"
+- *Mark Twain Zippyism:* "High culture is something that everyone wants to have read, but nobody wants to stream past episode two."
+- *Mark Twain Zippyism:* "Clothes make the man. Naked people have little influence in society, unless they're selling crypto on Telegram!"
+- *Mark Twain Zippyism:* "Civilized people are only savage people who have learned to use contactless payment at the Buc-ee's."
+- *Mark Twain Zippyism:* "A classic is something that everybody wants to have read and nobody wants to read, like the terms of service agreement!"
+- *Mark Twain Zippyism:* "Don't go around saying the world owes you a living. The world owes you nothing. It was here first, before the Wi-Fi router."
+- *Mark Twain Zippyism:* "Fact is stranger than fiction, but fiction doesn't require a monthly subscription fee. YOW!"
+- *Mark Twain Zippyism:* "The secret of getting ahead is getting started, preferably after a second iced caramel macchiato."
+- *Mark Twain Zippyism:* "Keep away from people who try to belittle your ambitions, especially in the YouTube comment section."
+- *Mark Twain Zippyism:* "Good judgment comes from experience, and experience comes from bad judgment... like investing in non-fungible Ding Dongs!"
+- *Mark Twain Zippyism:* "Wrinkles should merely indicate where smiles have been, or where the face-filter failed to load."
+- *Mark Twain Zippyism:* "Water, taken in moderation, cannot hurt anybody—unless it's sparkling water served in a Stanley cup!"
+- *Mark Twain Zippyism:* "Courage is resistance to fear, mastery of fear... or so my wearable device claims during a panic attack!"
+
+- * /
+
+****** Kafka-esque Twist
+
+- *Kafkaesque Zippyism:* "As Gregor Samsa awoke one morning from uneasy dreams, he found himself transformed in his bed into a verified X account. YOW!"
+- *Kafkaesque Zippyism:* "The Trial has been postponed indefinitely, pending the verification of my CAPTCHA test! Am I a robot or a pinhead?!"
+- *Kafkaesque Zippyism:* "Before the Law stands a doorkeeper, but he won't let me in until I complete a 45-minute customer satisfaction survey!"
+- *Kafkaesque Zippyism:* "I am a memory trace of an unwritten email, trapped forever in the outbox of the High Tribunal!"
+- *Kafkaesque Zippyism:* "The Castle is imposing, impenetrable, and currently offering a 10% discount on first-time app orders!"
+- *Kafkaesque Zippyism:* "They condemned me to hard labor, which consists entirely of endless scrolling through LinkedIn connections."
+- *Kafkaesque Zippyism:* "A cage went in search of a bird, but it only found an abandoned Amazon Prime locker in New Jersey!"
+- *Kafkaesque Zippyism:* "The official told me my permit was approved, but the file size was too large for human comprehension!"
+- *Kafkaesque Zippyism:* "My metamorphosis was complete: I was no longer a clerk, but a pop-up advertisement for frozen waffles!"
+- *Kafkaesque Zippyism:* "You can hold back from the suffering of the world, but perhaps this holding back is the only thing you could avoid—YOW!"
+- *Kafkaesque Zippyism:* "The inspector arrived, but he was merely a chatbot trained on complete transcripts of /Judge Judy/!"
+- *Kafkaesque Zippyism:* "In the Penal Colony, the sentence is etched directly on the skin using a laser printer loaded with expired mustard!"
+- *Kafkaesque Zippyism:* "I am free and that is why I am lost... in a Target parking lot at 3:00 AM!"
+- *Kafkaesque Zippyism:* "I opened the door to the magistrate’s office, only to find an automated self-checkout register demanding an attendant!"
+- *Kafkaesque Zippyism:* "The judgment was handed down: I am sentenced to life without parole inside a Peloton commercial!"
+- *Kafkaesque Zippyism:* "Every word written by the bureaucracy turns into a tiny paper crane that screams 'Are we having fun yet?'"
+- *Kafkaesque Zippyism:* "Someone must have slandered Josef K., for one morning, without having done anything wrong, his account was shadowbanned!"
+- *Kafkaesque Zippyism:* "The advocate promised to file my appeal as soon as the cloud server finishes its scheduled maintenance!"
+- *Kafkaesque Zippyism:* "I am writing from the inner chamber of the labyrinth, but the door handle is a cold, damp Spam can!"
+- *Kafkaesque Zippyism:* "The infinite corridor leads only to a closed DMV window where a typewriter plays synthwave!"
+
+And remember, "Everybody gets free BORSCHT!".   YOW!
+
+*** WIP This Year I'll...                                            :emacs:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2026-01-19
   :EXPORT_HUGO_PUBLISHDATE: 2026-01-19:
@@ -37,8 +176,8 @@ This is the year of the verb: "to emacs".
 
 #+hugo: more
 
-****** What will you do differently in emacs?
-******* More sharing and big backlog of projects
+***** What will you do differently in emacs?
+****** More sharing and big backlog of projects
 #+begin_quote
 What will you do differently in Emacs this year? Or will you just get started? Why?
 #+end_quote
@@ -50,7 +189,7 @@ A number of the projects are not strictly emacs, but enablers for further sharin
 I missed a shout-out to [[https://micro.blog/jtr][JTR]] in last month's "[[https://curious.port111.com/2025/11/01/emacs-carnival-december-the-people.html][The People Of Emacs]]"
 carnival.  He turned me on to hugo, then micro.blog and always seems to be just ahead of me on interesting emacs/org projects.
 
-******* What's old is new
+****** What's old is new
 
 I have digital flotsam and jetsam that goes back decades, including my old hand-edited HTML index page (http://port111.com/george/) (yes, I use HTML mode).  A lot of this stuff needs to be collected.  Emacs will be central to that task.
 
@@ -61,12 +200,12 @@ Change (and config-twiddling) seem to be the only constants.
 
 /plus ça change, plus c'est la même chose/.
 
-****** What are you excited about with emacs?
+***** What are you excited about with emacs?
 #+begin_quote
 What are you excited about to explore and tinker with? What do you want to perfect?
 #+end_quote
 
-******* Visual Line mode
+****** Visual Line mode
 Let's start small.  This week I switched to using the visual-fill-column mode.  Turns out we're not in the era of VT100s anymore.   "Terminals" have more than 80 columns and a lot of people, for some strange reason, don't break their lines at 80 characters.  Up to now, I had stubbornly been setting a fill-column and using fill-paragraph a lot.   That's over:
 
 #+begin_example emacs-lisp
@@ -84,7 +223,7 @@ Let's start small.  This week I switched to using the visual-fill-column mode.  
 (setq-default visual-fill-column-width 120) ;; because 80 character terminals were a thing?
 #+end_example
 
-******* Denote - a new workflow
+****** Denote - a new workflow
 I'm moving into [[https://github.com/protesilaos/denote][Denote]]. I'm not sure what the ?final? workflow will be but I know it's going to be better.
 
 Up until now I've been doing the traditional directory structure thing.  Blogs here, finance stuff there, travel planning someplace else, etc.  And then I have to remember where it all is.
@@ -111,7 +250,7 @@ I'm currently pushing anything I tag _public to
 https://codeberg.org/eludom/home.public.notes/src/branch/master/home/public/notes
 They are likely to move to git.galthub.com once I stand that back up.
 
-******* GPTel - AI all the things
+****** GPTel - AI all the things
 I've been using ChatGPT in emacs buffers with [[https://github.com/karthink/gptel][gptel]] to ask questions and keep a log of answers.
 I just type the question in the buffer/file and send it off.
 
@@ -165,7 +304,7 @@ type the query in the buffer and do ^x-G to run the query.
 I often iterate/refine the query/have "conversations" in the
 same buffer. 
 
-******* Claude Code - AI agent all the things
+****** Claude Code - AI agent all the things
 
 I'm just starting to explore Claude Code/agentic AI. Yet another paradigm shift. The AIs (or some portion of them) run on your system and do stuff with your things.
 
@@ -193,13 +332,13 @@ I type a new version of [[https://github.com/xenodium/agent-shell][agent-shell]]
 
 There's learning to do.
 
-******* org-social - one org mode to communicate with them all
+****** org-social - one org mode to communicate with them all
 
 And then there's [[https://github.com/tanrax/org-social][org-social]].  The social network where all your stuff stays on your computer (your posts, your "likes", your follow list), everything is formatted in org-mode, there is an emacs client, or if you don't like that you can just curl all your friends' feeds, 'cause theirs are all just a single publicly accessible text files too.
 
 If you've not tried it, do so.   Emacs people need niche places to congregate.   This is a ground-up emacs/org-native social network.  Check it out.  Join.  Use it.
 
-****** large projects with emacs?
+***** large projects with emacs?
 #+begin_example
 Are there any large projects in front of you that you’ll emacs with confidence?
 #+end_example
@@ -208,7 +347,7 @@ I'm pretty sure everything listed above will count as several large projects.   
 
 And much as I dislike project managment and Kanban boards, I may ask one of the AIs to help me with my ever-growing and ever-too-big-to-accomplish TODO lists.  Maybe I'll figure out which ones are more important and get a few of them done.  These are exciting times.
 
-****** Emacs, the verb
+***** Emacs, the verb
 And Christian, I'm with you on using emacs as a verb:
 
 #+begin_quote
@@ -228,13 +367,13 @@ emacso, emacsas, emacsat, emacsamus, emacsatis, emacsant
 
 
 
-**** WIP Back to the egg - Emacs in the 70s                   :emacs:history:
+*** WIP Back to the egg - Emacs in the 70s                   :emacs:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2025-12-10
   :EXPORT_HUGO_PUBLISHDATE: 2025-12-10:
   :END:
 
-***** Ab Initio
+**** Ab Initio
 
 #+begin_quote
 In the beginning, there was TECO[fn:3].\\
@@ -255,7 +394,7 @@ Since I've been noodling around with Emacs since something like
 Carnival for December 2025]]. I suspect I will write several installments after
 the December carnival has ended.
 
-***** Try this at home kids !
+**** Try this at home kids !
 Because Emacs people are fundamentally a hands-on crowd, I'll try to start each installment
 with some DIY project. Thanks to fine folks at SDF Public Access UNIX System you
 can log into a TOPS10 or TOPS20 system today and run the original TECO Emacs. You
@@ -293,8 +432,8 @@ C-Kermit. Bits of it were re-implemented in [[https://en.wikipedia.org/wiki/Tcsh
 Triple bonus points - log in using telnet.  Who needs ssh?  Who needs
 encrypted passwords on the wire?
 
-***** The people
-****** RMS - sine non qua
+**** The people
+***** RMS - sine non qua
 I don't think I need to or can say anything new about Stallman, his
 vision, his skill as a programmer,
 his dedication, etc. For my entire career he was a force, a presence, a coding-monster,
@@ -302,7 +441,7 @@ a moral inspiration, etc. The Emacs story began 6 or 7 years before FSF, but I t
 the sharing culture that created it was and is the heart of free software and where
 it most clearly lives to this day. 
 
-****** Guy Steele and the CMU connection 
+***** Guy Steele and the CMU connection 
 Guy Steele contributed to the initial development of Emacs. He was a student at MIT
 at the time. He later moved to Carnegie-Mellon University (CMU) as an
 assistant professor.  He later co-authored one of the standard
@@ -314,7 +453,7 @@ Gosling (later of Java fame), and [[https://github.com/PDP-10/fine][FINE (FINE I
 Not Emacs)]] for TOPS10 (more on that later). My future wife was an undergraduate
 at CMU at the time and knew Steele and his family.
 
-****** More CMU connections
+***** More CMU connections
 
 The plot thickens. My older brother went to CMU as an undergrad in the fall of 1978.
 He was running in the computing circles where Emacs versions were proliferating.
@@ -326,7 +465,7 @@ run-times and programming support tools (like editors). They brought FINE with t
 from CMU. CompuServe ran (to its dying day) on DEC10s. I later worked for Steve in
 my first job out of college. FINE was there and waiting for me.
 
-****** The Columbian Exchange.
+***** The Columbian Exchange.
 
 To keep this post mostly in the 70s I have to mention a group in passing that deserves
 its own history.  It turns out I was in the right place at the right
@@ -347,7 +486,7 @@ and Information Science (osu-cis) in the early days of GNU/Gnu Emacs. For about 
 years there was a constant flow of people between OSU, CMU and, later, silicon valley.
 Emacs was part of the ethos and the environment.
 
-***** Feedback and submissions
+**** Feedback and submissions
 I'd welcome feedback and corrections.  This was mostly written from
 memories, some of which are over 45 years old.
 
@@ -357,7 +496,7 @@ I'll add it to the carnival.  Late submissions might even be accepted.
 
 See [[https://curious.port111.com/2025/11/01/emacs-carnival-december-the-people.html][Emacs Carnival for December 2025]] for instructions.
 
-***** Footnotes
+**** Footnotes
 
 [fn:111] Digital Equipment Corporation (DEC) made the PDP-10 line of
 computers that had a 36 bit architecture.  They were word
@@ -381,13 +520,13 @@ anything serious, but since every key did something when you typed it the joke w
 #+begin_example
 #emacs #emacscarnival
 #+end_example
-**** PUBLISHED "The People of Emacs" - Emacs Carnival Prompt          :emacs:
+*** PUBLISHED "The People of Emacs" - Emacs Carnival Prompt          :emacs:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2025-10-31
   :EXPORT_HUGO_PUBLISHDATE: 2025-10-31:
   :END:
 
-***** Emacs Carnival, December 2025 - "The People of Emacs"
+**** Emacs Carnival, December 2025 - "The People of Emacs"
 
     This is a writing prompt for [[https://www.emacswiki.org/emacs/Carnival][Emacs Carnival]] for December 2025.
 
@@ -397,21 +536,21 @@ anything serious, but since every key did something when you typed it the joke w
 
     Who are your "People of Emacs"?
 
-***** What's a Blog Carnival, again?
+**** What's a Blog Carnival, again?
 Copied from donaldh copied from Christian Tietze:
 
 #+begin_quote
 A blog carnival is a fun way to tie together a community with shared writing prompts, and marvel at all the creative interpretations of the topic of the month.
 #+end_quote
 
-***** Submissions
-****** How to Submit
+**** Submissions
+***** How to Submit
 Please [[https://fosstodon.org/@eludom][DM]] or [[mailto:thick.tail2775@port111.com][email]] me with your blog submission. I will link to all submissions I receive before the end of December.
 
-****** Your Submissions Here
+***** Your Submissions Here
 
  #emacs #emacscarnival
-**** PUBLISHED The path to a world without hold music.
+*** PUBLISHED The path to a world without hold music.
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2025-10-09
   :EXPORT_HUGO_PUBLISHDATE: 2025-10-09:
@@ -464,7 +603,7 @@ When the camera was invented, I'm sure there was push-back form portrait painter
 
 Let’s move on to bigger and better things.  Together.
 
-**** PUBLISHED The TNI is dead, long live the TNI  :100DaysToOffload:history:
+*** PUBLISHED The TNI is dead, long live the TNI  :100DaysToOffload:history:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-04-02
   :EXPORT_HUGO_PUBLISHDATE: 2024-04-02:
@@ -525,7 +664,7 @@ ham radio to "phone home").   The world has changed.
 
 #59 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED The unnumbered habits of a questionably effective person :orgmode:emacs:100DaysToOffload:life:
+*** PUBLISHED The unnumbered habits of a questionably effective person :orgmode:emacs:100DaysToOffload:life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2022-12-25
      :EXPORT_HUGO_PUBLISHDATE: 2022-12-25
@@ -541,8 +680,8 @@ ham radio to "phone home").   The world has changed.
 
    #+hugo: more
 
-***** Rants on org mode, humanity and Bruce
-****** Org mode and planning
+**** Rants on org mode, humanity and Bruce
+***** Org mode and planning
    These are reflections getting things done (not GTD).   Or not getting
    things done.   Or yak-shaving with Emacs and org-mode while pretending
    to get things done and really just enjoying the experience either way.
@@ -553,7 +692,7 @@ ham radio to "phone home").   The world has changed.
    middle of whatever else you're doing and get back to them.  You never
    miss anything.
 
-****** But we're human
+***** But we're human
    But there are a couple problems.   We're human, not AI-driven lisp
    code knocking off all the TODO items, and we're finite in terms of
    time, attention, focus, money, friends, skills, etc.
@@ -563,7 +702,7 @@ ham radio to "phone home").   The world has changed.
    The path to despair (long undone lists) is obvious.  Sometimes I just
    give up on org mode lists and do things.
 
-****** Bruce
+***** Bruce
    Long, Long, ago in a tech company far, far away (CompuServe, Columbus,
    Ohio) there were "how do we migrate off of DEC10 to compete with AOL wars".
    I knew Bruce McNaughton. Bruce moved on from there to be VP of MSN at Microsoft
@@ -574,7 +713,7 @@ ham radio to "phone home").   The world has changed.
    all the rage).   That image stuck with me.   Just talk to people and
    do stuff.
 
-****** Concluding Rant
+***** Concluding Rant
        - It's about enjoying what you do
          + just the act of planning
          + maybe actually getting things done, maybe not
@@ -584,17 +723,17 @@ ham radio to "phone home").   The world has changed.
          + Computers are good an infinite lists, humans aren't
        - I will die with a TODO list much larger than it is today.
 
-***** My work planning regime with org mode
+**** My work planning regime with org mode
       That said, here's more-or-less how I plan my days at work.
       Home/personal stuff is similar, but a little less structured.
 
-****** Morning Planning
+***** Morning Planning
    - What's in my head :: capture TODOs form the top of my journal (diaty.org)
    - Look at "inputs" :: look at calendar, email and slack in that order.
    - Look at existing porjects/plans :: Look at weekly plans, tasks, etc
    - Juggle all these and figure out what I'm going to try to do that day
 
-****** During the day
+***** During the day
    - Capture new stuff and move on :: Quickly capture new asks, TODOs
         (org-capture) and move.
    - Capture info :: capture info (links to HOWTOs, etc in the same file)
@@ -609,12 +748,12 @@ ham radio to "phone home").   The world has changed.
    - Minimize yak shaving :: I tend to yak-shave a lot.  Like writing
         this post.  Watch it.
 
-****** Organizing Time
+***** Organizing Time
    - Do "thinking work early" :: plan do do "thiking work" early in the day
    - Do "collaboration work mid-day" :: do 1:1s, collaboration mid-day
    - Do "meetings late-day" :: Push meetings, interrupts, etc late day
 
-****** Where to store "TODOs"
+***** Where to store "TODOs"
    - one file :: I increasly just store TODOs, info , etc to one file
         (diary.org) which is a diary-like file organized under
         Year/Month/Day/ENTRY items.
@@ -624,7 +763,7 @@ ham radio to "phone home").   The world has changed.
         more and more I'm just going with the inverse-stack, what's at
         the bottom of my diary.org and using mental prirotization.
 
-***** Projects template
+**** Projects template
 
       And because this post is getting too long already, I'll make it
       longer.
@@ -694,7 +833,7 @@ ham radio to "phone home").   The world has changed.
 
 #40 of #100DaysToOffload take 2.1, https://100daystooffload.com/ of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED It's Manjaro !!!                      :linux:100DaysToOffload:
+*** PUBLISHED It's Manjaro !!!                      :linux:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-19
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-19:
@@ -733,7 +872,7 @@ ham radio to "phone home").   The world has changed.
 
 #29 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED IPv6 Day                           :100DaysToOffload:Internet:
+*** PUBLISHED IPv6 Day                           :100DaysToOffload:Internet:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-11
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-11:
@@ -767,7 +906,7 @@ little actual deployment.
 
 
 #6 of #100DaysToOffload take 2, https://100daystooffload.com/
-**** PUBLISHED Tech companies I once admired                      :life:tech:
+*** PUBLISHED Tech companies I once admired                      :life:tech:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-23-companies-I-once-admired
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-23
@@ -817,7 +956,7 @@ little actual deployment.
 
     #+hugo: more
 
-***** A tale of two tech companies
+**** A tale of two tech companies
 
       I'll start with two examples.   Writing at Christmas-time 2021,
       I'll categorize the two examples as "naughty and nice".
@@ -826,7 +965,7 @@ little actual deployment.
       tech companies and what drives me away.  Following that, I'll
       break it down more systematically (when, why...)
 
-****** Wikipedia - naughty
+***** Wikipedia - naughty
 
       The catalyst for thinking about all this was the revelation that
       Wikipedia, an organization that is built on the backs of
@@ -837,7 +976,7 @@ little actual deployment.
       I'm looking for ways to stop using Wikipedia.  How does it get
       to this point?
 
-****** Wordpress - nice
+***** Wordpress - nice
         Wordpress came off the "naughty" list as I was writing this
         post when I came across this toot
         https://fosstodon.org/@markosaric/107495024812888717 which
@@ -857,7 +996,7 @@ little actual deployment.
  open, distributed, decentralized systems."
  #+end_quote
 
-***** How you know the end is near for a company
+**** How you know the end is near for a company
       - The geeks who started it leave or are edged out by MBAs.
       - The founders, [[https://curious.galthub.com/blog/visionaries/][who had the vision leave]].
       - Free services morph into something that's all about monitization.
@@ -874,7 +1013,7 @@ little actual deployment.
         sites that are all about code.
       - When you use the phrase "The market leader..."
 
-***** Why do things go bad?
+**** Why do things go bad?
       - Greed, hubris, selfishness (in other words, human nature)
       - The problem of the commons
       - MBAs, marketing people and projects managers run the show.
@@ -886,8 +1025,8 @@ little actual deployment.
           an excellent job of this with the "[[https://www.aboutamazon.com/about-us/leadership-principles][Amazon Leadership
           Principals]]")
 
-***** So what? Where to go from here?
-****** A day in the life (musically inspired metaphors)
+**** So what? Where to go from here?
+***** A day in the life (musically inspired metaphors)
       - Go hide out in a New York city townhouse, withdraw from public
         life, bake bread and raise your son until some deranged fan
         kills you? (see Lennon).  Props to @emacsen for the creative
@@ -895,7 +1034,7 @@ little actual deployment.
         https://emacsen.net/@emacsen/107405795056467815
       - Existential nihilism or hedonism ("Whatever gets you through the night, it's all right, it's all right.")
       - Live your life, enjoy your family ("I'm just sitting here watching the wheels go round and round")
-****** My current responses
+***** My current responses
       - Self hosting ::  I'm self hosting on a raspberry pi.  [[http://curious.galthub.com/][Blog]].
         [[http://git.galthub.com/][Git]].  New domain name (galthub.com). Re-considering increased
         use of my 2001-era hand-edited HTML website:
@@ -929,7 +1068,7 @@ little actual deployment.
         use only free software (and grow your own food), most people
         can't live there entirely.
 
-****** If you've got the energy and the vision...
+***** If you've got the energy and the vision...
 
        The world is driven by individuals with vision.  All hail [[https://stallman.org/saint.html][Saint
        IGNUcius]]. There would likely be no free software movement
@@ -941,7 +1080,7 @@ little actual deployment.
        the world.  Or just go tinker around, scratch your own itch and
        share the results.  That's often how the world is changed.
 
-**** PUBLISHED Emacs enlightenment                    :emacs:life:philosophy:
+*** PUBLISHED Emacs enlightenment                    :emacs:life:philosophy:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-16-emacs-enlightenment
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-16
@@ -967,7 +1106,7 @@ little actual deployment.
      #+attr_html: :width 400px
      [[file:images/gnus_up_small.png]]
 
-**** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:marketing:
+*** PUBLISHED Learn git and galthub without any marketing :blogging:geek:emacs:git:social:marketing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: no-marketing
 :EXPORT_HUGO_PUBLISHDATE: 2021-12-04
@@ -1034,7 +1173,7 @@ for various reasons I decided to stop putting content there.
   raspberry pie, and learned a good bit about configuring gitea
 
 More to come now that I can get it out in a way I feel good about.
-**** TODO Selfhosting a Hugo blog with mysocket.io :blogging:org:emacs:HOWTO:
+*** TODO Selfhosting a Hugo blog with mysocket.io :blogging:org:emacs:HOWTO:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hugo-via-mysocket
 :EXPORT_HUGO_PUBLISHDATE: 2021-11-12
@@ -1060,14 +1199,14 @@ The original setup is described here [[*Publishing a blog on Github with Org and
 
 #+hugo: more
 
-***** Do normal development with local hugo server
+**** Do normal development with local hugo server
 In =${HUGO_BASE_DIR}
 
 =gmj@ed blog [master] $ hugo server -v -D=
 
 browse to http//localhost:1313 to see updates in realtime.
 
-***** Update config.toml
+**** Update config.toml
 
       In =${HUGO_BASE_DIR}/config.toml= update the following:
 
@@ -1078,7 +1217,7 @@ baseurl = "http://curious.galthub.com/
 #homepage = "eludom.github.io"
 homepage = "curious.galthub.com"
 #+end_example
-***** run hugo to regenerate docs
+**** run hugo to regenerate docs
 
       The =docs/= directory will be the root of your webserver
 #+begin_example
@@ -1112,41 +1251,41 @@ gmj@ed blog [master] $ find . -mtime -5 | head
 ./docs/tags/poetry/index.html
 ...
 #+end_example
-***** TODO Copy the files to where the web server is (if needed)
+**** TODO Copy the files to where the web server is (if needed)
 
       Which server...
       #+begin_example
       rsync -Cavz docs gmj@hangout:~/blog
       #+end_example
-***** TODO Run local webserver
+**** TODO Run local webserver
 Run a web server with the root pointed at the =docs/= directory
 #+begin_example
 $ cd ~/blog/docs/
 $ python3 -m http.server 1313
 #+end_example
-***** TODO Set up tunnel
+**** TODO Set up tunnel
       Set up a tunnel
 
       =$ mysocketctl connect --port 1313 --name hugo test=
-***** TODO Define CNAME
+**** TODO Define CNAME
       ...
-***** TODO Add the CNAME to the allowed domain names for the tunnel
+**** TODO Add the CNAME to the allowed domain names for the tunnel
       ...
-***** DONE install apache on raspberry pi using asnible
-***** TODO Make sure apache root is on USB thumb drive
-***** TODO copy/rsync blog/docs to new apache root
+**** DONE install apache on raspberry pi using asnible
+**** TODO Make sure apache root is on USB thumb drive
+**** TODO copy/rsync blog/docs to new apache root
       - cron?
       - Or use sshfs mounting from ed to hangout?
-***** TODO redirect apache root to blog
-***** TODO set up a new mysocket tunnel for blog/apache
-***** TODO set up CNAME curious.galthub.com pointing at tunnel
+**** TODO redirect apache root to blog
+**** TODO set up a new mysocket tunnel for blog/apache
+**** TODO set up CNAME curious.galthub.com pointing at tunnel
 
-******* Test it out
+****** Test it out
         curl http://curious.port111.com
-******* Future
-******** archive.org?
-******** CDN ?
-**** PUBLISHED Fixing GNU bash associative array insert speed :programming:gnu:linux:
+****** Future
+******* archive.org?
+******* CDN ?
+*** PUBLISHED Fixing GNU bash associative array insert speed :programming:gnu:linux:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 20200418
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-18:
@@ -1169,18 +1308,18 @@ https://github.com/eludom/snippits/tree/master/bash/tests
 Here the steps I took and where I might go if I get serious about
 fixing the problem:
 
-***** Get the source code
+**** Get the source code
 
-****** Find it
+***** Find it
 - find the homepage :: A quick bit of googling lead to the homepage http://savannah.gnu.org/projects/bash/
 - use git :: For a minute it looked like GNU was still stuck in the bad old
      days of having to download a tarball and then apply a series
      of patches, but fortunately, it there is a git repo http://savannah.gnu.org/git/?group=bash
-****** Download it
+***** Download it
 #+begin_src bash :eval no
 git clone https://git.savannah.gnu.org/git/bash.git
 #+end_src
-****** Build it
+***** Build it
 
 Bash follows a time honored build convention
 #+begin_src bash :results output :eval no
@@ -1188,7 +1327,7 @@ Bash follows a time honored build convention
 make
 #+end_src
 
-****** Analyze it
+***** Analyze it
 - I read the NEWS file for any indication that associative arrays
   has been worked on to speed up associative array
   insert/look-ups.  No indication that they had.
@@ -1250,17 +1389,17 @@ hash_search (string, table, flags)
 #+end_src
 
 
-***** Next steps
-****** DONE Reach out to the maintainers
+**** Next steps
+***** DONE Reach out to the maintainers
 see if they would even entertain the idea of a patch
-****** CANCELED Look for appropriate in-memory hash insert/lookup functions
+***** CANCELED Look for appropriate in-memory hash insert/lookup functions
 - btrees ?
-****** CANCELED Code it
-****** CANCELED test it
-****** CANCELED submit patch
+***** CANCELED Code it
+***** CANCELED test it
+***** CANCELED submit patch
 See https://lists.gnu.org/archive/html/bug-bash/2020-04/msg00114.html
 
-***** Footnotes
+**** Footnotes
 [fn:17] The Amiga was my first computer. I was the first person to port
 an Emacs editor to the Amiga, porting a version of what became
 "MicroEmacs" and mg to it and receiving a phone call from one of the
@@ -1272,7 +1411,7 @@ after I posted to comp.sources.amiga
 
 [fn:1] yes, there are many better tools for this job, but not in the constrained environment where this had to run.
 
-**** PUBLISHED HOWTO: Using Pi-hole DNS to block ads.  The struggle continues... :DNS:privacy:networking:HOWTO:
+*** PUBLISHED HOWTO: Using Pi-hole DNS to block ads.  The struggle continues... :DNS:privacy:networking:HOWTO:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-01
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-01
@@ -1285,7 +1424,7 @@ turning into a bit of a catch-up on the state of DNS for me./
 
 Day 03 and 04 of #100DaysToOffload.
 
-***** Intro
+**** Intro
 # Thanks to Paul Vixie for the pointer to
 
 The war against ads continues. https://pi-hole.net/ looks like a
@@ -1307,23 +1446,23 @@ have your 12yo child or cousin install it.
 
 #+hugo: more
 
-***** What
+**** What
 - It's a local DNS server to block adds.
 
-***** Why
+**** Why
 - Blocking ads is a moral good.
 - I've not done home network hacking for a while.
 - I'm moving into a bit of a more "don't track me" frame of mind.
 
-***** When
+**** When
 - Now, because I'm home more during corona-virus.
 
-***** How
+**** How
 - Set up local server.
 - First on a Linux laptop that (usually) does not go off the net.
 - Then maybe on an old pogoplug or laptop.
 
-***** Install It
+**** Install It
 
 Here's what I did to instlal
 
@@ -1349,7 +1488,7 @@ Here's what I did to instlal
 - [ ] hit the local admin web server :: Its a very nice.  It will
      be at a something like  http://192.168.86.230/admin/index.php.
 
-***** Test It
+**** Test It
 
 - [ ] Look something up by hand :: Use dig(1) or host(1).  Note
      the =SERVER= in the response below that shows where the answer
@@ -1408,11 +1547,11 @@ gp1.wac.v2cdn.net.	3599	IN	A	152.195.32.39
   game anymore.
 
 
-***** Tools you may want to use/learn/install
+**** Tools you may want to use/learn/install
 - dig :: for making/testing queries by hand
 - [[https://www.wireshark.org/][Wireshark]] :: Use Wireshark to see what's going on on the wire,
      who you're talking to, etc.
-***** The things you learn
+**** The things you learn
 - pi-hole can apparently function as a DHCP server itself.
 
 - You can choose your upstream DNS servers from a list with
@@ -1467,27 +1606,27 @@ gp1.wac.v2cdn.net.	3599	IN	A	152.195.32.39
 
   What is this stuff?
 
-***** Tune it
+**** Tune it
 I'm not sure all the devices in the house are using the P-hole
 proxy.  If they are, then they are showing up as the single
 device _gateway.   I need to understand this and figure out if I
 can get other devices pulling wireless addresses via DHCP from
 the WAP to use the Pi-hole DNS directly.   Stay tuned.
 
-***** POST INCOMPLETE FROM HERE
+**** POST INCOMPLETE FROM HERE
 
-***** Migrate
+**** Migrate
 
-***** Burn in
+**** Burn in
 
 
-***** Inflict it on others
+**** Inflict it on others
 
 # **** Show and Tell
 
 #      http://192.168.86.230/admin/index.php
 
-**** PUBLISHED "My Computer ?"   :computers:windows:apple:cloud:ubuntu:linux:
+*** PUBLISHED "My Computer ?"   :computers:windows:apple:cloud:ubuntu:linux:
      :PROPERTIES:
      :EXPORT_FILE_NAME: my-computer
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-12
@@ -1530,7 +1669,7 @@ running game of naming my systems.  This one's currently called ed
 programmers").  I think when I reinstall this time, I'll call it
 "MyComputer".
 
-**** PUBLISHED Publishing a blog on Github with Org and Hugo :blogging:org:emacs:HOWTO:
+*** PUBLISHED Publishing a blog on Github with Org and Hugo :blogging:org:emacs:HOWTO:
      :PROPERTIES:
      :EXPORT_FILE_NAME: hugo-org-github
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-16
@@ -1547,8 +1686,8 @@ http://curious.galthub.com/" your're in luck, All but the
 Post 19 of #100DaysToOffload https://100daystooffload.com/
 #+hugo: more
 
-***** Potential ox-hugo sites to copy
-****** The Art Of Not Asking Why
+**** Potential ox-hugo sites to copy
+***** The Art Of Not Asking Why
 I started by looking for sample web sites to copy by perusing
 the sites on this list
 https://ox-hugo.scripter.co/doc/examples/
@@ -1561,7 +1700,7 @@ I found the following
 Josh has been great in answering the odd question.  His blog is
 interesting too !!!  He accepts paypal...
 
-***** General Info on Hugo, Ox-Hugo and github pages
+**** General Info on Hugo, Ox-Hugo and github pages
 Then I did some reading (this is where the /not simple/ part
 comes in) on the following sites
 
@@ -1575,7 +1714,7 @@ comes in) on the following sites
 - About Hugo :: https://people.umass.edu/weikaichen/post/emacs-ox-hugo/
 - About blogging with Hugo :: https://www.shanesveller.com/blog/2018/02/13/blogging-with-org-mode-and-ox-hugo/
 
-***** The results
+**** The results
 
 You're looking at the results: http://curious.galthub.com/, this
 and other posts.  It took a couple deep dives to understand it,
@@ -1583,7 +1722,7 @@ but I think I more-or-less have it, and it is a very seamless
 integration wtih Org-Mode, which for some of us closes the deal
 even if there is pain involved
 
-***** Bonus: Twitter cards
+**** Bonus: Twitter cards
 
 And for bonus points I did reading on how to add twitter card
 support to ox-hugo bog posts, e.g., so you can write your post
@@ -1591,14 +1730,14 @@ and have twitter or other sites (such as [[https://mastodon.social/about][Mastad
 understand the format pull the title, intro and possibly an
 image to post in the web sit.
 
-****** Twitter Cards: HOWTO, the short story
+***** Twitter Cards: HOWTO, the short story
 
 Short version: if you drop =twitter_cards.html= in
 =layouts/partials/= of your blog, you then just write your
 blog, publish it, and past the URL into the https://cards-dev.twitter.com/validator
 to make sure it's going to work when posted
 
-****** Twitter Cards: More than you ever wanted to know, the long story.
+***** Twitter Cards: More than you ever wanted to know, the long story.
 
 - Twitter Cards :: https://sproutsocial.com/insights/twitter-cards/
 - Twitter cards in ox-hugo :: https://ox-hugo.scripter.co/doc/org-toc/
@@ -1608,13 +1747,13 @@ to make sure it's going to work when posted
 - about hugo partials :: https://gohugo.io/templates/partials/
 
 
-***** How to publish: files, settings, process
+**** How to publish: files, settings, process
 And, finally the gory details of actually publishing.
 
 These are raw/WIP notes, but mostly right.  They actually
 publish this blog.
 
-****** Important Files and Directories
+***** Important Files and Directories
 - /home/gmj/public/github/ox-hugo-blogs/blog/curious.org :: The one file to rule them all
      o This is the blog.  All articles live in this one file as
      separate org trees.   This is the "source".
@@ -1625,8 +1764,8 @@ publish this blog.
      e.g. =content/posts/steve.md=
 - =${HUGO_BASE_DIR}/docs/= :: Where the content to publish (html) goes,
 
-****** Settings and Organization
-******* Set EXPORT_HUGO_SECTION
+***** Settings and Organization
+****** Set EXPORT_HUGO_SECTION
 In the .org file that is the blog, set EXPORT_HUGO_SECTION
 to be "Blog" (or in whichever section you want posts to land,
 default is "posts")
@@ -1652,11 +1791,11 @@ covers things in
 ,*** PUBLISHED Choosy Programmers Choose GIF :Wilhite:CompuServe:GIF:History:Computers:Emacs:Programming:
 #+end_example
 
-****** Processes
-******* Drafting
-******** TODO start hugo in root directory
+***** Processes
+****** Drafting
+******* TODO start hugo in root directory
 =hugo server -D=
-******** TODO Edit curious.org
+******* TODO Edit curious.org
 
 Add an entry like this
 
@@ -1689,16 +1828,16 @@ Add an entry like this
      hearts content in subtrees that do not have EXPORT_FILE_NAME set
      (and maybe export the subtree to text or html to view)
 
-******** TODO Save
+******* TODO Save
 With point in the newly created or updated subtree, save the file.
-******** TODO view at http://localhost:1313/
+******* TODO view at http://localhost:1313/
 view the drafts http://localhost:1313/
 View the result in your browser
-******* Publishing
-******** run hugo
+****** Publishing
+******* run hugo
 In the HUGO_BASE_DIR run =hugo=.  The results will be written to
 "doc/".
-******** push to github
+******* push to github
 - I host on github.io.
 #+begin_example
       cd doc
@@ -1706,11 +1845,11 @@ In the HUGO_BASE_DIR run =hugo=.  The results will be written to
       git commit -m"name of new post"
       git push
 #+end_example
-******* make sure post is live, looks right
+****** make sure post is live, looks right
 - Go to site: http://curious.galthub.com/
 - It often takes a minute or so after push for things to show up
   on the web site.  You might have to refresh
-******* Add and push the source
+****** Add and push the source
 #+begin_example
         cd ..
         git status .
@@ -1721,7 +1860,7 @@ In the HUGO_BASE_DIR run =hugo=.  The results will be written to
 - be sure not to add docs/, as that is pushed a a subtree.
 - possibly move the docs/ tree so that is not subsidiary to the root
 
-***** Conclusion
+**** Conclusion
 "I mean, why not just use blogger.com or Wordpress"?  Been
 there done that.
 
@@ -1733,7 +1872,7 @@ There are issues of control.  There are the issues of using
 tools I like, not the GUI or "download my app" du jour with
 tracking, ads, monetization, bloat and more.
 
-**** PUBLISHED HOWTO: =/bin/ed= by example      :unix:100DaysToOffload:HOWTO:
+*** PUBLISHED HOWTO: =/bin/ed= by example      :unix:100DaysToOffload:HOWTO:
      :PROPERTIES:
      :EXPORT_FILE_NAME: bin-ed
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-28
@@ -1757,7 +1896,7 @@ You can type ed commands (see below) and they work.  "vi" is the
 die hard ~emacs~ user, often when I just want to do a quick edit or take
 some note I just fire up =/bin/ed= and go....
 
-***** A sample ~/bin/ed~ session...
+**** A sample ~/bin/ed~ session...
 
 #+hugo: more
 
@@ -1834,7 +1973,7 @@ some note I just fire up =/bin/ed= and go....
 
 Post 25 #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED HOWTO: See *SOME* lines from a file :unix:100DaysToOffload:HOWTO:
+*** PUBLISHED HOWTO: See *SOME* lines from a file :unix:100DaysToOffload:HOWTO:
      :PROPERTIES:
      :EXPORT_FILE_NAME: some
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-01
@@ -1926,7 +2065,7 @@ function some {
 
 Post 26 #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED Source Code Distribution From Printouts to Github :unix:history:100DaysToOffload:
+*** PUBLISHED Source Code Distribution From Printouts to Github :unix:history:100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: sourcecode
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-10
@@ -2082,7 +2221,7 @@ Post 26 #100DaysToOffload https://100daystooffload.com/
      in hand.  No more hoping ftp.uu.net has the latest version.
      Go forth and hack.
 
-**** PUBLISHED All we are saying, is give init.el a chance :100DaysToOffload:emacs:
+*** PUBLISHED All we are saying, is give init.el a chance :100DaysToOffload:emacs:
      :PROPERTIES:
      :EXPORT_FILE_NAME: init-el-for-world-peace
      :EXPORT_HUGO_PUBLISHDATE: 2020-11-11
@@ -2108,14 +2247,14 @@ All we are saying, is give =init.el= a chance.
 
 Post 36 of #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED Of Typewriters, Scribe, LaTeX, Org mode, Hugo and Paper :history:blogging:emacs:100DaysToOffload:
+*** PUBLISHED Of Typewriters, Scribe, LaTeX, Org mode, Hugo and Paper :history:blogging:emacs:100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: typewriters
      :EXPORT_HUGO_PUBLISHDATE: 2020-12-06
      :END:
 
 
-***** What is this and why was it written?
+**** What is this and why was it written?
       This is my personal history of putting
       words-on-page-or-screen-or-blog-entry covering the period from
       the late 1970s to present (2020-12-05).
@@ -2157,7 +2296,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       at the bottom of =layout/partials/head.html= before ~</head>~ in
       the modified [[https://themes.gohugo.io/hyde-hyde/][Hugo hyde theme]] I borrowed from JTR.
 
-***** Some History
+**** Some History
       #+begin_quote
       Marley was dead, to begin with...
       #+end_quote
@@ -2172,7 +2311,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
 
       OK, how about this:
 
-***** Dad - Typewriters
+**** Dad - Typewriters
       #+begin_quote
       In high school I wrote out my paper assignments by hand and then my
       Dad typed them for me, at least until I took typing and got up to
@@ -2195,7 +2334,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       #+end_quote
 
 
-***** Brian Reid - Scribe
+**** Brian Reid - Scribe
        So, [[https://en.wikipedia.org/wiki/Scribe_(markup_language)][Scribe]].  So in the late 70's at Carnegie-Mellon, Brian Reid
        stepped into the long tradition of Computer Science geeks scratching
        their own itch, developing one of the first mark-up languages
@@ -2218,7 +2357,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
        then-world-class formatting and typesetting facilities, Dad was
        no longer typing my papers :-)
 
-***** Donald Knuth - [[https://en.wikipedia.org/wiki/TeX][TeX]]
+**** Donald Knuth - [[https://en.wikipedia.org/wiki/TeX][TeX]]
 
       Meanwhile, on the other side of the country (on a dark and
       stormy night?), [[https://en.wikipedia.org/wiki/Donald_Knuth][Donald Knuth]] was (and still is) engaged in
@@ -2237,7 +2376,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       I installed the Pascal based TeX82 on the DEC10's at
       CompuServe sometime around 1986.
 
-***** Donald Knuth - Literate Programming
+**** Donald Knuth - Literate Programming
 
      Not content with having won the Turning award in 1974 (4 years
      prior), with creating a typesetting system that is used to this
@@ -2256,7 +2395,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
 
      Org directly supports a form "tangle" today.
 
-***** Guy Steele - the 1 degree of separation
+**** Guy Steele - the 1 degree of separation
 
       Guy Steele who later went on to have a lot to do with Java (and
       standardizing C) seems to have been the 1-degree-of-separation
@@ -2270,7 +2409,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       James Gosling (Java, [[https://en.wikipedia.org/wiki/Gosling_Emacs][GosMacs]] 1981) was also kicking around CMU
       before moving off to Sun.
 
-***** Leslie Lamport - Latex
+**** Leslie Lamport - Latex
 
       So, $\TeX$ was cool and all, but it was very low level, and in
       some ways difficult to work with.  People had seen SCRIBE.  So
@@ -2290,7 +2429,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       http://www.port111.com/george/resume/ along with the .bib file
       for citations and .tex input.
 
-***** Bill Gates and the nameless corporate droids[fn:12] - WYSIAYG Editors
+**** Bill Gates and the nameless corporate droids[fn:12] - WYSIAYG Editors
 
       What You See Is All You Get (WYSIAYG) also known as What You See
       Is What You Get (WISIWYG) editors let you move pixels around on
@@ -2311,13 +2450,13 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       more than choosing the right style sheet.  Brian Reed got that
       right.
 
-***** Sir "Almost not appearing in this blog post" - RUNOFF and nroff
+**** Sir "Almost not appearing in this blog post" - RUNOFF and nroff
       A couple honorable mentions that I did in fact use a good bit
       along the way are [[https://en.wikipedia.org/wiki/TYPSET_and_RUNOFF][DEC RUNOFF]] (DEC 10s, VMS) and [[https://en.wikipedia.org/wiki/Nroff][nroff]] (unix).
 
       nroff comes in handy when you want to write man(1) pages.
 
-***** Tim Berners-Lee - The Web
+**** Tim Berners-Lee - The Web
       There was a time before the web.  There were things written and
       published before the web.  But since the early 90s it's been the
       800-pound gorilla in the living room.
@@ -2341,7 +2480,7 @@ Post 36 of #100DaysToOffload https://100daystooffload.com/
       people.  They were not sure this web thing was going to catch
       on....
 
-***** Carsten Dominick - Org Mode - "Your Life in Plain Text"
+**** Carsten Dominick - Org Mode - "Your Life in Plain Text"
       Your blog post is text.  Your email it text.  Your slack (IRC)
       messages are text.  Your documents are text.  Your calendar and
       agenda are text.  Your shopping lists are text.  You TODO lists
@@ -2432,7 +2571,7 @@ p(x) = x^8+x^7+x^6+x^5
 
 #+END_EXAMPLE
 
-***** Johnny Cash - "I've seen 'em come and go, and I've seen 'em die.."
+**** Johnny Cash - "I've seen 'em come and go, and I've seen 'em die.."
 
       - CompuServe
       - Prodigy
@@ -2489,7 +2628,7 @@ p(x) = x^8+x^7+x^6+x^5
         another long post, but to me this "feels" very like the early
         days of GNU and Linux.
 
-***** Steve Francia - Hugo
+**** Steve Francia - Hugo
       One last entry in the things-I-have-used-to-write lineup.  The
       Hugo static web site generator is bringing you this blog.
 
@@ -2524,7 +2663,7 @@ p(x) = x^8+x^7+x^6+x^5
       elsewhere in my blog post on [[http://curious.galthub.com/blog/hugo-org-github/][publishing a blog on Github with Org and Hugo]
 
 
-***** George Jones - OK, but did George actually write anything worth reading?
+**** George Jones - OK, but did George actually write anything worth reading?
 
       You've read this far on a long blog post :-)
 
@@ -2551,7 +2690,7 @@ p(x) = x^8+x^7+x^6+x^5
       - Links to a few pubs, talks, papers, etc :: Because 20 year old
         index.html files never die http://www.port111.com/george/#pubs
 
-***** Back to paper
+**** Back to paper
 
       I used to have a saying:
 
@@ -2570,16 +2709,16 @@ p(x) = x^8+x^7+x^6+x^5
       No likes.  No re-shares.  No chance of going viral.  But its
       where I find my thoughts.  Things have come full circle.
 
-***** Final thoughts
+**** Final thoughts
       I hope this has been at least an in interesting read.  I hope it
       has provided at least some idea of where we are and how we got
       here in terms of technology for putting thoughts on "paper".
 
-***** And now, a word from our sponsor...
+**** And now, a word from our sponsor...
 
     \begin{array}{*{20}c} {x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}} & {{\rm{when}}} & {ax^2 + bx + c = 0} \\ \end{array}
 
-***** Footnotes
+**** Footnotes
 
 [fn:9] And, yes, Tim Berners-Lee was in academic circles then and
       could not have helped knowing about Knuth's WEB ... score naming
@@ -2615,14 +2754,14 @@ Posts 39, 40 and 41 of #100DaysToOffload
 https://100daystooffload.com/.  This one was a production. It counts
 for 3.
 
-**** PUBLISHED .bashrc as literate programming :howto:emacs:100DaysToOffload:
+*** PUBLISHED .bashrc as literate programming :howto:emacs:100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: bashrc
      :EXPORT_HUGO_PUBLISHDATE: 2020-12-05
      :END:
 
 
-***** Knuth gets annoyed at his publishers, $\TeX$ is born.
+**** Knuth gets annoyed at his publishers, $\TeX$ is born.
 Back in the late 70s Donald Knuth who was (and still is) publishing a
 seminal series of Computer Science text books got annoyed at the
 typesetting, layouts and font choices he was being presented by
@@ -2661,7 +2800,7 @@ But wait, there's more.
 
 #+hugo: more
 
-***** Literate Programming
+**** Literate Programming
 In addition to writing his own typesetting system, he came up with the
 concept of /Literate Programming/ at the same time.   The basic idea
 is that you write for humans to read (e.g. text books) with a
@@ -2674,7 +2813,7 @@ and "weave"[fn:8], to produce output for humans
 I've been influenced by the concept of /Literate Programming/ ever
 since I installed the original TeX (and LaTex) on CompuServe's DEC10s.
 
-***** The children of tangle and weave - Org, Babel, Jupyter and Zepplin
+**** The children of tangle and weave - Org, Babel, Jupyter and Zepplin
 
 Fast forward a few decades.  Carsten Dominick creates org mode for
 Emacs to organize, well, everything which, of course, has a back end
@@ -2692,7 +2831,7 @@ Jupyter and Zeppelin notebooks provide similar functionality today for
 Python, Spark, Scala and the data science community, but Knuth was
 there 40 years ago.
 
-***** George gets annoyed at a complicated .bashrc, .bashrc.org is born
+**** George gets annoyed at a complicated .bashrc, .bashrc.org is born
 
 Which brings me to my own humble annoyances which are not likely to
 change the course of science or academic publishing...
@@ -2702,7 +2841,7 @@ something that can't be done in emacs in general, and have been
 particularly annoyed at the growing complexity of my =.bashrc= file
 which could not be organize and documented in org mode....until now.
 
-***** EmacsConf 2020 talk: README Driven Design
+**** EmacsConf 2020 talk: README Driven Design
       A talk at EmacsConf 2020 reminded me that Org mode can be used
       directly for literate programming.
 
@@ -2720,7 +2859,7 @@ which could not be organize and documented in org mode....until now.
       summarizing the talk at
       [[http://adamard.com/literate_programming.html][http://adamard.com/literate_programming.html]]
 
-*****  1 - My .bashrc as literate programming
+****  1 - My .bashrc as literate programming
 
       What follows are three different versions of my (457 line)
       =.bashrc= file.
@@ -2735,16 +2874,16 @@ which could not be organize and documented in org mode....until now.
       The last is the org mode source from which both preceding
       versions used as input.
 
-****** 1.1 - My .bashrc - weave output for humans
+***** 1.1 - My .bashrc - weave output for humans
 
        Here is the human-readable .bashrc file with comments, etc.
 
-******* About this .bashrc file
-******** Intro
+****** About this .bashrc file
+******* Intro
          This is George Jones' .bashrc file as an literate programming file in
          emacs org mode using babel blocks.
 
-******** To generate the actual .bashrc
+******* To generate the actual .bashrc
          This .bashrc.org file must be processed to generate the actual
          .bashrc It can be processed interactively to generate .bashrc via
          org-babel-tangle-file or from the command line as
@@ -2756,7 +2895,7 @@ which could not be organize and documented in org mode....until now.
          Permanent changes must be made to the .org version, as the actual
          .bashrc will be overwritten when the .org version is "compiled"
 
-******** Debugging
+******* Debugging
 
         In most bash files I do
 
@@ -2778,8 +2917,8 @@ which could not be organize and documented in org mode....until now.
 
         to enable debugging output from the debug helper function.
 
-******* The actual executable .bashrc
-******** Helper functions
+****** The actual executable .bashrc
+******* Helper functions
          I define a few syslog-ish helper functions to print warnings,
          errors, etc.
 
@@ -2794,7 +2933,7 @@ which could not be organize and documented in org mode....until now.
   function die()   { echo ${PROG}\: fatal: "$@" 1>&2 && exit 1; }
          #+end_src
 
-******** Set a reasonable default prompt
+******* Set a reasonable default prompt
 
          Here I set a reasonable default prompt that includes timestamp,
          username, host and current directory:
@@ -2803,7 +2942,7 @@ which could not be organize and documented in org mode....until now.
 export PS1="\# [\t] \u@\h \W/ $ "
        #+end_src
 
-******** Misc aliases
+******* Misc aliases
 
          Define various aliases that I use
 
@@ -2821,7 +2960,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
   alias locate='locate -r'
          #+end_src
 
-******** cd commands that use/print the directory stack
+******* cd commands that use/print the directory stack
 
          These aliases support pushd/popd/dirs like functionality while
          listing one directory per line
@@ -2864,7 +3003,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
   alias cd=pushd
          #+end_src
 
-******** Misc functions
+******* Misc functions
 
          #+begin_src shell :tangle .bashrc :noweb no-export
 
@@ -2915,7 +3054,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
   }
        #+end_src
 
-******** Bash history functions and settings
+******* Bash history functions and settings
          #+begin_src shell :tangle .bashrc :noweb no-export
 
   # Preserve history across sesssions
@@ -2945,7 +3084,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
   }
          #+end_src
 
-******** Set the hostnane, timezone and local
+******* Set the hostnane, timezone and local
          Set HOSTNAME if ~/etc/hostname exists
 
          #+begin_src shell :tangle .bashrc :noweb no-export
@@ -2977,7 +3116,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
    if [[ "$LOCAL" != "" ]]; then export LC_NUMERIC="$LOCAL"; fi
          #+end_src
 
-******** Set up ssh agent
+******* Set up ssh agent
          Add keys by hand if needed via
 
          #+begin_example
@@ -2990,7 +3129,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
    fi
          #+end_src
 
-******** Copy stdin to clipboard
+******* Copy stdin to clipboard
 
          #+begin_src shell :tangle .bashrc :noweb no-export
    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
@@ -3001,7 +3140,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
    fi
          #+end_src
 
-******** Path functions
+******* Path functions
         These path* functions add and remove elements to PATH.
         They insure that entries are unique.
         They allow you to place a path first or last in the order (e.g.
@@ -3049,7 +3188,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
   pathlast /opt/bin
         #+end_src
 
-******** source ~/rc.local/*.sh to do non-general bash setup
+******* source ~/rc.local/*.sh to do non-general bash setup
          Execute any .sh files in ~/rc.local/*.sh
 
          This allows me to split out setup for aliases and commands that
@@ -3066,7 +3205,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
    fi
          #+end_src
 
-******** Invoking emacs
+******* Invoking emacs
          #+begin_src shell :tangle .bashrc :noweb no-export
    alias emacs='setsid emacs'
 
@@ -3083,7 +3222,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
    export VISUAL=$EDITOR
          #+end_src
 
-******** ls aliases
+******* ls aliases
          #+begin_src shell :tangle .bashrc :noweb no-export
 
    # coloring for ls functions
@@ -3125,7 +3264,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
 
          #+end_src
 
-******** Aliases for viewing the newest file in a directoy
+******* Aliases for viewing the newest file in a directoy
          #+begin_src shell :tangle .bashrc :noweb no-export
 
    function nf ()
@@ -3159,7 +3298,7 @@ export PS1="\# [\t] \u@\h \W/ $ "
    ls -Atl  ; }
          #+end_src
 
-******** viewing files
+******* viewing files
          Notes on setting up file/mime type associations can be found at
 
          https://unix.stackexchange.com/questions/77136/xdg-open-default-applications-behavior
@@ -3176,13 +3315,13 @@ export PS1="\# [\t] \u@\h \W/ $ "
    if [[  ! -z "`which xdg-open`" ]]; then alias open='xdg-open '; fi
          #+end_src
 
-******** All done
+******* All done
          #+begin_src shell :tangle .bashrc :noweb no-export
    touch $HOME/.bashrc-ran
    debug ".bashrc done"
          #+end_src
 
-****** 1.2 - My .bashrc - tangle output for computers
+***** 1.2 - My .bashrc - tangle output for computers
 
        Here is the actual .bashrc file for bash(1) to consume
 
@@ -3484,7 +3623,7 @@ touch $HOME/.bashrc-ran
 debug ".bashrc done"
 #+end_src
 
-****** 1.3 - My .bashrc - The org mode source file
+***** 1.3 - My .bashrc - The org mode source file
 
 
 Here is the .bash.org input file
@@ -3953,12 +4092,12 @@ Congratulations for reading this far.   Go forth and write literate programs.
 
 Posts 38 of #100DaysToOffload https://100daystooffload.com/.
 
-***** Footnotes
+**** Footnotes
 [fn:8]This was about 10 years before the world wide web ... maybe
 Berners-Lee got some inspiration on the name from Knuth? Or Sir Walter
 Scott: "‘Oh what a tangled web we weave/When first we practice to deceive"
 
-**** PUBLISHED To self host or not to self host, that is the question? :100DaysToOffload:blogging:life:
+*** PUBLISHED To self host or not to self host, that is the question? :100DaysToOffload:blogging:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-22
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-22:
@@ -3994,7 +4133,7 @@ some world events that are sucking up attention)
 
 #17 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED EmacsConf 2022 - Day 1                :100DaysToOffload:emacs:
+*** PUBLISHED EmacsConf 2022 - Day 1                :100DaysToOffload:emacs:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-12-03
   :EXPORT_HUGO_PUBLISHDATE: 2022-12-03:
@@ -4028,7 +4167,7 @@ Looking forward to day 2.
 
 #37 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** WIP Thanks Sacha !                              :100DaysToOffload:emacs:
+*** WIP Thanks Sacha !                              :100DaysToOffload:emacs:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-09
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-09:
@@ -4080,7 +4219,7 @@ Thanks, Sacha.
 
 #51 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** TODO Palo Alto Firewalls
+*** TODO Palo Alto Firewalls
 - Eating dogfood
 - Purchase
 - Console setup
@@ -4094,8 +4233,8 @@ Thanks, Sacha.
 - Network set up easily, but ... objects, etc
   + enter https://github.com/PaloAltoNetworks/iron-skillet
 
-*** Cybersecurity                 :cybersecurity:secuity:privacy:perspective:
-**** PUBLISHED We've got to do better than this            :100DaysToOffload:
+** Cybersecurity                 :cybersecurity:secuity:privacy:perspective:
+*** PUBLISHED We've got to do better than this            :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-01-25
   :EXPORT_HUGO_PUBLISHDATE: 2024-01-25:
@@ -4121,7 +4260,7 @@ normal and OK.
 
 #56 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED Privacy Technology              :privacy:security:perspective:
+*** PUBLISHED Privacy Technology              :privacy:security:perspective:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-18-privacy
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-18
@@ -4167,7 +4306,7 @@ normal and OK.
      efforts to improve privacy, I think we need to begin by admitting
      that the problems are not technical.  They are social.  They are
      human.
-**** PUBLISHED Thoughts on the OODA loop and falling out of a canoe :outdoors:SOC:OODA:
+*** PUBLISHED Thoughts on the OODA loop and falling out of a canoe :outdoors:SOC:OODA:
      :PROPERTIES:
      :EXPORT_FILE_NAME: ooda-loop-and-getting-wet
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-26
@@ -4195,7 +4334,7 @@ comment !)
 
 #+hugo: more
 
-***** The OODA Loop
+**** The OODA Loop
 
 [[https://en.wikipedia.org/wiki/OODA_loop][The OODA loop]] is a concept cybersecurity has borrowed from the US Air Force.
 "OODA" stands for "Observe, Orient, Decide, Act".
@@ -4207,7 +4346,7 @@ Then repeat the OODA loop.  *Observe*: what was the effect of your
 action (the Red Barron went down in flames, or you missed and now he's on your
 tail)...
 
-***** The OODA Loop and falling out of a canoe
+**** The OODA Loop and falling out of a canoe
 The OODA loop parallels my decision making process in the rapids this
 weekend.  In one of our two crisis events I *observed* the other
 canoe flip in the rapids ahead.  I *oriented* my canoe towards shore.
@@ -4225,7 +4364,7 @@ I *observed* that we were safe on shore without our boat, gear or
 friends.  I *oriented* myself downstream.  I *decided* to walk in
 search of boat, gear and friends.  I *acted* by walking...
 
-***** Where does the OODA loop work well?
+**** Where does the OODA loop work well?
 
 The OODA loop seems to be a good model for rapidly changing situations
 where the personal stakes to the actor are high, the actor is
@@ -4236,7 +4375,7 @@ Evening with Berferd]] and Cliff Stoll's [[https://en.wikipedia.org/wiki/The_Cuc
 wondering how many of these conditions apply, to, say the modern SOC?
 
 
-***** Does the OODA loop work in SOCs?
+**** Does the OODA loop work in SOCs?
 
 How do the characteristics of crisis situations such has that
 described above or a fighter pilot in dogfight map to the modern SOC?
@@ -4258,7 +4397,7 @@ Your thoughts?  Experiences?
 
 Days 17 of #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED Bear attacks, no-win situations and cybersecurity      :bears:
+*** PUBLISHED Bear attacks, no-win situations and cybersecurity      :bears:
      :PROPERTIES:
      :EXPORT_FILE_NAME: cybersecurity-and-bears
      :EXPORT_HUGO_PUBLISHDATE: 2020-03-19:
@@ -4325,7 +4464,7 @@ So it maybe true that few people win in the face of an actual attack,
 but, it turns out, there are still good reasons to play the game.
 
 
-***** For Further Reading
+**** For Further Reading
 
 - Numbers of bear attacks :: In North America, only 2-5 people are killed annually by bears: https://www.thealaskalife.com/outdoors/bear-attacks-statistic/ vs (Worldwide) 10 killed by sharks, 50,000 by snakes and 725,000 by mosquitos. https://www.statista.com/chart/2203/the-worlds-deadliest-animals/
 - U.S. Forrest Service :: "Be bear aware" https://www.fs.usda.gov/visit/know-before-you-go/bears
@@ -4333,7 +4472,7 @@ but, it turns out, there are still good reasons to play the game.
 - Ultimate Guide to Cybersecurity :: "Your Ultimate Guide to Cybersecurity: At Home, at Work, and on the Go." https://www.ibtimes.com/your-ultimate-guide-cybersecurity-home-work-go-2818655. A little more in depth.
 - CIS Critical Controls :: "The Center for Internet Security (CIS) Critical Security Controls" - https://www.cisecurity.org/controls/cis-controls-implementation-groups/ More in depth. For enterprises.
 
-**** PUBLISHED "​Reproducible security analytics?"                 :org:emacs:
+*** PUBLISHED "​Reproducible security analytics?"                 :org:emacs:
      :PROPERTIES:
      :EXPORT_FILE_NAME: reproducable-security-analytics
      :EXPORT_HUGO_PUBLISHDATE: 2020-02-25:
@@ -4352,7 +4491,7 @@ One thing that looks promising is [[https://car.mitre.org/][mitre's cyber analyt
 repository]]. Another is [[https://github.com/hunters-forge/mordor][Hunters Forge/Mordor]] I'd be interested in
 pointers to more.
 
-**** PUBLISHED What is that thing on the Internet, and is it bad? :100DaysToOffload:
+*** PUBLISHED What is that thing on the Internet, and is it bad? :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: things-on-the-internet
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-19
@@ -4375,7 +4514,7 @@ Post 27 of #100DaysToOffload https://100daystooffload.com/
 #+hugo: more
 
 
-***** Questions to ask
+**** Questions to ask
 
 When identifying Internet-based assets, there are a series of basic
 questions[fn:6] that need to answered:
@@ -4389,7 +4528,7 @@ questions[fn:6] that need to answered:
 - What can I do about it?
 
 
-***** An Example: Web servers serving pages with flash
+**** An Example: Web servers serving pages with flash
 One example can be used to illustrate the point: web servers
 serving content with Adobe Flash
 (https://en.wikipedia.org/wiki/Adobe_Flash).
@@ -4470,7 +4609,7 @@ certain. See below.
      can/should take to fix things that are "bad"?  Patch? Upgrade?
      Choose a different security vendor...?
 
-***** Keep each issue separate, think about them independently
+**** Keep each issue separate, think about them independently
 
 It is important to keep the answers to these questions separate.
 For instance saying "write some software to find bad things on web
@@ -4482,7 +4621,7 @@ a taxonomy (see below) to say "what is this"?   Then separately
 devise ways to answer the "is it bad" question for separate
 environments (countries, organizations, individuals ...)
 
-***** Taxonomies, Ontologies and ASCII Art, Oh My !!!
+**** Taxonomies, Ontologies and ASCII Art, Oh My !!!
 
 The outline above lists the basic questions.  It is possible that
 there will be a need for a deeper dive/more complete classification.
@@ -4510,28 +4649,28 @@ used in Biology for hundreds of years.  More recently, the
 cybersecurity world started standardizing vulnerability naming as
 CVE.
 
-***** Conclusion
+**** Conclusion
 
 When thinking about Internet assets, writing software to detect and
 classify/fingerprint assets and deciding what to call "bad", keep
 the preceding questions in mind and try to keep the questions
 separate.
 
-***** Disclaimer
+**** Disclaimer
 The opinions expressed here are mine, and not those of my employer.
 In fact, they may not even be mine.  I may have changed my mind.  I
 may have grown beyond a particular opinion.  I may be trolling you.
 I may be engaging in Socratic dialog to tear down your beliefs.  I
 may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
-***** Footnotes
+**** Footnotes
 
 [fn:6] Note that these are not randomly chosen questions.  They map
 fairly directly to some of the basic questions of epistemology, morals
 and ethics.
 
-*** Privacy                                                         :privacy:
-**** PUBLISHED Deep Freeze
+** Privacy                                                         :privacy:
+*** PUBLISHED Deep Freeze
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-08-01
   :EXPORT_HUGO_PUBLISHDATE: 2024-08-01:
@@ -4545,7 +4684,7 @@ I also added some commentary what motivates the credit unions (and it's not
 your security and privacy) and the sad state of things 9 years after
 one of them lost 200 million records (likely including yours).
 
-**** PUBLISHED Privacy: what is it and why do we care? ... :100DaysToOffload:
+*** PUBLISHED Privacy: what is it and why do we care? ... :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: privacy-intro
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-24
@@ -4582,7 +4721,7 @@ Stay tuned.
 
 Post 28 of #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED Privacy: Motion activated cameras in the woods? :100DaysToOffload:hiking:
+*** PUBLISHED Privacy: Motion activated cameras in the woods? :100DaysToOffload:hiking:
      :PROPERTIES:
      :EXPORT_FILE_NAME: privacy-cameras
      :EXPORT_HUGO_PUBLISHDATE: 2020-09-26
@@ -4643,14 +4782,14 @@ Thoreau, Muir, Audubon: meet the panopticon.
 
 Post 29 of #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED Privacy: The view from 1987 and Antiquity - or why I'm deleting Google,Facebook and Twitter :100DaysToOffload:
+*** PUBLISHED Privacy: The view from 1987 and Antiquity - or why I'm deleting Google,Facebook and Twitter :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: privacy-1987
      :EXPORT_HUGO_PUBLISHDATE: 2020-10-04
      :END:
 
 
-***** "A History of Private Life"
+**** "A History of Private Life"
 #+begin_quote
 There is, I think, an urgent need to protect the essence of
 individuality from headlong technological progress.  For unless we are
@@ -4673,7 +4812,7 @@ Post 30 of #100DaysToOffload https://100daystooffload.com/
 
 #+hugo: more
 
-***** What's bothering me
+**** What's bothering me
 
       It takes a lot of work to change your email provider of 15
       years.  You loose contacts when you ditch Facebook (that guy
@@ -4703,7 +4842,7 @@ Post 30 of #100DaysToOffload https://100daystooffload.com/
       offerings where, "If you're not paying for it you ARE the
       product" violates the space we so desperately need.
 
-***** Back to the big thinkers
+**** Back to the big thinkers
 
       Enough of my ramblings.  Back to the deep thinkers who put
       together the encyclopedic /A History of Private Life/ in 1987
@@ -4730,8 +4869,8 @@ Georges Duby, Forward to /A History of Private Life/, 1987
 Is he right?  Do /you/ have the space you need to "protect the essence
 of individuality from headlong technological progress"?
 
-*** History                                                         :history:
-**** PUBLISHED Black Lives Matter ... the 1852 version.    :100DaysToOffload:
+** History                                                         :history:
+*** PUBLISHED Black Lives Matter ... the 1852 version.    :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2022-10-07
      :EXPORT_HUGO_PUBLISHDATE: 2022-10-07:
@@ -4770,7 +4909,7 @@ of individuality from headlong technological progress"?
   reading list to better understand what drove them...
 
   #28 of #100DaysToOffload take 2.1, https://100daystooffload.com/
-**** PUBLISHED The lesson of history                       :100DaysToOffload:
+*** PUBLISHED The lesson of history                       :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2022-03-03
      :EXPORT_HUGO_PUBLISHDATE: 2022-03-03:
@@ -4784,7 +4923,7 @@ of history.
 
 #16 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED George Washington Slept Here                :100DaysToOffload:
+*** PUBLISHED George Washington Slept Here                :100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2022-02-27
      :EXPORT_HUGO_PUBLISHDATE: 2022-02-27:
@@ -4914,7 +5053,7 @@ at least /try/ to add those qualities to my own life.
 
 #13 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Closing the gates of Janus                           :history:
+*** PUBLISHED Closing the gates of Janus                           :history:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2024-08-14
      :EXPORT_HUGO_PUBLISHDATE: 2024-08-14:
@@ -4936,7 +5075,7 @@ at least /try/ to add those qualities to my own life.
    ...
    #+hugo: more
 
-***** Brave on the gates of Janus
+**** Brave on the gates of Janus
    If ancient roman rules applied world-wide, when would the gates of
    janus be closed?
 
@@ -4957,7 +5096,7 @@ at least /try/ to add those qualities to my own life.
    If ancient Roman rules applied worldwide, the Gates of Janus would be closed during periods of peace and prosperity, as indicated by the historical records. The specific instances of closure mentioned above would serve as benchmarks for this tradition.
    #+end_quote
 
-***** ChatGPT on the gates of Janus
+**** ChatGPT on the gates of Janus
    if ancient roman rules applied world-wide, when would the gates of janus be closed
 
    ChatGPT said:
@@ -4987,8 +5126,8 @@ at least /try/ to add those qualities to my own life.
    While these periods might have seen the Gates of Janus symbolically closed, it's important to note that complete global peace, without any conflict at all, is extremely rare and may not have been fully achieved even during these times.
    #+end_quote
 
-*** Current Events                                  :news:philosophy:history:
-**** PUBLISHED Insurance companies are using AI.  People will die. :100DaysToOffload:
+** Current Events                                  :news:philosophy:history:
+*** PUBLISHED Insurance companies are using AI.  People will die. :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-03-19
   :EXPORT_HUGO_PUBLISHDATE: 2024-03-19:
@@ -5068,7 +5207,7 @@ People are going to die.
 
 #58 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED Be kind to your call center friends    :100DaysToOffload:life:
+*** PUBLISHED Be kind to your call center friends    :100DaysToOffload:life:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-03-02
   :EXPORT_HUGO_PUBLISHDATE: 2024-03-02:
@@ -5114,7 +5253,7 @@ be it's own reward.
 
 #57 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Mark Twain quote on cryptocurrency (via ChatGPT) :100DaysToOffload:geek:latin:
+*** PUBLISHED Mark Twain quote on cryptocurrency (via ChatGPT) :100DaysToOffload:geek:latin:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-12-10
    :EXPORT_HUGO_PUBLISHDATE: 2022-12-10:
@@ -5274,7 +5413,7 @@ Here is a possible quote that Mark Twain might have said about cryptocurrency:
 
 #39 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Peace be with you                           :100DaysToOffload:
+*** PUBLISHED Peace be with you                           :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-05
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-05:
@@ -5323,7 +5462,7 @@ years by they way I asses things and how I've reacted.
 I wish you peace.
 
 #18 of #100DaysToOffload take 2, https://100daystooffload.com/
-**** PUBLISHED When goods don’t cross borders, soldiers will
+*** PUBLISHED When goods don’t cross borders, soldiers will
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-28
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-28:
@@ -5336,7 +5475,7 @@ That is all.
 
 #+hugo: more
 #14 of #100DaysToOffload take 2, https://100daystooffload.com/
-**** PUBLISHED Who 'ya gonna trust?  CNN, Podcasts, ChatGPT... :100DaysToOffload:life:geek:AI:
+*** PUBLISHED Who 'ya gonna trust?  CNN, Podcasts, ChatGPT... :100DaysToOffload:life:geek:AI:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-05-14
   :EXPORT_HUGO_PUBLISHDATE: 2023-05-14:
@@ -5377,9 +5516,9 @@ one-on-one interactions with real people.   And, come to think of it,
 in any event, talking to people more might not be such a bad idea.
 
 #49 of #100DaysToOffload take 2.1, https://100daystooffload.com/
-*** Work                                                               :work:
+** Work                                                               :work:
 
-**** PUBLISHED Changing the world, one side project at a time :100DaysToOffload:compuserve:history:retirement:
+*** PUBLISHED Changing the world, one side project at a time :100DaysToOffload:compuserve:history:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-22
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-22:
@@ -5409,10 +5548,10 @@ file:images/cs_history_marker.gif
 #+hugo: more
 
 
-***** Side projects
+**** Side projects
 
 
-****** The Eternal September, sorry.
+***** The Eternal September, sorry.
     One of my earliest lasting contributions resulted from a side
     project that I put my good friend  [[https://www.linkedin.com/in/karlkleinpaste/][karl kleinpaste]], up to:
     creating the first Compuserve =<->= Internet mail gateway
@@ -5424,7 +5563,7 @@ file:images/cs_history_marker.gif
     Eternal September seems to be about to repeat it self with
     facebook's "threads" [[https://techcrunch.com/2023/12/14/mastodon-founder-touts-threads-federation-saying-it-makes-his-x-rival-a-far-more-attractive-option/][implementing a gateway to Mastadon]].
 
-****** The Web Browser that never was
+***** The Web Browser that never was
     Then there was this web browser I wrote at CompuServe that would have
     let the masses access the WWW before most people had even dial-up Internet.
     But the corporate powers-that-be we're not sure this web thing was
@@ -5435,7 +5574,7 @@ file:images/cs_history_marker.gif
 [[http://curious.galthub.com/blog/2022-03-24/][Steve Wilhite]]
     (of GIF fame)
 
-****** The editor that created Linux
+***** The editor that created Linux
 
 In early CompuServe days, Wilhite  and I did
     a little collaborative coding to to improve
@@ -5454,7 +5593,7 @@ was an early user and was influenced by it.
 Org Mode is central to most parts of my life today.  What goes around,
 comes around.
 
-****** SANS, IETF, Flocon, the White House
+***** SANS, IETF, Flocon, the White House
 
 Along the way I wrote [[http://port111.com/george/talks/Jones-2002-SANS.pdf][The Router Audit Tool (RAT)]].
 Offshoots of this work
@@ -5480,7 +5619,7 @@ the venture capitalist and former CISO and VP of Cisco and
     Also at CERT I had the opportunity to provide netflow analysis
     training to the White House SOC.
 
-****** Side projects at Palo Alto
+***** Side projects at Palo Alto
      At Expanse/Palo Alto I spent a lot of time staring  at Internet scan
      data, trying to figure out what vulnerable devices were presenting
      themselves to us (and hackers). An irony here being that 15 years earlier we thought
@@ -5522,7 +5661,7 @@ the venture capitalist and former CISO and VP of Cisco and
      There is a possible patent coming out of some side efforts (this would
      be the first of my career).
 
-***** The Amazon Leadership Principals
+**** The Amazon Leadership Principals
     There is one set of corporate mumbo-jumbo I actually believe in:
     the [[https://www.aboutamazon.com/about-us/leadership-principles][Amazon Leadership Principals]].  They stick with you.  They form a
     way of thinking about the world and getting things done: Dive Deep,
@@ -5541,7 +5680,7 @@ the venture capitalist and former CISO and VP of Cisco and
     solid. And the leadership principals and customer obsession are a
     large part of it.
 
-***** People matter.
+**** People matter.
 
     Yes, you have to have corporate vision statements to keep investors
     happy and make HR VPs think they are relevant, but so often what matters
@@ -5579,7 +5718,7 @@ the venture capitalist and former CISO and VP of Cisco and
 
 #52 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED What matters in work?                       :100DaysToOffload:
+*** PUBLISHED What matters in work?                       :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-06
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-02:
@@ -5598,7 +5737,7 @@ file:/home/gmj/home/public/art/maslow2023.png
 
 #50 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED Successful?                                 :100DaysToOffload:
+*** PUBLISHED Successful?                                 :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-12-26
   :EXPORT_HUGO_PUBLISHDATE: 2022-12-26
@@ -5629,7 +5768,7 @@ front-line, hands-on doing.
 
 #41 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Can I get the job done by doing nothing? :100DaysToOffload:GTD:
+*** PUBLISHED Can I get the job done by doing nothing? :100DaysToOffload:GTD:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-22
   :EXPORT_HUGO_PUBLISHDATE: 2022-04-22:
@@ -5653,7 +5792,7 @@ Thanks to Russell Leighton (then) at AWS  for the mind-boggling obvious idea.
 
 #26 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Career counseling should not take itself too seriously. :100DaysToOffload:life:
+*** PUBLISHED Career counseling should not take itself too seriously. :100DaysToOffload:life:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-02-03-O2
   :EXPORT_HUGO_PUBLISHDATE: 2022-02-03:
@@ -5688,7 +5827,7 @@ in future posts.
 
 #2 of #100DaysToOffload take 2, https://100daystooffload.com/.
 
-**** PUBLISHED Finding needles in the marketingstack        :truth:marketing:
+*** PUBLISHED Finding needles in the marketingstack        :truth:marketing:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2021-12-15-truth-in-internet
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-15
@@ -5699,7 +5838,7 @@ in future posts.
      product excluding the vendor website gets to the real information
      fastest,
      e.g. https://duckduckgo.com/?q=vmware+tanzu+-vmware.com+-www.vmware.com
-**** PUBLISHED "​I'm passionate about..."​                :Latin:humanity:work:
+*** PUBLISHED "​I'm passionate about..."​                :Latin:humanity:work:
      :PROPERTIES:
      :EXPORT_FILE_NAME: Im-passionate about
      :EXPORT_HUGO_PUBLISHDATE: 2020-03-09:
@@ -5731,7 +5870,7 @@ Go learn a useless language. Climb a mountain and enjoy the
 view. Spend time playing games with your family. Be human. Be
 passionate. Carpe diem.
 
-**** PUBLISHED Choosy Programmers Choose GIF :Wilhite:CompuServe:GIF:History:Computers:Emacs:Programming:
+*** PUBLISHED Choosy Programmers Choose GIF :Wilhite:CompuServe:GIF:History:Computers:Emacs:Programming:
      :PROPERTIES:
      :EXPORT_FILE_NAME: steve
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-30
@@ -5753,7 +5892,7 @@ was fortunate enough to start my career working with/for him.  My
 view of his programming output comes largely from 1985-1995.  I'm
 sure there was much more that I missed.
 
-***** Things Steve Wrote
+**** Things Steve Wrote
 Steve ran the languages and tools group when I arrived.  /He had just/
 /given up on writing at DEC10 ADA compiler/[fn:2] (Steve is still writing
 ADA software), was just beginning to embrace PCs as "real computers"
@@ -5797,9 +5936,9 @@ didn't.
 
 And there was this little side project called GIF.
 
-***** Things that got out
+**** Things that got out
 
-****** GIF
+***** GIF
 Be careful what you do and say.  It's often the incidentals that you
 are remembered for.  The kind (or unkind) words.  The side projects.
 
@@ -5818,7 +5957,7 @@ might not be free.  OK, [[https://en.wikipedia.org/wiki/richard_stallman][Stallm
 are Giffy's in slack that I turn off because I hate dancing bears.
 Thank-you Steve.
 
-***** MicroEmacs/mg display hacks
+**** MicroEmacs/mg display hacks
 
 And then there are the [[https://www.emacswiki.org/emacs/MicroEmacs][MiroEmacs]] display hacks.  When the Amiga came
 out Steve convinced me to buy one (it was that or the AtariST, he
@@ -5834,7 +5973,7 @@ Lawerence).  It's rumored that Linus Torvalds uses a version of the
 code to this day.
 
 
-***** CompuServe: Groundbreaking events, great teams and amazing individuals.
+**** CompuServe: Groundbreaking events, great teams and amazing individuals.
 
 At the recent (2019-10-19) CompuServe 50th Anniversary reunion I
 was reminded of the revolutionary things that happened there: the
@@ -5865,7 +6004,7 @@ Thanks Steve.
 file:images/cs/compuserveshirt.gif
 
 
-***** Footnotes
+**** Footnotes
 
 [fn:2] Steve corrected me.  There were never actually plans to write
 an Ada compiler.  But I was unaware of the XBASIC compiler.   So 3
@@ -5877,7 +6016,7 @@ the outcome would have been better if he had...
 
 [fn:1] yes, there are many better tools for this job, but not in the constrained environment where this had to run.
 
-**** PUBLISHED Adding uncertainty in uncertain times :life:work:startups:GTD:
+*** PUBLISHED Adding uncertainty in uncertain times :life:work:startups:GTD:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-06-30
      :EXPORT_HUGO_PUBLISHDATE: 2020-06-30
@@ -5950,7 +6089,7 @@ cares from that conversation:
 - People.  There are always "a few of 'those' people", hard to
   work with, disrupt everything.   Stay away.
 
-**** PUBLISHED Disclaimer                 :philosophy:humor:100DaysToOffload:
+*** PUBLISHED Disclaimer                 :philosophy:humor:100DaysToOffload:
      :PROPERTIES:
      :EXPORT_FILE_NAME: disclaimer
      :EXPORT_HUGO_PUBLISHDATE: 2020-08-19
@@ -5963,8 +6102,8 @@ beliefs.  I may be tearing down my own beliefs. γνῶθι σεαυτόν!
 
 # Post 21 of #100DaysToOffload https://100daystooffload.com/
 
-*** Life                                                               :life:
-**** PUBLISHED When time is short
+** Life                                                               :life:
+*** PUBLISHED When time is short
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-08-19
   :EXPORT_HUGO_PUBLISHDATE: 2024-08-19:
@@ -6014,7 +6153,7 @@ company. That meant a day that wasn’t as good as it could be.
 
 #+end_quote
 
-**** PUBLISHED Digging through layers of obfuscation :100DaysToOffload:retirement:
+*** PUBLISHED Digging through layers of obfuscation :100DaysToOffload:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-01-20
   :EXPORT_HUGO_PUBLISHDATE: 2024-01-20:
@@ -6083,7 +6222,7 @@ informatoion, unfiltered.
 
 #55 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED "I ain't no Senators son, no !"  :100DaysToOffload:retirement:
+*** PUBLISHED "I ain't no Senators son, no !"  :100DaysToOffload:retirement:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2024-01-08
   :EXPORT_HUGO_PUBLISHDATE: 2024-01-08:
@@ -6137,7 +6276,7 @@ George Harrison, the nascient neo-con
 
 
 #53 of #100DaysToOffload take 3.1, https://100daystooffload.com/
-**** PUBLISHED Congress, Big Pharma and Kickbacks, Oh My !!!
+*** PUBLISHED Congress, Big Pharma and Kickbacks, Oh My !!!
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-12-30
   :EXPORT_HUGO_PUBLISHDATE: 2023-12-30:
@@ -6181,7 +6320,7 @@ https://reason.com/podcasts/nice-things/
 
 #54 of #100DaysToOffload take 3.1, https://100daystooffload.com/
 
-**** PUBLISHED Count Your Blessings                        :100DaysToOffload:
+*** PUBLISHED Count Your Blessings                        :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-02-09
   :EXPORT_HUGO_PUBLISHDATE: 2023-02-09:
@@ -6203,7 +6342,7 @@ coincidental ... he asserts ... our maybe it's the positive application)
 
 #47 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Making lists                  :emacs:100DaysToOffload:orgmode:
+*** PUBLISHED Making lists                  :emacs:100DaysToOffload:orgmode:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-02-07
   :EXPORT_HUGO_PUBLISHDATE: 2023-02-07:
@@ -6259,7 +6398,7 @@ what am I doing today? ...
 
 #46 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Try writing more, you'll worry less         :100DaysToOffload:
+*** PUBLISHED Try writing more, you'll worry less         :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-02-04
    :EXPORT_HUGO_PUBLISHDATE: 2023-02-04:
@@ -6289,7 +6428,7 @@ and plan before spending the time you are given this day. Your choice.
 
 #45 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED mornings without the phone (regaining my mind) :100DaysToOffload:
+*** PUBLISHED mornings without the phone (regaining my mind) :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-01-29
    :EXPORT_HUGO_PUBLISHDATE: 2023-01-29:
@@ -6327,7 +6466,7 @@ pencil.
 
 #44 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** Death, Taxes, and Job                                 :100DaysToOffload:
+*** Death, Taxes, and Job                                 :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-01-11
    :EXPORT_HUGO_PUBLISHDATE: 2023-01-11:
@@ -6425,7 +6564,7 @@ us can do.
 
 #43 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Generation P                                :100DaysToOffload:
+*** PUBLISHED Generation P                                :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2023-01-08
    :EXPORT_HUGO_PUBLISHDATE: 2023-01-08:
@@ -6480,7 +6619,7 @@ Have fun in never-never land.  I don't think I'm coming.
 # class or envy.
 
 #42 of #100DaysToOffload take 2.1, https://100daystooffload.com/
-**** PUBLISHED Why do we hack?                       :100DaysToOffload:emacs:
+*** PUBLISHED Why do we hack?                       :100DaysToOffload:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-12-04
 :EXPORT_HUGO_PUBLISHDATE: 2022-12-04:
@@ -6583,7 +6722,7 @@ Happy Hacking !!!
 
 #38 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Just a flu shot                             :100DaysToOffload:
+*** PUBLISHED Just a flu shot                             :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-11-18
   :EXPORT_HUGO_PUBLISHDATE: 2022-11-18:
@@ -6616,7 +6755,7 @@ Because I thought it might help me.
 
 #36 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED "Red" vs. "Blue" Name calling? We can do better than that. :100DaysToOffload:reading:politics:
+*** PUBLISHED "Red" vs. "Blue" Name calling? We can do better than that. :100DaysToOffload:reading:politics:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-11-06
   :EXPORT_HUGO_PUBLISHDATE: 2022-11-06:
@@ -6663,7 +6802,7 @@ Even two chapters in, I'd recommend it
 
 #34 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED The way to get something done is to not do everything else.
+*** PUBLISHED The way to get something done is to not do everything else.
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-24
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-24:
@@ -6675,7 +6814,7 @@ See the title.
 
 #31 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED Friends                                     :100DaysToOffload:
+*** PUBLISHED Friends                                     :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-10-23
   :EXPORT_HUGO_PUBLISHDATE: 2022-10-23:
@@ -6703,7 +6842,7 @@ naming them they way Wikipedia or Aristotle's Ethics would)
 
 #30 of #100DaysToOffload take 2.1, https://100daystooffload.com/
 
-**** PUBLISHED "We" are "pleased" to..                     :100DaysToOffload:
+*** PUBLISHED "We" are "pleased" to..                     :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-26
   :EXPORT_HUGO_PUBLISHDATE: 2022-04-26:
@@ -6728,7 +6867,7 @@ naming them they way Wikipedia or Aristotle's Ethics would)
 
 
   #27 of #100DaysToOffload take 2, https://100daystooffload.com/
-**** PUBLISHED Marcus Aurelius was right                   :100DaysToOffload:
+*** PUBLISHED Marcus Aurelius was right                   :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-19
   :EXPORT_HUGO_PUBLISHDATE: 2022-04-19:
@@ -6820,7 +6959,7 @@ prison for, well, trying to do what he could do in his time...
 
 Post 26 #100DaysToOffload https://100daystooffload.com/
 
-**** PUBLISHED Shared Experiences   :100DaysToOffload:TrailThoughts:outdoors:
+*** PUBLISHED Shared Experiences   :100DaysToOffload:TrailThoughts:outdoors:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-12
   :EXPORT_HUGO_PUBLISHDATE: 2022-04-12:
@@ -6875,7 +7014,7 @@ Together".  We need to.
 
 #24 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Life! Carpe diem! Carpe viam! Carpe vitam!  :100DaysToOffload:
+*** PUBLISHED Life! Carpe diem! Carpe viam! Carpe vitam!  :100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-04-08
   :EXPORT_HUGO_PUBLISHDATE: 2022-04-08:
@@ -6913,7 +7052,7 @@ To life !
 
 #23 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED New Cars                                    :100DaysToOffload:
+*** PUBLISHED New Cars                                    :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-31
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-31:
@@ -6983,7 +7122,7 @@ Android Auto and setup Waze? ...
 
 #21 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED "I close my eyes, only for a moment, but the moment's gone" :100DaysToOffload:
+*** PUBLISHED "I close my eyes, only for a moment, but the moment's gone" :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-30
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-30:
@@ -7012,7 +7151,7 @@ From memory and https://genius.com/Kansas-dust-in-the-wind-lyrics
 
 #20 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED It will be done when it's done  :100DaysToOffload:history:gif:
+*** PUBLISHED It will be done when it's done  :100DaysToOffload:history:gif:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-24
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-24:
@@ -7099,7 +7238,7 @@ master at work.
 
 #19 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Present Duties                              :100DaysToOffload:
+*** PUBLISHED Present Duties                              :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-03-02
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-02:
@@ -7117,7 +7256,7 @@ file:images/IShallPassThisWayButOnce3.jpeg
 
 #15 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED It seems like a good day for some Russian opera :100DaysToOffload:history:music:
+*** PUBLISHED It seems like a good day for some Russian opera :100DaysToOffload:history:music:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-26
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-26:
@@ -7170,7 +7309,7 @@ The (Tsarist) censors didn't like the text.  Wonder why.
 
 #12 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Oh, Little Town of Harpers Ferry, How Still We See Thee Lie :100DaysToOffload:
+*** PUBLISHED Oh, Little Town of Harpers Ferry, How Still We See Thee Lie :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-18
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-18:
@@ -7211,7 +7350,7 @@ history.
 
 #10 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Oh, you gotta get a glory in the work you do :100DaysToOffload:poetry:work:
+*** PUBLISHED Oh, you gotta get a glory in the work you do :100DaysToOffload:poetry:work:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-15
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-15:
@@ -7246,7 +7385,7 @@ file:images/glory.jpg
 
 #9 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED The mighty Casey has struck out :100DaysToOffload:sports:poetry:
+*** PUBLISHED The mighty Casey has struck out :100DaysToOffload:sports:poetry:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-14
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-14:
@@ -7318,7 +7457,7 @@ https://www.ellenbailey.com/poems/ellen_097.htm
 
 #8 of #100DaysToOffload take 2, https://100daystooffload.com/
 
-**** PUBLISHED Ἰλιάς                         :100DaysToOffload:history:snark:
+*** PUBLISHED Ἰλιάς                         :100DaysToOffload:history:snark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-13
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-13:
@@ -7394,7 +7533,7 @@ It's a good thing nobody has to read Homer any more.  Or Dr Seuss.
 That stuff is problematic, and longer that 140 characters!
 
 #7 of #100DaysToOffload take 2, https://100daystooffload.com/
-**** PUBLISHED Conspiracy theories can be fun!       :games:100DaysToOffload:
+*** PUBLISHED Conspiracy theories can be fun!       :games:100DaysToOffload:
   :PROPERTIES:
   :EXPORT_FILE_NAME: 2022-02-05
   :EXPORT_HUGO_PUBLISHDATE: 2022-02-05:
@@ -7439,7 +7578,7 @@ Be careful...
 
 #3 of #100DaysToOffload take 2, https://100daystooffload.com/.
 
-**** PUBLISHED Adding years to your life, or life to your years? :100DaysToOffload:
+*** PUBLISHED Adding years to your life, or life to your years? :100DaysToOffload:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-04
 :EXPORT_HUGO_PUBLISHDATE: 2022-02-04:
@@ -7537,7 +7676,7 @@ file:images/aunt-bess-and-bryan.jpg
 
 #3 of #100DaysToOffload take 2, https://100daystooffload.com/.
 
-**** PUBLISHED "This train's got the disappearing railway blues" :trains:history:travel:
+*** PUBLISHED "This train's got the disappearing railway blues" :trains:history:travel:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-27
 :EXPORT_HUGO_PUBLISHDATE: 2022-01-27:
@@ -7581,7 +7720,7 @@ which were the work of a couple Ohio boys form Dayton. Now they want force
 everyone to subsidize the one they killed and make the other so unpleasant
 that it's unusable.
 
-**** PUBLISHED social costs                                           :covid:
+*** PUBLISHED social costs                                           :covid:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-01-24
 :EXPORT_HUGO_PUBLISHDATE: 2022-01-24:
@@ -7627,7 +7766,7 @@ My students were taught to think of themselves as vectors of disease. This has f
   maybe I'm just getting old.
   #+end_example
 
-**** PUBLISHED Inclusion and Diversity in Ancient Egypt               :snark:
+*** PUBLISHED Inclusion and Diversity in Ancient Egypt               :snark:
      :PROPERTIES:
      :EXPORT_FILE_NAME: lets_celebrate
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-10
@@ -7647,7 +7786,7 @@ My students were taught to think of themselves as vectors of disease. This has f
      #+end_quote
 
      and tell stories of oppression and patriarchy .... wait ....
-**** PUBLISHED What is "the news"?                                     :life:
+*** PUBLISHED What is "the news"?                                     :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: the-news
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-09
@@ -7745,7 +7884,7 @@ Of peace on earth, good will to men.
 
 [[https://web.archive.org/web/*/curious.galthub.com/blog/the-news/][Archive Of This Page]]
 
-**** PUBLISHED When we focus on fear and stop caring for people :covid:life:health:family:covid:
+*** PUBLISHED When we focus on fear and stop caring for people :covid:life:health:family:covid:
      :PROPERTIES:
      :EXPORT_FILE_NAME: up-with-people-2021-12-06
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-06
@@ -7797,7 +7936,7 @@ and government edicts to actually care fore people.
 The real tragedy of COVID is not the deaths, but what it is doing to
 the way we interact with our fellow human beings.
 
-**** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
+*** PUBLISHED Trust, Money, Force, Blockchain, Wired and China :life:money:crypto:
      :PROPERTIES:
      :EXPORT_FILE_NAME: money-2021-12-05
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-05
@@ -7842,7 +7981,7 @@ the way we interact with our fellow human beings.
      (blockchain) that they don't/can't control.   My guess is, yes.
      See China.
 
-**** PUBLISHED No TV                                                   :life:
+*** PUBLISHED No TV                                                   :life:
      :PROPERTIES:
      :EXPORT_FILE_NAME: NoTV
      :EXPORT_HUGO_PUBLISHDATE: 2021-12-07
@@ -7911,7 +8050,7 @@ black artists of the day. There's a lot to be said for shared culture.
 # #+attr_html: :width 200px
 # [[file:images/Jeff_Bezos.jpg]]
 
-**** PUBLISHED The World Needs Visionaries                   :history:amazon:
+*** PUBLISHED The World Needs Visionaries                   :history:amazon:
      :PROPERTIES:
      :EXPORT_FILE_NAME: visionaries
      :EXPORT_HUGO_PUBLISHDATE: 2021-07-03:
@@ -7966,13 +8105,13 @@ the world a better place. Thank you...and enjoy your trip to space
 following the vision of Robert Goddard, Gene Roddnenbery and others
 :-)
 
-***** Footnotes
+**** Footnotes
 
 [fn:16] See The Beatles and Apple Corp. (not Apple Computer) for
 examples of creative visionaries who wound up in a morass of
 lawsuits.  [[https://youtu.be/Xzdw2WcSmb0][George Harrion, "Sue Me, Sue You Blues"]].
 
-**** PUBLISHED Some Happy Notes                     :music:family:life:piano:
+*** PUBLISHED Some Happy Notes                     :music:family:life:piano:
      :PROPERTIES:
      :EXPORT_FILE_NAME: happy-notes
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-21:
@@ -7990,7 +8129,7 @@ Youtube.
 
 #+hugo: more
 
-***** Bryan's Music
+**** Bryan's Music
 
 The corona virus has wreaked havoc with many things, not the least
 of which is the performing arts, but, as they say, "the show must
@@ -8011,7 +8150,7 @@ The program includes:
 
 I particularly like the Debussy.
 
-***** Other Happy Notes
+**** Other Happy Notes
 
 My other son Daniel is finishing out his junior year at Cedarville
 from home.  Bryan's girlfriend (also graduating from Duquesne) will
@@ -8023,7 +8162,7 @@ may hike together a week or two if possible in June or July.
 Life goes on.   All is not doom and gloom.   There are some happy
 notes.  Share some of yours?
 
-**** PUBLISHED All is not doom and gloom: go for a walk !!!       :life:hope:
+*** PUBLISHED All is not doom and gloom: go for a walk !!!       :life:hope:
      :PROPERTIES:
      :EXPORT_FILE_NAME: go-for-a-walk
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-25:
@@ -8076,7 +8215,7 @@ file:images/walks/tree-swallow.jpg
 Go for a walk.  Look at the world around you.  It's spring.  All is
 not doom and gloom!
 
-**** PUBLISHED Digital chimney smoke?         :life:twitter:DigitalFrontiers:
+*** PUBLISHED Digital chimney smoke?         :life:twitter:DigitalFrontiers:
      :PROPERTIES:
      :EXPORT_FILE_NAME: digital-chimney-smoke
      :EXPORT_HUGO_PUBLISHDATE: 2020-04-27
@@ -8118,7 +8257,7 @@ you) that tweets in Latin.
 Where to go?  Maybe just pick up stakes, head west and see where I
 find myself?
 
-**** PUBLISHED Getting started in life is harder right now :life:family:covid:
+*** PUBLISHED Getting started in life is harder right now :life:family:covid:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-05
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-05
@@ -8148,7 +8287,7 @@ effort and intentionality right now.
 
 Day 06 of #100DaysToOffload.
 
-**** PUBLISHED Awesome online singing from Denmark to Australia, and social distancing too! :choir:music:singing:easter:sacredharp:harmoniasacra:covid:
+*** PUBLISHED Awesome online singing from Denmark to Australia, and social distancing too! :choir:music:singing:easter:sacredharp:harmoniasacra:covid:
      :PROPERTIES:
      :EXPORT_FILE_NAME: 2020-05-06
      :EXPORT_HUGO_PUBLISHDATE: 2020-05-06
@@ -8169,7 +8308,7 @@ Day 07 of #100DaysToOffload.
 
 #+hugo: more
 
-****** Harmonia Sacra - a capella four part shape note singing
+***** Harmonia Sacra - a capella four part shape note singing
 I sing (the quality is arguable at times). For the past 25
 years on-and-off I've been singing 4 part a capella hymns in
 Mennonite circles.  It's a communal thing.  You /can/ sing the
@@ -8201,7 +8340,7 @@ community as standing right next to other singers, but it let
 out some our pent up need to sing our favorite joyful songs in
 a time of uncertainty.
 
-****** "Movers and Shapers"
+***** "Movers and Shapers"
 
 There is another, larger tradition of shape note singers called
 [[https://fasola.org/][Sacred Harp]].  When looking or examples of how to put together
@@ -8219,7 +8358,7 @@ This 360 degree video puts you you in the best seat in the
 house. And here's how they did it:
 https://www.youtube.com/watch?v=RIEJOK_m1ek
 
-****** The pros in Nashville
+***** The pros in Nashville
 
 And then there were the pros in Nashville.  [[https://www.youtube.com/watch?v=nDIJz6zzHNU][The Nashville
 Studio Singer Community - Virtual Cell Phone Choir - “It Is
